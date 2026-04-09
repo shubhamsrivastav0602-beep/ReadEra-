@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - ReadEra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f5f7fa;
+            color: #1a2a3a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* ========== NAVBAR ========== */
+        .navbar {
+            background: white;
+            padding: 0.75rem 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .logo a {
+            color: #8B4513;
+            font-size: 1.65rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .logo a:hover {
+            color: #6b3410;
+        }
+
+        .nav-primary {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-primary>li>a {
+            color: #334155;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .nav-primary>li>a:hover,
+        .nav-primary>li>a[aria-current="page"] {
+            color: #8B4513;
+            background: rgba(139, 69, 19, 0.08);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border-radius: 10px;
+            padding: 0.55rem 1rem;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-color 0.2s;
+            text-decoration: none;
+            border: 2px solid transparent;
+            line-height: 1.2;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #8B4513 !important;
+            border-color: #c4a574;
+        }
+
+        .btn-outline:hover {
+            background: rgba(139, 69, 19, 0.08);
+            border-color: #8B4513;
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: #475569 !important;
+            border-color: transparent;
+            padding: 0.55rem 0.65rem;
+        }
+
+        .btn-ghost:hover {
+            background: #f1f5f9;
+            color: #8B4513 !important;
+        }
+
+        .btn-solid {
+            background: #8B4513;
+            color: #fff !important;
+            border-color: #8B4513;
+        }
+
+        .btn-solid:hover {
+            background: #6b3410;
+        }
+
+        .btn-danger {
+            background: #ef4444;
+            color: white !important;
+            border-color: #ef4444;
+        }
+
+        .btn-danger:hover {
+            background: #dc2626;
+        }
+
+        .theme-toggle {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            color: #475569;
+            border-radius: 12px;
+            width: 42px;
+            height: 42px;
+            padding: 0;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background 0.2s, border-color 0.2s, color 0.2s;
+        }
+
+        .theme-toggle:hover {
+            background: #fff;
+            border-color: #8B4513;
+            color: #8B4513;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            width: 44px;
+            height: 44px;
+            font-size: 1.25rem;
+            cursor: pointer;
+            color: #8B4513;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-drawer {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex: 1;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        /* ========== PROFILE HEADER ========== */
+        .profile-header {
+            background: linear-gradient(135deg, #8B4513 0%, #a0522d 45%, #c17a3a 100%);
+            color: white;
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+        .profile-avatar {
+            width: 100px;
+            height: 100px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-size: 3rem;
+            color: #8B4513;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .profile-header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .profile-header p {
+            opacity: 0.9;
+        }
+
+        /* ========== PROFILE CONTAINER ========== */
+        .profile-container {
+            max-width: 1200px;
+            margin: -2rem auto 2rem;
+            padding: 0 1.5rem;
+        }
+
+        /* Tabs */
+        .profile-tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            background: white;
+            padding: 0.5rem;
+            border-radius: 60px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            border: 1px solid #eef2f7;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            padding: 0.7rem 1.5rem;
+            background: transparent;
+            border: none;
+            font-weight: 600;
+            color: #64748b;
+            cursor: pointer;
+            border-radius: 40px;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+
+        .tab-btn:hover {
+            background: rgba(139, 69, 19, 0.08);
+            color: #8B4513;
+        }
+
+        .tab-btn.active {
+            background: #8B4513;
+            color: white;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 16px;
+            padding: 1.25rem;
+            text-align: center;
+            border: 1px solid #eef2f7;
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .stat-icon {
+            font-size: 2rem;
+            color: #8B4513;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #0a2540;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: #64748b;
+        }
+
+        /* Profile Info Card */
+        .profile-card {
+            background: white;
+            border-radius: 20px;
+            padding: 1.5rem;
+            border: 1px solid #eef2f7;
+            margin-bottom: 2rem;
+        }
+
+        .profile-card h3 {
+            color: #0a2540;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .info-row {
+            display: flex;
+            padding: 1rem 0;
+            border-bottom: 1px solid #eef2f7;
+        }
+
+        .info-row:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            width: 140px;
+            font-weight: 600;
+            color: #475569;
+        }
+
+        .info-value {
+            flex: 1;
+            color: #1a2a3a;
+        }
+
+        /* Form Styles */
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #334155;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.85rem 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #8B4513;
+        }
+
+        .form-group input:disabled {
+            background: #f1f5f9;
+            cursor: not-allowed;
+        }
+
+        .edit-btn,
+        .save-btn {
+            margin-top: 1rem;
+        }
+
+        /* Books Grid */
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+
+        .favorite-book-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            display: flex;
+            gap: 1rem;
+            border: 1px solid #eef2f7;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .favorite-book-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .favorite-cover {
+            width: 60px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .favorite-info {
+            flex: 1;
+        }
+
+        .favorite-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .favorite-author {
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        /* Danger Zone */
+        .danger-zone {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .danger-zone h3 {
+            color: #dc2626;
+            margin-bottom: 0.5rem;
+        }
+
+        .danger-zone p {
+            color: #64748b;
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .modal-content h3 {
+            color: #dc2626;
+            margin-bottom: 1rem;
+        }
+
+        .modal-content p {
+            color: #64748b;
+            margin-bottom: 1.5rem;
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        /* Loading & Empty States */
+        .loading-spinner {
+            text-align: center;
+            padding: 3rem;
+            color: #8B4513;
+        }
+
+        .loading-spinner i {
+            font-size: 2rem;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            background: white;
+            border-radius: 16px;
+            border: 1px solid #eef2f7;
+        }
+
+        .empty-state i {
+            font-size: 3rem;
+            color: #cbd5e1;
+            margin-bottom: 1rem;
+        }
+
+        /* Toast */
+        .toast-notification {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #10b981;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            z-index: 9999;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        /* ========== FOOTER ========== */
+        .site-footer {
+            background: linear-gradient(180deg, #0c2744 0%, #061526 100%);
+            color: #cbd5e1;
+            margin-top: 3rem;
+            padding: 2rem 1.5rem 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.35rem 1rem;
+            margin-bottom: 0.65rem;
+        }
+
+        .footer-bottom-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+        }
+
+        .footer-bottom-links a:hover {
+            color: #fbbf24;
+        }
+
+        /* ========== DARK MODE ========== */
+        body.dark-mode {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .navbar {
+            background: #111827;
+            border-color: #1f2937;
+        }
+
+        body.dark-mode .logo a {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .nav-primary>li>a {
+            color: #cbd5e1;
+        }
+
+        body.dark-mode .nav-primary>li>a:hover {
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.1);
+        }
+
+        body.dark-mode .profile-tabs,
+        body.dark-mode .stat-card,
+        body.dark-mode .profile-card,
+        body.dark-mode .favorite-book-card,
+        body.dark-mode .empty-state {
+            background: #1f2937;
+            border-color: #334155;
+        }
+
+        body.dark-mode .stat-value,
+        body.dark-mode .profile-card h3,
+        body.dark-mode .info-value {
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .info-label {
+            color: #94a3b8;
+        }
+
+        body.dark-mode .form-group label {
+            color: #cbd5e1;
+        }
+
+        body.dark-mode .form-group input {
+            background: #111827;
+            border-color: #334155;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .form-group input:focus {
+            border-color: #fbbf24;
+        }
+
+        body.dark-mode .form-group input:disabled {
+            background: #1f2937;
+        }
+
+        body.dark-mode .danger-zone {
+            background: rgba(220, 38, 38, 0.1);
+            border-color: #dc2626;
+        }
+
+        body.dark-mode .modal-content {
+            background: #1f2937;
+        }
+
+        body.dark-mode .theme-toggle {
+            background: #1f2937;
+            border-color: #334155;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .theme-toggle:hover {
+            border-color: #fbbf24;
+            color: #fbbf24;
+        }
+
+        body.dark-mode .site-footer {
+            background: linear-gradient(180deg, #020617 0%, #000 100%);
+        }
+
+        /* ========== MOBILE ========== */
+        @media (max-width: 768px) {
+            .profile-tabs {
+                border-radius: 16px;
+                justify-content: center;
+            }
+
+            .tab-btn {
+                padding: 0.5rem 1rem;
+                font-size: 0.85rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .info-row {
+                flex-direction: column;
+            }
+
+            .info-label {
+                width: 100%;
+                margin-bottom: 0.25rem;
+            }
+
+            .menu-toggle {
+                display: inline-flex;
+            }
+
+            .nav-drawer {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 1rem 0 0;
+                margin-top: 0.75rem;
+                border-top: 1px solid #eee;
+                gap: 1rem;
+            }
+
+            .nav-drawer.is-open {
+                display: flex;
+            }
+
+            .nav-primary {
+                flex-direction: column;
+                align-items: stretch;
+                width: 100%;
+            }
+
+            .nav-actions {
+                justify-content: flex-start;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar" aria-label="Main">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">ReadEra</a>
+            </div>
+            <button type="button" class="menu-toggle" id="mobile-menu-btn" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-drawer" id="nav-drawer">
+                <ul class="nav-primary">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="browse.html">Browse</a></li>
+                    <li id="library-link" style="display: none;"><a href="library.html">My Library</a></li>
+                    <li id="profile-link" style="display: none;"><a href="profile.html" aria-current="page">Profile</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button type="button" class="theme-toggle" id="theme-toggle"
+                        aria-label="Toggle dark mode">🌙</button>
+                    <a href="browse.html" class="btn btn-outline">Explore</a>
+                    <a href="auth.html" class="btn btn-ghost" id="auth-link">Log in</a>
+                    <a href="#" class="btn btn-outline" id="logout-link" style="display: none;">Log out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="profile-header" id="profileHeader" style="display: none;">
+        <div class="profile-avatar">
+            <i class="fas fa-user"></i>
+        </div>
+        <h1 id="profileName">Loading...</h1>
+        <p id="profileEmail">...</p>
+    </div>
+
+    <div class="profile-container" id="profileContainer">
+        <div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Loading profile...</div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="about.html">About</a>
+            </div>
+            <p>&copy; 2026 ReadEra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Delete Account Modal -->
+    <div id="deleteModal" class="modal">
+        <div class="modal-content">
+            <i class="fas fa-exclamation-triangle" style="font-size: 3rem; color: #dc2626; margin-bottom: 1rem;"></i>
+            <h3>Delete Account</h3>
+            <p>Are you sure? This action cannot be undone. All your library data will be permanently deleted.</p>
+            <div class="modal-buttons">
+                <button class="btn btn-outline" id="cancelDeleteBtn">Cancel</button>
+                <button class="btn btn-danger" id="confirmDeleteBtn">Delete Forever</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+        // ============================================
+        // PROFILE PAGE LOGIC
+        // ============================================
+
+        let currentUser = null;
+        let userBooks = [];
+        let favoriteBooks = [];
+
+        // DOM Elements
+        const profileContainer = document.getElementById('profileContainer');
+        const profileHeader = document.getElementById('profileHeader');
+
+        // Check authentication
+        function checkAuth() {
+            if (!AuthService.isAuthenticated()) {
+                profileContainer.innerHTML = `
+                    <div class="empty-state" style="margin-top: 2rem;">
+                        <i class="fas fa-lock"></i>
+                        <h3>Login Required</h3>
+                        <p>Please login to view your profile</p>
+                        <a href="auth.html" class="btn btn-solid" style="margin-top: 1rem;">Login Now</a>
+                    </div>
+                `;
+                return false;
+            }
+            return true;
+        }
+
+        // Load user data
+        async function loadProfile() {
+            if (!checkAuth()) return;
+
+            profileContainer.innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Loading profile...</div>';
+
+            // Get current user from localStorage
+            currentUser = AuthService.getCurrentUser();
+
+            if (!currentUser) {
+                // Try to get from supabase session
+                const { data: { session } } = await supabaseClient.auth.getSession();
+                if (session) {
+                    currentUser = session.user;
+                    localStorage.setItem('user', JSON.stringify(currentUser));
+                }
+            }
+
+            if (!currentUser) {
+                profileContainer.innerHTML = `
+                    <div class="empty-state" style="margin-top: 2rem;">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <h3>Unable to load profile</h3>
+                        <p>Please try logging in again</p>
+                        <a href="auth.html" class="btn btn-solid" style="margin-top: 1rem;">Login</a>
+                    </div>
+                `;
+                return;
+            }
+
+            // Update header
+            document.getElementById('profileName').textContent = currentUser.user_metadata?.full_name || currentUser.email?.split('@')[0] || 'Reader';
+            document.getElementById('profileEmail').textContent = currentUser.email || '';
+            profileHeader.style.display = 'block';
+
+            // Load user's library books
+            const libraryResult = await LibraryService.getUserLibrary();
+            if (libraryResult.success) {
+                userBooks = libraryResult.books;
+                favoriteBooks = userBooks.filter(book => book.is_favorite === true);
+            }
+
+            // Render profile
+            renderProfile();
+        }
+
+        // Render profile tabs
+        function renderProfile() {
+            const joinDate = currentUser.created_at ? new Date(currentUser.created_at).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : 'Unknown';
+
+            // Calculate stats
+            const totalBooks = userBooks.length;
+            const totalPagesRead = userBooks.reduce((sum, book) => sum + (book.last_read_page || 0), 0);
+            const completedBooks = userBooks.filter(book => book.last_read_page >= (book.total_pages || 0) && book.total_pages > 0).length;
+            const favoriteCount = favoriteBooks.length;
+
+            profileContainer.innerHTML = `
+                <!-- Stats Grid -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-book"></i></div>
+                        <div class="stat-value">${totalBooks}</div>
+                        <div class="stat-label">Books in Library</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-file-alt"></i></div>
+                        <div class="stat-value">${totalPagesRead}</div>
+                        <div class="stat-label">Pages Read</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="stat-value">${completedBooks}</div>
+                        <div class="stat-label">Books Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-star"></i></div>
+                        <div class="stat-value">${favoriteCount}</div>
+                        <div class="stat-label">Favorites</div>
+                    </div>
+                </div>
+                
+                <!-- Tabs -->
+                <div class="profile-tabs">
+                    <button class="tab-btn active" data-tab="info">Profile Info</button>
+                    <button class="tab-btn" data-tab="favorites">Favorites</button>
+                    <button class="tab-btn" data-tab="settings">Settings</button>
+                </div>
+                
+                <!-- Profile Info Tab -->
+                <div id="infoTab" class="tab-content">
+                    <div class="profile-card">
+                        <h3><i class="fas fa-user-circle"></i> Personal Information</h3>
+                        <div class="info-row">
+                            <div class="info-label">Full Name</div>
+                            <div class="info-value" id="displayName">${escapeHtml(currentUser.user_metadata?.full_name || 'Not set')}</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-label">Email Address</div>
+                            <div class="info-value">${escapeHtml(currentUser.email || '')}</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-label">Member Since</div>
+                            <div class="info-value">${joinDate}</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-label">Account Status</div>
+                            <div class="info-value"><span style="color: #10b981;">✓ Active</span></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Favorites Tab -->
+                <div id="favoritesTab" class="tab-content" style="display: none;">
+                    <div class="profile-card">
+                        <h3><i class="fas fa-star"></i> Favorite Books</h3>
+                        <div id="favoritesGrid" class="books-grid">
+                            ${renderFavoriteBooks()}
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Settings Tab -->
+                <div id="settingsTab" class="tab-content" style="display: none;">
+                    <div class="profile-card">
+                        <h3><i class="fas fa-edit"></i> Update Profile</h3>
+                        <form id="updateProfileForm">
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" id="updateName" value="${escapeHtml(currentUser.user_metadata?.full_name || '')}" placeholder="Your full name">
+                            </div>
+                            <button type="submit" class="btn btn-solid save-btn">Update Profile</button>
+                        </form>
+                    </div>
+                    
+                    <div class="profile-card">
+                        <h3><i class="fas fa-key"></i> Change Password</h3>
+                        <form id="changePasswordForm">
+                            <div class="form-group">
+                                <label>Current Password</label>
+                                <input type="password" id="currentPassword" placeholder="Enter current password">
+                            </div>
+                            <div class="form-group">
+                                <label>New Password</label>
+                                <input type="password" id="newPassword" placeholder="Enter new password (min. 6 characters)">
+                            </div>
+                            <div class="form-group">
+                                <label>Confirm New Password</label>
+                                <input type="password" id="confirmPassword" placeholder="Confirm new password">
+                            </div>
+                            <button type="submit" class="btn btn-solid save-btn">Change Password</button>
+                        </form>
+                    </div>
+                    
+                    <div class="danger-zone">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Danger Zone</h3>
+                        <p>Once you delete your account, all your data including library, reading progress, and favorites will be permanently deleted.</p>
+                        <button class="btn btn-danger" id="deleteAccountBtn">Delete Account</button>
+                    </div>
+                </div>
+            `;
+
+            // Setup tab switching
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    const tab = btn.dataset.tab;
+                    document.getElementById('infoTab').style.display = tab === 'info' ? 'block' : 'none';
+                    document.getElementById('favoritesTab').style.display = tab === 'favorites' ? 'block' : 'none';
+                    document.getElementById('settingsTab').style.display = tab === 'settings' ? 'block' : 'none';
+                });
+            });
+
+            // Setup forms
+            document.getElementById('updateProfileForm')?.addEventListener('submit', updateProfile);
+            document.getElementById('changePasswordForm')?.addEventListener('submit', changePassword);
+            document.getElementById('deleteAccountBtn')?.addEventListener('click', showDeleteModal);
+        }
+
+        // Render favorite books
+        function renderFavoriteBooks() {
+            if (favoriteBooks.length === 0) {
+                return `
+                    <div class="empty-state">
+                        <i class="fas fa-star"></i>
+                        <p>No favorite books yet.</p>
+                        <p style="font-size: 0.85rem;">Browse books and click the star icon to add favorites.</p>
+                        <a href="browse.html" class="btn btn-outline" style="margin-top: 1rem;">Browse Books</a>
+                    </div>
+                `;
+            }
+
+            return favoriteBooks.map(book => `
+                <div class="favorite-book-card" onclick="viewBook(${book.id})">
+                    <img src="${book.cover_url || 'https://placehold.co/60x80/8B4513/white?text=No+Cover'}" 
+                         class="favorite-cover" 
+                         alt="${escapeHtml(book.title)}"
+                         onerror="this.src='https://placehold.co/60x80/8B4513/white?text=No+Cover'">
+                    <div class="favorite-info">
+                        <div class="favorite-title">${escapeHtml(book.title.substring(0, 40))}</div>
+                        <div class="favorite-author">${escapeHtml(book.author || 'Unknown')}</div>
+                        <div class="favorite-author" style="font-size: 0.7rem; color: #8B4513;">⭐ Favorite</div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Update profile
+        async function updateProfile(e) {
+            e.preventDefault();
+            const newName = document.getElementById('updateName').value.trim();
+
+            if (!newName) {
+                showToast('Please enter a name', 'error');
+                return;
+            }
+
+            const updateBtn = e.target.querySelector('button[type="submit"]');
+            updateBtn.disabled = true;
+            updateBtn.textContent = 'Updating...';
+
+            try {
+                const { data, error } = await supabaseClient.auth.updateUser({
+                    data: { full_name: newName }
+                });
+
+                if (error) throw error;
+
+                // Update localStorage
+                const user = AuthService.getCurrentUser();
+                if (user) {
+                    user.user_metadata = { full_name: newName };
+                    localStorage.setItem('user', JSON.stringify(user));
+                }
+
+                showToast('Profile updated successfully!', 'success');
+
+                // Reload page to reflect changes
+                setTimeout(() => {
+                    window.location.reload();
+                }, 1500);
+
+            } catch (error) {
+                showToast(error.message || 'Failed to update profile', 'error');
+            } finally {
+                updateBtn.disabled = false;
+                updateBtn.textContent = 'Update Profile';
+            }
+        }
+
+        // Change password
+        async function changePassword(e) {
+            e.preventDefault();
+
+            const currentPassword = document.getElementById('currentPassword').value;
+            const newPassword = document.getElementById('newPassword').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            if (!currentPassword || !newPassword || !confirmPassword) {
+                showToast('Please fill in all password fields', 'error');
+                return;
+            }
+
+            if (newPassword.length < 6) {
+                showToast('New password must be at least 6 characters', 'error');
+                return;
+            }
+
+            if (newPassword !== confirmPassword) {
+                showToast('New passwords do not match', 'error');
+                return;
+            }
+
+            const changeBtn = e.target.querySelector('button[type="submit"]');
+            changeBtn.disabled = true;
+            changeBtn.textContent = 'Changing...';
+
+            try {
+                // First, re-authenticate with current password
+                const { error: signInError } = await supabaseClient.auth.signInWithPassword({
+                    email: currentUser.email,
+                    password: currentPassword
+                });
+
+                if (signInError) {
+                    throw new Error('Current password is incorrect');
+                }
+
+                // Update password
+                const { error } = await supabaseClient.auth.updateUser({
+                    password: newPassword
+                });
+
+                if (error) throw error;
+
+                showToast('Password changed successfully! Please login again.', 'success');
+
+                // Sign out and redirect to login
+                setTimeout(async () => {
+                    await AuthService.signOut();
+                }, 2000);
+
+            } catch (error) {
+                showToast(error.message || 'Failed to change password', 'error');
+            } finally {
+                changeBtn.disabled = false;
+                changeBtn.textContent = 'Change Password';
+                document.getElementById('changePasswordForm').reset();
+            }
+        }
+
+        // Show delete modal
+        function showDeleteModal() {
+            const modal = document.getElementById('deleteModal');
+            modal.classList.add('active');
+        }
+
+        // Delete account
+        async function deleteAccount() {
+            const modal = document.getElementById('deleteModal');
+            modal.classList.remove('active');
+
+            showToast('Deleting account...', 'info');
+
+            try {
+                // Delete user's library data first
+                for (const book of userBooks) {
+                    await LibraryService.removeFromLibrary(book.id);
+                }
+
+                // Delete user account
+                const { error } = await supabaseClient.auth.admin.deleteUser(currentUser.id);
+
+                if (error) throw error;
+
+                // Sign out
+                await AuthService.signOut();
+                showToast('Account deleted successfully', 'success');
+
+                setTimeout(() => {
+                    window.location.href = 'index.html';
+                }, 1500);
+
+            } catch (error) {
+                // Note: admin.deleteUser requires admin privileges
+                // Alternative: user must delete via Supabase dashboard or contact support
+                showToast('Please contact support to delete your account', 'error');
+                modal.classList.remove('active');
+            }
+        }
+
+        // View book
+        window.viewBook = function (bookId) {
+            window.location.href = `book.html?id=${bookId}`;
+        };
+
+        // Helper functions
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function showToast(message, type = 'info') {
+            const toast = document.createElement('div');
+            toast.className = 'toast-notification';
+            toast.style.background = type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#3b82f6';
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+
+        // Update auth UI
+        function updateAuthUI() {
+            const isLoggedIn = AuthService.isAuthenticated();
+            const libraryLink = document.getElementById('library-link');
+            const profileLink = document.getElementById('profile-link');
+            const authLink = document.getElementById('auth-link');
+            const logoutLink = document.getElementById('logout-link');
+
+            if (isLoggedIn) {
+                if (libraryLink) libraryLink.style.display = 'list-item';
+                if (profileLink) profileLink.style.display = 'list-item';
+                if (authLink) authLink.style.display = 'none';
+                if (logoutLink) logoutLink.style.display = 'inline-flex';
+            } else {
+                if (libraryLink) libraryLink.style.display = 'none';
+                if (profileLink) profileLink.style.display = 'none';
+                if (authLink) authLink.style.display = 'inline-flex';
+                if (logoutLink) logoutLink.style.display = 'none';
+            }
+        }
+
+        function setupLogout() {
+            const logoutBtn = document.getElementById('logout-link');
+            if (logoutBtn) {
+                logoutBtn.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    await AuthService.signOut();
+                });
+            }
+        }
+
+        // Modal close handlers
+        document.getElementById('cancelDeleteBtn')?.addEventListener('click', () => {
+            document.getElementById('deleteModal').classList.remove('active');
+        });
+
+        document.getElementById('confirmDeleteBtn')?.addEventListener('click', deleteAccount);
+
+        // Close modal on outside click
+        window.addEventListener('click', (e) => {
+            const modal = document.getElementById('deleteModal');
+            if (e.target === modal) {
+                modal.classList.remove('active');
+            }
+        });
+
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const navDrawer = document.getElementById('nav-drawer');
+        if (menuBtn && navDrawer) {
+            menuBtn.addEventListener('click', () => {
+                navDrawer.classList.toggle('is-open');
+            });
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            updateAuthUI();
+            setupLogout();
+            loadProfile();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Books - ReadEra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f5f7fa;
+            color: #1a2a3a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* ========== NAVBAR ========== */
+        .navbar {
+            background: white;
+            padding: 0.75rem 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .logo a {
+            color: #8B4513;
+            font-size: 1.65rem;
+            font-weight: 700;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .logo a:hover {
+            color: #6b3410;
+        }
+
+        .nav-primary {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-primary>li>a {
+            color: #334155;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .nav-primary>li>a:hover,
+        .nav-primary>li>a[aria-current="page"] {
+            color: #8B4513;
+            background: rgba(139, 69, 19, 0.08);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border-radius: 10px;
+            padding: 0.55rem 1rem;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.15s;
+            text-decoration: none;
+            border: 2px solid transparent;
+            line-height: 1.2;
+        }
+
+        .btn-solid {
+            background: #8B4513;
+            color: #fff !important;
+            border-color: #8B4513;
+        }
+
+        .btn-solid:hover {
+            background: #6b3410;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #8B4513 !important;
+            border-color: #c4a574;
+        }
+
+        .btn-outline:hover {
+            background: rgba(139, 69, 19, 0.08);
+            border-color: #8B4513;
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: #475569 !important;
+            border-color: transparent;
+            padding: 0.55rem 0.65rem;
+        }
+
+        .btn-ghost:hover {
+            background: #f1f5f9;
+            color: #8B4513 !important;
+        }
+
+        .theme-toggle {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            color: #475569;
+            border-radius: 12px;
+            width: 42px;
+            height: 42px;
+            padding: 0;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background 0.2s, border-color 0.2s, color 0.2s;
+        }
+
+        .theme-toggle:hover {
+            background: #fff;
+            border-color: #8B4513;
+            color: #8B4513;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            width: 44px;
+            height: 44px;
+            font-size: 1.25rem;
+            cursor: pointer;
+            color: #8B4513;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-drawer {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex: 1;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        /* ========== BROWSE HEADER ========== */
+        .browse-header {
+            background: linear-gradient(135deg, #8B4513 0%, #a0522d 45%, #c17a3a 100%);
+            color: white;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+        }
+
+        .browse-header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .browse-header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        /* ========== MAIN LAYOUT ========== */
+        .browse-container {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        /* Sidebar - Genres */
+        .genres-sidebar {
+            width: 280px;
+            flex-shrink: 0;
+            background: white;
+            border-radius: 16px;
+            padding: 1.25rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            border: 1px solid #eef2f7;
+            height: fit-content;
+            position: sticky;
+            top: 90px;
+        }
+
+        .genres-sidebar h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #0a2540;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .genre-search {
+            width: 100%;
+            padding: 0.7rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            font-family: inherit;
+        }
+
+        .genres-list {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .genre-item {
+            padding: 0.7rem 0.5rem;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .genre-item:hover {
+            background: rgba(139, 69, 19, 0.08);
+        }
+
+        .genre-item.active {
+            background: #8B4513;
+            color: white;
+        }
+
+        .genre-item.active .genre-count {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .genre-name {
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .genre-count {
+            font-size: 0.75rem;
+            color: #64748b;
+        }
+
+        .subcategories {
+            margin-left: 1rem;
+            margin-top: 0.25rem;
+            display: none;
+        }
+
+        .genre-item.active .subcategories {
+            display: block;
+        }
+
+        .subcategory-item {
+            padding: 0.4rem 0.5rem;
+            font-size: 0.8rem;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .subcategory-item:hover {
+            background: rgba(139, 69, 19, 0.1);
+        }
+
+        /* Main Content */
+        .books-main {
+            flex: 1;
+            min-width: 0;
+        }
+
+        /* Search Bar */
+        .search-bar {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .search-input-wrapper {
+            flex: 1;
+            position: relative;
+        }
+
+        .search-input-wrapper i {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #94a3b8;
+        }
+
+        .search-input-wrapper input {
+            width: 100%;
+            padding: 0.9rem 1rem 0.9rem 2.5rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 0.95rem;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        .search-input-wrapper input:focus {
+            outline: none;
+            border-color: #8B4513;
+        }
+
+        .search-btn {
+            padding: 0.9rem 1.5rem;
+            background: #8B4513;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .search-btn:hover {
+            background: #6b3410;
+        }
+
+        /* Active Filters */
+        .active-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-tag {
+            background: rgba(139, 69, 19, 0.1);
+            color: #8B4513;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .filter-tag i {
+            cursor: pointer;
+            font-size: 0.7rem;
+        }
+
+        .filter-tag i:hover {
+            color: #ef4444;
+        }
+
+        /* Results Info */
+        .results-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .results-count {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        .sort-select {
+            padding: 0.5rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-family: inherit;
+        }
+
+        /* Books Grid */
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .book-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            cursor: pointer;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid #eef2f7;
+        }
+
+        .book-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-cover {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+        }
+
+        .book-info {
+            padding: 0.85rem;
+        }
+
+        .book-title {
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .book-author {
+            font-size: 0.75rem;
+            color: #64748b;
+            margin-top: 0.25rem;
+        }
+
+        .book-genre {
+            font-size: 0.7rem;
+            color: #8B4513;
+            margin-top: 0.5rem;
+            display: inline-block;
+            background: rgba(139, 69, 19, 0.1);
+            padding: 0.2rem 0.5rem;
+            border-radius: 12px;
+        }
+
+        /* Loading & Empty States */
+        .loading-spinner {
+            text-align: center;
+            padding: 3rem;
+            color: #8B4513;
+        }
+
+        .loading-spinner i {
+            font-size: 2rem;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #64748b;
+        }
+
+        .empty-state i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        /* Load More Button */
+        .load-more {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .load-more-btn {
+            padding: 0.8rem 2rem;
+            background: transparent;
+            border: 2px solid #8B4513;
+            color: #8B4513;
+            border-radius: 40px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .load-more-btn:hover {
+            background: #8B4513;
+            color: white;
+        }
+
+        /* ========== FOOTER ========== */
+        .site-footer {
+            background: linear-gradient(180deg, #0c2744 0%, #061526 100%);
+            color: #cbd5e1;
+            margin-top: 3rem;
+            padding: 2rem 1.5rem 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.35rem 1rem;
+            margin-bottom: 0.65rem;
+        }
+
+        .footer-bottom-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+        }
+
+        .footer-bottom-links a:hover {
+            color: #fbbf24;
+        }
+
+        /* ========== DARK MODE ========== */
+        body.dark-mode {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .navbar {
+            background: #111827;
+            border-color: #1f2937;
+        }
+
+        body.dark-mode .logo a {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .nav-primary>li>a {
+            color: #cbd5e1;
+        }
+
+        body.dark-mode .nav-primary>li>a:hover {
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.1);
+        }
+
+        body.dark-mode .genres-sidebar,
+        body.dark-mode .book-card {
+            background: #1f2937;
+            border-color: #334155;
+        }
+
+        body.dark-mode .genres-sidebar h3 {
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .genre-item:hover {
+            background: rgba(251, 191, 36, 0.1);
+        }
+
+        body.dark-mode .genre-item.active {
+            background: #fbbf24;
+            color: #0f172a;
+        }
+
+        body.dark-mode .search-input-wrapper input {
+            background: #111827;
+            border-color: #334155;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .theme-toggle {
+            background: #1f2937;
+            border-color: #334155;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .theme-toggle:hover {
+            border-color: #fbbf24;
+            color: #fbbf24;
+        }
+
+        body.dark-mode .site-footer {
+            background: linear-gradient(180deg, #020617 0%, #000 100%);
+        }
+
+        /* ========== MOBILE ========== */
+        @media (max-width: 900px) {
+            .genres-sidebar {
+                width: 100%;
+                position: static;
+                margin-bottom: 1rem;
+            }
+
+            .books-grid {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            }
+
+            .menu-toggle {
+                display: inline-flex;
+            }
+
+            .nav-drawer {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 1rem 0 0;
+                margin-top: 0.75rem;
+                border-top: 1px solid #eee;
+                gap: 1rem;
+            }
+
+            .nav-drawer.is-open {
+                display: flex;
+            }
+
+            .nav-primary {
+                flex-direction: column;
+                align-items: stretch;
+                width: 100%;
+            }
+
+            .nav-actions {
+                justify-content: flex-start;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar" aria-label="Main">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">ReadEra</a>
+            </div>
+            <button type="button" class="menu-toggle" id="mobile-menu-btn" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-drawer" id="nav-drawer">
+                <ul class="nav-primary">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="browse.html" aria-current="page">Browse</a></li>
+                    <li id="library-link" style="display: none;"><a href="library.html">My Library</a></li>
+                    <li id="profile-link" style="display: none;"><a href="profile.html">Profile</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button type="button" class="theme-toggle" id="theme-toggle"
+                        aria-label="Toggle dark mode">🌙</button>
+                    <a href="browse.html" class="btn btn-outline">Explore</a>
+                    <a href="auth.html" class="btn btn-ghost" id="auth-link">Log in</a>
+                    <a href="#" class="btn btn-outline" id="logout-link" style="display: none;">Log out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="browse-header">
+        <h1>Browse Our Library</h1>
+        <p>Explore 10,000+ book summaries across 25+ genres</p>
+    </div>
+
+    <div class="browse-container">
+        <!-- Sidebar -->
+        <aside class="genres-sidebar">
+            <h3><i class="fas fa-tags"></i> Genres</h3>
+            <input type="text" id="genreSearch" class="genre-search" placeholder="Search genres...">
+            <div class="genres-list" id="genresList">
+                <div class="loading-spinner" style="padding: 1rem;"><i class="fas fa-spinner fa-spin"></i></div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="books-main">
+            <div class="search-bar">
+                <div class="search-input-wrapper">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="bookSearch" placeholder="Search by title or author...">
+                </div>
+                <button class="search-btn" id="searchBtn"><i class="fas fa-search"></i> Search</button>
+            </div>
+
+            <div class="active-filters" id="activeFilters"></div>
+
+            <div class="results-info">
+                <div class="results-count" id="resultsCount">Loading...</div>
+                <select class="sort-select" id="sortSelect">
+                    <option value="recent">Most Recent</option>
+                    <option value="popular">Most Popular</option>
+                    <option value="title_asc">Title A-Z</option>
+                    <option value="title_desc">Title Z-A</option>
+                </select>
+            </div>
+
+            <div class="books-grid" id="booksGrid">
+                <div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Loading books...</div>
+            </div>
+
+            <div class="load-more" id="loadMoreContainer" style="display: none;">
+                <button class="load-more-btn" id="loadMoreBtn"><i class="fas fa-arrow-down"></i> Load More</button>
+            </div>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="about.html">About</a>
+            </div>
+            <p>&copy; 2026 ReadEra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+        // ============================================
+        // BROWSE PAGE LOGIC
+        // ============================================
+
+        // State
+        let allGenres = [];
+        let currentBooks = [];
+        let currentPage = 1;
+        let totalBooks = 0;
+        let isLoading = false;
+        let currentFilters = {
+            search: '',
+            genre: '',
+            subcategory: ''
+        };
+
+        // DOM Elements
+        const genresListEl = document.getElementById('genresList');
+        const booksGridEl = document.getElementById('booksGrid');
+        const resultsCountEl = document.getElementById('resultsCount');
+        const activeFiltersEl = document.getElementById('activeFilters');
+        const bookSearchInput = document.getElementById('bookSearch');
+        const genreSearchInput = document.getElementById('genreSearch');
+        const searchBtn = document.getElementById('searchBtn');
+        const sortSelect = document.getElementById('sortSelect');
+        const loadMoreBtn = document.getElementById('loadMoreBtn');
+        const loadMoreContainer = document.getElementById('loadMoreContainer');
+
+        // Get URL params
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchQuery = urlParams.get('search');
+        if (searchQuery) {
+            currentFilters.search = searchQuery;
+            bookSearchInput.value = searchQuery;
+        }
+
+        // Load Genres
+        async function loadGenres() {
+            const result = await GenreService.getAllGenres();
+            if (result.success) {
+                allGenres = result.genres;
+                renderGenres(allGenres);
+            } else {
+                genresListEl.innerHTML = '<div class="empty-state">Failed to load genres</div>';
+            }
+        }
+
+        // Render Genres
+        function renderGenres(genres) {
+            if (genres.length === 0) {
+                genresListEl.innerHTML = '<div class="empty-state">No genres found</div>';
+                return;
+            }
+
+            genresListEl.innerHTML = genres.map(genre => `
+                <div class="genre-item ${currentFilters.genre === genre.name ? 'active' : ''}" data-genre="${genre.name}">
+                    <span class="genre-name">${escapeHtml(genre.name)}</span>
+                    <span class="genre-count">${genre.book_count || 0} books</span>
+                </div>
+                ${genre.subcategories && genre.subcategories.length > 0 ? `
+                    <div class="subcategories" style="${currentFilters.genre === genre.name ? 'display: block;' : 'display: none;'}">
+                        ${genre.subcategories.map(sub => `
+                            <div class="subcategory-item" data-subcategory="${sub}">
+                                📖 ${escapeHtml(sub)}
+                            </div>
+                        `).join('')}
+                    </div>
+                ` : ''}
+            `).join('');
+
+            // Add event listeners
+            document.querySelectorAll('.genre-item').forEach(el => {
+                el.addEventListener('click', () => {
+                    const genre = el.dataset.genre;
+                    currentFilters.genre = currentFilters.genre === genre ? '' : genre;
+                    currentFilters.subcategory = '';
+                    currentPage = 1;
+                    updateActiveFilters();
+                    loadBooks();
+                    renderGenres(allGenres);
+                });
+            });
+
+            document.querySelectorAll('.subcategory-item').forEach(el => {
+                el.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    currentFilters.subcategory = el.dataset.subcategory;
+                    currentPage = 1;
+                    updateActiveFilters();
+                    loadBooks();
+                });
+            });
+        }
+
+        // Search genres
+        genreSearchInput.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = allGenres.filter(g => g.name.toLowerCase().includes(query));
+            renderGenres(filtered);
+        });
+
+        // Load Books
+        async function loadBooks(reset = true) {
+            if (isLoading) return;
+            isLoading = true;
+
+            if (reset) {
+                currentPage = 1;
+                currentBooks = [];
+                booksGridEl.innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Loading books...</div>';
+            }
+
+            try {
+                let query = currentFilters.search;
+                let genre = currentFilters.genre;
+
+                let result;
+                if (query) {
+                    result = await BookService.searchBooks(query, genre, currentPage, 20);
+                } else if (genre) {
+                    result = await BookService.getBooksByGenre(genre, currentPage, 20);
+                } else {
+                    result = await BookService.getAllBooks(currentPage, 20);
+                }
+
+                if (result.success) {
+                    if (reset) {
+                        currentBooks = result.books;
+                    } else {
+                        currentBooks = [...currentBooks, ...result.books];
+                    }
+                    totalBooks = result.total || result.books.length;
+                    renderBooks();
+                    updateResultsCount();
+
+                    // Show/hide load more
+                    const hasMore = currentBooks.length < totalBooks;
+                    loadMoreContainer.style.display = hasMore ? 'block' : 'none';
+                } else {
+                    booksGridEl.innerHTML = '<div class="empty-state"><i class="fas fa-exclamation-circle"></i><p>Failed to load books</p></div>';
+                }
+            } catch (error) {
+                console.error('Error loading books:', error);
+                booksGridEl.innerHTML = '<div class="empty-state"><i class="fas fa-exclamation-circle"></i><p>Error loading books</p></div>';
+            }
+
+            isLoading = false;
+        }
+
+        // Render Books
+        function renderBooks() {
+            if (currentBooks.length === 0) {
+                booksGridEl.innerHTML = '<div class="empty-state"><i class="fas fa-book-open"></i><p>No books found</p><p style="font-size: 0.8rem;">Try adjusting your search or filters</p></div>';
+                return;
+            }
+
+            // Sort books
+            let sortedBooks = [...currentBooks];
+            const sortBy = sortSelect.value;
+            if (sortBy === 'popular') {
+                sortedBooks.sort((a, b) => (b.views || 0) - (a.views || 0));
+            } else if (sortBy === 'title_asc') {
+                sortedBooks.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+            } else if (sortBy === 'title_desc') {
+                sortedBooks.sort((a, b) => (b.title || '').localeCompare(a.title || ''));
+            }
+
+            booksGridEl.innerHTML = sortedBooks.map(book => `
+                <div class="book-card" onclick="viewBook(${book.id})">
+                    <img src="${book.cover_url || 'https://placehold.co/300x400/8B4513/white?text=No+Cover'}" 
+                         class="book-cover" 
+                         alt="${escapeHtml(book.title)}"
+                         onerror="this.src='https://placehold.co/300x400/8B4513/white?text=No+Cover'">
+                    <div class="book-info">
+                        <div class="book-title">${escapeHtml(book.title.substring(0, 40))}</div>
+                        <div class="book-author">${escapeHtml(book.author || 'Unknown')}</div>
+                        ${book.genre ? `<div class="book-genre">${escapeHtml(book.genre)}</div>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Update results count
+        function updateResultsCount() {
+            resultsCountEl.innerHTML = `Showing ${currentBooks.length} of ${totalBooks} books`;
+        }
+
+        // Update active filters
+        function updateActiveFilters() {
+            const filters = [];
+
+            if (currentFilters.search) {
+                filters.push(`<span class="filter-tag">🔍 ${escapeHtml(currentFilters.search)} <i class="fas fa-times" onclick="removeFilter('search')"></i></span>`);
+            }
+
+            if (currentFilters.genre) {
+                filters.push(`<span class="filter-tag">📚 ${escapeHtml(currentFilters.genre)} <i class="fas fa-times" onclick="removeFilter('genre')"></i></span>`);
+            }
+
+            if (currentFilters.subcategory) {
+                filters.push(`<span class="filter-tag">📖 ${escapeHtml(currentFilters.subcategory)} <i class="fas fa-times" onclick="removeFilter('subcategory')"></i></span>`);
+            }
+
+            if (filters.length === 0) {
+                activeFiltersEl.innerHTML = '';
+            } else {
+                activeFiltersEl.innerHTML = filters.join('');
+            }
+
+            // Re-render genres to show active state
+            renderGenres(allGenres);
+        }
+
+        // Remove filter
+        window.removeFilter = function (type) {
+            if (type === 'search') {
+                currentFilters.search = '';
+                bookSearchInput.value = '';
+            } else if (type === 'genre') {
+                currentFilters.genre = '';
+            } else if (type === 'subcategory') {
+                currentFilters.subcategory = '';
+            }
+            currentPage = 1;
+            updateActiveFilters();
+            loadBooks();
+        };
+
+        // Search handler
+        searchBtn.addEventListener('click', () => {
+            currentFilters.search = bookSearchInput.value.trim();
+            currentFilters.genre = '';
+            currentFilters.subcategory = '';
+            currentPage = 1;
+            updateActiveFilters();
+            loadBooks();
+        });
+
+        bookSearchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                currentFilters.search = bookSearchInput.value.trim();
+                currentFilters.genre = '';
+                currentFilters.subcategory = '';
+                currentPage = 1;
+                updateActiveFilters();
+                loadBooks();
+            }
+        });
+
+        // Sort handler
+        sortSelect.addEventListener('change', () => {
+            renderBooks();
+        });
+
+        // Load more
+        loadMoreBtn.addEventListener('click', () => {
+            currentPage++;
+            loadBooks(false);
+        });
+
+        // View book
+        window.viewBook = function (bookId) {
+            window.location.href = `book.html?id=${bookId}`;
+        };
+
+        // Helper functions
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Update auth UI
+        function updateAuthUI() {
+            const isLoggedIn = AuthService.isAuthenticated();
+            const libraryLink = document.getElementById('library-link');
+            const profileLink = document.getElementById('profile-link');
+            const authLink = document.getElementById('auth-link');
+            const logoutLink = document.getElementById('logout-link');
+
+            if (isLoggedIn) {
+                if (libraryLink) libraryLink.style.display = 'list-item';
+                if (profileLink) profileLink.style.display = 'list-item';
+                if (authLink) authLink.style.display = 'none';
+                if (logoutLink) logoutLink.style.display = 'inline-flex';
+            } else {
+                if (libraryLink) libraryLink.style.display = 'none';
+                if (profileLink) profileLink.style.display = 'none';
+                if (authLink) authLink.style.display = 'inline-flex';
+                if (logoutLink) logoutLink.style.display = 'none';
+            }
+        }
+
+        // Setup logout
+        function setupLogout() {
+            const logoutBtn = document.getElementById('logout-link');
+            if (logoutBtn) {
+                logoutBtn.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    await AuthService.signOut();
+                });
+            }
+        }
+
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const navDrawer = document.getElementById('nav-drawer');
+        if (menuBtn && navDrawer) {
+            menuBtn.addEventListener('click', () => {
+                navDrawer.classList.toggle('is-open');
+            });
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async () => {
+            updateAuthUI();
+            setupLogout();
+            await loadGenres();
+            await loadBooks();
+        });
+    </script>
+</body>
+
+</html>

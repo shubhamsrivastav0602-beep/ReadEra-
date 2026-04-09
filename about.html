@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ReadEra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f5f7fa;
+            color: #1a2a3a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* ========== NAVBAR ========== */
+        .navbar {
+            background: white;
+            padding: 0.75rem 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .logo a {
+            color: #8B4513;
+            font-size: 1.65rem;
+            font-weight: 700;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .logo a:hover {
+            color: #6b3410;
+        }
+
+        .nav-primary {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-primary>li>a {
+            color: #334155;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .nav-primary>li>a:hover,
+        .nav-primary>li>a[aria-current="page"] {
+            color: #8B4513;
+            background: rgba(139, 69, 19, 0.08);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border-radius: 10px;
+            padding: 0.55rem 1rem;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-color 0.2s;
+            text-decoration: none;
+            border: 2px solid transparent;
+            line-height: 1.2;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #8B4513 !important;
+            border-color: #c4a574;
+        }
+
+        .btn-outline:hover {
+            background: rgba(139, 69, 19, 0.08);
+            border-color: #8B4513;
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: #475569 !important;
+            border-color: transparent;
+            padding: 0.55rem 0.65rem;
+        }
+
+        .btn-ghost:hover {
+            background: #f1f5f9;
+            color: #8B4513 !important;
+        }
+
+        .btn-solid {
+            background: #8B4513;
+            color: #fff !important;
+            border-color: #8B4513;
+        }
+
+        .btn-solid:hover {
+            background: #6b3410;
+        }
+
+        .theme-toggle {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            color: #475569;
+            border-radius: 12px;
+            width: 42px;
+            height: 42px;
+            padding: 0;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background 0.2s, border-color 0.2s, color 0.2s;
+        }
+
+        .theme-toggle:hover {
+            background: #fff;
+            border-color: #8B4513;
+            color: #8B4513;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            width: 44px;
+            height: 44px;
+            font-size: 1.25rem;
+            cursor: pointer;
+            color: #8B4513;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-drawer {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex: 1;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        /* ========== ABOUT HEADER ========== */
+        .about-header {
+            background: linear-gradient(135deg, #8B4513 0%, #a0522d 45%, #c17a3a 100%);
+            color: white;
+            text-align: center;
+            padding: 4rem 1.5rem;
+        }
+
+        .about-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-header p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+
+        /* ========== ABOUT CONTENT ========== */
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        /* Mission Section */
+        .mission-section {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .mission-card {
+            background: white;
+            border-radius: 24px;
+            padding: 3rem 2rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            border: 1px solid #eef2f7;
+        }
+
+        .mission-icon {
+            font-size: 3rem;
+            color: #8B4513;
+            margin-bottom: 1rem;
+        }
+
+        .mission-card h2 {
+            font-size: 1.8rem;
+            color: #0a2540;
+            margin-bottom: 1rem;
+        }
+
+        .mission-card p {
+            color: #475569;
+            line-height: 1.7;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Stats Section */
+        .stats-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .stat-item {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.2s;
+            border: 1px solid #eef2f7;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #8B4513;
+        }
+
+        .stat-label {
+            color: #64748b;
+            margin-top: 0.5rem;
+        }
+
+        /* Story Section */
+        .story-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 4rem;
+            align-items: center;
+        }
+
+        .story-content h2 {
+            font-size: 1.8rem;
+            color: #0a2540;
+            margin-bottom: 1rem;
+        }
+
+        .story-content p {
+            color: #475569;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+
+        .story-image {
+            background: linear-gradient(135deg, #8B4513, #c17a3a);
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            color: white;
+        }
+
+        .story-image i {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Values Section */
+        .values-section {
+            margin-bottom: 4rem;
+        }
+
+        .values-section h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            color: #0a2540;
+            margin-bottom: 2rem;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .value-card {
+            background: white;
+            border-radius: 16px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.2s;
+            border: 1px solid #eef2f7;
+        }
+
+        .value-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .value-icon {
+            font-size: 2rem;
+            color: #8B4513;
+            margin-bottom: 1rem;
+        }
+
+        .value-card h3 {
+            color: #0a2540;
+            margin-bottom: 0.5rem;
+        }
+
+        .value-card p {
+            color: #64748b;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        /* Team Section */
+        .team-section {
+            margin-bottom: 2rem;
+        }
+
+        .team-section h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            color: #0a2540;
+            margin-bottom: 2rem;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+
+        .team-card {
+            text-align: center;
+        }
+
+        .team-avatar {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #8B4513, #c17a3a);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+        }
+
+        .team-avatar i {
+            font-size: 3rem;
+            color: white;
+        }
+
+        .team-card h3 {
+            color: #0a2540;
+            margin-bottom: 0.25rem;
+        }
+
+        .team-role {
+            color: #8B4513;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .team-bio {
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #8B4513, #c17a3a);
+            border-radius: 24px;
+            padding: 3rem;
+            text-align: center;
+            color: white;
+        }
+
+        .cta-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            margin-bottom: 1.5rem;
+            opacity: 0.95;
+        }
+
+        .cta-btn {
+            background: white;
+            color: #8B4513 !important;
+            border: none;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+        }
+
+        .cta-btn:hover {
+            background: #f8fafc;
+            transform: translateY(-2px);
+        }
+
+        /* ========== FOOTER ========== */
+        .site-footer {
+            background: linear-gradient(180deg, #0c2744 0%, #061526 100%);
+            color: #cbd5e1;
+            margin-top: 3rem;
+            padding: 2rem 1.5rem 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.35rem 1rem;
+            margin-bottom: 0.65rem;
+        }
+
+        .footer-bottom-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+        }
+
+        .footer-bottom-links a:hover {
+            color: #fbbf24;
+        }
+
+        /* ========== DARK MODE ========== */
+        body.dark-mode {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .navbar {
+            background: #111827;
+            border-color: #1f2937;
+        }
+
+        body.dark-mode .logo a {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .nav-primary>li>a {
+            color: #cbd5e1;
+        }
+
+        body.dark-mode .nav-primary>li>a:hover {
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.1);
+        }
+
+        body.dark-mode .mission-card,
+        body.dark-mode .stat-item,
+        body.dark-mode .value-card {
+            background: #1f2937;
+            border-color: #334155;
+        }
+
+        body.dark-mode .mission-card h2,
+        body.dark-mode .values-section h2,
+        body.dark-mode .team-section h2,
+        body.dark-mode .story-content h2 {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .mission-card p,
+        body.dark-mode .story-content p,
+        body.dark-mode .value-card p,
+        body.dark-mode .team-bio {
+            color: #94a3b8;
+        }
+
+        body.dark-mode .value-card h3,
+        body.dark-mode .team-card h3 {
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .theme-toggle {
+            background: #1f2937;
+            border-color: #334155;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .theme-toggle:hover {
+            border-color: #fbbf24;
+            color: #fbbf24;
+        }
+
+        body.dark-mode .site-footer {
+            background: linear-gradient(180deg, #020617 0%, #000 100%);
+        }
+
+        /* ========== MOBILE ========== */
+        @media (max-width: 768px) {
+            .story-section {
+                grid-template-columns: 1fr;
+            }
+
+            .about-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .mission-card {
+                padding: 2rem 1rem;
+            }
+
+            .mission-card h2 {
+                font-size: 1.4rem;
+            }
+
+            .stats-section {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .menu-toggle {
+                display: inline-flex;
+            }
+
+            .nav-drawer {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 1rem 0 0;
+                margin-top: 0.75rem;
+                border-top: 1px solid #eee;
+                gap: 1rem;
+            }
+
+            .nav-drawer.is-open {
+                display: flex;
+            }
+
+            .nav-primary {
+                flex-direction: column;
+                align-items: stretch;
+                width: 100%;
+            }
+
+            .nav-actions {
+                justify-content: flex-start;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar" aria-label="Main">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">ReadEra</a>
+            </div>
+            <button type="button" class="menu-toggle" id="mobile-menu-btn" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-drawer" id="nav-drawer">
+                <ul class="nav-primary">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="browse.html">Browse</a></li>
+                    <li id="library-link" style="display: none;"><a href="library.html">My Library</a></li>
+                    <li id="profile-link" style="display: none;"><a href="profile.html">Profile</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html" aria-current="page">About</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button type="button" class="theme-toggle" id="theme-toggle"
+                        aria-label="Toggle dark mode">🌙</button>
+                    <a href="browse.html" class="btn btn-outline">Explore</a>
+                    <a href="auth.html" class="btn btn-ghost" id="auth-link">Log in</a>
+                    <a href="#" class="btn btn-outline" id="logout-link" style="display: none;">Log out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="about-header">
+        <h1>About ReadEra</h1>
+        <p>We're on a mission to make reading accessible, enjoyable, and free for everyone.</p>
+    </div>
+
+    <div class="about-container">
+        <!-- Mission Section -->
+        <div class="mission-section">
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h2>Our Mission</h2>
+                <p>To democratize access to knowledge by providing a free, beautiful, and intuitive digital library
+                    where anyone can discover, read, and learn from thousands of book summaries.</p>
+            </div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="stats-section">
+            <div class="stat-item">
+                <div class="stat-number">10,000+</div>
+                <div class="stat-label">Book Summaries</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">25+</div>
+                <div class="stat-label">Genres & Categories</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Free Access</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Available Online</div>
+            </div>
+        </div>
+
+        <!-- Story Section -->
+        <div class="story-section">
+            <div class="story-content">
+                <h2>Our Story</h2>
+                <p>ReadEra was born from a simple idea: everyone deserves access to great books and knowledge,
+                    regardless of their financial situation. We started as a small project in 2024, driven by a passion
+                    for reading and a desire to help busy people discover valuable insights from books without spending
+                    hours reading.</p>
+                <p>Today, we've grown into a comprehensive digital library with over 10,000 book summaries across 25+
+                    genres. Our team of dedicated readers, writers, and technologists work tirelessly to create
+                    high-quality summaries that capture the essence of each book while being easy to read and
+                    understand.</p>
+                <p>We believe that reading should be a joy, not a chore. That's why we've designed ReadEra to be
+                    beautiful, intuitive, and distraction-free. Whether you're a student, professional, or lifelong
+                    learner, ReadEra is here to help you grow.</p>
+            </div>
+            <div class="story-image">
+                <i class="fas fa-book-reader"></i>
+                <h3>Read. Learn. Grow.</h3>
+                <p>Join thousands of readers on their learning journey</p>
+            </div>
+        </div>
+
+        <!-- Values Section -->
+        <div class="values-section">
+            <h2>Our Core Values</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Passion for Reading</h3>
+                    <p>We love books and believe in their power to transform lives. Every summary we create reflects our
+                        genuine enthusiasm for knowledge.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h3>Accessibility First</h3>
+                    <p>Knowledge shouldn't have a price tag. We're committed to keeping ReadEra completely free and
+                        accessible to everyone.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-star"></i></div>
+                    <h3>Quality Content</h3>
+                    <p>We maintain high standards for our summaries, ensuring accuracy, clarity, and value in every
+                        piece we publish.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-users"></i></div>
+                    <h3>Community Driven</h3>
+                    <p>We listen to our users and continuously improve based on feedback. ReadEra is built by readers,
+                        for readers.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Section -->
+        <div class="team-section">
+            <h2>Meet the Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Rajesh Kumar</h3>
+                    <div class="team-role">Founder & CEO</div>
+                    <div class="team-bio">Passionate about education technology and making knowledge accessible to all.
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <h3>Priya Sharma</h3>
+                    <div class="team-role">Head of Content</div>
+                    <div class="team-bio">Avid reader and writer with over 10 years of experience in publishing.</div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Arun Verma</h3>
+                    <div class="team-role">Lead Developer</div>
+                    <div class="team-bio">Building beautiful, fast, and reliable digital experiences for readers
+                        worldwide.</div>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Neha Gupta</h3>
+                    <div class="team-role">UI/UX Designer</div>
+                    <div class="team-bio">Creating intuitive and delightful interfaces that make reading a pleasure.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h2>Ready to Start Reading?</h2>
+            <p>Join thousands of readers who are discovering amazing books every day.</p>
+            <a href="browse.html" class="btn btn-solid cta-btn">Explore Library <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="about.html">About</a>
+            </div>
+            <p>&copy; 2026 ReadEra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+        function updateAuthUI() {
+            const isLoggedIn = AuthService.isAuthenticated();
+            const libraryLink = document.getElementById('library-link');
+            const profileLink = document.getElementById('profile-link');
+            const authLink = document.getElementById('auth-link');
+            const logoutLink = document.getElementById('logout-link');
+
+            if (isLoggedIn) {
+                if (libraryLink) libraryLink.style.display = 'list-item';
+                if (profileLink) profileLink.style.display = 'list-item';
+                if (authLink) authLink.style.display = 'none';
+                if (logoutLink) logoutLink.style.display = 'inline-flex';
+            } else {
+                if (libraryLink) libraryLink.style.display = 'none';
+                if (profileLink) profileLink.style.display = 'none';
+                if (authLink) authLink.style.display = 'inline-flex';
+                if (logoutLink) logoutLink.style.display = 'none';
+            }
+        }
+
+        function setupLogout() {
+            const logoutBtn = document.getElementById('logout-link');
+            if (logoutBtn) {
+                logoutBtn.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    await AuthService.signOut();
+                });
+            }
+        }
+
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const navDrawer = document.getElementById('nav-drawer');
+        if (menuBtn && navDrawer) {
+            menuBtn.addEventListener('click', () => {
+                navDrawer.classList.toggle('is-open');
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            updateAuthUI();
+            setupLogout();
+        });
+    </script>
+</body>
+
+</html>

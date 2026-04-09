@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library - ReadEra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f5f7fa;
+            color: #1a2a3a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* ========== NAVBAR (same as index) ========== */
+        .navbar {
+            background: white;
+            padding: 0.75rem 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .logo a {
+            color: #8B4513;
+            font-size: 1.65rem;
+            font-weight: 700;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .logo a:hover {
+            color: #6b3410;
+        }
+
+        .nav-primary {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-primary>li>a {
+            color: #334155;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .nav-primary>li>a:hover,
+        .nav-primary>li>a[aria-current="page"] {
+            color: #8B4513;
+            background: rgba(139, 69, 19, 0.08);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border-radius: 10px;
+            padding: 0.55rem 1rem;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-color 0.2s;
+            text-decoration: none;
+            border: 2px solid transparent;
+            line-height: 1.2;
+        }
+
+        .btn-solid {
+            background: #8B4513;
+            color: #fff !important;
+            border-color: #8B4513;
+        }
+
+        .btn-solid:hover {
+            background: #6b3410;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #8B4513 !important;
+            border-color: #c4a574;
+        }
+
+        .btn-outline:hover {
+            background: rgba(139, 69, 19, 0.08);
+            border-color: #8B4513;
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: #475569 !important;
+            border-color: transparent;
+            padding: 0.55rem 0.65rem;
+        }
+
+        .btn-ghost:hover {
+            background: #f1f5f9;
+            color: #8B4513 !important;
+        }
+
+        .theme-toggle {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            color: #475569;
+            border-radius: 12px;
+            width: 42px;
+            height: 42px;
+            padding: 0;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background 0.2s, border-color 0.2s, color 0.2s;
+        }
+
+        .theme-toggle:hover {
+            background: #fff;
+            border-color: #8B4513;
+            color: #8B4513;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            width: 44px;
+            height: 44px;
+            font-size: 1.25rem;
+            cursor: pointer;
+            color: #8B4513;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-drawer {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex: 1;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        /* ========== LIBRARY HEADER ========== */
+        .library-header {
+            background: linear-gradient(135deg, #8B4513 0%, #a0522d 45%, #c17a3a 100%);
+            color: white;
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+        .library-header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .library-header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        /* ========== LIBRARY CONTAINER ========== */
+        .library-container {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 16px;
+            padding: 1.25rem;
+            text-align: center;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            border: 1px solid #eef2f7;
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .stat-icon {
+            font-size: 2rem;
+            color: #8B4513;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #0a2540;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: #64748b;
+            margin-top: 0.25rem;
+        }
+
+        /* Tabs */
+        .library-tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            padding: 0.6rem 1.25rem;
+            background: transparent;
+            border: none;
+            font-weight: 600;
+            color: #64748b;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+
+        .tab-btn:hover {
+            background: rgba(139, 69, 19, 0.08);
+            color: #8B4513;
+        }
+
+        .tab-btn.active {
+            background: #8B4513;
+            color: white;
+        }
+
+        /* Search & Filter Bar */
+        .search-filter-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .search-wrapper {
+            flex: 1;
+            max-width: 350px;
+            position: relative;
+        }
+
+        .search-wrapper i {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #94a3b8;
+        }
+
+        .search-wrapper input {
+            width: 100%;
+            padding: 0.8rem 1rem 0.8rem 2.5rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        .search-wrapper input:focus {
+            outline: none;
+            border-color: #8B4513;
+        }
+
+        .filter-options {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .filter-select {
+            padding: 0.8rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-family: inherit;
+            background: white;
+            cursor: pointer;
+        }
+
+        /* Books Grid */
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .library-book-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            display: flex;
+            gap: 1rem;
+            padding: 1rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            border: 1px solid #eef2f7;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .library-book-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-cover-small {
+            width: 100px;
+            flex-shrink: 0;
+        }
+
+        .book-cover-small img {
+            width: 100%;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .book-details {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .book-title-small {
+            font-weight: 700;
+            font-size: 1rem;
+            color: #0a2540;
+            margin-bottom: 0.25rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .book-author-small {
+            font-size: 0.8rem;
+            color: #64748b;
+            margin-bottom: 0.5rem;
+        }
+
+        .book-genre-small {
+            display: inline-block;
+            font-size: 0.7rem;
+            background: rgba(139, 69, 19, 0.1);
+            color: #8B4513;
+            padding: 0.2rem 0.5rem;
+            border-radius: 12px;
+            margin-bottom: 0.75rem;
+        }
+
+        /* Progress Bar */
+        .progress-wrapper {
+            margin: 0.5rem 0;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.7rem;
+            color: #64748b;
+            margin-bottom: 0.25rem;
+        }
+
+        .progress-bar-bg {
+            background: #e2e8f0;
+            border-radius: 10px;
+            height: 6px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            background: #8B4513;
+            height: 100%;
+            width: 0%;
+            border-radius: 10px;
+            transition: width 0.3s;
+        }
+
+        /* Book Actions */
+        .book-actions-small {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .action-btn {
+            padding: 0.3rem 0.8rem;
+            font-size: 0.75rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .read-btn {
+            background: #8B4513;
+            color: white;
+            border: none;
+        }
+
+        .read-btn:hover {
+            background: #6b3410;
+        }
+
+        .remove-btn {
+            background: transparent;
+            color: #ef4444;
+            border: 1px solid #ef4444;
+        }
+
+        .remove-btn:hover {
+            background: #ef4444;
+            color: white;
+        }
+
+        .favorite-btn {
+            background: transparent;
+            color: #fbbf24;
+            border: 1px solid #fbbf24;
+        }
+
+        .favorite-btn.active {
+            background: #fbbf24;
+            color: white;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: white;
+            border-radius: 20px;
+            border: 1px solid #eef2f7;
+        }
+
+        .empty-state i {
+            font-size: 4rem;
+            color: #cbd5e1;
+            margin-bottom: 1rem;
+        }
+
+        .empty-state h3 {
+            font-size: 1.25rem;
+            color: #0a2540;
+            margin-bottom: 0.5rem;
+        }
+
+        .empty-state p {
+            color: #64748b;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Loading Spinner */
+        .loading-spinner {
+            text-align: center;
+            padding: 3rem;
+            color: #8B4513;
+        }
+
+        .loading-spinner i {
+            font-size: 2rem;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* ========== FOOTER ========== */
+        .site-footer {
+            background: linear-gradient(180deg, #0c2744 0%, #061526 100%);
+            color: #cbd5e1;
+            margin-top: 3rem;
+            padding: 2rem 1.5rem 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.35rem 1rem;
+            margin-bottom: 0.65rem;
+        }
+
+        .footer-bottom-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+        }
+
+        .footer-bottom-links a:hover {
+            color: #fbbf24;
+        }
+
+        /* ========== DARK MODE ========== */
+        body.dark-mode {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .navbar {
+            background: #111827;
+            border-color: #1f2937;
+        }
+
+        body.dark-mode .logo a {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .nav-primary>li>a {
+            color: #cbd5e1;
+        }
+
+        body.dark-mode .nav-primary>li>a:hover {
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.1);
+        }
+
+        body.dark-mode .stat-card,
+        body.dark-mode .library-book-card,
+        body.dark-mode .empty-state {
+            background: #1f2937;
+            border-color: #334155;
+        }
+
+        body.dark-mode .stat-value {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .book-title-small {
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .search-wrapper input,
+        body.dark-mode .filter-select {
+            background: #111827;
+            border-color: #334155;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .theme-toggle {
+            background: #1f2937;
+            border-color: #334155;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .theme-toggle:hover {
+            border-color: #fbbf24;
+            color: #fbbf24;
+        }
+
+        body.dark-mode .site-footer {
+            background: linear-gradient(180deg, #020617 0%, #000 100%);
+        }
+
+        body.dark-mode .tab-btn {
+            color: #94a3b8;
+        }
+
+        body.dark-mode .tab-btn.active {
+            background: #fbbf24;
+            color: #0f172a;
+        }
+
+        body.dark-mode .progress-bar-bg {
+            background: #334155;
+        }
+
+        /* ========== MOBILE ========== */
+        @media (max-width: 768px) {
+            .library-book-card {
+                flex-direction: column;
+            }
+
+            .book-cover-small {
+                width: 100%;
+            }
+
+            .book-cover-small img {
+                height: 180px;
+            }
+
+            .search-filter-bar {
+                flex-direction: column;
+            }
+
+            .search-wrapper {
+                max-width: 100%;
+                width: 100%;
+            }
+
+            .filter-options {
+                width: 100%;
+            }
+
+            .filter-select {
+                flex: 1;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .menu-toggle {
+                display: inline-flex;
+            }
+
+            .nav-drawer {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 1rem 0 0;
+                margin-top: 0.75rem;
+                border-top: 1px solid #eee;
+                gap: 1rem;
+            }
+
+            .nav-drawer.is-open {
+                display: flex;
+            }
+
+            .nav-primary {
+                flex-direction: column;
+                align-items: stretch;
+                width: 100%;
+            }
+
+            .nav-actions {
+                justify-content: flex-start;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar" aria-label="Main">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">ReadEra</a>
+            </div>
+            <button type="button" class="menu-toggle" id="mobile-menu-btn" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-drawer" id="nav-drawer">
+                <ul class="nav-primary">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="browse.html">Browse</a></li>
+                    <li id="library-link" style="display: none;"><a href="library.html" aria-current="page">My
+                            Library</a></li>
+                    <li id="profile-link" style="display: none;"><a href="profile.html">Profile</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button type="button" class="theme-toggle" id="theme-toggle"
+                        aria-label="Toggle dark mode">🌙</button>
+                    <a href="browse.html" class="btn btn-outline">Explore</a>
+                    <a href="auth.html" class="btn btn-ghost" id="auth-link">Log in</a>
+                    <a href="#" class="btn btn-outline" id="logout-link" style="display: none;">Log out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="library-header">
+        <h1><i class="fas fa-bookmark"></i> My Library</h1>
+        <p>Your personal collection of books. Read, track progress, and discover more.</p>
+    </div>
+
+    <div class="library-container">
+        <!-- Stats -->
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-book"></i></div>
+                <div class="stat-value" id="totalBooks">0</div>
+                <div class="stat-label">Total Books</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-book-reader"></i></div>
+                <div class="stat-value" id="readingCount">0</div>
+                <div class="stat-label">Currently Reading</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-check-circle"></i></div>
+                <div class="stat-value" id="completedCount">0</div>
+                <div class="stat-label">Completed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-star"></i></div>
+                <div class="stat-value" id="favoriteCount">0</div>
+                <div class="stat-label">Favorites</div>
+            </div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="library-tabs">
+            <button class="tab-btn active" data-tab="all">All Books</button>
+            <button class="tab-btn" data-tab="reading">Currently Reading</button>
+            <button class="tab-btn" data-tab="completed">Completed</button>
+            <button class="tab-btn" data-tab="favorites">Favorites</button>
+        </div>
+
+        <!-- Search & Filter -->
+        <div class="search-filter-bar">
+            <div class="search-wrapper">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchLibrary" placeholder="Search your library...">
+            </div>
+            <div class="filter-options">
+                <select id="genreFilter" class="filter-select">
+                    <option value="all">All Genres</option>
+                </select>
+                <select id="sortBy" class="filter-select">
+                    <option value="recent">Recently Added</option>
+                    <option value="title">Title A-Z</option>
+                    <option value="progress">Progress</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Books Grid -->
+        <div id="booksGrid">
+            <div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Loading your library...</div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="about.html">About</a>
+            </div>
+            <p>&copy; 2026 ReadEra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+        // ============================================
+        // LIBRARY PAGE LOGIC
+        // ============================================
+
+        let libraryBooks = [];
+        let filteredBooks = [];
+        let currentTab = 'all';
+        let allGenres = [];
+
+        // DOM Elements
+        const booksGridEl = document.getElementById('booksGrid');
+        const searchInput = document.getElementById('searchLibrary');
+        const genreFilter = document.getElementById('genreFilter');
+        const sortBy = document.getElementById('sortBy');
+
+        // Check if user is logged in
+        function checkAuth() {
+            if (!AuthService.isAuthenticated()) {
+                booksGridEl.innerHTML = `
+                    <div class="empty-state">
+                        <i class="fas fa-lock"></i>
+                        <h3>Login Required</h3>
+                        <p>Please login to view your library</p>
+                        <a href="auth.html" class="btn btn-solid">Login Now</a>
+                    </div>
+                `;
+                return false;
+            }
+            return true;
+        }
+
+        // Load library books
+        async function loadLibrary() {
+            if (!checkAuth()) return;
+
+            booksGridEl.innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Loading your library...</div>';
+
+            const result = await LibraryService.getUserLibrary();
+
+            if (result.success && result.books) {
+                libraryBooks = result.books;
+                await loadGenresForFilter();
+                applyFiltersAndRender();
+                updateStats();
+            } else {
+                booksGridEl.innerHTML = `
+                    <div class="empty-state">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <h3>Failed to Load Library</h3>
+                        <p>Please try again later</p>
+                        <button onclick="loadLibrary()" class="btn btn-outline">Retry</button>
+                    </div>
+                `;
+            }
+        }
+
+        // Load genres for filter dropdown
+        async function loadGenresForFilter() {
+            const result = await GenreService.getAllGenres();
+            if (result.success) {
+                allGenres = result.genres;
+                genreFilter.innerHTML = '<option value="all">All Genres</option>' +
+                    allGenres.map(g => `<option value="${escapeHtml(g.name)}">${escapeHtml(g.name)}</option>`).join('');
+            }
+        }
+
+        // Apply filters and render
+        function applyFiltersAndRender() {
+            let filtered = [...libraryBooks];
+
+            // Filter by tab
+            if (currentTab === 'reading') {
+                filtered = filtered.filter(book => (book.last_read_page || 0) > 0 && (book.last_read_page || 0) < (book.total_pages || 999999));
+            } else if (currentTab === 'completed') {
+                filtered = filtered.filter(book => book.last_read_page >= (book.total_pages || 0) && book.total_pages > 0);
+            } else if (currentTab === 'favorites') {
+                filtered = filtered.filter(book => book.is_favorite === true);
+            }
+
+            // Filter by search
+            const searchTerm = searchInput.value.toLowerCase();
+            if (searchTerm) {
+                filtered = filtered.filter(book =>
+                    book.title.toLowerCase().includes(searchTerm) ||
+                    (book.author && book.author.toLowerCase().includes(searchTerm))
+                );
+            }
+
+            // Filter by genre
+            const selectedGenre = genreFilter.value;
+            if (selectedGenre !== 'all') {
+                filtered = filtered.filter(book => book.genre === selectedGenre);
+            }
+
+            // Sort
+            const sortValue = sortBy.value;
+            if (sortValue === 'title') {
+                filtered.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+            } else if (sortValue === 'progress') {
+                filtered.sort((a, b) => (b.last_read_page || 0) - (a.last_read_page || 0));
+            } else {
+                // Recent by added_at
+                filtered.sort((a, b) => new Date(b.added_at) - new Date(a.added_at));
+            }
+
+            filteredBooks = filtered;
+            renderBooks();
+        }
+
+        // Render books
+        function renderBooks() {
+            if (filteredBooks.length === 0) {
+                let emptyMessage = '';
+                if (currentTab === 'reading') {
+                    emptyMessage = 'You haven\'t started reading any books yet.';
+                } else if (currentTab === 'completed') {
+                    emptyMessage = 'You haven\'t completed any books yet.';
+                } else if (currentTab === 'favorites') {
+                    emptyMessage = 'No favorite books yet.';
+                } else {
+                    emptyMessage = 'Your library is empty. Start adding books!';
+                }
+
+                booksGridEl.innerHTML = `
+                    <div class="empty-state">
+                        <i class="fas fa-book-open"></i>
+                        <h3>No Books Found</h3>
+                        <p>${emptyMessage}</p>
+                        <a href="browse.html" class="btn btn-solid">Browse Books</a>
+                    </div>
+                `;
+                return;
+            }
+
+            booksGridEl.innerHTML = filteredBooks.map(book => {
+                const progressPercent = book.total_pages > 0 ? Math.round((book.last_read_page / book.total_pages) * 100) : 0;
+                const isCompleted = book.total_pages > 0 && book.last_read_page >= book.total_pages;
+
+                return `
+                    <div class="library-book-card" data-book-id="${book.id}">
+                        <div class="book-cover-small">
+                            <img src="${book.cover_url || 'https://placehold.co/100x130/8B4513/white?text=No+Cover'}" 
+                                 alt="${escapeHtml(book.title)}"
+                                 onerror="this.src='https://placehold.co/100x130/8B4513/white?text=No+Cover'">
+                        </div>
+                        <div class="book-details">
+                            <div class="book-title-small">${escapeHtml(book.title)}</div>
+                            <div class="book-author-small">by ${escapeHtml(book.author || 'Unknown')}</div>
+                            ${book.genre ? `<div class="book-genre-small">${escapeHtml(book.genre)}</div>` : ''}
+                            
+                            ${book.total_pages > 0 ? `
+                                <div class="progress-wrapper">
+                                    <div class="progress-info">
+                                        <span>${isCompleted ? '✅ Completed' : '📖 Reading Progress'}</span>
+                                        <span>${progressPercent}%</span>
+                                    </div>
+                                    <div class="progress-bar-bg">
+                                        <div class="progress-bar-fill" style="width: ${progressPercent}%;"></div>
+                                    </div>
+                                </div>
+                            ` : ''}
+                            
+                            <div class="book-actions-small">
+                                <a href="book.html?id=${book.id}" class="action-btn read-btn">
+                                    <i class="fas ${isCompleted ? 'fa-redo-alt' : 'fa-book-open'}"></i> 
+                                    ${isCompleted ? 'Re-read' : 'Continue Reading'}
+                                </a>
+                                <button class="action-btn favorite-btn ${book.is_favorite ? 'active' : ''}" onclick="toggleFavorite(${book.id})">
+                                    <i class="fas fa-star"></i> ${book.is_favorite ? 'Favorited' : 'Favorite'}
+                                </button>
+                                <button class="action-btn remove-btn" onclick="removeFromLibrary(${book.id})">
+                                    <i class="fas fa-trash"></i> Remove
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Update stats
+        function updateStats() {
+            const totalBooks = libraryBooks.length;
+            const readingCount = libraryBooks.filter(book => (book.last_read_page || 0) > 0 && (book.last_read_page || 0) < (book.total_pages || 999999)).length;
+            const completedCount = libraryBooks.filter(book => book.last_read_page >= (book.total_pages || 0) && book.total_pages > 0).length;
+            const favoriteCount = libraryBooks.filter(book => book.is_favorite === true).length;
+
+            document.getElementById('totalBooks').textContent = totalBooks;
+            document.getElementById('readingCount').textContent = readingCount;
+            document.getElementById('completedCount').textContent = completedCount;
+            document.getElementById('favoriteCount').textContent = favoriteCount;
+        }
+
+        // Toggle favorite
+        window.toggleFavorite = async function (bookId) {
+            const result = await LibraryService.toggleFavorite(bookId);
+            if (result.success) {
+                // Refresh library
+                await loadLibrary();
+                showToast(result.message || 'Favorite updated', 'success');
+            } else {
+                showToast('Failed to update favorite', 'error');
+            }
+        };
+
+        // Remove from library
+        window.removeFromLibrary = async function (bookId) {
+            if (confirm('Are you sure you want to remove this book from your library?')) {
+                const result = await LibraryService.removeFromLibrary(bookId);
+                if (result.success) {
+                    await loadLibrary();
+                    showToast('Book removed from library', 'success');
+                } else {
+                    showToast('Failed to remove book', 'error');
+                }
+            }
+        };
+
+        // Event listeners for filters
+        searchInput.addEventListener('input', () => applyFiltersAndRender());
+        genreFilter.addEventListener('change', () => applyFiltersAndRender());
+        sortBy.addEventListener('change', () => applyFiltersAndRender());
+
+        // Tab switching
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentTab = btn.dataset.tab;
+                applyFiltersAndRender();
+            });
+        });
+
+        // Helper functions
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function showToast(message, type) {
+            // Toast function from supabase.js
+            if (window.showToast) {
+                window.showToast(message, type);
+            } else {
+                alert(message);
+            }
+        }
+
+        // Update auth UI
+        function updateAuthUI() {
+            const isLoggedIn = AuthService.isAuthenticated();
+            const libraryLink = document.getElementById('library-link');
+            const profileLink = document.getElementById('profile-link');
+            const authLink = document.getElementById('auth-link');
+            const logoutLink = document.getElementById('logout-link');
+
+            if (isLoggedIn) {
+                if (libraryLink) libraryLink.style.display = 'list-item';
+                if (profileLink) profileLink.style.display = 'list-item';
+                if (authLink) authLink.style.display = 'none';
+                if (logoutLink) logoutLink.style.display = 'inline-flex';
+            } else {
+                if (libraryLink) libraryLink.style.display = 'none';
+                if (profileLink) profileLink.style.display = 'none';
+                if (authLink) authLink.style.display = 'inline-flex';
+                if (logoutLink) logoutLink.style.display = 'none';
+            }
+        }
+
+        // Setup logout
+        function setupLogout() {
+            const logoutBtn = document.getElementById('logout-link');
+            if (logoutBtn) {
+                logoutBtn.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    await AuthService.signOut();
+                });
+            }
+        }
+
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const navDrawer = document.getElementById('nav-drawer');
+        if (menuBtn && navDrawer) {
+            menuBtn.addEventListener('click', () => {
+                navDrawer.classList.toggle('is-open');
+            });
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async () => {
+            updateAuthUI();
+            setupLogout();
+            await loadLibrary();
+        });
+    </script>
+</body>
+
+</html>

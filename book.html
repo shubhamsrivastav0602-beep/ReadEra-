@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Book - ReadEra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f5f7fa;
+            color: #1a2a3a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* ========== NAVBAR (same as index) ========== */
+        .navbar {
+            background: white;
+            padding: 0.75rem 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .logo a {
+            color: #8B4513;
+            font-size: 1.65rem;
+            font-weight: 700;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .logo a:hover {
+            color: #6b3410;
+        }
+
+        .nav-primary {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-primary>li>a {
+            color: #334155;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .nav-primary>li>a:hover,
+        .nav-primary>li>a[aria-current="page"] {
+            color: #8B4513;
+            background: rgba(139, 69, 19, 0.08);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border-radius: 10px;
+            padding: 0.55rem 1rem;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-color 0.2s;
+            text-decoration: none;
+            border: 2px solid transparent;
+            line-height: 1.2;
+        }
+
+        .btn-solid {
+            background: #8B4513;
+            color: #fff !important;
+            border-color: #8B4513;
+        }
+
+        .btn-solid:hover {
+            background: #6b3410;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #8B4513 !important;
+            border-color: #c4a574;
+        }
+
+        .btn-outline:hover {
+            background: rgba(139, 69, 19, 0.08);
+            border-color: #8B4513;
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: #475569 !important;
+            border-color: transparent;
+            padding: 0.55rem 0.65rem;
+        }
+
+        .btn-ghost:hover {
+            background: #f1f5f9;
+            color: #8B4513 !important;
+        }
+
+        .theme-toggle {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            color: #475569;
+            border-radius: 12px;
+            width: 42px;
+            height: 42px;
+            padding: 0;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background 0.2s, border-color 0.2s, color 0.2s;
+        }
+
+        .theme-toggle:hover {
+            background: #fff;
+            border-color: #8B4513;
+            color: #8B4513;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            width: 44px;
+            height: 44px;
+            font-size: 1.25rem;
+            cursor: pointer;
+            color: #8B4513;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-drawer {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex: 1;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        /* ========== BOOK CONTAINER ========== */
+        .book-container {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Back Button */
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #64748b;
+            text-decoration: none;
+            margin-bottom: 1.5rem;
+            transition: color 0.2s;
+        }
+
+        .back-btn:hover {
+            color: #8B4513;
+        }
+
+        /* Book Header */
+        .book-header {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+            background: white;
+            border-radius: 20px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            border: 1px solid #eef2f7;
+        }
+
+        .book-cover-large {
+            width: 250px;
+            flex-shrink: 0;
+        }
+
+        .book-cover-large img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-info-large {
+            flex: 1;
+        }
+
+        .book-title-large {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #0a2540;
+            margin-bottom: 0.5rem;
+        }
+
+        .book-author-large {
+            font-size: 1.1rem;
+            color: #64748b;
+            margin-bottom: 1rem;
+        }
+
+        .book-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .meta-tag {
+            background: rgba(139, 69, 19, 0.1);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: #8B4513;
+        }
+
+        .book-description {
+            margin: 1rem 0;
+            line-height: 1.6;
+            color: #334155;
+        }
+
+        .book-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .btn-large {
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+        }
+
+        /* Reading Progress */
+        .progress-section {
+            background: white;
+            border-radius: 20px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid #eef2f7;
+        }
+
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        .progress-bar-container {
+            background: #e2e8f0;
+            border-radius: 10px;
+            height: 8px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            background: #8B4513;
+            height: 100%;
+            width: 0%;
+            border-radius: 10px;
+            transition: width 0.3s;
+        }
+
+        /* PDF Viewer */
+        .pdf-section {
+            background: white;
+            border-radius: 20px;
+            padding: 1rem;
+            border: 1px solid #eef2f7;
+        }
+
+        .pdf-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .pdf-header h3 {
+            color: #0a2540;
+        }
+
+        .pdf-controls {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .pdf-viewer {
+            width: 100%;
+            height: 70vh;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 12px;
+        }
+
+        /* Loading & Error */
+        .loading-state,
+        .error-state {
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .loading-spinner {
+            text-align: center;
+            padding: 3rem;
+            color: #8B4513;
+        }
+
+        .loading-spinner i {
+            font-size: 2rem;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* ========== FOOTER ========== */
+        .site-footer {
+            background: linear-gradient(180deg, #0c2744 0%, #061526 100%);
+            color: #cbd5e1;
+            margin-top: 3rem;
+            padding: 2rem 1.5rem 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.35rem 1rem;
+            margin-bottom: 0.65rem;
+        }
+
+        .footer-bottom-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+        }
+
+        .footer-bottom-links a:hover {
+            color: #fbbf24;
+        }
+
+        /* ========== DARK MODE ========== */
+        body.dark-mode {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .navbar {
+            background: #111827;
+            border-color: #1f2937;
+        }
+
+        body.dark-mode .logo a {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .nav-primary>li>a {
+            color: #cbd5e1;
+        }
+
+        body.dark-mode .nav-primary>li>a:hover {
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.1);
+        }
+
+        body.dark-mode .book-header,
+        body.dark-mode .progress-section,
+        body.dark-mode .pdf-section {
+            background: #1f2937;
+            border-color: #334155;
+        }
+
+        body.dark-mode .book-title-large {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .book-description {
+            color: #cbd5e1;
+        }
+
+        body.dark-mode .meta-tag {
+            background: rgba(251, 191, 36, 0.15);
+            color: #fbbf24;
+        }
+
+        body.dark-mode .progress-bar-container {
+            background: #334155;
+        }
+
+        body.dark-mode .theme-toggle {
+            background: #1f2937;
+            border-color: #334155;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .theme-toggle:hover {
+            border-color: #fbbf24;
+            color: #fbbf24;
+        }
+
+        body.dark-mode .site-footer {
+            background: linear-gradient(180deg, #020617 0%, #000 100%);
+        }
+
+        body.dark-mode .btn-outline {
+            border-color: #fbbf24;
+            color: #fbbf24 !important;
+        }
+
+        /* ========== MOBILE ========== */
+        @media (max-width: 768px) {
+            .book-header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .book-cover-large {
+                width: 200px;
+            }
+
+            .book-title-large {
+                font-size: 1.5rem;
+            }
+
+            .book-actions {
+                justify-content: center;
+            }
+
+            .progress-section {
+                text-align: center;
+            }
+
+            .pdf-viewer {
+                height: 50vh;
+            }
+
+            .menu-toggle {
+                display: inline-flex;
+            }
+
+            .nav-drawer {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 1rem 0 0;
+                margin-top: 0.75rem;
+                border-top: 1px solid #eee;
+                gap: 1rem;
+            }
+
+            .nav-drawer.is-open {
+                display: flex;
+            }
+
+            .nav-primary {
+                flex-direction: column;
+                align-items: stretch;
+                width: 100%;
+            }
+
+            .nav-actions {
+                justify-content: flex-start;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar" aria-label="Main">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">ReadEra</a>
+            </div>
+            <button type="button" class="menu-toggle" id="mobile-menu-btn" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-drawer" id="nav-drawer">
+                <ul class="nav-primary">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="browse.html">Browse</a></li>
+                    <li id="library-link" style="display: none;"><a href="library.html">My Library</a></li>
+                    <li id="profile-link" style="display: none;"><a href="profile.html">Profile</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button type="button" class="theme-toggle" id="theme-toggle"
+                        aria-label="Toggle dark mode">🌙</button>
+                    <a href="browse.html" class="btn btn-outline">Explore</a>
+                    <a href="auth.html" class="btn btn-ghost" id="auth-link">Log in</a>
+                    <a href="#" class="btn btn-outline" id="logout-link" style="display: none;">Log out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="book-container">
+        <a href="javascript:history.back()" class="back-btn"><i class="fas fa-arrow-left"></i> Back</a>
+
+        <div id="bookContent">
+            <div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Loading book...</div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="about.html">About</a>
+            </div>
+            <p>&copy; 2026 ReadEra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+        // ============================================
+        // BOOK PAGE LOGIC
+        // ============================================
+
+        // Get book ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const bookId = urlParams.get('id');
+
+        let currentBook = null;
+        let isInLibrary = false;
+        let currentProgress = 0;
+
+        // DOM Elements
+        const bookContent = document.getElementById('bookContent');
+
+        // Load book details
+        async function loadBook() {
+            if (!bookId) {
+                bookContent.innerHTML = '<div class="error-state"><i class="fas fa-exclamation-circle"></i><p>No book ID specified</p><a href="browse.html" class="btn btn-outline" style="margin-top: 1rem;">Browse Books</a></div>';
+                return;
+            }
+
+            const result = await BookService.getBookById(bookId);
+
+            if (result.success && result.book) {
+                currentBook = result.book;
+
+                // Check if book is in user's library
+                if (AuthService.isAuthenticated()) {
+                    isInLibrary = await LibraryService.isInLibrary(bookId);
+                    const libraryData = await LibraryService.getUserLibrary();
+                    const libraryBook = libraryData.books.find(b => b.id == bookId);
+                    if (libraryBook) {
+                        currentProgress = libraryBook.last_read_page || 0;
+                    }
+                }
+
+                // Save to recent reads
+                saveToRecentReads(currentBook);
+
+                // Render book
+                renderBook();
+            } else {
+                bookContent.innerHTML = '<div class="error-state"><i class="fas fa-exclamation-circle"></i><p>Book not found</p><a href="browse.html" class="btn btn-outline" style="margin-top: 1rem;">Browse Books</a></div>';
+            }
+        }
+
+        // Save to recent reads (localStorage)
+        function saveToRecentReads(book) {
+            let recent = JSON.parse(localStorage.getItem('recentBooks') || '[]');
+            recent = recent.filter(b => b.id != book.id);
+            recent.unshift({
+                id: book.id,
+                title: book.title,
+                author: book.author,
+                cover_url: book.cover_url,
+                last_read_page: currentProgress
+            });
+            if (recent.length > 10) recent.pop();
+            localStorage.setItem('recentBooks', JSON.stringify(recent));
+        }
+
+        // Render book UI
+        function renderBook() {
+            const progressPercent = currentBook.total_pages > 0 ? Math.round((currentProgress / currentBook.total_pages) * 100) : 0;
+
+            bookContent.innerHTML = `
+                <!-- Book Header -->
+                <div class="book-header">
+                    <div class="book-cover-large">
+                        <img src="${currentBook.cover_url || 'https://placehold.co/300x400/8B4513/white?text=No+Cover'}" 
+                             alt="${escapeHtml(currentBook.title)}"
+                             onerror="this.src='https://placehold.co/300x400/8B4513/white?text=No+Cover'">
+                    </div>
+                    <div class="book-info-large">
+                        <h1 class="book-title-large">${escapeHtml(currentBook.title)}</h1>
+                        <div class="book-author-large">by ${escapeHtml(currentBook.author || 'Unknown')}</div>
+                        <div class="book-meta">
+                            ${currentBook.genre ? `<span class="meta-tag"><i class="fas fa-tag"></i> ${escapeHtml(currentBook.genre)}</span>` : ''}
+                            ${currentBook.subcategory ? `<span class="meta-tag"><i class="fas fa-layer-group"></i> ${escapeHtml(currentBook.subcategory)}</span>` : ''}
+                            ${currentBook.total_pages ? `<span class="meta-tag"><i class="fas fa-file-alt"></i> ${currentBook.total_pages} pages</span>` : ''}
+                            ${currentBook.views ? `<span class="meta-tag"><i class="fas fa-eye"></i> ${currentBook.views} views</span>` : ''}
+                        </div>
+                        <div class="book-description">
+                            ${currentBook.summary ? escapeHtml(currentBook.summary) : 'No description available.'}
+                        </div>
+                        <div class="book-actions">
+                            <button class="btn btn-solid btn-large" id="readNowBtn">
+                                <i class="fas fa-book-open"></i> Read Now
+                            </button>
+                            <button class="btn btn-outline btn-large" id="libraryBtn">
+                                <i class="fas ${isInLibrary ? 'fa-check-circle' : 'fa-plus-circle'}"></i> 
+                                ${isInLibrary ? 'In Library' : 'Add to Library'}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Reading Progress (if logged in and has progress) -->
+                ${AuthService.isAuthenticated() && currentProgress > 0 ? `
+                    <div class="progress-section">
+                        <div class="progress-label">
+                            <span><i class="fas fa-bookmark"></i> Your Reading Progress</span>
+                            <span>${progressPercent}% complete</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" style="width: ${progressPercent}%;"></div>
+                        </div>
+                        <div style="margin-top: 0.75rem; font-size: 0.8rem; color: #64748b;">
+                            You left off at page ${currentProgress} of ${currentBook.total_pages || '?'}
+                        </div>
+                    </div>
+                ` : ''}
+                
+                <!-- PDF Viewer -->
+                <div class="pdf-section">
+                    <div class="pdf-header">
+                        <h3><i class="fas fa-file-pdf"></i> Read Online</h3>
+                        <div class="pdf-controls">
+                            <a href="${currentBook.pdf_url}" target="_blank" class="btn btn-outline" style="padding: 0.4rem 0.8rem;">
+                                <i class="fas fa-external-link-alt"></i> Open in New Tab
+                            </a>
+                            <a href="${currentBook.pdf_url}" download class="btn btn-outline" style="padding: 0.4rem 0.8rem;">
+                                <i class="fas fa-download"></i> Download PDF
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pdf-viewer">
+                        <iframe src="${currentBook.pdf_url}#toolbar=0" title="${escapeHtml(currentBook.title)}"></iframe>
+                    </div>
+                    <p style="margin-top: 0.75rem; font-size: 0.75rem; color: #94a3b8; text-align: center;">
+                        <i class="fas fa-info-circle"></i> If PDF doesn't load, click "Open in New Tab" or "Download PDF"
+                    </p>
+                </div>
+            `;
+
+            // Add event listeners
+            document.getElementById('readNowBtn')?.addEventListener('click', () => {
+                const pdfViewer = document.querySelector('.pdf-viewer iframe');
+                if (pdfViewer) {
+                    pdfViewer.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+
+            document.getElementById('libraryBtn')?.addEventListener('click', async () => {
+                await toggleLibrary();
+            });
+        }
+
+        // Toggle library (add/remove)
+        async function toggleLibrary() {
+            if (!AuthService.isAuthenticated()) {
+                showToast('Please login to add books to your library', 'warning');
+                setTimeout(() => {
+                    window.location.href = `auth.html?redirect=book.html?id=${bookId}`;
+                }, 1500);
+                return;
+            }
+
+            const btn = document.getElementById('libraryBtn');
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Processing...';
+
+            if (isInLibrary) {
+                const result = await LibraryService.removeFromLibrary(bookId);
+                if (result.success) {
+                    isInLibrary = false;
+                    btn.innerHTML = '<i class="fas fa-plus-circle"></i> Add to Library';
+                    showToast('Removed from your library', 'info');
+                } else {
+                    showToast('Failed to remove from library', 'error');
+                }
+            } else {
+                const result = await LibraryService.addToLibrary(bookId);
+                if (result.success) {
+                    isInLibrary = true;
+                    btn.innerHTML = '<i class="fas fa-check-circle"></i> In Library';
+                    showToast('Added to your library!', 'success');
+                } else {
+                    showToast(result.error || 'Failed to add to library', 'error');
+                }
+            }
+
+            btn.disabled = false;
+        }
+
+        // Save reading progress (called when user scrolls or on page unload)
+        let progressSaveTimeout = null;
+
+        function saveReadingProgress(pageNumber) {
+            if (!AuthService.isAuthenticated() || !currentBook) return;
+
+            // Debounce save to avoid too many requests
+            if (progressSaveTimeout) clearTimeout(progressSaveTimeout);
+            progressSaveTimeout = setTimeout(async () => {
+                await LibraryService.updateProgress(currentBook.id, pageNumber);
+                currentProgress = pageNumber;
+
+                // Update recent reads with progress
+                let recent = JSON.parse(localStorage.getItem('recentBooks') || '[]');
+                const index = recent.findIndex(b => b.id == currentBook.id);
+                if (index !== -1) {
+                    recent[index].last_read_page = pageNumber;
+                    localStorage.setItem('recentBooks', JSON.stringify(recent));
+                }
+            }, 1000);
+        }
+
+        // Helper function to escape HTML
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Update auth UI
+        function updateAuthUI() {
+            const isLoggedIn = AuthService.isAuthenticated();
+            const libraryLink = document.getElementById('library-link');
+            const profileLink = document.getElementById('profile-link');
+            const authLink = document.getElementById('auth-link');
+            const logoutLink = document.getElementById('logout-link');
+
+            if (isLoggedIn) {
+                if (libraryLink) libraryLink.style.display = 'list-item';
+                if (profileLink) profileLink.style.display = 'list-item';
+                if (authLink) authLink.style.display = 'none';
+                if (logoutLink) logoutLink.style.display = 'inline-flex';
+            } else {
+                if (libraryLink) libraryLink.style.display = 'none';
+                if (profileLink) profileLink.style.display = 'none';
+                if (authLink) authLink.style.display = 'inline-flex';
+                if (logoutLink) logoutLink.style.display = 'none';
+            }
+        }
+
+        // Setup logout
+        function setupLogout() {
+            const logoutBtn = document.getElementById('logout-link');
+            if (logoutBtn) {
+                logoutBtn.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    await AuthService.signOut();
+                });
+            }
+        }
+
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const navDrawer = document.getElementById('nav-drawer');
+        if (menuBtn && navDrawer) {
+            menuBtn.addEventListener('click', () => {
+                navDrawer.classList.toggle('is-open');
+            });
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async () => {
+            updateAuthUI();
+            setupLogout();
+            await loadBook();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer - ReadEra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Same CSS as privacy.html and terms.html - copy from above */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f5f7fa;
+            color: #1a2a3a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .navbar {
+            background: white;
+            padding: 0.75rem 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .logo a {
+            color: #8B4513;
+            font-size: 1.65rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .logo a:hover {
+            color: #6b3410;
+        }
+
+        .nav-primary {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-primary>li>a {
+            color: #334155;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .nav-primary>li>a:hover {
+            color: #8B4513;
+            background: rgba(139, 69, 19, 0.08);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border-radius: 10px;
+            padding: 0.55rem 1rem;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-color 0.2s;
+            text-decoration: none;
+            border: 2px solid transparent;
+            line-height: 1.2;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #8B4513 !important;
+            border-color: #c4a574;
+        }
+
+        .btn-outline:hover {
+            background: rgba(139, 69, 19, 0.08);
+            border-color: #8B4513;
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: #475569 !important;
+            border-color: transparent;
+            padding: 0.55rem 0.65rem;
+        }
+
+        .btn-ghost:hover {
+            background: #f1f5f9;
+            color: #8B4513 !important;
+        }
+
+        .theme-toggle {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            color: #475569;
+            border-radius: 12px;
+            width: 42px;
+            height: 42px;
+            padding: 0;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background 0.2s, border-color 0.2s, color 0.2s;
+        }
+
+        .theme-toggle:hover {
+            background: #fff;
+            border-color: #8B4513;
+            color: #8B4513;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            width: 44px;
+            height: 44px;
+            font-size: 1.25rem;
+            cursor: pointer;
+            color: #8B4513;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-drawer {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex: 1;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .legal-container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .legal-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .legal-header h1 {
+            font-size: 2rem;
+            color: #8B4513;
+            margin-bottom: 0.5rem;
+        }
+
+        .legal-header p {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        .legal-card {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            border: 1px solid #eef2f7;
+        }
+
+        .last-updated {
+            background: rgba(139, 69, 19, 0.08);
+            padding: 0.75rem 1rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            font-size: 0.85rem;
+            color: #8B4513;
+            text-align: center;
+        }
+
+        .toc {
+            background: #f8fafc;
+            padding: 1.5rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+        }
+
+        .toc h3 {
+            color: #0a2540;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .toc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.5rem;
+        }
+
+        .toc-link {
+            color: #8B4513;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.3rem 0;
+            transition: padding-left 0.2s;
+        }
+
+        .toc-link:hover {
+            padding-left: 0.5rem;
+            color: #6b3410;
+        }
+
+        .legal-section {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eef2f7;
+        }
+
+        .legal-section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .legal-section h2 {
+            color: #0a2540;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .legal-section h2 i {
+            color: #8B4513;
+        }
+
+        .legal-section h3 {
+            color: #334155;
+            font-size: 1.1rem;
+            margin: 1rem 0 0.5rem;
+        }
+
+        .legal-section p {
+            line-height: 1.7;
+            color: #475569;
+            margin-bottom: 1rem;
+        }
+
+        .legal-section ul {
+            margin: 1rem 0 1rem 1.5rem;
+            color: #475569;
+            line-height: 1.7;
+        }
+
+        .legal-section li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background: rgba(139, 69, 19, 0.05);
+            border-left: 4px solid #8B4513;
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            margin: 1rem 0;
+        }
+
+        .site-footer {
+            background: linear-gradient(180deg, #0c2744 0%, #061526 100%);
+            color: #cbd5e1;
+            margin-top: 3rem;
+            padding: 2rem 1.5rem 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.35rem 1rem;
+            margin-bottom: 0.65rem;
+        }
+
+        .footer-bottom-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+        }
+
+        .footer-bottom-links a:hover {
+            color: #fbbf24;
+        }
+
+        body.dark-mode {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .navbar {
+            background: #111827;
+            border-color: #1f2937;
+        }
+
+        body.dark-mode .logo a {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .nav-primary>li>a {
+            color: #cbd5e1;
+        }
+
+        body.dark-mode .nav-primary>li>a:hover {
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.1);
+        }
+
+        body.dark-mode .legal-card {
+            background: #1f2937;
+            border-color: #334155;
+        }
+
+        body.dark-mode .legal-header h1 {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .legal-section h2 {
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .legal-section h3 {
+            color: #cbd5e1;
+        }
+
+        body.dark-mode .legal-section p,
+        body.dark-mode .legal-section ul,
+        body.dark-mode .legal-section li {
+            color: #94a3b8;
+        }
+
+        body.dark-mode .toc {
+            background: #111827;
+        }
+
+        body.dark-mode .toc h3 {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .toc-link {
+            color: #94a3b8;
+        }
+
+        body.dark-mode .toc-link:hover {
+            color: #fbbf24;
+        }
+
+        body.dark-mode .last-updated {
+            background: rgba(251, 191, 36, 0.1);
+            color: #fbbf24;
+        }
+
+        body.dark-mode .highlight-box {
+            background: rgba(251, 191, 36, 0.08);
+            border-left-color: #fbbf24;
+        }
+
+        body.dark-mode .theme-toggle {
+            background: #1f2937;
+            border-color: #334155;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .theme-toggle:hover {
+            border-color: #fbbf24;
+            color: #fbbf24;
+        }
+
+        body.dark-mode .site-footer {
+            background: linear-gradient(180deg, #020617 0%, #000 100%);
+        }
+
+        @media (max-width: 768px) {
+            .legal-card {
+                padding: 1.25rem;
+            }
+
+            .legal-section h2 {
+                font-size: 1.1rem;
+            }
+
+            .toc-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .menu-toggle {
+                display: inline-flex;
+            }
+
+            .nav-drawer {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 1rem 0 0;
+                margin-top: 0.75rem;
+                border-top: 1px solid #eee;
+                gap: 1rem;
+            }
+
+            .nav-drawer.is-open {
+                display: flex;
+            }
+
+            .nav-primary {
+                flex-direction: column;
+                align-items: stretch;
+                width: 100%;
+            }
+
+            .nav-actions {
+                justify-content: flex-start;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar" aria-label="Main">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">ReadEra</a>
+            </div>
+            <button type="button" class="menu-toggle" id="mobile-menu-btn" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-drawer" id="nav-drawer">
+                <ul class="nav-primary">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="browse.html">Browse</a></li>
+                    <li id="library-link" style="display: none;"><a href="library.html">My Library</a></li>
+                    <li id="profile-link" style="display: none;"><a href="profile.html">Profile</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button type="button" class="theme-toggle" id="theme-toggle"
+                        aria-label="Toggle dark mode">🌙</button>
+                    <a href="browse.html" class="btn btn-outline">Explore</a>
+                    <a href="auth.html" class="btn btn-ghost" id="auth-link">Log in</a>
+                    <a href="#" class="btn btn-outline" id="logout-link" style="display: none;">Log out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="legal-container">
+        <div class="legal-header">
+            <h1><i class="fas fa-circle-info"></i> Disclaimer</h1>
+            <p>Important legal information about our services</p>
+        </div>
+
+        <div class="legal-card">
+            <div class="last-updated">
+                <i class="fas fa-calendar-alt"></i> Last Updated: April 10, 2026
+            </div>
+
+            <div class="toc">
+                <h3><i class="fas fa-list"></i> Table of Contents</h3>
+                <div class="toc-grid">
+                    <a href="#general" class="toc-link"><i class="fas fa-info-circle"></i> General Disclaimer</a>
+                    <a href="#content" class="toc-link"><i class="fas fa-book"></i> Content Disclaimer</a>
+                    <a href="#accuracy" class="toc-link"><i class="fas fa-check-double"></i> Accuracy Disclaimer</a>
+                    <a href="#external" class="toc-link"><i class="fas fa-external-link-alt"></i> External Links
+                        Disclaimer</a>
+                    <a href="#professional" class="toc-link"><i class="fas fa-user-md"></i> Professional Disclaimer</a>
+                    <a href="#affiliate" class="toc-link"><i class="fas fa-tags"></i> Affiliate Disclaimer</a>
+                    <a href="#testimonials" class="toc-link"><i class="fas fa-comment"></i> Testimonials Disclaimer</a>
+                    <a href="#technical" class="toc-link"><i class="fas fa-server"></i> Technical Disclaimer</a>
+                    <a href="#legal" class="toc-link"><i class="fas fa-gavel"></i> Legal Disclaimer</a>
+                    <a href="#contact" class="toc-link"><i class="fas fa-envelope"></i> Contact Us</a>
+                </div>
+            </div>
+
+            <div id="general" class="legal-section">
+                <h2><i class="fas fa-info-circle"></i> General Disclaimer</h2>
+                <p>The information provided by ReadEra ("we," "us," or "our") on our website and related services is for
+                    general informational purposes only. All information on the site is provided in good faith, however
+                    we make no representation or warranty of any kind, express or implied, regarding the accuracy,
+                    adequacy, validity, reliability, availability, or completeness of any information on the site.</p>
+                <div class="highlight-box">
+                    <i class="fas fa-exclamation-triangle"></i> <strong>Important:</strong> ReadEra is a digital library
+                    service providing book summaries. The content is for informational and educational purposes only and
+                    should not be considered as professional advice.
+                </div>
+            </div>
+
+            <div id="content" class="legal-section">
+                <h2><i class="fas fa-book"></i> Content Disclaimer</h2>
+                <p>ReadEra provides book summaries that condense the key ideas and concepts from various books. These
+                    summaries are created by our team and are not substitutes for reading the original books. We
+                    strongly encourage users to purchase and read the complete books from authorized publishers to gain
+                    full context and understanding.</p>
+                <p>The book summaries on ReadEra are intended to help readers discover books, understand key concepts
+                    quickly, and make informed decisions about which books to read in full. We do not claim ownership of
+                    the original book content, and all rights remain with the original authors and publishers.</p>
+                <ul>
+                    <li>Book summaries are for informational purposes only.</li>
+                    <li>We do not provide full-length books unless they are in the public domain.</li>
+                    <li>Some PDFs may be sample chapters or previews.</li>
+                    <li>We respect copyright laws and intellectual property rights.</li>
+                </ul>
+            </div>
+
+            <div id="accuracy" class="legal-section">
+                <h2><i class="fas fa-check-double"></i> Accuracy Disclaimer</h2>
+                <p>While we strive to provide accurate and up-to-date information, we cannot guarantee that all
+                    information on our platform is completely accurate, current, or error-free. Book summaries may
+                    contain errors, omissions, or may not fully capture the nuances of the original work.</p>
+                <p>We recommend that users:</p>
+                <ul>
+                    <li>Verify critical information from original sources.</li>
+                    <li>Consult multiple sources before making decisions based on our content.</li>
+                    <li>Report any inaccuracies you find so we can correct them.</li>
+                </ul>
+                <p>ReadEra shall not be held responsible for any losses, damages, or misunderstandings arising from the
+                    use of our content.</p>
+            </div>
+
+            <div id="external" class="legal-section">
+                <h2><i class="fas fa-external-link-alt"></i> External Links Disclaimer</h2>
+                <p>Our Service may contain links to external websites that are not provided or maintained by or in any
+                    way affiliated with ReadEra. Please note that we do not guarantee the accuracy, relevance,
+                    timeliness, or completeness of any information on these external websites.</p>
+                <p>We are not responsible for:</p>
+                <ul>
+                    <li>The content of any linked third-party websites.</li>
+                    <li>The privacy practices of third-party websites.</li>
+                    <li>Any damages or losses resulting from using third-party services.</li>
+                </ul>
+                <p>We encourage you to review the terms and privacy policies of any third-party websites you visit.</p>
+            </div>
+
+            <div id="professional" class="legal-section">
+                <h2><i class="fas fa-user-md"></i> Professional Disclaimer</h2>
+                <p>The Service may contain information relating to various professional fields including but not limited
+                    to health, finance, law, psychology, business, and technology. This information is for general
+                    informational purposes only and does not constitute professional advice.</p>
+                <p><strong>Health & Wellness:</strong> Any information related to health, fitness, nutrition, or mental
+                    wellness is not a substitute for professional medical advice. Always consult a qualified healthcare
+                    provider before making any changes to your health regimen.</p>
+                <p><strong>Financial & Legal:</strong> Information about business, finance, investing, or legal matters
+                    is for educational purposes only. Consult with qualified financial advisors or attorneys before
+                    making financial or legal decisions.</p>
+                <p><strong>Self-Help & Psychology:</strong> Self-help and psychology content is for informational
+                    purposes only and should not replace therapy or professional mental health treatment.</p>
+                <div class="highlight-box">
+                    <i class="fas fa-stethoscope"></i> <strong>Medical Emergency:</strong> If you have a medical
+                    emergency, call your local emergency services immediately. Do not rely on our content for emergency
+                    medical advice.
+                </div>
+            </div>
+
+            <div id="affiliate" class="legal-section">
+                <h2><i class="fas fa-tags"></i> Affiliate Disclaimer</h2>
+                <p>Currently, ReadEra does not participate in any affiliate marketing programs. We do not earn
+                    commissions from book sales or product recommendations. Our Service is completely free and unbiased.
+                </p>
+                <p>If we introduce affiliate partnerships in the future, we will:</p>
+                <ul>
+                    <li>Clearly disclose affiliate relationships.</li>
+                    <li>Maintain honest and unbiased recommendations.</li>
+                    <li>Only promote products we genuinely believe in.</li>
+                    <li>Update this disclaimer accordingly.</li>
+                </ul>
+            </div>
+
+            <div id="testimonials" class="legal-section">
+                <h2><i class="fas fa-comment"></i> Testimonials Disclaimer</h2>
+                <p>Our Service may display testimonials from users about their experiences with ReadEra. These
+                    testimonials reflect the real-life experiences of individual users, but they are individual results
+                    and may not be representative of all users.</p>
+                <p>We do not claim that all users will have similar experiences. Testimonials are not intended to make
+                    claims about the effectiveness of our Service. They are provided for informational purposes only.
+                </p>
+                <p>We may edit testimonials for clarity, length, or grammar, but we never change the meaning or context
+                    of the original testimonial.</p>
+            </div>
+
+            <div id="technical" class="legal-section">
+                <h2><i class="fas fa-server"></i> Technical Disclaimer</h2>
+                <p>While we strive to keep our Service available and functioning properly, we cannot guarantee
+                    uninterrupted access or error-free operation. Technical issues may include but are not limited to:
+                </p>
+                <ul>
+                    <li>Server downtime for maintenance or updates.</li>
+                    <li>Bugs, errors, or software malfunctions.</li>
+                    <li>Security breaches or cyber attacks.</li>
+                    <li>Compatibility issues with certain browsers or devices.</li>
+                    <li>Internet connectivity problems beyond our control.</li>
+                </ul>
+                <p>We are not liable for any inconvenience, loss of data, or damages resulting from technical issues. We
+                    recommend that you regularly save your reading progress and maintain backups of any important
+                    information.</p>
+            </div>
+
+            <div id="legal" class="legal-section">
+                <h2><i class="fas fa-gavel"></i> Legal Disclaimer</h2>
+                <p>To the fullest extent permitted by applicable law, ReadEra disclaims all warranties, express or
+                    implied, including but not limited to implied warranties of merchantability, fitness for a
+                    particular purpose, and non-infringement.</p>
+                <p>ReadEra shall not be liable for any indirect, incidental, special, consequential, or punitive
+                    damages, including without limitation, loss of profits, data, use, goodwill, or other intangible
+                    losses, resulting from:</p>
+                <ul>
+                    <li>Your use or inability to use the Service.</li>
+                    <li>Any conduct or content of any third party on the Service.</li>
+                    <li>Any content obtained from the Service.</li>
+                    <li>Unauthorized access, use, or alteration of your transmissions or content.</li>
+                </ul>
+                <p>Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of
+                    liability for incidental or consequential damages. Accordingly, some of the above limitations may
+                    not apply to you.</p>
+                <div class="highlight-box">
+                    <i class="fas fa-balance-scale"></i> <strong>Jurisdiction:</strong> This disclaimer shall be
+                    governed by and construed in accordance with the laws of India, without regard to its conflict of
+                    law provisions.
+                </div>
+            </div>
+
+            <div id="contact" class="legal-section">
+                <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+                <p>If you have any questions, concerns, or requests regarding this disclaimer, please contact us:</p>
+                <ul>
+                    <li><strong>Email:</strong> legal@readera.com</li>
+                    <li><strong>Contact Form:</strong> <a href="contact.html" style="color: #8B4513;">Click here to
+                            contact us</a></li>
+                    <li><strong>Address:</strong> ReadEra Digital Library, 123 Knowledge Street, Bangalore, India -
+                        560001</li>
+                </ul>
+                <p>We appreciate your understanding and cooperation. Thank you for using ReadEra.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="about.html">About</a>
+            </div>
+            <p>&copy; 2026 ReadEra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+        function updateAuthUI() {
+            const isLoggedIn = AuthService.isAuthenticated();
+            const libraryLink = document.getElementById('library-link');
+            const profileLink = document.getElementById('profile-link');
+            const authLink = document.getElementById('auth-link');
+            const logoutLink = document.getElementById('logout-link');
+
+            if (isLoggedIn) {
+                if (libraryLink) libraryLink.style.display = 'list-item';
+                if (profileLink) profileLink.style.display = 'list-item';
+                if (authLink) authLink.style.display = 'none';
+                if (logoutLink) logoutLink.style.display = 'inline-flex';
+            } else {
+                if (libraryLink) libraryLink.style.display = 'none';
+                if (profileLink) profileLink.style.display = 'none';
+                if (authLink) authLink.style.display = 'inline-flex';
+                if (logoutLink) logoutLink.style.display = 'none';
+            }
+        }
+
+        function setupLogout() {
+            const logoutBtn = document.getElementById('logout-link');
+            if (logoutBtn) {
+                logoutBtn.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    await AuthService.signOut();
+                });
+            }
+        }
+
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const navDrawer = document.getElementById('nav-drawer');
+        if (menuBtn && navDrawer) {
+            menuBtn.addEventListener('click', () => {
+                navDrawer.classList.toggle('is-open');
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            updateAuthUI();
+            setupLogout();
+        });
+    </script>
+</body>
+
+</html>

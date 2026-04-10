@@ -385,8 +385,9 @@
     <script>
         let allBooks = [];
         let filteredBooks = [];
+        let coverMap = {};
 
-        // Load books
+        // Load books and covers
         async function loadBooks() {
             try {
                 console.log("Loading books from books_data/index.json...");
@@ -398,6 +399,20 @@
                 
                 allBooks = await response.json();
                 console.log("✅ Loaded", allBooks.length, "books");
+                
+                // Load covers
+                try {
+                    console.log("Loading covers from books_data/covers.json...");
+                    const coversResponse = await fetch('books_data/covers.json');
+                    if (coversResponse.ok) {
+                        coverMap = await coversResponse.json();
+                        console.log("✅ Loaded", Object.keys(coverMap).length, "covers");
+                    } else {
+                        console.warn("⚠️ Could not load covers.json");
+                    }
+                } catch (coverError) {
+                    console.warn("⚠️ Error loading covers:", coverError);
+                }
                 
                 // Show stats
                 showStats();
@@ -467,10 +482,7 @@
             container.innerHTML = filteredBooks.map(book => `
                 <div class="book-card">
                     <div class="book-cover ${getCoverClass(book.language)}" title="${book.title}">
-                        <div style="text-align: center;">
-                            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">${getLanguageIcon(book.language)}</div>
-                            <div style="font-size: 0.75rem; opacity: 0.9; font-weight: 600;">${book.language}</div>
-                        </div>
+                        ${getCoverHtml(book)}
                     </div>
                     <div class="book-info">
                         <div class="book-title">${book.title}</div>
@@ -488,6 +500,64 @@
                     </div>
                 </div>
             `).join('');
+        }
+
+        // Get cover HTML
+        function getCoverHtml(book) {
+            const cover = coverMap[book.id];
+            
+            if (cover && cover.type === 'openlib') {
+                // Open Library cover with fallback
+                return `
+                    <img 
+                        src="${cover.url}" 
+                        alt="${book.title}" 
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                        onerror="this.parentElement.innerHTML = getGradientFallback('${book.language}', '${getLanguageIcon(book.language)}');"
+                    />
+                `;
+            } else if (cover && cover.type === 'gradient') {
+                // Gradient background
+                const grad = cover.gradient;
+                const style = `linear-gradient(135deg, ${grad.start} 0%, ${grad.end} 100%)`;
+                return `
+                    <div style="width: 100%; height: 100%; background: ${style}; display: flex; align-items: center; justify-content: center;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">${getLanguageIcon(book.language)}</div>
+                            <div style="font-size: 0.75rem; opacity: 0.9; font-weight: 600; color: white;">${book.language}</div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                // Fallback: use default gradient with language icon
+                return `
+                    <div style="text-align: center;">
+                        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">${getLanguageIcon(book.language)}</div>
+                        <div style="font-size: 0.75rem; opacity: 0.9; font-weight: 600;">${book.language}</div>
+                    </div>
+                `;
+            }
+        }
+
+        // Get gradient fallback HTML
+        function getGradientFallback(language, icon) {
+            const langClass = {
+                'Sanskrit': 'linear-gradient(135deg, #8B4513 0%, #d4a574 100%)',
+                'Hindi': 'linear-gradient(135deg, #C41E3A 0%, #FF6B6B 100%)',
+                'English': 'linear-gradient(135deg, #1e40af 0%, #3b82f6 100%)',
+                'Buddhist Philosophy': 'linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%)',
+                'Jain': 'linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%)'
+            };
+            const gradient = langClass[language] || 'linear-gradient(135deg, #8B4513 0%, #c4a574 100%)';
+            
+            return `
+                <div style="width: 100%; height: 100%; background: ${gradient}; display: flex; align-items: center; justify-content: center;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 2.5rem; margin-bottom: 0.5rem; color: white;">${icon}</div>
+                        <div style="font-size: 0.75rem; opacity: 0.9; font-weight: 600; color: white;">${language}</div>
+                    </div>
+                </div>
+            `;
         }
 
         // Get language icon

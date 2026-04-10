@@ -484,6 +484,10 @@
                         <span id="languageMeta">English</span>
                     </div>
                 </div>
+                <div id="bookDescription" style="margin-top: 1.5rem; color: var(--text-light); font-size: 0.95rem; text-align: left; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+                </div>
+                <div id="bookLicense" style="margin-top: 1rem; font-size: 0.8rem; color: #8B4513; font-weight: 600;">
+                </div>
             </div>
 
             <!-- Book Content -->
@@ -577,6 +581,15 @@
             document.getElementById('categoryMeta').textContent = currentBook.category;
             document.getElementById('languageMeta').textContent = currentBook.language;
             document.getElementById('bookCover').textContent = icon;
+            
+            // Set Description and License
+            const desc = currentBook.description || 'No description available.';
+            document.getElementById('bookDescription').textContent = desc.length > 500 ? desc.substring(0, 500) + '...' : desc;
+            
+            if (currentBook.license) {
+                document.getElementById('bookLicense').innerHTML = `<i class="fas fa-copyright"></i> License: ${currentBook.license}`;
+            }
+
             document.title = `${currentBook.title} - ReadEra`;
         }
 

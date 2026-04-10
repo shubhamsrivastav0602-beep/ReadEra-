@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ReadEra - Hindi Library</title>
+    <style>
+        body { font-family: system-ui; background: #f5f7fa; padding: 2rem; }
+        h1 { color: #8B4513; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+        .card { background: white; border-radius: 12px; overflow: hidden; cursor: pointer; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .cover { height: 200px; background: linear-gradient(135deg, #8B4513, #c17a3a); display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white; }
+        .cover img { width: 100%; height: 100%; object-fit: cover; }
+        .info { padding: 1rem; }
+        .title { font-weight: bold; }
+        .author { color: #64748b; font-size: 0.8rem; margin-top: 0.25rem; }
+        .btn { display: inline-block; margin-top: 0.5rem; padding: 0.3rem 0.8rem; background: #8B4513; color: white; border-radius: 6px; font-size: 0.7rem; }
+    </style>
+</head>
+<body>
+    <h1>📚 ReadEra - Hindi Books Library</h1>
+    <p>Creative Commons Books from Internet Archive | 10 books available</p>
+    <div class="grid" id="booksGrid"></div>
+
+    <script>
+        const books = [{"id": "upload_202505", "title": "Haiyku upload video", "author": "Shubham Paswan", "cover": "covers/upload_202505.jpg"}, {"id": "brihajjatakam_202307", "title": "brihajjAtakam", "author": "Unknown", "cover": "covers/brihajjatakam_202307.jpg"}, {"id": "YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press", "title": "Kalyan Varsh 65 Sankhya 4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur Gita Press", "author": "Gita Press", "cover": "covers/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press.jpg"}, {"id": "babul-ke-saye-mein-mogra-prithvi-nath-madhup", "title": "Babul Ke Saye Mein Mogra Prithvi Nath Madhup", "author": "Prithvi Nath Madhup", "cover": "covers/babul-ke-saye-mein-mogra-prithvi-nath-madhup.jpg"}, {"id": "hindu-saheban-nahin-samjhe-gita-ved-puran_lts", "title": "hindu-saheban-nahin-samjhe-gita-ved-puran_lts", "author": "Sant rampal das", "cover": "covers/hindu-saheban-nahin-samjhe-gita-ved-puran_lts.jpg"}, {"id": "arunupadhyay30_yahoo_201712", "title": "ओड़िशा परिचय", "author": "Arun Kumar Upadhyay", "cover": "covers/arunupadhyay30_yahoo_201712.jpg"}, {"id": "sanskrit-the-book-of-psalms", "title": "Sanskrit The Book Of Psalms", "author": "Free Gospel Tracts", "cover": "covers/sanskrit-the-book-of-psalms.jpg"}, {"id": "dr-ritesh.-1", "title": "DR RITESH. 1", "author": "Dr Ritesh Vyas", "cover": "covers/dr-ritesh.-1.jpg"}, {"id": "deeq_shri-martanda-panchangam-ed-by-shri-mukunda-vallaba-mishra-2009-10-banaras-ruchika-publications", "title": "Shri Martanda Panchangam Ed By Shri Mukunda Vallaba Mishra 2009 10 Banaras Ruchika Publications", "author": "eGangotri Sarayu Trust", "cover": "covers/deeq_shri-martanda-panchangam-ed-by-shri-mukunda-vallaba-mishra-2009-10-banaras-ruchika-publications.jpg"}, {"id": "e-paper-9-10-june-2020", "title": "Pragya Abhiyan 10 June 2020", "author": "Shriram Sharma Acharya", "cover": "covers/e-paper-9-10-june-2020.jpg"}];
+        
+        function viewBook(id) {
+            window.location.href = `reader_${id}.html`;
+        }
+        
+        function render() {
+            const grid = document.getElementById('booksGrid');
+            grid.innerHTML = books.map(book => `
+                <div class="card" onclick="viewBook('${book.id}')">
+                    <div class="cover">
+                        ${book.cover ? `<img src="${book.cover}">` : '📖'}
+                    </div>
+                    <div class="info">
+                        <div class="title">${book.title.substring(0, 60)}</div>
+                        <div class="author">${book.author.substring(0, 50)}</div>
+                        <span class="btn">Read Now →</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        render();
+    </script>
+</body>
+</html>

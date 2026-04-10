@@ -1,0 +1,47 @@
+[
+  {
+    "id": "bhallata_shatak",
+    "title": "Bhallata Shatak",
+    "author": "Bhallata",
+    "category": "Sanskrit Poetry",
+    "language": "Sanskrit",
+    "cover": "covers/bhallata.jpg",
+    "description": "A classic Sanskrit text with 100 verses of wisdom and poetry about life and philosophy."
+  },
+  {
+    "id": "lakshya",
+    "title": "Lakshya",
+    "author": "Hindi Author",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/lakshya.jpg",
+    "description": "An important work of Hindi literature exploring themes of purpose and ambition."
+  },
+  {
+    "id": "maa_haar_gayi",
+    "title": "Maa Haar Gayi",
+    "author": "Mannu Bandari",
+    "category": "Hindi Fiction",
+    "language": "Hindi",
+    "cover": "covers/maa_haar_gayi.jpg",
+    "description": "A gripping story of love, sacrifice and family bonds in Hindi literature."
+  },
+  {
+    "id": "vakyarth_sangrah",
+    "title": "Vakyarth Sangrah",
+    "author": "Manu",
+    "category": "Sanskrit Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/vakyarth.jpg",
+    "description": "A comprehensive collection of Sanskrit verses exploring grammar and meaning."
+  },
+  {
+    "id": "psalms",
+    "title": "The Book of Psalms",
+    "author": "Sanskrit Scholars",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/psalms.jpg",
+    "description": "Spiritual and devotional Sanskrit verses offering wisdom and guidance."
+  }
+]

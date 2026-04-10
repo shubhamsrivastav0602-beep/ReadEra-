@@ -1,0 +1,29 @@
+Bhallata Shatak - Sanskrit Poetry Collection
+
+This is a collection of 100 Sanskrit verses known as the Bhallata Shatak. 
+These verses explore themes of wisdom, philosophy, and the nature of life.
+
+Verse 1:
+The wise understand that all things are temporary,
+Like waves upon the ocean, rising and falling.
+One who knows this truth finds peace within,
+Untroubled by the changes of this world.
+
+Verse 2:
+The path of virtue may be steep and narrow,
+Yet it leads to heights of lasting glory.
+The easy way of vice seems smooth at first,
+But ends only in sorrow and despair.
+
+Verse 3:
+A mind well-trained becomes a loyal friend,
+Supporting us through times of great distress.
+But an untamed mind becomes a deadly foe,
+Dragging us ever deeper into darkness.
+
+[This is a sample Sanskrit text file. In production, this would contain the full text of the book.]
+
+Total verses: 100
+Language: Sanskrit
+Author: Bhallata
+Date: Ancient Period

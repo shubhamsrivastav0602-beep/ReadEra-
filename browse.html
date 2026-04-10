@@ -489,7 +489,7 @@
         async function fetchFromArchive() {
             let url = iaUrlInput.value.trim();
             if (!url) {
-                alert('Please enter a collection URL');
+                alert('https://archive.org/details/booksbylanguage_hindi');
                 return;
             }
 
@@ -552,6 +552,31 @@
                     book.title.toLowerCase().includes(searchTerm) ||
                     book.author.toLowerCase().includes(searchTerm)
                 );
+            }
+
+            // Load books from localStorage first
+            function loadLocalBooks() {
+                const localBooks = JSON.parse(localStorage.getItem('readera_books') || '[]');
+                return localBooks;
+            }
+
+            // Merge local books with Supabase books
+            async function getAllBooks() {
+                const localBooks = loadLocalBooks();
+                // Convert local books to same format
+                const formattedLocal = localBooks.map(book => ({
+                    id: book.id,
+                    title: book.title,
+                    author: book.author,
+                    summary: book.summary,
+                    cover_url: book.cover_url,
+                    genre: 'Creative Commons'
+                }));
+
+                // Also fetch from Supabase
+                // ... existing code ...
+
+                return [...formattedLocal, ...supabaseBooks];
             }
 
             if (pageBooks.length === 0) {
@@ -636,6 +661,7 @@
             fetchFromArchive();
         }, 500);
     </script>
+
 </body>
 
 </html>

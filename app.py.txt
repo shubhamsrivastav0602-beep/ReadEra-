@@ -1,0 +1,39 @@
+from flask import Flask, render_template, jsonify
+import internetarchive as ia
+import os
+
+app = Flask(__name__)
+DOWNLOAD_FOLDER = 'static/books'
+
+# Folder banayein agar nahi hai
+if not os.path.exists(DOWNLOAD_FOLDER):
+    os.makedirs(DOWNLOAD_FOLDER)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/fetch-books')
+def fetch_books():
+    # Archive se search karna
+    query = 'usage:creativecommons AND mediatype:texts'
+    search = ia.search_items(query, num_results=5) # Example ke liye 5
+    
+    books_data = []
+    for result in search:
+        item_id = result['identifier']
+        item = ia.get_item(item_id)
+        
+        # Download files (sirf text aur metadata)
+        item.download(formats=['DjVuTXT', 'JPEG'], destdir=DOWNLOAD_FOLDER)
+        
+        books_data.append({
+            "id": item_id,
+            "title": item.metadata.get('title', 'No Title'),
+            "cover": f"/static/books/{item_id}/{item_id}.jpg"
+        })
+    
+    return jsonify(books_data)
+
+if __name__ == '__main__':
+    app.run(debug=True)

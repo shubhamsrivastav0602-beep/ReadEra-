@@ -431,6 +431,7 @@
                 <button class="tab-btn" data-tab="signup">Sign Up</button>
             </div>
 
+            <!-- Login Form -->
             <div id="login-form" class="auth-form">
                 <form id="loginForm">
                     <div class="form-group">
@@ -450,6 +451,7 @@
                 </div>
             </div>
 
+            <!-- Signup Form -->
             <div id="signup-form" class="auth-form" style="display: none;">
                 <form id="signupForm">
                     <div class="form-group">
@@ -488,11 +490,14 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="js/supabase.js"></script>
-    <script src="js/theme.js"></script>
-
     <script>
+        // ============================================
+        // LOCAL AUTHENTICATION (NO SUPABASE NEEDED)
+        // ============================================
+
+        // Get users from localStorage or initialize empty array
+        let users = JSON.parse(localStorage.getItem('readera_users') || '[]');
+
         // DOM Elements
         const loginForm = document.getElementById('loginForm');
         const signupForm = document.getElementById('signupForm');
@@ -536,13 +541,16 @@
                 errorEl.textContent = message;
                 errorEl.classList.add('show');
             }
+            const inputId = fieldId.replace('Error', '');
+            const inputEl = document.getElementById(inputId);
+            if (inputEl) inputEl.classList.add('error');
         }
 
         function isValidEmail(email) {
             return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
         }
 
-        function showToastMessage(message, type) {
+        function showToast(message, type) {
             let toastContainer = document.getElementById('toast-container');
             if (!toastContainer) {
                 toastContainer = document.createElement('div');
@@ -551,65 +559,16 @@
                 document.body.appendChild(toastContainer);
             }
             const toast = document.createElement('div');
-            toast.style.cssText = `background:${type === 'success' ? '#10b981' : '#ef4444'};color:white;padding:12px 20px;margin-top:10px;border-radius:8px;font-size:14px;animation:slideIn 0.3s ease;cursor:pointer`;
+            const bgColor = type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#3b82f6';
+            toast.style.cssText = `background:${bgColor};color:white;padding:12px 20px;margin-top:10px;border-radius:8px;font-size:14px;animation:slideIn 0.3s ease;cursor:pointer`;
             toast.textContent = message;
             toastContainer.appendChild(toast);
             setTimeout(() => toast.remove(), 3000);
             toast.onclick = () => toast.remove();
         }
 
-        // Handle Login - FIXED
-        loginForm.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            clearErrors();
-
-            const email = document.getElementById('loginEmail').value.trim();
-            const password = document.getElementById('loginPassword').value;
-
-            let hasError = false;
-            if (!email) {
-                showError('loginEmailError', 'Email is required');
-                hasError = true;
-            } else if (!isValidEmail(email)) {
-                showError('loginEmailError', 'Enter a valid email address');
-                hasError = true;
-            }
-            if (!password) {
-                showError('loginPasswordError', 'Password is required');
-                hasError = true;
-            }
-            if (hasError) return;
-
-            const submitBtn = document.getElementById('loginSubmitBtn');
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Logging in...';
-
-            try {
-                // Direct Supabase login
-                const { data, error } = await supabaseClient.auth.signInWithPassword({
-                    email: email,
-                    password: password
-                });
-
-                if (error) throw error;
-
-                if (data && data.user) {
-                    localStorage.setItem('token', data.session.access_token);
-                    localStorage.setItem('user', JSON.stringify(data.user));
-                    showToastMessage('Login successful! Redirecting...', 'success');
-                    setTimeout(() => {
-                        window.location.href = 'index.html';
-                    }, 1000);
-                }
-            } catch (error) {
-                showError('loginEmailError', error.message || 'Invalid email or password');
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Login';
-            }
-        });
-
-        // Handle Signup - FIXED
-        signupForm.addEventListener('submit', async (e) => {
+        // Handle Signup
+        signupForm.addEventListener('submit', (e) => {
             e.preventDefault();
             clearErrors();
 
@@ -618,10 +577,15 @@
             const password = document.getElementById('signupPassword').value;
 
             let hasError = false;
+
             if (!fullName) {
                 showError('signupNameError', 'Full name is required');
                 hasError = true;
+            } else if (fullName.length < 2) {
+                showError('signupNameError', 'Name must be at least 2 characters');
+                hasError = true;
             }
+
             if (!email) {
                 showError('signupEmailError', 'Email is required');
                 hasError = true;
@@ -629,6 +593,7 @@
                 showError('signupEmailError', 'Enter a valid email address');
                 hasError = true;
             }
+
             if (!password) {
                 showError('signupPasswordError', 'Password is required');
                 hasError = true;
@@ -636,32 +601,85 @@
                 showError('signupPasswordError', 'Password must be at least 6 characters');
                 hasError = true;
             }
+
             if (hasError) return;
 
-            const submitBtn = document.getElementById('signupSubmitBtn');
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Creating account...';
-
-            try {
-                const { data, error } = await supabaseClient.auth.signUp({
-                    email: email,
-                    password: password,
-                    options: { data: { full_name: fullName } }
-                });
-
-                if (error) throw error;
-
-                showToastMessage('Account created! Please check your email to verify.', 'success');
-                setTimeout(() => {
-                    showLogin();
-                    document.getElementById('loginEmail').value = email;
-                }, 1500);
-            } catch (error) {
-                showError('signupEmailError', error.message || 'Signup failed. Email might already be in use.');
-            } finally {
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Create Account';
+            // Check if user already exists
+            const userExists = users.find(u => u.email === email);
+            if (userExists) {
+                showError('signupEmailError', 'Email already registered. Please login.');
+                return;
             }
+
+            // Create new user
+            const newUser = {
+                id: Date.now(),
+                name: fullName,
+                email: email,
+                password: password,
+                createdAt: new Date().toISOString()
+            };
+
+            users.push(newUser);
+            localStorage.setItem('readera_users', JSON.stringify(users));
+
+            showToast('Account created successfully! Please login.', 'success');
+
+            // Clear form
+            document.getElementById('signupForm').reset();
+
+            // Switch to login after 1 second
+            setTimeout(() => {
+                showLogin();
+                document.getElementById('loginEmail').value = email;
+            }, 1000);
+        });
+
+        // Handle Login
+        loginForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            clearErrors();
+
+            const email = document.getElementById('loginEmail').value.trim();
+            const password = document.getElementById('loginPassword').value;
+
+            let hasError = false;
+
+            if (!email) {
+                showError('loginEmailError', 'Email is required');
+                hasError = true;
+            } else if (!isValidEmail(email)) {
+                showError('loginEmailError', 'Enter a valid email address');
+                hasError = true;
+            }
+
+            if (!password) {
+                showError('loginPasswordError', 'Password is required');
+                hasError = true;
+            }
+
+            if (hasError) return;
+
+            // Find user
+            const user = users.find(u => u.email === email && u.password === password);
+
+            if (!user) {
+                showError('loginEmailError', 'Invalid email or password');
+                return;
+            }
+
+            // Login successful
+            localStorage.setItem('readera_current_user', JSON.stringify({
+                id: user.id,
+                name: user.name,
+                email: user.email
+            }));
+
+            showToast('Login successful! Redirecting...', 'success');
+
+            setTimeout(() => {
+                window.location.href = 'index.html';
+            }, 1000);
         });
 
         // Tab switching
@@ -683,7 +701,7 @@
         });
 
         // Check if already logged in
-        if (localStorage.getItem('token')) {
+        if (localStorage.getItem('readera_current_user')) {
             window.location.href = 'index.html';
         }
 
@@ -700,6 +718,18 @@
         const style = document.createElement('style');
         style.textContent = `@keyframes slideIn{from{transform:translateX(100%);opacity:0}to{transform:translateX(0);opacity:1}}`;
         document.head.appendChild(style);
+
+        // Theme toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+                localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+            });
+        }
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
     </script>
 </body>
 

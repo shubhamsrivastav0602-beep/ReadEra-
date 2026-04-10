@@ -4,15 +4,15 @@
     / _` | '_/ _| ' \| |\ V / -_)
     \__,_|_| \__|_||_|_| \_/\___| -->
   <head data-release=1b68058e data-node="www08.us.archive.org">
-    <title>Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan Rajkamal Prakashan : Rajkamal Prakashan : Free Download, Borrow, and Streaming : Internet Archive</title>
+    <title>blog : sidharth : Free Download, Borrow, and Streaming : Internet Archive</title>
 
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     
         <meta name="google-site-verification" content="Q2YSouphkkgHkFNP7FgAkc4TmBs1Gmag3uGNndb53B8" />
     <meta name="google-site-verification" content="bpjKvUvsX0lxfmjg19TLblckWkDpnptZEYsBntApxUk" />
 
-    <meta name="baggage" content="sentry-trace_id=6c5e310bb21b43df94397da495ea4251,sentry-sample_rate=0.001,sentry-transaction=%2Fdetails.php,sentry-public_key=94bf3037c1e245c8a927aaa4daad2dbb,sentry-environment=production,sentry-sampled=false,sentry-sample_rand=0.77928"/>    <meta name="sentry-trace" content="6c5e310bb21b43df94397da495ea4251-5246b8d4ea3a4a64-0"/>
-    <script  nonce="bc887c0a7833f7754381696a54436e3f" >
+    <meta name="baggage" content="sentry-trace_id=1798db16647343eeba386279c4bbcec4,sentry-sample_rate=0.001,sentry-transaction=%2Fdetails.php,sentry-public_key=94bf3037c1e245c8a927aaa4daad2dbb,sentry-environment=production,sentry-sampled=false,sentry-sample_rand=0.117725"/>    <meta name="sentry-trace" content="1798db16647343eeba386279c4bbcec4-1b2e39db030b4de4-0"/>
+    <script  nonce="a1a8e42fd913b92b4fac50c8e06b626c" >
 /* @licstart  The following is the entire license notice for the
  * JavaScript code in this page.
  *
@@ -41,7 +41,7 @@
     <script src="//archive.org/includes/apollo.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/components/npm/lit/polyfill-support.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/components/npm/@webcomponents/webcomponentsjs/webcomponents-bundle.js?v=1b68058e" type="text/javascript"></script>
-<script nonce="bc887c0a7833f7754381696a54436e3f" >
+<script nonce="a1a8e42fd913b92b4fac50c8e06b626c" >
       window.__realDefine = customElements.define.bind(customElements);
       customElements.define = function() {
         try {
@@ -54,19 +54,19 @@
     <script src="//archive.org/includes/build/js/details-bookreader.min.js?v=1b68058e" type="text/javascript"></script>
     <link href="/includes/build/BookReader/BookReader.css?v=1b68058e" rel="stylesheet" type="text/css"/>
     <link href="/bookreader/BookReader-ia.css?v=1b68058e" rel="stylesheet" type="text/css"/>
-<meta name="AB:BrExperimentsPanel" content="On"><meta name="description" content="SPS, SPS-Srinagar, Funded-By-IKS-MoE,IKS-SPS Filename: 'Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan'"/>
-                      <meta property="og:title" content="Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan Rajkamal Prakashan : Rajkamal Prakashan : Free Download, Borrow, and Streaming : Internet Archive">
-                      <meta property="og:description" content="SPS, SPS-Srinagar, Funded-By-IKS-MoE,IKS-SPS Filename: 'Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan'">
+<meta name="AB:BrExperimentsPanel" content="On"><meta name="description" content="rersort"/>
+                      <meta property="og:title" content="blog : sidharth : Free Download, Borrow, and Streaming : Internet Archive">
+                      <meta property="og:description" content="rersort">
                       <meta property="og:site_name" content="Internet Archive">
-                      <meta property="og:image" content="https://archive.org/services/img/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan">
-                      <meta property="og:url" content="https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan">
+                      <meta property="og:image" content="https://archive.org/services/img/blog_20250707">
+                      <meta property="og:url" content="https://archive.org/details/blog_20250707">
         <meta property="twitter:card" content="player"/>
 <meta property="twitter:site" content="@internetarchive"/>
 <meta property="twitter:account_id" content="18957805"/>
-<meta property="twitter:description" content="SPS, SPS-Srinagar, Funded-By-IKS-MoE,IKS-SPS Filename: 'Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan'"/>
-<meta property="twitter:title" content="Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan Rajkamal Prakashan : Rajkamal Prakashan : Free Download, Borrow, and Streaming : Internet Archive"/>
-<meta property="twitter:image" content="https://archive.org/services/img/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/full/pct:200/0/default.jpg"/>
-<link rel="canonical" href="https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan">
+<meta property="twitter:description" content="rersort"/>
+<meta property="twitter:title" content="blog : sidharth : Free Download, Borrow, and Streaming : Internet Archive"/>
+<meta property="twitter:image" content="https://archive.org/services/img/blog_20250707/full/pct:200/0/default.jpg"/>
+<link rel="canonical" href="https://archive.org/details/blog_20250707">
     <script type="application/ld+json">
       {"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/archive.org\/details\/texts","name":"Texts","image":"https:\/\/archive.org\/services\/img\/texts"}}]}    </script>
     <meta name="monetization" content="$ilp.uphold.com/D7BwPKMQzBiD">
@@ -2994,14 +2994,14 @@
     }
   </style>
     <div id="theatre-ia-wrap" class="container container-ia width-max js-playset-list ">
-        <link itemprop="url" href="https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan">
+        <link itemprop="url" href="https://archive.org/details/blog_20250707">
 
-          <link itemprop="image" href="https://archive.org/services/img/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan">
+          <link itemprop="image" href="https://archive.org/services/img/blog_20250707">
     
         
 
   <h1 class="sr-only">
-    Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan Rajkamal Prakashan  </h1>
+    blog  </h1>
   <h2 class="sr-only">
     Bookreader Item Preview
   </h2>
@@ -3011,11 +3011,11 @@
           <div class="row">
         <div class="xs-col-12">
           <div id="theatre-controls">
-                                                  <a href="/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan" aria-label="Fullscreen view"><div
+                                                  <a href="/details/blog_20250707/blog" aria-label="Fullscreen view"><div
                 title="fullscreen view"
                 data-toggle="tooltip" data-container="body" data-placement="left"
                 class="iconochive-fullscreen"></div></a>
-                                      <a href="/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan" aria-label="Search inside"><div
+                                      <a href="/details/blog_20250707/blog" aria-label="Search inside"><div
                 title="search inside"
                 data-toggle="tooltip" data-container="body" data-placement="left"
                 class="iconochive-search"></div></a>
@@ -3033,7 +3033,7 @@
                     Please see your browser settings for this feature.
                   </div>
                 </noscript>
-                    <input class="js-ia-metadata" type="hidden" value='{"alternate_locations":{"servers":[{"server":"dn721804.ca.archive.org","dir":"/0/items/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan"}],"workable":[{"server":"dn721804.ca.archive.org","dir":"/0/items/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan"}]},"created":1775796842,"d1":"ia600106.us.archive.org","d2":"ia800106.us.archive.org","dir":"/20/items/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan","files":[{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan.pdf","source":"original","mtime":"1733549278","size":"166809976","md5":"a3024be6a84add614b199e740c54f18b","crc32":"5b167a94","sha1":"cda485b58a39187ffd96cb212cd8c8a4e359d3f1","format":"Text PDF"},{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_chocr.html.gz","source":"derivative","ocr":"tesseract 5.3.0-6-g76ae","ocr_parameters":"lang-mar;lang-eng;lang-hin;lang-Latin;lang-Devanagari;two-pass-disabled;pass-dpi-disabled;autonomous-mode-enabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_autonomous":"true","ocr_detected_script":["Devanagari","Latin"],"ocr_detected_script_conf":["0.9681","0.0307"],"ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"chOCR","original":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_jp2.zip","mtime":"1733552906","size":"3331889","md5":"d4220e1b0d20850b76d02d3488c50800","crc32":"2e5b0eec","sha1":"24ee8432c9f3a4fae4ec098b9d9f170c23325c1b"},{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_djvu.txt","source":"derivative","format":"DjVuTXT","original":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_djvu.xml","mtime":"1733552992","size":"541138","md5":"8bbc23a1cc0d4f0498db373af8efd6ee","crc32":"e2158250","sha1":"22bc040a9454f7f36303eba16c8fe720ef43271b"},{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_djvu.xml","source":"derivative","format":"Djvu XML","original":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_hocr.html","mtime":"1733552940","size":"4066616","md5":"8453e0162bd1102e4ae605fcf70d27ee","crc32":"e33d06e2","sha1":"98aa2fb42628927292820db052a85706d72d9b13"},{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_hocr.html","source":"derivative","hocr_char_to_word_module_version":"1.3.0","hocr_char_to_word_hocr_version":"1.1.56","ocr_parameters":"lang-mar;lang-eng;lang-hin;lang-Latin;lang-Devanagari;two-pass-disabled;pass-dpi-disabled;autonomous-mode-enabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_autonomous":"true","ocr_detected_script":["Devanagari","Latin"],"ocr_detected_script_conf":["0.9681","0.0307"],"ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"hOCR","original":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_chocr.html.gz","mtime":"1733552928","size":"8081474","md5":"553e260ab60d412131f601df2275d3e6","crc32":"7c79dfeb","sha1":"9a93c235f9ba5f8a89823aec7825148df93e7450"},{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_hocr_pageindex.json.gz","source":"derivative","hocr_pageindex_module_version":"1.1.0","hocr_pageindex_hocr_version":"1.1.56","format":"OCR Page Index","original":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_hocr.html","mtime":"1733552947","size":"2337","md5":"0488026a2d660c2010d6d28ebaeb2934","crc32":"d13c45b9","sha1":"9a1b76d68c46fa20f96fe93b33c3af3eef2947cb"},{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_hocr_searchtext.txt.gz","source":"derivative","hocr_fts_text_module_version":"1.2.0","hocr_fts_text_hocr_version":"1.1.56","word_conf_0_10":"95","word_conf_11_20":"98","word_conf_21_30":"193","word_conf_31_40":"303","word_conf_41_50":"488","word_conf_51_60":"730","word_conf_61_70":"1244","word_conf_71_80":"2270","word_conf_81_90":"6712","word_conf_91_100":"36541","format":"OCR Search Text","original":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_hocr.html","mtime":"1733552968","size":"117420","md5":"61e6ffe4860ef9a5c0014ea6b794b8d2","crc32":"d277e97d","sha1":"d0292d389d2c3370a668ac4141b9ef164c997db8"},{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan.pdf","mtime":"1733549822","size":"33517665","md5":"ca0ab5bf99c6fe82d1537e3be08a0d24","crc32":"5df24d72","sha1":"f976c960579c835783646dd4ee86713e1c56f24b","filecount":"201"},{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_page_numbers.json","source":"derivative","hocr_pagenumber_module_version":"1.0.5","hocr_pagenumber_hocr_version":"1.1.54","hocr_pagenumber_confidence":"60","format":"Page Numbers JSON","original":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_hocr.html","mtime":"1733553081","size":"34896","md5":"a3e2eca5585cda7d79bd622da5a13817","crc32":"df08cd8c","sha1":"341741e02af33b6f590686ee43841c75e5c2dcdf"},{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_scandata.xml","source":"derivative","format":"Scandata","original":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_djvu.xml","mtime":"1733553081","size":"70959","md5":"17a9d08a56f54673ecd66ac25dce4f86","crc32":"9619d0df","sha1":"2a3f330d5221566e116658392c51adf060c919a5"},{"name":"__ia_thumb.jpg","source":"original","mtime":"1733553100","size":"14452","md5":"c654aa64555ee7806e93f637a4d64aa7","crc32":"358919b6","sha1":"9cdb004b973ce5c99bf8b7639282ba636d76849d","format":"Item Tile"},{"name":"cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_archive.torrent","source":"metadata","btih":"169bffd994980e8e4be739e38d2796e2610e761d","mtime":"1745364150","size":"12882","md5":"42dc120e0b9c0d9f2cba7b884980851e","crc32":"93530774","sha1":"f95b8f6caa5186e7bfd29ac3f2c9a274651f3f12","format":"Archive BitTorrent"},{"name":"cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_files.xml","source":"original","format":"Metadata","md5":"92d5fab61c23909ba35173b6375937bd","summation":"md5"},{"name":"cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_meta.sqlite","source":"original","mtime":"1733549322","size":"20480","md5":"1ce6e7c965bf0733d224209c4de95e02","crc32":"898fb831","sha1":"32b0d4b5149beef0334f0b24c60dabf4a29cda6e","format":"Metadata"},{"name":"cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_meta.xml","source":"original","mtime":"1745364147","size":"2034","md5":"e07bc0fe99657a6d4d67bec2c7ca8342","crc32":"2a6cbf9c","sha1":"f769f8b898c07d2cab941295e5956280bd69090b","format":"Metadata"}],"files_count":15,"item_last_updated":1745364150,"item_size":216624218,"metadata":{"identifier":"cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan","mediatype":"texts","collection":["booksbylanguage_hindi","booksbylanguage"],"creator":"Rajkamal Prakashan","description":"SPS, SPS-Srinagar, Funded-By-IKS-MoE,IKS-SPS\n\nFilename: \u0027Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan\u0027","licenseurl":"https://creativecommons.org/publicdomain/zero/1.0/","scanner":"Internet Archive HTML5 Uploader 1.7.0","subject":["SPS","SPS-Srinagar","Funded-By-IKS-MoE","IKS-SPS"],"title":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan Rajkamal Prakashan","uploader":"egangotrifoundation@gmail.com","publicdate":"2024-12-07 05:28:28","addeddate":"2024-12-07 05:28:28","curation":"[curator]validator@archive.org[/curator][date]20241207052904[/date][comment]checked for malware[/comment]","identifier-access":"http://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan","identifier-ark":"ark:/13960/s21rd68v8xq","ppi":"241","ocr":"tesseract 5.3.0-6-g76ae","ocr_parameters":"-l mar+eng+hin+Latin+Devanagari","ocr_module_version":"0.0.21","ocr_autonomous":"true","ocr_detected_script":["Devanagari","Latin"],"ocr_detected_script_conf":["0.9681","0.0307"],"ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","page_number_confidence":"60","page_number_module_version":"1.0.5","collection_added":"booksbylanguage"},"server":"ia800106.us.archive.org","uniq":887837363,"workable_servers":["ia800106.us.archive.org","ia600106.us.archive.org"]}'/>
+                    <input class="js-ia-metadata" type="hidden" value='{"alternate_locations":{"servers":[{"server":"dn710105.ca.archive.org","dir":"/0/items/blog_20250707"}],"workable":[{"server":"dn710105.ca.archive.org","dir":"/0/items/blog_20250707"}]},"created":1775797890,"d1":"ia600900.us.archive.org","d2":"ia800900.us.archive.org","dir":"/27/items/blog_20250707","files":[{"name":"__ia_thumb.jpg","source":"original","mtime":"1751871357","size":"14915","md5":"e6682d9561d3521356f801276d389402","crc32":"2d59b3aa","sha1":"42f2144540ce6ce951544c0f2c04f1864e5f45d1","format":"Item Tile"},{"name":"blog.pdf","source":"original","mtime":"1751870581","size":"4768789","md5":"dedfcbfb13dd2422237ea7a43cbd39af","crc32":"00893cb4","sha1":"8e30056e6c61c5d7727b97fe574bf1ce58d9e857","format":"Text PDF","viruscheck":"1751870932"},{"name":"blog_20250707_archive.torrent","source":"metadata","btih":"0d5ab2e085eae70da0f15068a54854aa98f10115","mtime":"1764008306","size":"3708","md5":"cb60ec421c940d2c01f28742a95b32bf","crc32":"0be9b270","sha1":"339ba2717f564b7311f73b415abce694710feb13","format":"Archive BitTorrent"},{"name":"blog_20250707_files.xml","source":"original","format":"Metadata","md5":"1fdf9392666a8629d60f4923bd35f88f","summation":"md5"},{"name":"blog_20250707_meta.sqlite","source":"original","mtime":"1751870616","size":"20480","md5":"69820b2fb60fc37c0ec8776bdefd9f35","crc32":"b4fc6080","sha1":"306d389152e205f444be76b2696e8f0ec0570b76","format":"Metadata"},{"name":"blog_20250707_meta.xml","source":"original","mtime":"1764008304","size":"1482","md5":"c4ec50583e4a7e358121bf73ccc7526a","crc32":"e6dd5c93","sha1":"32aaa8194759dc94a28fd2f265978f5d7b87fe08","format":"Metadata"},{"name":"blog_chocr.html.gz","source":"derivative","ocr":"tesseract 5.3.0-6-g76ae","ocr_parameters":"lang-hin;two-pass-disabled;pass-dpi-disabled;autonomous-mode-disabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_detected_script":"Latin","ocr_detected_script_conf":"1.0000","ocr_detected_lang":"ne","ocr_detected_lang_conf":"1.0000","format":"chOCR","original":"blog_jp2.zip","mtime":"1751871038","size":"95577","md5":"9f123fc1124b912f2fa28d349e485603","crc32":"c3e8e479","sha1":"bc3c1925f9d5bacd715b01744fe5ba068cda7098"},{"name":"blog_djvu.txt","source":"derivative","format":"DjVuTXT","original":"blog_djvu.xml","mtime":"1751871262","size":"10144","md5":"757d34a810da18ab25b0b147d6fd9f50","crc32":"c8e286b0","sha1":"c10b19bfcc417abcbe13b76200d56fa7fe0be6f4"},{"name":"blog_djvu.xml","source":"derivative","format":"Djvu XML","original":"blog_hocr.html","mtime":"1751871185","size":"88359","md5":"f3c879b45a96e735ec71a6f91832d0c1","crc32":"cf3decaf","sha1":"e5222c0dff9ef2a69b493586ebc37bbf392e89f5"},{"name":"blog_hocr.html","source":"derivative","hocr_char_to_word_module_version":"1.3.0","hocr_char_to_word_hocr_version":"1.1.56","ocr_parameters":"lang-hin;two-pass-disabled;pass-dpi-disabled;autonomous-mode-disabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_detected_script":"Latin","ocr_detected_script_conf":"1.0000","ocr_detected_lang":"ne","ocr_detected_lang_conf":"1.0000","format":"hOCR","original":"blog_chocr.html.gz","mtime":"1751871169","size":"157969","md5":"919f403b17e11d5086ff2b9e56edeac0","crc32":"8ea29658","sha1":"3e329bd368cff716c2c4366e3bf60a94d4bc513d"},{"name":"blog_hocr_pageindex.json.gz","source":"derivative","hocr_pageindex_module_version":"1.1.0","hocr_pageindex_hocr_version":"1.1.56","format":"OCR Page Index","original":"blog_hocr.html","mtime":"1751871204","size":"132","md5":"b119df9bc60fdc381f862d1b2f6b9c88","crc32":"821813ab","sha1":"8e8b5cedbcd796df7bfbf5d7cae10d2a8f0f40a8"},{"name":"blog_hocr_searchtext.txt.gz","source":"derivative","hocr_fts_text_module_version":"1.2.0","hocr_fts_text_hocr_version":"1.1.56","word_conf_0_10":"589","word_conf_11_20":"63","word_conf_21_30":"58","word_conf_31_40":"53","word_conf_41_50":"60","word_conf_51_60":"41","word_conf_61_70":"52","word_conf_71_80":"47","word_conf_81_90":"45","word_conf_91_100":"6","format":"OCR Search Text","original":"blog_hocr.html","mtime":"1751871231","size":"4409","md5":"74979df2f4ace02b5f481901a2ae7957","crc32":"3fed2d94","sha1":"31e9cf931944685404347ae6a6ab0a1d51a72249"},{"name":"blog_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"blog.pdf","mtime":"1751870973","size":"4269268","md5":"65d6252e9fa55716ac4b56423665b614","crc32":"d8104fb1","sha1":"9e5d2dc9347987d737ae9c59bb6be277cb42973d","filecount":"9"},{"name":"blog_page_numbers.json","source":"derivative","hocr_pagenumber_module_version":"1.0.5","hocr_pagenumber_hocr_version":"1.1.54","hocr_pagenumber_confidence":"0","format":"Page Numbers JSON","original":"blog_hocr.html","mtime":"1751871313","size":"1662","md5":"f8c211b528ab1749cfe0c370661e995a","crc32":"87cf0e68","sha1":"1e3465f4dfb855a61d0785857596e07d1b6e9771"},{"name":"blog_scandata.xml","source":"derivative","format":"Scandata","original":"blog_djvu.xml","mtime":"1751871313","size":"3136","md5":"95991af569c756594b3bcc000c69b396","crc32":"6bfb21b6","sha1":"16b0fdcf5fdc9b766438a560e1b066c9788b5164"}],"files_count":15,"item_last_updated":1764008306,"item_size":9440030,"metadata":{"identifier":"blog_20250707","mediatype":"texts","collection":["booksbylanguage_hindi","booksbylanguage"],"creator":"sidharth","date":"2000-06-30","description":"rersort","language":"hin","licenseurl":"https://creativecommons.org/publicdomain/mark/1.0/","scanner":"Internet Archive HTML5 Uploader 1.7.0","subject":"swimming pool","title":"blog","uploader":"sidharthk4385@gmail.com","publicdate":"2025-07-07 06:43:20","addeddate":"2025-07-07 06:43:20","curation":"[curator]validator@archive.org[/curator][date]20250707064852[/date][comment]checked for malware[/comment]","identifier-access":"http://archive.org/details/blog_20250707","identifier-ark":"ark:/13960/s2n47335vxv","ppi":"300","ocr":"tesseract 5.3.0-6-g76ae","ocr_parameters":"-l hin","ocr_module_version":"0.0.21","ocr_detected_script":"Latin","ocr_detected_script_conf":"1.0000","ocr_detected_lang":"ne","ocr_detected_lang_conf":"1.0000","page_number_confidence":"0","page_number_module_version":"1.0.5","collection_added":"booksbylanguage"},"server":"ia800900.us.archive.org","uniq":1002886361,"workable_servers":["ia800900.us.archive.org","ia600900.us.archive.org"]}'/>
                     <ia-book-theater
                   viewportinfullscreen                  class="focus-on-child-only"
                   baseHost="archive.org"
@@ -3044,7 +3044,7 @@
                     <div id="BookReader" class="BookReader fullscreenActive"></div>
                   </div>
                 </ia-book-theater>
-                    <input class="js-bookreader" type="hidden" value='{"isBeta":false,"br_ui":null,"urlHistoryBasePath":"/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/","resumeCookiePath":"/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan","initialSearchTerm":null,"purchase_url":"","has_multiple_readable_files":false,"multipleBooksList":{"by_subprefix":{"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan":{"title":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan.pdf","url_path":"/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan","orig_sort":0,"file_subprefix":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan","file_source":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_jp2.zip","file_format":"Single Page Processed JP2 ZIP","file_origin":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan.pdf","raw":{"name":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan.pdf","mtime":"1733549822","size":"33517665","md5":"ca0ab5bf99c6fe82d1537e3be08a0d24","crc32":"5df24d72","sha1":"f976c960579c835783646dd4ee86713e1c56f24b","filecount":"201"}}}},"autofit":"auto","url":"//ia800106.us.archive.org/BookReader/BookReaderJSIA.php?id=cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan\u0026itemPath=/20/items/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan\u0026server=ia800106.us.archive.org\u0026format=jsonp\u0026subPrefix=Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan\u0026requestUri=/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt%3Fview%3Dtheater"}'/>
+                    <input class="js-bookreader" type="hidden" value='{"isBeta":false,"br_ui":null,"urlHistoryBasePath":"/details/blog_20250707/","resumeCookiePath":"/details/blog_20250707","initialSearchTerm":null,"purchase_url":"","has_multiple_readable_files":false,"multipleBooksList":{"by_subprefix":{"blog":{"title":"blog.pdf","url_path":"/details/blog_20250707/blog","orig_sort":0,"file_subprefix":"blog","file_source":"blog_jp2.zip","file_format":"Single Page Processed JP2 ZIP","file_origin":"blog.pdf","raw":{"name":"blog_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"blog.pdf","mtime":"1751870973","size":"4269268","md5":"65d6252e9fa55716ac4b56423665b614","crc32":"d8104fb1","sha1":"9e5d2dc9347987d737ae9c59bb6be277cb42973d","filecount":"9"}}}},"autofit":"auto","url":"//ia600900.us.archive.org/BookReader/BookReaderJSIA.php?id=blog_20250707\u0026itemPath=/27/items/blog_20250707\u0026server=ia600900.us.archive.org\u0026format=jsonp\u0026subPrefix=blog\u0026requestUri=/details/blog_20250707/blog_20250707_djvu.txt%3Fview%3Dtheater"}'/>
                       </div><!--/.xs-col-12-->
       </div><!--/.row-->
     
@@ -3065,31 +3065,31 @@
             <div style="text-align:center;margin:50px auto;">
               <div class="topinblock">
                     <div id="sharer">
-            <a href="https://twitter.com/intent/tweet?url=https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt&amp;via=internetarchive&amp;text=Maa+Haar+Gayi+By+Mannu+Bandari+1956+Delhi+Prakashan+Rajkamal+Prakashan+%3A+Rajkamal+Prakashan+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
+            <a href="https://twitter.com/intent/tweet?url=https://archive.org/details/blog_20250707/blog_20250707_djvu.txt&amp;via=internetarchive&amp;text=blog+%3A+sidharth+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
         <div class="sharee iconochive-twitter" data-toggle="tooltip" data-placement="bottom" title="Share to Twitter"></div>
         <span class="sr-only">Share to Twitter</span>
       </a>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt" target="_blank">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://archive.org/details/blog_20250707/blog_20250707_djvu.txt" target="_blank">
         <div class="sharee iconochive-facebook" data-toggle="tooltip" data-placement="bottom" title="Share to Facebook"></div>
         <span class="sr-only">Share to Facebook</span>
       </a>
-      <a href="http://www.reddit.com/submit?url=https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt&amp;title=Maa+Haar+Gayi+By+Mannu+Bandari+1956+Delhi+Prakashan+Rajkamal+Prakashan+%3A+Rajkamal+Prakashan+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
+      <a href="http://www.reddit.com/submit?url=https://archive.org/details/blog_20250707/blog_20250707_djvu.txt&amp;title=blog+%3A+sidharth+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
         <div class="sharee iconochive-reddit" data-toggle="tooltip" data-placement="bottom" title="Share to Reddit"></div>
         <span class="sr-only">Share to Reddit</span>
       </a>
-      <a href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Maa+Haar+Gayi+By+Mannu+Bandari+1956+Delhi+Prakashan+Rajkamal+Prakashan+%3A+Rajkamal+Prakashan+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive&amp;caption=Maa+Haar+Gayi+By+Mannu+Bandari+1956+Delhi+Prakashan+Rajkamal+Prakashan+%3A+Rajkamal+Prakashan+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive&amp;content=https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt&amp;canonicalUrl=https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt" target="_blank">
+      <a href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=blog+%3A+sidharth+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive&amp;caption=blog+%3A+sidharth+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive&amp;content=https://archive.org/details/blog_20250707/blog_20250707_djvu.txt&amp;canonicalUrl=https://archive.org/details/blog_20250707/blog_20250707_djvu.txt" target="_blank">
         <div class="sharee iconochive-tumblr" data-toggle="tooltip" data-placement="bottom" title="Share to Tumblr"></div>
         <span class="sr-only">Share to Tumblr</span>
       </a>
-      <a href="http://www.pinterest.com/pin/create/button/?url=https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt&amp;description=Maa+Haar+Gayi+By+Mannu+Bandari+1956+Delhi+Prakashan+Rajkamal+Prakashan+%3A+Rajkamal+Prakashan+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
+      <a href="http://www.pinterest.com/pin/create/button/?url=https://archive.org/details/blog_20250707/blog_20250707_djvu.txt&amp;description=blog+%3A+sidharth+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
         <div class="sharee iconochive-pinterest" data-toggle="tooltip" data-placement="bottom" title="Share to Pinterest"></div>
         <span class="sr-only">Share to Pinterest</span>
       </a>
-            <a href="mailto:?body=https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt&amp;subject=Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan Rajkamal Prakashan : Rajkamal Prakashan : Free Download, Borrow, and Streaming : Internet Archive">
+            <a href="mailto:?body=https://archive.org/details/blog_20250707/blog_20250707_djvu.txt&amp;subject=blog : sidharth : Free Download, Borrow, and Streaming : Internet Archive">
         <div class="sharee iconochive-email" data-toggle="tooltip" data-placement="bottom" title="Share via email"></div>
         <span class="sr-only">Share via email</span>
       </a>
-                  <a href="#" id="copy-link" data-copylink="https://archive.org/details/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt">
+                  <a href="#" id="copy-link" data-copylink="https://archive.org/details/blog_20250707/blog_20250707_djvu.txt">
         <div class="sharee" data-toggle="tooltip" data-placement="bottom" title="Copy link">
           <img src="/images/link.svg" />
         </div>
@@ -3108,7 +3108,7 @@
                       class="form-control textarea-invert-readonly"
                       rows="3"
                       readonly="readonly"
-                      data-subfile-name=cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt                    ><iframe src="https://archive.org/embed/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></textarea>
+                      data-subfile-name=blog_20250707_djvu.txt                    ><iframe src="https://archive.org/embed/blog_20250707/blog_20250707_djvu.txt" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></textarea>
                                       </div>
                 </form>
               </div>
@@ -3120,14 +3120,14 @@
                       class="form-control textarea-invert-readonly"
                       rows="3"
                       readonly="readonly"
-                      data-subfile-name=cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt                    >[archiveorg cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_djvu.txt width=560 height=384 frameborder=0 webkitallowfullscreen=true mozallowfullscreen=true]</textarea>
+                      data-subfile-name=blog_20250707_djvu.txt                    >[archiveorg blog_20250707/blog_20250707_djvu.txt width=560 height=384 frameborder=0 webkitallowfullscreen=true mozallowfullscreen=true]</textarea>
                                       </div>
                 </form>
               </div>
                                       <div>
                 Want more?
                 <a
-                  href="/help/audio.php?identifier=cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan"
+                  href="/help/audio.php?identifier=blog_20250707"
                 >Advanced embedding details, examples, and help</a>!
               </div>
                       </div><!--/#cher-body-->
@@ -3151,9 +3151,9 @@
         <button
           class='button js-manage-toggle_list_status '
           type='button'
-          data-href='/bookmarks.php?add_bookmark=1&amp;mediatype=texts&amp;identifier=cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan&amp;title=Maa+Haar+Gayi+By+Mannu+Bandari+1956+Delhi+Prakashan+Rajkamal+Prakashan'
+          data-href='/bookmarks.php?add_bookmark=1&amp;mediatype=texts&amp;identifier=blog_20250707&amp;title=blog'
           data-target='#favorite-modal'
-          data-id='cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan'
+          data-id='blog_20250707'
           data-fav-collection='fav-'
           data-toggle='tooltip'
           data-container='body'
@@ -3190,27 +3190,27 @@
           <h1 class="dropdown-title">Flag this item for</h1>
           <ul role="menu">
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fcjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fblog_20250707" role="menuitem">
                   Graphic Violence                </a>
               </li>
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fcjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fblog_20250707" role="menuitem">
                   Explicit Sexual Content                </a>
               </li>
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fcjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fblog_20250707" role="menuitem">
                   Hate Speech                </a>
               </li>
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fcjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fblog_20250707" role="menuitem">
                   Misinformation/Disinformation                </a>
               </li>
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fcjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fblog_20250707" role="menuitem">
                   Marketing/Phishing/Advertising                </a>
               </li>
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fcjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fblog_20250707" role="menuitem">
                   Misleading/Inaccurate/Missing Metadata                </a>
               </li>
                       </ul>
@@ -3221,12 +3221,12 @@
     <div class="thats-left item-details-metadata col-sm-8 col-sm-pull-4">
       <div class="left-icon"><span class="iconochive-texts texts"  aria-hidden="true"></span><span class="icon-label sr-only">texts</span></div>
       <h1 class="item-title">
-        <span class="breaker-breaker" itemprop="name">Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan Rajkamal Prakashan</span>
+        <span class="breaker-breaker" itemprop="name">blog</span>
       </h1>
                           <dl class="metadata-definition" aria-label="Item creator metadata">
                 <dt>by</dt>
     <dd           >
-            <span itemprop="creator"><a href="/search.php?query=creator%3A%22Rajkamal+Prakashan%22">Rajkamal Prakashan</a></span>                </dd>
+            <span itemprop="creator"><a href="/search.php?query=creator%3A%22sidharth%22">sidharth</a></span>                </dd>
               </dl>
                             <br/>
     </div><!--/.thats-left-->
@@ -3242,14 +3242,20 @@
                                         </div>
         <div class="row metadata-list">
       <dl aria-label="Item metadata" class="metadata-definition">
+            <dt>Publication date</dt>
+        <dd class="">
+          <a href="/search.php?query=date:2000-06-30">
+            <span itemprop="datePublished">2000-06-30</span>
+          </a>
+                </dd>
     
             <dt>Usage</dt>
-        <dd class=""><a rel="license" title="CC0 1.0 Universal" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0 Universal<img class="cclic" src="/images/cc/cc.png" alt="Creative Commons License" /><img class="cclic" src="/images/cc/zero.png"  alt=zero /></a></dd>
+        <dd class=""><a rel="license" title="Public Domain Mark 1.0" href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark 1.0<img class="cclic" src="/images/cc/cc.png" alt="Creative Commons License" /><img class="cclic" src="/images/cc/publicdomain.png"  alt=publicdomain /></a></dd>
     
             <dt>Topics</dt>
         <dd class=""
           itemprop="keywords"
-          ><a href="/search.php?query=subject%3A%22SPS%22" rel="ugc nofollow">SPS</a>, <a href="/search.php?query=subject%3A%22SPS-Srinagar%22" rel="ugc nofollow">SPS-Srinagar</a>, <a href="/search.php?query=subject%3A%22Funded-By-IKS-MoE%22" rel="ugc nofollow">Funded-By-IKS-MoE</a>, <a href="/search.php?query=subject%3A%22IKS-SPS%22" rel="ugc nofollow">IKS-SPS</a></dd>
+          ><a href="/search.php?query=subject%3A%22swimming+pool%22" rel="ugc nofollow">swimming pool</a></dd>
     
         <dt>Collection</dt>
     <dd           >
@@ -3257,7 +3263,10 @@
     
           <!-- contributor (also does usage rights, if specified for the contributor) -->
       
-          
+                  <dt>Language</dt>
+    <dd           >
+            <span itemprop="inLanguage"><a href="/search.php?query=%28language%3Ahin+OR+language%3A%22Hindi%22%29">Hindi</a></span>                </dd>
+              
             
     
     
@@ -3265,12 +3274,12 @@
     <!-- display Item Size in this position if theatre_type is not TV -->
               <dt>Item Size</dt>
     <dd           >
-            206.6M                </dd>
+            9.0M                </dd>
         
     </dl>
     </div> <!-- class="row metadata-list" -->
     <div class="clearfix"></div>
-    <div id="descript" itemprop="description">SPS, SPS-Srinagar, Funded-By-IKS-MoE,IKS-SPS<br><br>Filename: 'Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan'
+    <div id="descript" itemprop="description">rersort
 </div><!--/#descript-->
 
 
@@ -3279,50 +3288,47 @@
       <dl class="metadata-definition" aria-label="Additional item metadata">
                             <dt>Addeddate</dt>
     <dd           >
-            2024-12-07 05:28:28                </dd>
+            2025-07-07 06:43:20                </dd>
                                     <dt>Collection_added</dt>
     <dd           >
             booksbylanguage                </dd>
                                     <dt>Identifier</dt>
-    <dd class=" breaker-breaker"          >
-            <span itemprop="identifier">cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan</span>                </dd>
+    <dd           >
+            <span itemprop="identifier">blog_20250707</span>                </dd>
                                     <dt>Identifier-ark</dt>
     <dd           >
-            ark:/13960/s21rd68v8xq                </dd>
+            ark:/13960/s2n47335vxv                </dd>
                                     <dt>Ocr</dt>
     <dd           >
             tesseract 5.3.0-6-g76ae                </dd>
-                                    <dt>Ocr_autonomous</dt>
-    <dd           >
-            true                </dd>
                                     <dt>Ocr_detected_lang</dt>
     <dd           >
-            hi                </dd>
+            ne                </dd>
                                     <dt>Ocr_detected_lang_conf</dt>
     <dd           >
             1.0000                </dd>
                                     <dt>Ocr_detected_script</dt>
     <dd           >
-            Devanagari<br>Latin                </dd>
+            Latin                </dd>
                                     <dt>Ocr_detected_script_conf</dt>
     <dd           >
-            0.9681<br>0.0307                </dd>
+            1.0000                </dd>
                                     <dt>Ocr_module_version</dt>
     <dd           >
             0.0.21                </dd>
                                     <dt>Ocr_parameters</dt>
     <dd           >
-            -l mar+eng+hin+Latin+Devanagari                </dd>
+            -l hin                </dd>
+                                    <dt>Page_number_confidence</dt>
+    <dd           >
+            0                </dd>
                 
-                                        <dt class="metadata-hidden" style="display: none">Page_number_confidence</dt>
-    <dd class="metadata-hidden" style="display: none"           >
-            60                </dd>
                                         <dt class="metadata-hidden" style="display: none">Page_number_module_version</dt>
     <dd class="metadata-hidden" style="display: none"           >
             1.0.5                </dd>
                                         <dt class="metadata-hidden" style="display: none">Ppi</dt>
     <dd class="metadata-hidden" style="display: none"           >
-            241                </dd>
+            300                </dd>
                                         <dt class="metadata-hidden" style="display: none">Scanner</dt>
     <dd class="metadata-hidden" style="display: none"           >
             Internet Archive HTML5 Uploader 1.7.0                </dd>
@@ -3361,14 +3367,14 @@
       <div class="reviews-placeholder"></div>
       <ia-reviews
         style="display:none"
-        identifier="cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan"
+        identifier="blog_20250707"
         baseHost=""
         endpointPath="/write-review.php"
         submitterItemname="0"
         submitterScreenname="0"
         maxSubjectLength="100"
         maxBodyLength="1000"
-        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3cml0ZS1yZXZpZXciLCJpYXQiOjE3NzU3OTc5MTIuOTI3MjY1LCJuYmYiOjE3NzU3OTc4NTIuOTI3MjY1LCJleHAiOjE3NzU4ODQzMTIuOTI3MjY1LCJ0aW1lIjoxNzc1Nzk3OTEyLCJzdHJpbmciOiJjamJ1X21hYS1oYWFyLWdheWktYnktbWFubnUtYmFuZGFyaS0xOTU2LWRlbGhpLXByYWthc2hhbi1yYWprYW1hbC1wcmFrYXNoYW4ifQ.0XVfOyC5MO8XVshxLB7zB8o_uqZFbp4XPu0prokjF94"
+        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3cml0ZS1yZXZpZXciLCJpYXQiOjE3NzU3OTc4OTQuMDM5ODIzLCJuYmYiOjE3NzU3OTc4MzQuMDM5ODIzLCJleHAiOjE3NzU4ODQyOTQuMDM5ODIzLCJ0aW1lIjoxNzc1Nzk3ODk0LCJzdHJpbmciOiJibG9nXzIwMjUwNzA3In0.oTDQ87ZDh_1iBJYnXq15BB1kzqMVhwOwdfw8O2v1gpg"
                                         reviewSubmissionError="You must be logged in to write reviews."        ></ia-reviews>
       </div>
           </div><!--/.thats-left-->
@@ -3384,13 +3390,11 @@
         <span
           class="item-stats-summary__count"
                       itemprop="userInteractionCount"
-                  >45</span>
+                  >12</span>
 
         Views      </p>
 
       <p class="favorite-count">
-                  <span class="item-stats-summary__count">1</span>
-          <span class="item-stats-summary__label">Favorite</span>
               </p>
 
           </section>
@@ -3403,156 +3407,156 @@
       
                         <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_chocr.html.gz" title="3.2M">
+                              <a class="stealth" href="/download/blog_20250707/blog_chocr.html.gz" title="93.3K">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_chocr.html.gz"
-                  title="3.2M"
+                                          <a class="format-summary download-pill" href="/download/blog_20250707/blog_chocr.html.gz"
+                  title="93.3K"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   CHOCR                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                                  <button class="btn btn-primary btn-xs js-ebook-maker" data-maker='{"base":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan","source_ending":"_hocr.html","type":"daisy","format":"Daisy","identifier":"cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan"}'>Generate</button>
+                                  <button class="btn btn-primary btn-xs js-ebook-maker" data-maker='{"base":"blog","source_ending":"_hocr.html","type":"daisy","format":"Daisy","identifier":"blog_20250707"}'>Generate</button>
                               </div>
                                           DAISY                          
                           <p class="download-format-description">For users with print-disabilities</p>
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                                  <button class="btn btn-primary btn-xs js-ebook-maker" data-maker='{"base":"Maa Haar Gayi By Mannu Bandari 1956 Delhi Prakashan - Rajkamal Prakashan","source_ending":"_hocr.html","type":"epub","format":"EPUB","identifier":"cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan"}'>Generate</button>
+                                  <button class="btn btn-primary btn-xs js-ebook-maker" data-maker='{"base":"blog","source_ending":"_hocr.html","type":"epub","format":"EPUB","identifier":"blog_20250707"}'>Generate</button>
                               </div>
                                           EPUB                          
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/stream/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_djvu.txt" title="528.5K">
+                              <a class="stealth" href="/stream/blog_20250707/blog_djvu.txt" title="9.9K">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/stream/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_djvu.txt"
-                  title="528.5K"
+                                          <a class="format-summary download-pill" href="/stream/blog_20250707/blog_djvu.txt"
+                  title="9.9K"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   FULL TEXT                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_hocr.html" title="7.7M">
+                              <a class="stealth" href="/download/blog_20250707/blog_hocr.html" title="154.3K">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_hocr.html"
-                  title="7.7M"
+                                          <a class="format-summary download-pill" href="/download/blog_20250707/blog_hocr.html"
+                  title="154.3K"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   HOCR                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/__ia_thumb.jpg" title="14.1K">
+                              <a class="stealth" href="/download/blog_20250707/__ia_thumb.jpg" title="14.6K">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/__ia_thumb.jpg"
-                  title="14.1K"
+                                          <a class="format-summary download-pill" href="/download/blog_20250707/__ia_thumb.jpg"
+                  title="14.6K"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   ITEM TILE                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_hocr_pageindex.json.gz" title="2.3K">
+                              <a class="stealth" href="/download/blog_20250707/blog_hocr_pageindex.json.gz" title="132.0B">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_hocr_pageindex.json.gz"
-                  title="2.3K"
+                                          <a class="format-summary download-pill" href="/download/blog_20250707/blog_hocr_pageindex.json.gz"
+                  title="132.0B"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   OCR PAGE INDEX                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_hocr_searchtext.txt.gz" title="114.7K">
+                              <a class="stealth" href="/download/blog_20250707/blog_hocr_searchtext.txt.gz" title="4.3K">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_hocr_searchtext.txt.gz"
-                  title="114.7K"
+                                          <a class="format-summary download-pill" href="/download/blog_20250707/blog_hocr_searchtext.txt.gz"
+                  title="4.3K"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   OCR SEARCH TEXT                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_page_numbers.json" title="34.1K">
+                              <a class="stealth" href="/download/blog_20250707/blog_page_numbers.json" title="1.6K">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_page_numbers.json"
-                  title="34.1K"
+                                          <a class="format-summary download-pill" href="/download/blog_20250707/blog_page_numbers.json"
+                  title="1.6K"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   PAGE NUMBERS JSON                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan.pdf" title="159.1M">
+                              <a class="stealth" href="/download/blog_20250707/blog.pdf" title="4.5M">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan.pdf"
-                  title="159.1M"
+                                          <a class="format-summary download-pill" href="/download/blog_20250707/blog.pdf"
+                  title="4.5M"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   PDF                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_jp2.zip" title="32.0M">
+                              <a class="stealth" href="/download/blog_20250707/blog_jp2.zip" title="4.1M">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/Maa%20Haar%20Gayi%20By%20Mannu%20Bandari%201956%20Delhi%20Prakashan%20-%20Rajkamal%20Prakashan_jp2.zip"
-                  title="32.0M"
+                                          <a class="format-summary download-pill" href="/download/blog_20250707/blog_jp2.zip"
+                  title="4.1M"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   SINGLE PAGE PROCESSED JP2 ZIP                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_archive.torrent" title="12.6K">
+                              <a class="stealth" href="/download/blog_20250707/blog_20250707_archive.torrent" title="3.6K">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan_archive.torrent"
-                  title="12.6K"
+                                          <a class="format-summary download-pill" href="/download/blog_20250707/blog_20250707_archive.torrent"
+                  title="3.6K"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   TORRENT                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                             <div class="show-all">
           <div class="pull-right">
-            <a class="boxy-ttl hover-badge" href="/compress/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan">
+            <a class="boxy-ttl hover-badge" href="/compress/blog_20250707">
               <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span> 15 Files
             </a><br/>
                           <a class="boxy-ttl hover-badge"
-                                href="/compress/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan/formats=TEXT PDF,ITEM TILE,ARCHIVE BITTORRENT,METADATA"><span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                6 Original</a><br/>
+                                href="/compress/blog_20250707/formats=ITEM TILE,TEXT PDF,ARCHIVE BITTORRENT,METADATA"><span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                6 Original</a><br/>
                       </div>
-          <a class="boxy-ttl" href="/download/cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan">SHOW ALL</a>
+          <a class="boxy-ttl" href="/download/blog_20250707">SHOW ALL</a>
           <br clear="all" class="clearfix"/>
         </div>
       
@@ -3591,11 +3595,11 @@
               <section class="boxy white-bg item-upload-info">
       <p>
         Uploaded by
-                  <a href="/details/@pre20thcenturybooks" class="item-upload-info__uploader-name">
-            pre20thcenturybooks          </a>
+                  <a href="/details/@sidharth_k919" class="item-upload-info__uploader-name">
+            sidharth k919          </a>
         
                   on <time
-                      >December 7, 2024</time>
+                      >July 7, 2025</time>
               </p>
     </section>
           </div><!--/.col-md-2-->
@@ -3604,7 +3608,7 @@
       </div><!--//.container-ia-->
   <div id="also-found"
     class="container container-ia width-max js-playset"
-    data-identifier="cjbu_maa-haar-gayi-by-mannu-bandari-1956-delhi-prakashan-rajkamal-prakashan"
+    data-identifier="blog_20250707"
     data-host-name="www08.us.archive.org"
     data-mediatype="texts">
     <div class="row">
@@ -3630,7 +3634,7 @@
   0.0000   0.0000                                petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require
                                              |common/ia:66:require_once
                                              |setup.php:384:log
-  0.0082   0.0082                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
+  0.0070   0.0070                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
                                              |details.php:172:value
                                              |common/Cache.inc:238:fetch
                                              |Caching/TieredReactiveCache.inc:141:fetch
@@ -3657,7 +3661,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0138   0.0056                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
+  0.0741   0.0671                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
                                              |details.php:172:value
                                              |common/Cache.inc:238:fetch
                                              |Caching/TieredReactiveCache.inc:141:fetch
@@ -3684,7 +3688,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0259   0.0121                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:51:getItem
+  0.0776   0.0035                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:51:getItem
                                              |common/Item.inc:78:parseMetadata
                                              |Item.inc:138:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3695,7 +3699,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0290   0.0032                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:51:getItem
+  0.1860   0.1084                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:51:getItem
                                              |common/Item.inc:78:parseMetadata
                                              |Item.inc:138:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3706,64 +3710,27 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0469   0.0179                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:305:get_status
-                                             |Lending/LendingACL.php:118:get_metadata_fields
-                                             |LendingUtils.php:670:cached_metadata
-                                             |LendingUtils.php:76:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:184:log
-  0.0500   0.0030                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:305:get_status
-                                             |Lending/LendingACL.php:118:get_metadata_fields
-                                             |LendingUtils.php:670:cached_metadata
-                                             |LendingUtils.php:76:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:193:log
-  0.0564   0.0064                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:403:get_file_list_with_theater_support
-                                             |BookReader/BookLikeFiles.inc:68:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:184:log
-  0.0592   0.0028                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:403:get_file_list_with_theater_support
-                                             |BookReader/BookLikeFiles.inc:68:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:193:log
-  0.0651   0.0059                                       render   var/cache/petabox/petabox/www/sf/details.php:101:log
-  0.0657   0.0006                             start db connect   var/cache/petabox/petabox/www/sf/details.php:102:render
-                                             |common/Details.inc:5065:setupAndActionsFlags
-                                             |DetailsFlags.inc:27:getFlags
-                                             |DetailsFlags.inc:121:__callStatic
-                                             |ValidateArgs.inc:63:counts_by_flag_VALIDATED
-                                             |Flags.inc:243:get_VALIDATED
-                                             |Flags.inc:115:get_memberships
-                                             |SimpleLists.inc:86:get_records
-                                             |SimpleLists/Storage.inc:39:q
+  0.4020   0.2159                             start db connect   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:599:title
+                                             |Collection.inc:60:q1
+                                             |DB.inc:397:q
                                              |DB.inc:381:execute
                                              |DB.inc:1121:query
                                              |DB.inc:136:query0
@@ -3771,15 +3738,27 @@
                                              |DB.inc:813:connect
                                              |DB.inc:105:conn
                                              |DB.inc:915:log
-  0.0785   0.0128                                       got db   var/cache/petabox/petabox/www/sf/details.php:102:render
-                                             |common/Details.inc:5065:setupAndActionsFlags
-                                             |DetailsFlags.inc:27:getFlags
-                                             |DetailsFlags.inc:121:__callStatic
-                                             |ValidateArgs.inc:63:counts_by_flag_VALIDATED
-                                             |Flags.inc:243:get_VALIDATED
-                                             |Flags.inc:115:get_memberships
-                                             |SimpleLists.inc:86:get_records
-                                             |SimpleLists/Storage.inc:39:q
+  0.4122   0.0102                                       got db   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:599:title
+                                             |Collection.inc:60:q1
+                                             |DB.inc:397:q
                                              |DB.inc:381:execute
                                              |DB.inc:1121:query
                                              |DB.inc:136:query0
@@ -3787,22 +3766,153 @@
                                              |DB.inc:813:connect
                                              |DB.inc:105:conn
                                              |DB.inc:964:log
-  0.0940   0.0155                          begin session_start   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.4147   0.0026                             start db connect   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:621:connectReadOnly
+                                             |DB.inc:106:conn
+                                             |DB.inc:915:log
+  0.4148   0.0001                   got existing db connection   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:621:connectReadOnly
+                                             |DB.inc:106:conn
+                                             |DB.inc:920:log
+  0.4156   0.0008                  getting "search" item stats   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:639:get
+                                             |ItemStats.inc:22:log
+  0.4495   0.0339                      got "search" item stats   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:639:get
+                                             |ItemStats.inc:38:log
+  0.4555   0.0060                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:305:get_status
+                                             |Lending/LendingACL.php:118:get_metadata_fields
+                                             |LendingUtils.php:670:cached_metadata
+                                             |LendingUtils.php:76:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:184:log
+  0.8475   0.3919                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:305:get_status
+                                             |Lending/LendingACL.php:118:get_metadata_fields
+                                             |LendingUtils.php:670:cached_metadata
+                                             |LendingUtils.php:76:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:193:log
+  0.8516   0.0042                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:403:get_file_list_with_theater_support
+                                             |BookReader/BookLikeFiles.inc:68:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:184:log
+  1.6401   0.7885                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:403:get_file_list_with_theater_support
+                                             |BookReader/BookLikeFiles.inc:68:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:193:log
+  1.6548   0.0147                                       render   var/cache/petabox/petabox/www/sf/details.php:101:log
+  1.6638   0.0090                          begin session_start   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4828:head
                                              |Nav.inc:152:__construct
                                              |Nav.inc:222:session_start
                                              |Cookies.inc:50:log
-  0.0940   0.0001   skipping session_start, user not logged-in   var/cache/petabox/petabox/www/sf/details.php:102:render
+  1.6638   0.0000   skipping session_start, user not logged-in   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4828:head
                                              |Nav.inc:152:__construct
                                              |Nav.inc:222:session_start
                                              |Cookies.inc:60:log
-  0.0976   0.0035                                 header drawn   var/cache/petabox/petabox/www/sf/details.php:102:render
+  1.6665   0.0026                                 header drawn   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4832:log
-  0.0987   0.0011                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:102:render
+  1.6672   0.0007                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5092:theatre
                                              |Details.inc:2628:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3813,7 +3923,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.1015   0.0028                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:102:render
+  3.4367   1.7695                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5092:theatre
                                              |Details.inc:2628:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3824,13 +3934,13 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.1397   0.0382                                     bug dump   var/cache/petabox/petabox/www/sf/details.php:102:render
+  3.5165   0.0798                                     bug dump   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5125:footer
                                              |setup.php:148:footer
                                              |Nav.inc:806:dump
                                              |Bug.inc:94:log
     -->
-    <script  nonce="bc887c0a7833f7754381696a54436e3f" >
+    <script  nonce="a1a8e42fd913b92b4fac50c8e06b626c" >
 if (typeof archive_analytics !== 'undefined') {
   archive_analytics.send_pageview_on_load(archive_analytics);
   archive_analytics.process_url_events(location);
@@ -3840,16 +3950,16 @@ if (typeof archive_analytics !== 'undefined') {
       vs[i] = {};
     }
     vs[i]['cache_bust']=Math.random();
-    vs[i]['server_ms']=139;
+    vs[i]['server_ms']=3516;
     vs[i]['server_name']="www08.us.archive.org";
       }
 }
 </script>
-          <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=717316594" alt="" />
+          <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=1502996829" alt="" />
           <noscript>
-        <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=1536374505" />
+        <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=462607042" />
       </noscript>
-          <script  nonce="bc887c0a7833f7754381696a54436e3f" >
+          <script  nonce="a1a8e42fd913b92b4fac50c8e06b626c" >
         document.addEventListener('DOMContentLoaded', function() {
           if (typeof archive_analytics !== 'undefined')
             archive_analytics.create_tracking_image('in_page_executes');

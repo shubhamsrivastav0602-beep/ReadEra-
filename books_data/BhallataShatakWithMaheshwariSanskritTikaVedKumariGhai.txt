@@ -3,7 +3,7 @@
 <!-- __ _ _ _ __| |_ (_)__ _____
     / _` | '_/ _| ' \| |\ V / -_)
     \__,_|_| \__|_||_|_| \_/\___| -->
-  <head data-release=1b68058e data-node="www06.us.archive.org">
+  <head data-release=1b68058e data-node="www08.us.archive.org">
     <title>Bhallata Shatak With Maheshwari Sanskrit Tika Ved Kumari Ghai : eGangotri : Free Download, Borrow, and Streaming : Internet Archive</title>
 
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -11,8 +11,8 @@
         <meta name="google-site-verification" content="Q2YSouphkkgHkFNP7FgAkc4TmBs1Gmag3uGNndb53B8" />
     <meta name="google-site-verification" content="bpjKvUvsX0lxfmjg19TLblckWkDpnptZEYsBntApxUk" />
 
-    <meta name="baggage" content="sentry-trace_id=af7539df59fb431188eba72f484bae4c,sentry-sample_rate=0.001,sentry-transaction=%2Fdetails.php,sentry-public_key=94bf3037c1e245c8a927aaa4daad2dbb,sentry-environment=production,sentry-sampled=false,sentry-sample_rand=0.262254"/>    <meta name="sentry-trace" content="af7539df59fb431188eba72f484bae4c-be814ffae3ff4090-0"/>
-    <script  nonce="c19402f78a9deb0f7d137dade442cd6d" >
+    <meta name="baggage" content="sentry-trace_id=479ace3d39324f14bf35d82937c79adc,sentry-sample_rate=0.001,sentry-transaction=%2Fdetails.php,sentry-public_key=94bf3037c1e245c8a927aaa4daad2dbb,sentry-environment=production,sentry-sampled=false,sentry-sample_rand=0.581681"/>    <meta name="sentry-trace" content="479ace3d39324f14bf35d82937c79adc-9b9a68414a1548ef-0"/>
+    <script  nonce="d8f3803e1608d288a246a5cc29d560d9" >
 /* @licstart  The following is the entire license notice for the
  * JavaScript code in this page.
  *
@@ -41,7 +41,7 @@
     <script src="//archive.org/includes/apollo.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/components/npm/lit/polyfill-support.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/components/npm/@webcomponents/webcomponentsjs/webcomponents-bundle.js?v=1b68058e" type="text/javascript"></script>
-<script nonce="c19402f78a9deb0f7d137dade442cd6d" >
+<script nonce="d8f3803e1608d288a246a5cc29d560d9" >
       window.__realDefine = customElements.define.bind(customElements);
       customElements.define = function() {
         try {
@@ -3033,7 +3033,7 @@
                     Please see your browser settings for this feature.
                   </div>
                 </noscript>
-                    <input class="js-ia-metadata" type="hidden" value='{"created":1775796928,"d1":"ia902803.us.archive.org","d2":"ia802803.us.archive.org","dir":"/17/items/BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai","files":[{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai.pdf","source":"original","mtime":"1535036320","size":"45734921","md5":"6dcc87cc2f3918a9222ddf6670cd4690","crc32":"60040101","sha1":"29aa2930c33e0df34551cece87ef1b35b88eec4e","format":"Text PDF"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_chocr.html.gz","source":"derivative","ocr":"tesseract 5.0.0-alpha-20201231-10-g1236","ocr_parameters":"-l san","ocr_module_version":"0.0.13","ocr_detected_script":"Devanagari","ocr_detected_script_conf":"0.9003","ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"chOCR","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_jp2.zip","mtime":"1619775515","size":"4859683","md5":"a6bb7d3e96c5ec1a90281b7bbec7c3fd","crc32":"b21162db","sha1":"e5e9075ecee743c17132663fbb7b2e6c63e7600f"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_djvu.txt","source":"derivative","format":"DjVuTXT","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_djvu.xml","mtime":"1619775627","size":"732765","md5":"9651c155f1e773cca56bf4b951ec57ae","crc32":"9d308ea9","sha1":"7de5d507e1ab173152284a02c64499e4650dc832"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_djvu.xml","source":"derivative","format":"Djvu XML","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr.html","mtime":"1619775568","size":"4732453","md5":"71cc90d5218237496e71b0110ffe0625","crc32":"b9f573a8","sha1":"91aded3ba60f1bab937e4f3d98d4c8fa526838b0"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr.html","source":"derivative","hocr_char_to_word_module_version":"1.0.0","hocr_char_to_word_hocr_version":"1.1.2","ocr_parameters":"-l san","ocr_module_version":"0.0.13","ocr_detected_script":"Devanagari","ocr_detected_script_conf":"0.9003","ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"hOCR","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_chocr.html.gz","mtime":"1619775551","size":"8517350","md5":"9e04cc45d26b3fc862ad6727699f8904","crc32":"9bbd5480","sha1":"5e2d961ab18f4085f1737c3bf08a6fc8c797a2dd"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr_pageindex.json.gz","source":"derivative","hocr_pageindex_module_version":"1.0.0","hocr_pageindex_hocr_version":"1.1.0","format":"OCR Page Index","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr.html","mtime":"1619775579","size":"2323","md5":"c22b486417eff8b93d52a39770baa3d9","crc32":"17c965de","sha1":"a477e3a4a06c537b688a8e85f5f7b8c84190a642"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr_searchtext.txt.gz","source":"derivative","hocr_fts_text_module_version":"1.1.0","hocr_fts_text_hocr_version":"1.1.0","word_conf_0_10":"5048","word_conf_11_20":"2237","word_conf_21_30":"2961","word_conf_31_40":"3505","word_conf_41_50":"3844","word_conf_51_60":"4306","word_conf_61_70":"4993","word_conf_71_80":"5915","word_conf_81_90":"8784","word_conf_91_100":"10071","format":"OCR Search Text","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr.html","mtime":"1619775602","size":"192631","md5":"aba00399ac642c7ce157b6c3ef767d23","crc32":"813a64b9","sha1":"8fcad4f7316a3c27fdabdffc8045bd58dd501fab"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai.pdf","mtime":"1535036943","size":"167937789","md5":"7f5984d51d7d3b168ba16c74ac17b1ff","crc32":"8ab19d1b","sha1":"478a151dfd7de5f425e530201044b1cc01a0211a","filecount":"196"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_page_numbers.json","source":"derivative","format":"Page Numbers JSON","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_djvu.xml","mtime":"1619775885","size":"34084","md5":"1e53d4be5b7e57bfe1e7cfeef5147566","crc32":"7f968ce8","sha1":"777397bb7d85aea4291c4aed3b0138cf8be64089"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_scandata.xml","source":"derivative","format":"Scandata","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_djvu.xml","mtime":"1619775879","size":"58957","md5":"dd039a24b796f3dfd0f0981c4e927bd3","crc32":"8a23e6e8","sha1":"a4ae15896d3b4f31745941aa920b79df27125dad"},{"name":"BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai_archive.torrent","source":"metadata","btih":"2eeb4508e758e8dae4df6a16d65c1ca0ea3d618b","mtime":"1745364818","size":"13214","md5":"65782d21378c295cc910872f217ca987","crc32":"1878d79a","sha1":"764bb469106d0960fa84bb44e4f3681d8e894fe8","format":"Archive BitTorrent"},{"name":"BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai_files.xml","source":"original","format":"Metadata","md5":"2a1f46a065178effc3587f184f3e1342","summation":"md5"},{"name":"BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai_meta.sqlite","source":"original","mtime":"1535036356","size":"12288","md5":"2728f950963027d7a8ad7f4c0575a450","crc32":"8d30597b","sha1":"6e9698d78d14cfcbec197c3ed09fdab4acd6d294","format":"Metadata"},{"name":"BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai_meta.xml","source":"original","mtime":"1745364815","size":"1671","format":"Metadata","md5":"a9680efbdab79a65a863a8205e8e30d0","crc32":"0765b0fb","sha1":"6118e99fe14dc9b57eaa9ae96591a88db083640e"},{"name":"__ia_thumb.jpg","source":"original","mtime":"1718886484","size":"10640","md5":"c44535227aa9792ddde4bdfedbce8f8e","crc32":"a2e05656","sha1":"953c0b49d93fb01631ece1af6e150d6b68919182","format":"Item Tile","rotation":"0"}],"files_count":15,"item_last_updated":1745364818,"item_size":232840769,"metadata":{"identifier":"BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai","mediatype":"texts","creator":"eGangotri","description":"Collection of Shashi Shekhar Toshkhani, \u0027Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai\u0027","language":"san","licenseurl":"http://creativecommons.org/publicdomain/zero/1.0/","scanner":"Internet Archive HTML5 Uploader 1.6.3","subject":"\u0022Collection of Shashi Shekhar Toshkhani\u0022","title":"Bhallata Shatak With Maheshwari Sanskrit Tika Ved Kumari Ghai","publicdate":"2018-08-23 14:58:41","uploader":"swamianantabodha7@gmail.com","addeddate":"2018-08-23 14:58:41","curation":"[curator]validator@archive.org[/curator][date]20180823145942[/date][comment]checked for malware[/comment]","identifier-access":"http://archive.org/details/BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai","identifier-ark":"ark:/13960/t1hj3pg79","ppi":"600","collection":["booksbylanguage_hindi","booksbylanguage"],"backup_location":"ia906801_3","ocr":"tesseract 5.0.0-alpha-20201231-10-g1236","ocr_parameters":"-l san","ocr_module_version":"0.0.13","ocr_detected_script":"Devanagari","ocr_detected_script_conf":"0.9003","ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","collection_added":"booksbylanguage"},"server":"ia902803.us.archive.org","uniq":818987740,"workable_servers":["ia902803.us.archive.org","ia802803.us.archive.org"]}'/>
+                    <input class="js-ia-metadata" type="hidden" value='{"created":1775796928,"d1":"ia902803.us.archive.org","d2":"ia802803.us.archive.org","dir":"/17/items/BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai","files":[{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai.pdf","source":"original","mtime":"1535036320","size":"45734921","md5":"6dcc87cc2f3918a9222ddf6670cd4690","crc32":"60040101","sha1":"29aa2930c33e0df34551cece87ef1b35b88eec4e","format":"Text PDF"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_chocr.html.gz","source":"derivative","ocr":"tesseract 5.0.0-alpha-20201231-10-g1236","ocr_parameters":"-l san","ocr_module_version":"0.0.13","ocr_detected_script":"Devanagari","ocr_detected_script_conf":"0.9003","ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"chOCR","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_jp2.zip","mtime":"1619775515","size":"4859683","md5":"a6bb7d3e96c5ec1a90281b7bbec7c3fd","crc32":"b21162db","sha1":"e5e9075ecee743c17132663fbb7b2e6c63e7600f"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_djvu.txt","source":"derivative","format":"DjVuTXT","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_djvu.xml","mtime":"1619775627","size":"732765","md5":"9651c155f1e773cca56bf4b951ec57ae","crc32":"9d308ea9","sha1":"7de5d507e1ab173152284a02c64499e4650dc832"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_djvu.xml","source":"derivative","format":"Djvu XML","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr.html","mtime":"1619775568","size":"4732453","md5":"71cc90d5218237496e71b0110ffe0625","crc32":"b9f573a8","sha1":"91aded3ba60f1bab937e4f3d98d4c8fa526838b0"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr.html","source":"derivative","hocr_char_to_word_module_version":"1.0.0","hocr_char_to_word_hocr_version":"1.1.2","ocr_parameters":"-l san","ocr_module_version":"0.0.13","ocr_detected_script":"Devanagari","ocr_detected_script_conf":"0.9003","ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"hOCR","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_chocr.html.gz","mtime":"1619775551","size":"8517350","md5":"9e04cc45d26b3fc862ad6727699f8904","crc32":"9bbd5480","sha1":"5e2d961ab18f4085f1737c3bf08a6fc8c797a2dd"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr_pageindex.json.gz","source":"derivative","hocr_pageindex_module_version":"1.0.0","hocr_pageindex_hocr_version":"1.1.0","format":"OCR Page Index","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr.html","mtime":"1619775579","size":"2323","md5":"c22b486417eff8b93d52a39770baa3d9","crc32":"17c965de","sha1":"a477e3a4a06c537b688a8e85f5f7b8c84190a642"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr_searchtext.txt.gz","source":"derivative","hocr_fts_text_module_version":"1.1.0","hocr_fts_text_hocr_version":"1.1.0","word_conf_0_10":"5048","word_conf_11_20":"2237","word_conf_21_30":"2961","word_conf_31_40":"3505","word_conf_41_50":"3844","word_conf_51_60":"4306","word_conf_61_70":"4993","word_conf_71_80":"5915","word_conf_81_90":"8784","word_conf_91_100":"10071","format":"OCR Search Text","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_hocr.html","mtime":"1619775602","size":"192631","md5":"aba00399ac642c7ce157b6c3ef767d23","crc32":"813a64b9","sha1":"8fcad4f7316a3c27fdabdffc8045bd58dd501fab"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai.pdf","mtime":"1535036943","size":"167937789","md5":"7f5984d51d7d3b168ba16c74ac17b1ff","crc32":"8ab19d1b","sha1":"478a151dfd7de5f425e530201044b1cc01a0211a","filecount":"196"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_page_numbers.json","source":"derivative","format":"Page Numbers JSON","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_djvu.xml","mtime":"1619775885","size":"34084","md5":"1e53d4be5b7e57bfe1e7cfeef5147566","crc32":"7f968ce8","sha1":"777397bb7d85aea4291c4aed3b0138cf8be64089"},{"name":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_scandata.xml","source":"derivative","format":"Scandata","original":"Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai_djvu.xml","mtime":"1619775879","size":"58957","md5":"dd039a24b796f3dfd0f0981c4e927bd3","crc32":"8a23e6e8","sha1":"a4ae15896d3b4f31745941aa920b79df27125dad"},{"name":"BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai_archive.torrent","source":"metadata","btih":"2eeb4508e758e8dae4df6a16d65c1ca0ea3d618b","mtime":"1745364818","size":"13214","md5":"65782d21378c295cc910872f217ca987","crc32":"1878d79a","sha1":"764bb469106d0960fa84bb44e4f3681d8e894fe8","format":"Archive BitTorrent"},{"name":"BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai_files.xml","source":"original","format":"Metadata","md5":"2a1f46a065178effc3587f184f3e1342","summation":"md5"},{"name":"BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai_meta.sqlite","source":"original","mtime":"1535036356","size":"12288","md5":"2728f950963027d7a8ad7f4c0575a450","crc32":"8d30597b","sha1":"6e9698d78d14cfcbec197c3ed09fdab4acd6d294","format":"Metadata"},{"name":"BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai_meta.xml","source":"original","mtime":"1745364815","size":"1671","format":"Metadata","md5":"a9680efbdab79a65a863a8205e8e30d0","crc32":"0765b0fb","sha1":"6118e99fe14dc9b57eaa9ae96591a88db083640e"},{"name":"__ia_thumb.jpg","source":"original","mtime":"1718886484","size":"10640","md5":"c44535227aa9792ddde4bdfedbce8f8e","crc32":"a2e05656","sha1":"953c0b49d93fb01631ece1af6e150d6b68919182","format":"Item Tile","rotation":"0"}],"files_count":15,"item_last_updated":1745364818,"item_size":232840769,"metadata":{"identifier":"BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai","mediatype":"texts","creator":"eGangotri","description":"Collection of Shashi Shekhar Toshkhani, \u0027Bhallata Shatak with Maheshwari Sanskrit Tika - Ved Kumari Ghai\u0027","language":"san","licenseurl":"http://creativecommons.org/publicdomain/zero/1.0/","scanner":"Internet Archive HTML5 Uploader 1.6.3","subject":"\u0022Collection of Shashi Shekhar Toshkhani\u0022","title":"Bhallata Shatak With Maheshwari Sanskrit Tika Ved Kumari Ghai","publicdate":"2018-08-23 14:58:41","uploader":"swamianantabodha7@gmail.com","addeddate":"2018-08-23 14:58:41","curation":"[curator]validator@archive.org[/curator][date]20180823145942[/date][comment]checked for malware[/comment]","identifier-access":"http://archive.org/details/BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai","identifier-ark":"ark:/13960/t1hj3pg79","ppi":"600","collection":["booksbylanguage_hindi","booksbylanguage"],"backup_location":"ia906801_3","ocr":"tesseract 5.0.0-alpha-20201231-10-g1236","ocr_parameters":"-l san","ocr_module_version":"0.0.13","ocr_detected_script":"Devanagari","ocr_detected_script_conf":"0.9003","ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","collection_added":"booksbylanguage"},"server":"ia802803.us.archive.org","uniq":818987740,"workable_servers":["ia802803.us.archive.org","ia902803.us.archive.org"]}'/>
                     <ia-book-theater
                   viewportinfullscreen                  class="focus-on-child-only"
                   baseHost="archive.org"
@@ -3362,7 +3362,7 @@
         submitterScreenname="0"
         maxSubjectLength="100"
         maxBodyLength="1000"
-        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3cml0ZS1yZXZpZXciLCJpYXQiOjE3NzU3OTY5MjkuNjg1MDksIm5iZiI6MTc3NTc5Njg2OS42ODUwOSwiZXhwIjoxNzc1ODgzMzI5LjY4NTA5LCJ0aW1lIjoxNzc1Nzk2OTI5LCJzdHJpbmciOiJCaGFsbGF0YVNoYXRha1dpdGhNYWhlc2h3YXJpU2Fuc2tyaXRUaWthVmVkS3VtYXJpR2hhaSJ9.lIvllId4kJj7y6QSmaGbv_8AhAGIxxRMqA5pSgyZwAc"
+        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3cml0ZS1yZXZpZXciLCJpYXQiOjE3NzU3OTc5MDQuNTIzMDE3LCJuYmYiOjE3NzU3OTc4NDQuNTIzMDE3LCJleHAiOjE3NzU4ODQzMDQuNTIzMDE3LCJ0aW1lIjoxNzc1Nzk3OTA0LCJzdHJpbmciOiJCaGFsbGF0YVNoYXRha1dpdGhNYWhlc2h3YXJpU2Fuc2tyaXRUaWthVmVkS3VtYXJpR2hhaSJ9.eGdQFP42yr3Hl1SuI2gSWUyUqiHqPlD60vinQYudZGQ"
                                         reviewSubmissionError="You must be logged in to write reviews."        ></ia-reviews>
       </div>
           </div><!--/.thats-left-->
@@ -3599,7 +3599,7 @@
   <div id="also-found"
     class="container container-ia width-max js-playset"
     data-identifier="BhallataShatakWithMaheshwariSanskritTikaVedKumariGhai"
-    data-host-name="www06.us.archive.org"
+    data-host-name="www08.us.archive.org"
     data-mediatype="texts">
     <div class="row">
       <div class="col-xs-12 tilebars">
@@ -3618,13 +3618,13 @@
     </div><!--/#wrap-->
 
     <!-- Timing ...
-     rendered on: www06.us.archive.org
+     rendered on: www08.us.archive.org
  seconds diff sec                                      message   stack(file:line:function)
 =========================================================
   0.0000   0.0000                                petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require
                                              |common/ia:66:require_once
                                              |setup.php:384:log
-  0.0148   0.0148                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
+  0.0188   0.0188                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
                                              |details.php:172:value
                                              |common/Cache.inc:238:fetch
                                              |Caching/TieredReactiveCache.inc:141:fetch
@@ -3651,7 +3651,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0183   0.0035                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
+  0.1170   0.0982                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
                                              |details.php:172:value
                                              |common/Cache.inc:238:fetch
                                              |Caching/TieredReactiveCache.inc:141:fetch
@@ -3678,9 +3678,9 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0256   0.0073                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:51:getItem
+  0.1206   0.0035                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:51:getItem
                                              |common/Item.inc:78:parseMetadata
-                                             |Item.inc:139:get_obj
+                                             |Item.inc:138:get_obj
                                              |Metadata.inc:612:_get_obj
                                              |Metadata.inc:641:run_pipeline
                                              |Metadata.inc:1688:read
@@ -3689,9 +3689,9 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0287   0.0031                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:51:getItem
+  0.2760   0.1554                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:51:getItem
                                              |common/Item.inc:78:parseMetadata
-                                             |Item.inc:139:get_obj
+                                             |Item.inc:138:get_obj
                                              |Metadata.inc:612:_get_obj
                                              |Metadata.inc:641:run_pipeline
                                              |Metadata.inc:1688:read
@@ -3700,27 +3700,64 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0375   0.0088                             start db connect   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:599:title
-                                             |Collection.inc:60:q1
-                                             |DB.inc:397:q
+  0.2892   0.0132                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:305:get_status
+                                             |Lending/LendingACL.php:118:get_metadata_fields
+                                             |LendingUtils.php:670:cached_metadata
+                                             |LendingUtils.php:76:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:184:log
+  0.6796   0.3904                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:305:get_status
+                                             |Lending/LendingACL.php:118:get_metadata_fields
+                                             |LendingUtils.php:670:cached_metadata
+                                             |LendingUtils.php:76:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:193:log
+  0.6842   0.0046                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:403:get_file_list_with_theater_support
+                                             |BookReader/BookLikeFiles.inc:68:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:184:log
+  0.9433   0.2592                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:403:get_file_list_with_theater_support
+                                             |BookReader/BookLikeFiles.inc:68:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:193:log
+  0.9483   0.0050                                       render   var/cache/petabox/petabox/www/sf/details.php:101:log
+  0.9488   0.0004                             start db connect   var/cache/petabox/petabox/www/sf/details.php:102:render
+                                             |common/Details.inc:5065:setupAndActionsFlags
+                                             |DetailsFlags.inc:27:getFlags
+                                             |DetailsFlags.inc:121:__callStatic
+                                             |ValidateArgs.inc:63:counts_by_flag_VALIDATED
+                                             |Flags.inc:243:get_VALIDATED
+                                             |Flags.inc:115:get_memberships
+                                             |SimpleLists.inc:86:get_records
+                                             |SimpleLists/Storage.inc:39:q
                                              |DB.inc:381:execute
                                              |DB.inc:1121:query
                                              |DB.inc:136:query0
@@ -3728,27 +3765,15 @@
                                              |DB.inc:813:connect
                                              |DB.inc:105:conn
                                              |DB.inc:915:log
-  0.0511   0.0137                                       got db   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:599:title
-                                             |Collection.inc:60:q1
-                                             |DB.inc:397:q
+  0.9621   0.0134                                       got db   var/cache/petabox/petabox/www/sf/details.php:102:render
+                                             |common/Details.inc:5065:setupAndActionsFlags
+                                             |DetailsFlags.inc:27:getFlags
+                                             |DetailsFlags.inc:121:__callStatic
+                                             |ValidateArgs.inc:63:counts_by_flag_VALIDATED
+                                             |Flags.inc:243:get_VALIDATED
+                                             |Flags.inc:115:get_memberships
+                                             |SimpleLists.inc:86:get_records
+                                             |SimpleLists/Storage.inc:39:q
                                              |DB.inc:381:execute
                                              |DB.inc:1121:query
                                              |DB.inc:136:query0
@@ -3756,153 +3781,22 @@
                                              |DB.inc:813:connect
                                              |DB.inc:105:conn
                                              |DB.inc:964:log
-  0.0544   0.0033                             start db connect   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:621:connectReadOnly
-                                             |DB.inc:106:conn
-                                             |DB.inc:915:log
-  0.0545   0.0001                   got existing db connection   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:621:connectReadOnly
-                                             |DB.inc:106:conn
-                                             |DB.inc:920:log
-  0.0562   0.0017                  getting "search" item stats   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:639:get
-                                             |ItemStats.inc:22:log
-  0.0885   0.0322                      got "search" item stats   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:639:get
-                                             |ItemStats.inc:38:log
-  0.0966   0.0082                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:305:get_status
-                                             |Lending/LendingACL.php:118:get_metadata_fields
-                                             |LendingUtils.php:670:cached_metadata
-                                             |LendingUtils.php:76:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:184:log
-  0.0998   0.0031                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:305:get_status
-                                             |Lending/LendingACL.php:118:get_metadata_fields
-                                             |LendingUtils.php:670:cached_metadata
-                                             |LendingUtils.php:76:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:193:log
-  0.1053   0.0055                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:403:get_file_list_with_theater_support
-                                             |BookReader/BookLikeFiles.inc:68:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:184:log
-  0.1081   0.0028                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:403:get_file_list_with_theater_support
-                                             |BookReader/BookLikeFiles.inc:68:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:193:log
-  0.1129   0.0048                                       render   var/cache/petabox/petabox/www/sf/details.php:101:log
-  0.1216   0.0087                          begin session_start   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.9907   0.0286                          begin session_start   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4828:head
                                              |Nav.inc:152:__construct
                                              |Nav.inc:222:session_start
                                              |Cookies.inc:50:log
-  0.1217   0.0001   skipping session_start, user not logged-in   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.9907   0.0000   skipping session_start, user not logged-in   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4828:head
                                              |Nav.inc:152:__construct
                                              |Nav.inc:222:session_start
                                              |Cookies.inc:60:log
-  0.1256   0.0039                                 header drawn   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.9927   0.0020                                 header drawn   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4832:log
-  0.1265   0.0010                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.9934   0.0007                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5092:theatre
                                              |Details.inc:2628:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3913,7 +3807,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.1288   0.0023                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:102:render
+  1.9005   0.9071                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5092:theatre
                                              |Details.inc:2628:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3924,13 +3818,13 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.1778   0.0490                                     bug dump   var/cache/petabox/petabox/www/sf/details.php:102:render
+  1.9323   0.0318                                     bug dump   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5125:footer
                                              |setup.php:148:footer
                                              |Nav.inc:806:dump
                                              |Bug.inc:94:log
     -->
-    <script  nonce="c19402f78a9deb0f7d137dade442cd6d" >
+    <script  nonce="d8f3803e1608d288a246a5cc29d560d9" >
 if (typeof archive_analytics !== 'undefined') {
   archive_analytics.send_pageview_on_load(archive_analytics);
   archive_analytics.process_url_events(location);
@@ -3940,16 +3834,16 @@ if (typeof archive_analytics !== 'undefined') {
       vs[i] = {};
     }
     vs[i]['cache_bust']=Math.random();
-    vs[i]['server_ms']=177;
-    vs[i]['server_name']="www06.us.archive.org";
+    vs[i]['server_ms']=1932;
+    vs[i]['server_name']="www08.us.archive.org";
       }
 }
 </script>
-          <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=1843062329" alt="" />
+          <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=474652732" alt="" />
           <noscript>
-        <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=655586744" />
+        <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=81208053" />
       </noscript>
-          <script  nonce="c19402f78a9deb0f7d137dade442cd6d" >
+          <script  nonce="d8f3803e1608d288a246a5cc29d560d9" >
         document.addEventListener('DOMContentLoaded', function() {
           if (typeof archive_analytics !== 'undefined')
             archive_analytics.create_tracking_image('in_page_executes');

@@ -1,0 +1,85 @@
+# ============================================
+# READERA - DIRECT BOOKS UPLOAD
+# ============================================
+
+import pandas as pd
+from supabase import create_client
+import ast
+
+# 🔑 YOUR SUPABASE KEYS
+SUPABASE_URL = "https://ryzbikpzxphrsdctvqp.supabase.co"
+SUPABASE_ANON_KEY = "sb_publishable_MPqGLh4Z15HdLuTRQ81SzA_Ssm9n"
+
+# Connect to Supabase
+supabase = create_client(SUPABASE_URL, SUPABASE_ANON_KEY)
+
+# Load your CSV
+print("📚 Loading CSV file...")
+df = pd.read_csv("books_enriched.csv")
+
+print(f"✅ Loaded {len(df)} rows")
+print(f"📋 Columns: {list(df.columns)}\n")
+
+# Check which column has descriptions
+desc_col = None
+for col in df.columns:
+    if 'desc' in col.lower():
+        desc_col = col
+        break
+
+print(f"📝 Using column: {desc_col}")
+
+# Upload
+success = 0
+fail = 0
+
+for i, row in df.iterrows():
+    # Get summary
+    summary = ""
+    if desc_col and pd.notna(row[desc_col]):
+        summary = str(row[desc_col])[:5000]
+    
+    if len(summary) < 50:
+        fail += 1
+        continue
+    
+    # Get title
+    title = "Unknown"
+    if 'title' in df.columns and pd.notna(row['title']):
+        title = str(row['title'])[:200]
+    
+    # Get author  
+    author = "Unknown"
+    if 'authors' in df.columns and pd.notna(row['authors']):
+        try:
+            auth_list = ast.literal_eval(row['authors'])
+            if auth_list:
+                author = str(auth_list[0])[:100]
+        except:
+            author = str(row['authors'])[:100]
+    
+    # Insert to Supabase
+    data = {
+        "title": title,
+        "author": author,
+        "summary": summary,
+        "genre": "General",
+        "cover_url": "https://placehold.co/300x400/8B4513/white?text=Book",
+        "pdf_url": "",
+        "total_pages": 0,
+        "views": 0
+    }
+    
+    try:
+        supabase.table("books").insert(data).execute()
+        success += 1
+        if success % 100 == 0:
+            print(f"   ✅ Uploaded {success} books...")
+    except Exception as e:
+        fail += 1
+        print(f"   ❌ Error: {e}")
+
+print(f"\n{'='*50}")
+print(f"✅ Success: {success} books")
+print(f"❌ Failed: {fail}")
+print("🎉 Done!")

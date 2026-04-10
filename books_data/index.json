@@ -6,7 +6,8 @@
     "category": "Sanskrit Poetry",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Classic Sanskrit text with 100 verses of wisdom and poetry about life and philosophy."
+    "description": "Classic Sanskrit text with 100 verses of wisdom and poetry about life and philosophy.",
+    "featured": false
   },
   {
     "id": "lakshya",
@@ -15,7 +16,8 @@
     "category": "Hindi Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Important work exploring themes of purpose and ambition in life."
+    "description": "Important work exploring themes of purpose and ambition in life.",
+    "featured": false
   },
   {
     "id": "maa_haar_gayi",
@@ -24,7 +26,8 @@
     "category": "Hindi Fiction",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Gripping story of love, sacrifice and family bonds in Indian literature."
+    "description": "Gripping story of love, sacrifice and family bonds in Indian literature.",
+    "featured": false
   },
   {
     "id": "vakyarth_sangrah",
@@ -33,7 +36,8 @@
     "category": "Sanskrit Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Comprehensive collection of Sanskrit verses exploring grammar and meaning."
+    "description": "Comprehensive collection of Sanskrit verses exploring grammar and meaning.",
+    "featured": false
   },
   {
     "id": "psalms",
@@ -42,7 +46,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Spiritual and devotional Sanskrit verses offering wisdom and guidance."
+    "description": "Spiritual and devotional Sanskrit verses offering wisdom and guidance.",
+    "featured": false
   },
   {
     "id": "devdas",
@@ -51,7 +56,8 @@
     "category": "Hindi Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Tale of unrequited love and sacrifice in Indian literature."
+    "description": "Tale of unrequited love and sacrifice in Indian literature.",
+    "featured": true
   },
   {
     "id": "khandava_dahan",
@@ -60,7 +66,8 @@
     "category": "Sanskrit Epic",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Episode from the great Indian epic Mahabharata."
+    "description": "Episode from the great Indian epic Mahabharata.",
+    "featured": false
   },
   {
     "id": "ramayana_excerpt",
@@ -69,7 +76,8 @@
     "category": "Sanskrit Epic",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Beautiful Sundara Kandam from Ramayana describing Hanuman's journey."
+    "description": "Beautiful Sundara Kandam from Ramayana describing Hanuman's journey.",
+    "featured": false
   },
   {
     "id": "bhagavad_gita",
@@ -78,7 +86,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient wisdom on duty, devotion and nature of existence."
+    "description": "Ancient wisdom on duty, devotion and nature of existence.",
+    "featured": true
   },
   {
     "id": "arthashastra",
@@ -87,7 +96,8 @@
     "category": "Political Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient treatise on economics, politics and statecraft."
+    "description": "Ancient treatise on economics, politics and statecraft.",
+    "featured": false
   },
   {
     "id": "chandimaa",
@@ -96,7 +106,8 @@
     "category": "Devotional",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Devotional hymn to the divine mother Chandimaa."
+    "description": "Devotional hymn to the divine mother Chandimaa.",
+    "featured": false
   },
   {
     "id": "kalidasa_kumara",
@@ -105,7 +116,8 @@
     "category": "Sanskrit Poetry",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Birth of Kumara - masterpiece of Sanskrit literature."
+    "description": "Birth of Kumara - masterpiece of Sanskrit literature.",
+    "featured": true
   },
   {
     "id": "meghaduta",
@@ -114,7 +126,8 @@
     "category": "Sanskrit Poetry",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Beautiful lyric poem about yaksha separated from beloved."
+    "description": "Beautiful lyric poem about yaksha separated from beloved.",
+    "featured": true
   },
   {
     "id": "shakuntala",
@@ -123,7 +136,8 @@
     "category": "Sanskrit Drama",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Famous tale of Shakuntala and Dushyanta."
+    "description": "Famous tale of Shakuntala and Dushyanta.",
+    "featured": true
   },
   {
     "id": "naishadha",
@@ -132,7 +146,8 @@
     "category": "Sanskrit Poetry",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Romance of Nala and Damayanti in elegant Sanskrit verse."
+    "description": "Romance of Nala and Damayanti in elegant Sanskrit verse.",
+    "featured": false
   },
   {
     "id": "gandhari",
@@ -141,7 +156,8 @@
     "category": "Hindi Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Modern retelling of Mahabharata from Gandhari's perspective."
+    "description": "Modern retelling of Mahabharata from Gandhari's perspective.",
+    "featured": false
   },
   {
     "id": "godan",
@@ -150,7 +166,8 @@
     "category": "Hindi Fiction",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Classic Hindi novel depicting rural life and agriculture in India."
+    "description": "Classic Hindi novel depicting rural life and agriculture in India.",
+    "featured": true
   },
   {
     "id": "sudama_charit",
@@ -159,7 +176,8 @@
     "category": "Hindi Poetry",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Devotional story of Sudama's friendship with Krishna."
+    "description": "Devotional story of Sudama's friendship with Krishna.",
+    "featured": false
   },
   {
     "id": "bharat_bharati",
@@ -168,7 +186,8 @@
     "category": "Hindi Poetry",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Patriotic Hindi poetry celebrating Indian culture."
+    "description": "Patriotic Hindi poetry celebrating Indian culture.",
+    "featured": false
   },
   {
     "id": "anand_math",
@@ -177,7 +196,8 @@
     "category": "Hindi Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Revolutionary novel of Independence struggle."
+    "description": "Revolutionary novel of Independence struggle.",
+    "featured": false
   },
   {
     "id": "panchtantra",
@@ -186,7 +206,8 @@
     "category": "Fables",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient collection of moral fables and stories."
+    "description": "Ancient collection of moral fables and stories.",
+    "featured": false
   },
   {
     "id": "hitopadesha",
@@ -195,7 +216,8 @@
     "category": "Fables",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Classic collection of instructive tales and fables."
+    "description": "Classic collection of instructive tales and fables.",
+    "featured": false
   },
   {
     "id": "kathasaritsagara",
@@ -204,7 +226,8 @@
     "category": "Sanskrit Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ocean of Streams of Story - vast collection of Sanskrit tales."
+    "description": "Ocean of Streams of Story - vast collection of Sanskrit tales.",
+    "featured": false
   },
   {
     "id": "brihatkatha",
@@ -213,7 +236,8 @@
     "category": "Sanskrit Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient narrative collection influencing later traditions."
+    "description": "Ancient narrative collection influencing later traditions.",
+    "featured": false
   },
   {
     "id": "dashakumaracharita",
@@ -222,7 +246,8 @@
     "category": "Sanskrit Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Story of ten princes in elegant Sanskrit prose."
+    "description": "Story of ten princes in elegant Sanskrit prose.",
+    "featured": false
   },
   {
     "id": "dhammapada",
@@ -231,7 +256,8 @@
     "category": "Buddhist Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Words of Buddha on the path to enlightenment."
+    "description": "Words of Buddha on the path to enlightenment.",
+    "featured": true
   },
   {
     "id": "jataka_tales",
@@ -240,7 +266,8 @@
     "category": "Buddhist Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Stories of Buddha's previous births teaching moral lessons."
+    "description": "Stories of Buddha's previous births teaching moral lessons.",
+    "featured": false
   },
   {
     "id": "samyutta_nikaya",
@@ -249,7 +276,8 @@
     "category": "Buddhist Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Collection of Buddha's discourses on various topics."
+    "description": "Collection of Buddha's discourses on various topics.",
+    "featured": false
   },
   {
     "id": "upanishad_katha",
@@ -258,7 +286,8 @@
     "category": "Vedic Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Dialogue between Yama and Nachiketa on death and immortality."
+    "description": "Dialogue between Yama and Nachiketa on death and immortality.",
+    "featured": false
   },
   {
     "id": "upanishad_mundaka",
@@ -267,7 +296,8 @@
     "category": "Vedic Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Teachings on Brahman and nature of ultimate reality."
+    "description": "Teachings on Brahman and nature of ultimate reality.",
+    "featured": false
   },
   {
     "id": "upanishad_isha",
@@ -276,7 +306,8 @@
     "category": "Vedic Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "The Lord pervades all - fundamental Vedic teaching."
+    "description": "The Lord pervades all - fundamental Vedic teaching.",
+    "featured": false
   },
   {
     "id": "upanishad_taittiriya",
@@ -285,7 +316,8 @@
     "category": "Vedic Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Teachings on essence of life and five sheaths."
+    "description": "Teachings on essence of life and five sheaths.",
+    "featured": false
   },
   {
     "id": "upanishad_chandogya",
@@ -294,7 +326,8 @@
     "category": "Vedic Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Important Upanishad teaching meditation on OM."
+    "description": "Important Upanishad teaching meditation on OM.",
+    "featured": false
   },
   {
     "id": "upanishad_mandukya",
@@ -303,7 +336,8 @@
     "category": "Vedic Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Analysis of syllable OM and states of consciousness."
+    "description": "Analysis of syllable OM and states of consciousness.",
+    "featured": false
   },
   {
     "id": "brahma_sutras",
@@ -312,7 +346,8 @@
     "category": "Vedic Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Philosophical aphorisms on nature of Brahman and soul."
+    "description": "Philosophical aphorisms on nature of Brahman and soul.",
+    "featured": true
   },
   {
     "id": "yoga_sutras",
@@ -321,7 +356,8 @@
     "category": "Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Classical text on yoga philosophy and practice."
+    "description": "Classical text on yoga philosophy and practice.",
+    "featured": true
   },
   {
     "id": "samkhya_karika",
@@ -330,7 +366,8 @@
     "category": "Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Exposition of Samkhya philosophical system."
+    "description": "Exposition of Samkhya philosophical system.",
+    "featured": true
   },
   {
     "id": "nyaya_sutras",
@@ -339,7 +376,8 @@
     "category": "Logic",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Foundational text on Indian logic and epistemology."
+    "description": "Foundational text on Indian logic and epistemology.",
+    "featured": false
   },
   {
     "id": "vaiseshika",
@@ -348,7 +386,8 @@
     "category": "Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Atomic theory and metaphysics in ancient philosophy."
+    "description": "Atomic theory and metaphysics in ancient philosophy.",
+    "featured": false
   },
   {
     "id": "rigveda_samhita",
@@ -357,7 +396,8 @@
     "category": "Vedic Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Collection of Vedic hymns praising the deities."
+    "description": "Collection of Vedic hymns praising the deities.",
+    "featured": false
   },
   {
     "id": "yajurveda",
@@ -366,7 +406,8 @@
     "category": "Vedic Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Veda of sacrificial formulas and rituals."
+    "description": "Veda of sacrificial formulas and rituals.",
+    "featured": false
   },
   {
     "id": "samaveda",
@@ -375,7 +416,8 @@
     "category": "Vedic Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Veda of chants and melodies for rituals."
+    "description": "Veda of chants and melodies for rituals.",
+    "featured": false
   },
   {
     "id": "atharvaveda",
@@ -384,7 +426,8 @@
     "category": "Vedic Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Veda of knowledge including spells and incantations."
+    "description": "Veda of knowledge including spells and incantations.",
+    "featured": false
   },
   {
     "id": "aitareya_brahmana",
@@ -393,7 +436,8 @@
     "category": "Vedic Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Brahmana commentary on Rigveda with ritual explanations."
+    "description": "Brahmana commentary on Rigveda with ritual explanations.",
+    "featured": false
   },
   {
     "id": "nirukta",
@@ -402,7 +446,8 @@
     "category": "Linguistics",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient Sanskrit etymology and word meanings."
+    "description": "Ancient Sanskrit etymology and word meanings.",
+    "featured": false
   },
   {
     "id": "panini_ashtadhyayi",
@@ -411,7 +456,8 @@
     "category": "Grammar",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Comprehensive Sanskrit grammar in 8 chapters."
+    "description": "Comprehensive Sanskrit grammar in 8 chapters.",
+    "featured": false
   },
   {
     "id": "katyayana_varttika",
@@ -420,7 +466,8 @@
     "category": "Grammar",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Additional rules and corrections to Panini grammar."
+    "description": "Additional rules and corrections to Panini grammar.",
+    "featured": false
   },
   {
     "id": "patanjali_mahabhasya",
@@ -429,7 +476,8 @@
     "category": "Grammar",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Comprehensive commentary on Panini's grammar."
+    "description": "Comprehensive commentary on Panini's grammar.",
+    "featured": false
   },
   {
     "id": "siddhanta_kaumudi",
@@ -438,7 +486,8 @@
     "category": "Grammar",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Complete treatment of Sanskrit grammar principles."
+    "description": "Complete treatment of Sanskrit grammar principles.",
+    "featured": false
   },
   {
     "id": "damodara_stotra",
@@ -447,7 +496,8 @@
     "category": "Devotional Poetry",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Devotional verses to Lord Krishna as child Damodara."
+    "description": "Devotional verses to Lord Krishna as child Damodara.",
+    "featured": false
   },
   {
     "id": "gita_govinda",
@@ -456,7 +506,8 @@
     "category": "Devotional Poetry",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Love story of Krishna and Radha in lyrical verse."
+    "description": "Love story of Krishna and Radha in lyrical verse.",
+    "featured": false
   },
   {
     "id": "shiva_mahimna_stotra",
@@ -465,7 +516,8 @@
     "category": "Devotional Poetry",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Beautiful eulogy of Lord Shiva praising his greatness."
+    "description": "Beautiful eulogy of Lord Shiva praising his greatness.",
+    "featured": false
   },
   {
     "id": "bhaja_govindam",
@@ -474,7 +526,8 @@
     "category": "Devotional Poetry",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Devotional song encouraging worship of Govinda."
+    "description": "Devotional song encouraging worship of Govinda.",
+    "featured": false
   },
   {
     "id": "saundaryalahari",
@@ -483,7 +536,8 @@
     "category": "Devotional Poetry",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Wave of Beauty - mystical poetry praising the Goddess."
+    "description": "Wave of Beauty - mystical poetry praising the Goddess.",
+    "featured": false
   },
   {
     "id": "lalita_sahasranama",
@@ -492,7 +546,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Thousand names of the Divine Mother Lalita."
+    "description": "Thousand names of the Divine Mother Lalita.",
+    "featured": false
   },
   {
     "id": "durga_saptashati",
@@ -501,7 +556,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "700 verses describing battles of Goddess Durga."
+    "description": "700 verses describing battles of Goddess Durga.",
+    "featured": false
   },
   {
     "id": "sundara_kandam_full",
@@ -510,7 +566,8 @@
     "category": "Sanskrit Epic",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Complete book of Ramayana describing Hanuman's mission."
+    "description": "Complete book of Ramayana describing Hanuman's mission.",
+    "featured": false
   },
   {
     "id": "uttara_ramayana",
@@ -519,7 +576,8 @@
     "category": "Sanskrit Epic",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Concluding chapters of the Ramayana epic."
+    "description": "Concluding chapters of the Ramayana epic.",
+    "featured": false
   },
   {
     "id": "anushasana_parva",
@@ -528,7 +586,8 @@
     "category": "Sanskrit Epic",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Book of Instructions from the Mahabharata."
+    "description": "Book of Instructions from the Mahabharata.",
+    "featured": false
   },
   {
     "id": "shanti_parva",
@@ -537,7 +596,8 @@
     "category": "Sanskrit Epic",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Book of Peace from Mahabharata with spiritual teachings."
+    "description": "Book of Peace from Mahabharata with spiritual teachings.",
+    "featured": false
   },
   {
     "id": "mahabharata_complete",
@@ -546,7 +606,8 @@
     "category": "Sanskrit Epic",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "The great epic of India - complete collection of stories."
+    "description": "The great epic of India - complete collection of stories.",
+    "featured": false
   },
   {
     "id": "ramayana_complete",
@@ -555,7 +616,8 @@
     "category": "Sanskrit Epic",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Complete Ramayana - story of Ram and his journey."
+    "description": "Complete Ramayana - story of Ram and his journey.",
+    "featured": true
   },
   {
     "id": "vishnu_sahasranama",
@@ -564,7 +626,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Thousand names of Lord Vishnu praising his glory."
+    "description": "Thousand names of Lord Vishnu praising his glory.",
+    "featured": false
   },
   {
     "id": "shiva_sahasranama",
@@ -573,7 +636,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Thousand names of Lord Shiva with meanings."
+    "description": "Thousand names of Lord Shiva with meanings.",
+    "featured": false
   },
   {
     "id": "hanuman_chalisa",
@@ -582,7 +646,8 @@
     "category": "Devotional Poetry",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "40 verses praising Lord Hanuman's greatness and courage."
+    "description": "40 verses praising Lord Hanuman's greatness and courage.",
+    "featured": true
   },
   {
     "id": "doha_ramayan",
@@ -591,7 +656,8 @@
     "category": "Hindi Poetry",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Story of Ramayana told in Hindi Doha verse form."
+    "description": "Story of Ramayana told in Hindi Doha verse form.",
+    "featured": false
   },
   {
     "id": "sortha_avali",
@@ -600,7 +666,8 @@
     "category": "Hindi Poetry",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Couplets describing Krishna's childhood and exploits."
+    "description": "Couplets describing Krishna's childhood and exploits.",
+    "featured": false
   },
   {
     "id": "gyana_peeth",
@@ -609,7 +676,8 @@
     "category": "Philosophy",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Teachings on knowledge and spiritual enlightenment."
+    "description": "Teachings on knowledge and spiritual enlightenment.",
+    "featured": false
   },
   {
     "id": "premchand_stories",
@@ -618,7 +686,8 @@
     "category": "Hindi Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Collection of famous short stories depicting Indian society."
+    "description": "Collection of famous short stories depicting Indian society.",
+    "featured": false
   },
   {
     "id": "aaj_bhi_khare_hain",
@@ -627,7 +696,8 @@
     "category": "Hindi Poetry",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Patriotic poetry celebrating Indian freedom and culture."
+    "description": "Patriotic poetry celebrating Indian freedom and culture.",
+    "featured": false
   },
   {
     "id": "rashmirathi",
@@ -636,7 +706,8 @@
     "category": "Hindi Poetry",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Epic poem about Karna from the Mahabharata."
+    "description": "Epic poem about Karna from the Mahabharata.",
+    "featured": false
   },
   {
     "id": "kisan_kavi",
@@ -645,7 +716,8 @@
     "category": "Hindi Poetry",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Verses celebrating the farmers and agricultural life."
+    "description": "Verses celebrating the farmers and agricultural life.",
+    "featured": false
   },
   {
     "id": "chandrakanta",
@@ -654,7 +726,8 @@
     "category": "Hindi Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Adventure romance novel of classic Hindi literature."
+    "description": "Adventure romance novel of classic Hindi literature.",
+    "featured": false
   },
   {
     "id": "vande_mataram",
@@ -663,7 +736,8 @@
     "category": "Hindi Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Famous patriotic song praising mother India."
+    "description": "Famous patriotic song praising mother India.",
+    "featured": false
   },
   {
     "id": "sahitya_lhari",
@@ -672,7 +746,8 @@
     "category": "Hindi Poetry",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Classical Hindi poetry expressing emotions and nature."
+    "description": "Classical Hindi poetry expressing emotions and nature.",
+    "featured": false
   },
   {
     "id": "pratan_rachna",
@@ -681,7 +756,8 @@
     "category": "Hindi Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Collection of ancient Hindi literary works."
+    "description": "Collection of ancient Hindi literary works.",
+    "featured": false
   },
   {
     "id": "brahm_puran",
@@ -690,7 +766,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient Purana describing creation of universe."
+    "description": "Ancient Purana describing creation of universe.",
+    "featured": false
   },
   {
     "id": "vishnu_puran",
@@ -699,7 +776,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Purana dedicated to Lord Vishnu and his avatars."
+    "description": "Purana dedicated to Lord Vishnu and his avatars.",
+    "featured": false
   },
   {
     "id": "shiva_puran",
@@ -708,7 +786,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Sacred text describing Lord Shiva's stories."
+    "description": "Sacred text describing Lord Shiva's stories.",
+    "featured": false
   },
   {
     "id": "devi_bhagavat",
@@ -717,7 +796,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Stories of divine mother Devi and her incarnations."
+    "description": "Stories of divine mother Devi and her incarnations.",
+    "featured": false
   },
   {
     "id": "narad_puran",
@@ -726,7 +806,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Purana containing teachings through Narada."
+    "description": "Purana containing teachings through Narada.",
+    "featured": false
   },
   {
     "id": "garuda_puran",
@@ -735,7 +816,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Teachings on life, death, and the afterlife."
+    "description": "Teachings on life, death, and the afterlife.",
+    "featured": false
   },
   {
     "id": "agni_puran",
@@ -744,7 +826,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Purana with knowledge about rituals and sciences."
+    "description": "Purana with knowledge about rituals and sciences.",
+    "featured": false
   },
   {
     "id": "varaha_puran",
@@ -753,7 +836,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Sacred text describing Varaha avatar of Vishnu."
+    "description": "Sacred text describing Varaha avatar of Vishnu.",
+    "featured": false
   },
   {
     "id": "bhavishya_puran",
@@ -762,7 +846,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Purana describing future events and prophecies."
+    "description": "Purana describing future events and prophecies.",
+    "featured": false
   },
   {
     "id": "markandeya_puran",
@@ -771,7 +856,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Stories and teachings from sage Markandeya."
+    "description": "Stories and teachings from sage Markandeya.",
+    "featured": false
   },
   {
     "id": "padma_puran",
@@ -780,7 +866,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Sacred stories and spiritual teachings."
+    "description": "Sacred stories and spiritual teachings.",
+    "featured": false
   },
   {
     "id": "skanda_puran",
@@ -789,7 +876,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Largest Purana with stories and geography."
+    "description": "Largest Purana with stories and geography.",
+    "featured": false
   },
   {
     "id": "linga_puran",
@@ -798,7 +886,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Purana describing worship of Linga of Shiva."
+    "description": "Purana describing worship of Linga of Shiva.",
+    "featured": false
   },
   {
     "id": "kurma_puran",
@@ -807,7 +896,8 @@
     "category": "Sacred Texts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Stories related to Kurma avatar of Vishnu."
+    "description": "Stories related to Kurma avatar of Vishnu.",
+    "featured": false
   },
   {
     "id": "matsya_puran",
@@ -816,7 +906,8 @@
     "category": "Sacred Texts",
     "language": "Sacred Texts",
     "cover": "covers/default.jpg",
-    "description": "Teachings of Matsya avatar about cosmology."
+    "description": "Teachings of Matsya avatar about cosmology.",
+    "featured": false
   },
   {
     "id": "ashoka_chakra",
@@ -825,7 +916,8 @@
     "category": "Buddhist Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "History and significance of Emperor Ashoka."
+    "description": "History and significance of Emperor Ashoka.",
+    "featured": false
   },
   {
     "id": "buddha_teachings",
@@ -834,7 +926,8 @@
     "category": "Buddhist Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Essential teachings of Buddha on suffering and path."
+    "description": "Essential teachings of Buddha on suffering and path.",
+    "featured": false
   },
   {
     "id": "four_noble_truths",
@@ -843,7 +936,8 @@
     "category": "Buddhist Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Fundamental Buddhist teachings on suffering."
+    "description": "Fundamental Buddhist teachings on suffering.",
+    "featured": false
   },
   {
     "id": "eightfold_path",
@@ -852,7 +946,8 @@
     "category": "Buddhist Philosophy",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Buddha's path to enlightenment and liberation."
+    "description": "Buddha's path to enlightenment and liberation.",
+    "featured": false
   },
   {
     "id": "pali_canon",
@@ -861,7 +956,8 @@
     "category": "Buddhist Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Complete collection of Buddhist sacred texts."
+    "description": "Complete collection of Buddhist sacred texts.",
+    "featured": false
   },
   {
     "id": "sutras_lotus",
@@ -870,7 +966,8 @@
     "category": "Buddhist Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Important Mahayana Buddhist scripture."
+    "description": "Important Mahayana Buddhist scripture.",
+    "featured": false
   },
   {
     "id": "lankavatara_sutra",
@@ -879,7 +976,8 @@
     "category": "Buddhist Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Sutra describing Buddha's teaching in Lanka."
+    "description": "Sutra describing Buddha's teaching in Lanka.",
+    "featured": false
   },
   {
     "id": "heart_sutra",
@@ -888,7 +986,8 @@
     "category": "Buddhist Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Essential Buddhist teaching on emptiness."
+    "description": "Essential Buddhist teaching on emptiness.",
+    "featured": false
   },
   {
     "id": "diamond_sutra",
@@ -897,7 +996,8 @@
     "category": "Buddhist Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Important scripture on transcendental wisdom."
+    "description": "Important scripture on transcendental wisdom.",
+    "featured": false
   },
   {
     "id": "avatamsaka",
@@ -906,7 +1006,8 @@
     "category": "Buddhist Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Vast Buddhist scripture on Buddha's enlightenment."
+    "description": "Vast Buddhist scripture on Buddha's enlightenment.",
+    "featured": false
   },
   {
     "id": "samadhi_raja",
@@ -915,7 +1016,8 @@
     "category": "Buddhist Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Teaching on meditation and concentration."
+    "description": "Teaching on meditation and concentration.",
+    "featured": false
   },
   {
     "id": "mahaparinirvana",
@@ -924,7 +1026,8 @@
     "category": "Buddhist Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Buddha's final teachings before entering nirvana."
+    "description": "Buddha's final teachings before entering nirvana.",
+    "featured": false
   },
   {
     "id": "mahavamsa",
@@ -933,7 +1036,8 @@
     "category": "Buddhist Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "History of Buddhism from its beginning."
+    "description": "History of Buddhism from its beginning.",
+    "featured": false
   },
   {
     "id": "ashvaghosha_buddha",
@@ -942,7 +1046,8 @@
     "category": "Sanskrit Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Life of Buddha in elegant Sanskrit verse."
+    "description": "Life of Buddha in elegant Sanskrit verse.",
+    "featured": false
   },
   {
     "id": "saundarananda",
@@ -951,7 +1056,8 @@
     "category": "Sanskrit Literature",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Story of Nanda's conversion to Buddhism."
+    "description": "Story of Nanda's conversion to Buddhism.",
+    "featured": false
   },
   {
     "id": "ratnavali_drama",
@@ -960,7 +1066,8 @@
     "category": "Sanskrit Drama",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Royal romance drama of ancient times."
+    "description": "Royal romance drama of ancient times.",
+    "featured": false
   },
   {
     "id": "priyadarshika",
@@ -969,7 +1076,8 @@
     "category": "Sanskrit Drama",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Drama describing love and romance."
+    "description": "Drama describing love and romance.",
+    "featured": false
   },
   {
     "id": "malati_madhava",
@@ -978,7 +1086,8 @@
     "category": "Sanskrit Drama",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Love story of Malati and Madhava."
+    "description": "Love story of Malati and Madhava.",
+    "featured": false
   },
   {
     "id": "uttara_ramacharita",
@@ -987,7 +1096,8 @@
     "category": "Sanskrit Drama",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Later events in Ramayana told as drama."
+    "description": "Later events in Ramayana told as drama.",
+    "featured": false
   },
   {
     "id": "madhyama_vyayoga",
@@ -996,7 +1106,8 @@
     "category": "Sanskrit Drama",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Middle comedy from classical Sanskrit drama."
+    "description": "Middle comedy from classical Sanskrit drama.",
+    "featured": false
   },
   {
     "id": "swapnvasavadatta",
@@ -1005,7 +1116,8 @@
     "category": "Sanskrit Drama",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Dream of Vasavadatta romantic drama."
+    "description": "Dream of Vasavadatta romantic drama.",
+    "featured": false
   },
   {
     "id": "bhavabhuti_plays",
@@ -1014,7 +1126,8 @@
     "category": "Sanskrit Drama",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "All three plays of dramatist Bhavabhuti."
+    "description": "All three plays of dramatist Bhavabhuti.",
+    "featured": false
   },
   {
     "id": "kaler_gupta",
@@ -1023,7 +1136,8 @@
     "category": "Hindi Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Modern Hindi essays on culture and philosophy."
+    "description": "Modern Hindi essays on culture and philosophy.",
+    "featured": false
   },
   {
     "id": "hindi_sahitya",
@@ -1032,7 +1146,8 @@
     "category": "Hindi Reference",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Complete encyclopedia of Hindi literature."
+    "description": "Complete encyclopedia of Hindi literature.",
+    "featured": false
   },
   {
     "id": "adhunik_hindi",
@@ -1041,7 +1156,8 @@
     "category": "Hindi Poetry",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Collection of modern Hindi poetry collection."
+    "description": "Collection of modern Hindi poetry collection.",
+    "featured": false
   },
   {
     "id": "marathi_saints",
@@ -1050,7 +1166,8 @@
     "category": "Devotional",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Teachings of great Marathi saint poets."
+    "description": "Teachings of great Marathi saint poets.",
+    "featured": false
   },
   {
     "id": "bengali_renaissance",
@@ -1059,7 +1176,8 @@
     "category": "Hindi Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Important texts from Bengali renaissance period."
+    "description": "Important texts from Bengali renaissance period.",
+    "featured": false
   },
   {
     "id": "dalit_sahitya",
@@ -1068,7 +1186,8 @@
     "category": "Social Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Voices and stories of Dalit communities."
+    "description": "Voices and stories of Dalit communities.",
+    "featured": false
   },
   {
     "id": "stri_sahitya",
@@ -1077,7 +1196,8 @@
     "category": "Social Literature",
     "language": "Hindi",
     "cover": "covers/default.jpg",
-    "description": "Important works by female authors of India."
+    "description": "Important works by female authors of India.",
+    "featured": false
   },
   {
     "id": "kavya_prakash",
@@ -1086,7 +1206,8 @@
     "category": "Literary Criticism",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient Sanskrit poetics and literary theory."
+    "description": "Ancient Sanskrit poetics and literary theory.",
+    "featured": false
   },
   {
     "id": "sahitya_darpana",
@@ -1095,7 +1216,8 @@
     "category": "Literary Criticism",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Mirror of Literature - comprehensive poetics guide."
+    "description": "Mirror of Literature - comprehensive poetics guide.",
+    "featured": false
   },
   {
     "id": "rasa_manjari",
@@ -1104,7 +1226,8 @@
     "category": "Literary Criticism",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Treatise on aesthetic emotions in literature."
+    "description": "Treatise on aesthetic emotions in literature.",
+    "featured": false
   },
   {
     "id": "natya_shastra",
@@ -1113,7 +1236,8 @@
     "category": "Performing Arts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient treatise on drama and performance arts."
+    "description": "Ancient treatise on drama and performance arts.",
+    "featured": false
   },
   {
     "id": "abhinaya_darpana",
@@ -1122,7 +1246,8 @@
     "category": "Performing Arts",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Mirror of Gestures - guide to dance forms."
+    "description": "Mirror of Gestures - guide to dance forms.",
+    "featured": false
   },
   {
     "id": "sangeet_ratnakar",
@@ -1131,7 +1256,8 @@
     "category": "Music Theory",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ocean of Music - complete music theory guide."
+    "description": "Ocean of Music - complete music theory guide.",
+    "featured": false
   },
   {
     "id": "classical_music",
@@ -1140,7 +1266,8 @@
     "category": "Music",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "History and theory of Hindustani and Carnatic music."
+    "description": "History and theory of Hindustani and Carnatic music.",
+    "featured": false
   },
   {
     "id": "sculpture_texts",
@@ -1149,7 +1276,8 @@
     "category": "Art & Architecture",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Treatises on sculpture, architecture and art."
+    "description": "Treatises on sculpture, architecture and art.",
+    "featured": false
   },
   {
     "id": "vastu_shastra",
@@ -1158,7 +1286,8 @@
     "category": "Architecture",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient principles of architecture and space design."
+    "description": "Ancient principles of architecture and space design.",
+    "featured": false
   },
   {
     "id": "ayurveda_samhita",
@@ -1167,7 +1296,8 @@
     "category": "Medical Science",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient treatise on Ayurveda and medicine."
+    "description": "Ancient treatise on Ayurveda and medicine.",
+    "featured": true
   },
   {
     "id": "sushruta_samhita",
@@ -1176,7 +1306,8 @@
     "category": "Medical Science",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Ancient Ayurvedic text on surgery and medicine."
+    "description": "Ancient Ayurvedic text on surgery and medicine.",
+    "featured": true
   },
   {
     "id": "ashtanga_hridaya",
@@ -1185,7 +1316,8 @@
     "category": "Medical Science",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Concise Ayurvedic medical encyclopedia."
+    "description": "Concise Ayurvedic medical encyclopedia.",
+    "featured": false
   },
   {
     "id": "bhava_prakasha",
@@ -1194,7 +1326,8 @@
     "category": "Medical Science",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Materia medica and medicinal substances."
+    "description": "Materia medica and medicinal substances.",
+    "featured": false
   },
   {
     "id": "astronomy_siddhanta",
@@ -1203,7 +1336,8 @@
     "category": "Science",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Crown of treatises - mathematics and astronomy."
+    "description": "Crown of treatises - mathematics and astronomy.",
+    "featured": false
   },
   {
     "id": "lilavati",
@@ -1212,7 +1346,8 @@
     "category": "Mathematics",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Playful book on mathematics and calculations."
+    "description": "Playful book on mathematics and calculations.",
+    "featured": false
   },
   {
     "id": "aryabhatiya",
@@ -1221,7 +1356,8 @@
     "category": "Science",
     "language": "Sanskrit",
     "cover": "covers/default.jpg",
-    "description": "Treatise on mathematics and astronomy by Aryabhata."
+    "description": "Treatise on mathematics and astronomy by Aryabhata.",
+    "featured": true
   },
   {
     "id": "pride_prejudice",
@@ -1230,7 +1366,8 @@
     "category": "Romance",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "A romantic novel of manners and marriage set in Georgian England exploring themes of class and love."
+    "description": "A romantic novel of manners and marriage set in Georgian England exploring themes of class and love.",
+    "featured": true
   },
   {
     "id": "jane_eyre",
@@ -1239,7 +1376,8 @@
     "category": "Gothic Romance",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Classic Gothic romance following the life of Jane Eyre from childhood through love and mystery."
+    "description": "Classic Gothic romance following the life of Jane Eyre from childhood through love and mystery.",
+    "featured": false
   },
   {
     "id": "wuthering_heights",
@@ -1248,7 +1386,8 @@
     "category": "Gothic",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Dark passionate tale of love and revenge on the Yorkshire moors."
+    "description": "Dark passionate tale of love and revenge on the Yorkshire moors.",
+    "featured": false
   },
   {
     "id": "great_gatsby",
@@ -1257,7 +1396,8 @@
     "category": "Literary Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Jazz Age masterpiece exploring wealth, love and the American Dream."
+    "description": "Jazz Age masterpiece exploring wealth, love and the American Dream.",
+    "featured": true
   },
   {
     "id": "moby_dick",
@@ -1266,7 +1406,8 @@
     "category": "Adventure",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Epic tale of whaling and the obsessive pursuit of the great white whale."
+    "description": "Epic tale of whaling and the obsessive pursuit of the great white whale.",
+    "featured": false
   },
   {
     "id": "alice_wonderland",
@@ -1275,7 +1416,8 @@
     "category": "Fantasy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Fantastical tale of a young girl's adventures in a surreal world beneath the earth."
+    "description": "Fantastical tale of a young girl's adventures in a surreal world beneath the earth.",
+    "featured": false
   },
   {
     "id": "adventures_sherlock",
@@ -1284,7 +1426,8 @@
     "category": "Mystery",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Collection of detective stories featuring the brilliant Sherlock Holmes and his companion Watson."
+    "description": "Collection of detective stories featuring the brilliant Sherlock Holmes and his companion Watson.",
+    "featured": false
   },
   {
     "id": "hound_baskervilles",
@@ -1293,7 +1436,8 @@
     "category": "Mystery",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Mystery of a cursed family and a phantom hound on the Devon moors."
+    "description": "Mystery of a cursed family and a phantom hound on the Devon moors.",
+    "featured": false
   },
   {
     "id": "frankenstein",
@@ -1302,7 +1446,8 @@
     "category": "Gothic Science Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Pioneering science fiction novel exploring themes of creation, responsibility and monstrosity."
+    "description": "Pioneering science fiction novel exploring themes of creation, responsibility and monstrosity.",
+    "featured": true
   },
   {
     "id": "dracula",
@@ -1311,7 +1456,8 @@
     "category": "Gothic Horror",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Gothic horror novel told through letters and diary entries about the vampire Count Dracula."
+    "description": "Gothic horror novel told through letters and diary entries about the vampire Count Dracula.",
+    "featured": false
   },
   {
     "id": "the_odyssey",
@@ -1320,7 +1466,8 @@
     "category": "Epic",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Classical epic of Odysseus's ten-year journey home after the Trojan War."
+    "description": "Classical epic of Odysseus's ten-year journey home after the Trojan War.",
+    "featured": false
   },
   {
     "id": "the_iliad",
@@ -1329,7 +1476,8 @@
     "category": "Epic",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Ancient Greek epic depicting the Trojan War and the heroic Achilles."
+    "description": "Ancient Greek epic depicting the Trojan War and the heroic Achilles.",
+    "featured": false
   },
   {
     "id": "crime_punishment",
@@ -1338,7 +1486,8 @@
     "category": "Psychological Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Psychological novel exploring guilt, redemption and morality in Saint Petersburg."
+    "description": "Psychological novel exploring guilt, redemption and morality in Saint Petersburg.",
+    "featured": false
   },
   {
     "id": "war_peace",
@@ -1347,7 +1496,8 @@
     "category": "Historical",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Epic historical novel set during the Napoleonic Wars following aristocratic Russian families."
+    "description": "Epic historical novel set during the Napoleonic Wars following aristocratic Russian families.",
+    "featured": false
   },
   {
     "id": "anna_karenina",
@@ -1356,7 +1506,8 @@
     "category": "Literary Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Tragic tale of love and society in 19th century Russia."
+    "description": "Tragic tale of love and society in 19th century Russia.",
+    "featured": false
   },
   {
     "id": "brothers_karamazov",
@@ -1365,7 +1516,8 @@
     "category": "Philosophical Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Philosophical novel exploring faith, doubt and redemption through four brothers."
+    "description": "Philosophical novel exploring faith, doubt and redemption through four brothers.",
+    "featured": false
   },
   {
     "id": "jane_austen_emma",
@@ -1374,7 +1526,8 @@
     "category": "Romance",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story of a young matchmaker learning about love and self-awareness."
+    "description": "Story of a young matchmaker learning about love and self-awareness.",
+    "featured": false
   },
   {
     "id": "jane_austen_sense",
@@ -1383,7 +1536,8 @@
     "category": "Romance",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Tale of two sisters navigating love and marriage with different temperaments."
+    "description": "Tale of two sisters navigating love and marriage with different temperaments.",
+    "featured": false
   },
   {
     "id": "jane_austen_northanger",
@@ -1392,7 +1546,8 @@
     "category": "Comedy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Satirical comedy about a young Gothic novel enthusiast."
+    "description": "Satirical comedy about a young Gothic novel enthusiast.",
+    "featured": false
   },
   {
     "id": "jane_austen_mansfield",
@@ -1401,7 +1556,8 @@
     "category": "Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story of Fanny Price and moral principles in a country estate."
+    "description": "Story of Fanny Price and moral principles in a country estate.",
+    "featured": false
   },
   {
     "id": "testament_youth",
@@ -1410,7 +1566,8 @@
     "category": "Autobiography",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Powerful memoir of a woman's life through WWI and social change."
+    "description": "Powerful memoir of a woman's life through WWI and social change.",
+    "featured": false
   },
   {
     "id": "gulliver_travels",
@@ -1419,7 +1576,8 @@
     "category": "Satire",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Satirical adventures to fantastical lands mocking society and politics."
+    "description": "Satirical adventures to fantastical lands mocking society and politics.",
+    "featured": false
   },
   {
     "id": "robinson_crusoe",
@@ -1428,7 +1586,8 @@
     "category": "Adventure",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Classic tale of survival on an island after shipwreck."
+    "description": "Classic tale of survival on an island after shipwreck.",
+    "featured": false
   },
   {
     "id": "treasure_island",
@@ -1437,7 +1596,8 @@
     "category": "Adventure",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Adventure tale of pirate treasure and a young man's quest."
+    "description": "Adventure tale of pirate treasure and a young man's quest.",
+    "featured": false
   },
   {
     "id": "strange_case_jekyll",
@@ -1446,7 +1606,8 @@
     "category": "Science Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Psychological horror exploring the dual nature of human personality."
+    "description": "Psychological horror exploring the dual nature of human personality.",
+    "featured": false
   },
   {
     "id": "pickwick_papers",
@@ -1455,7 +1616,8 @@
     "category": "Comedy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Comic adventures of an English gentleman and his friends."
+    "description": "Comic adventures of an English gentleman and his friends.",
+    "featured": false
   },
   {
     "id": "oliver_twist",
@@ -1464,7 +1626,8 @@
     "category": "Social Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story of an orphan boy in Victorian London society."
+    "description": "Story of an orphan boy in Victorian London society.",
+    "featured": false
   },
   {
     "id": "nicholas_nickleby",
@@ -1473,7 +1636,8 @@
     "category": "Social Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Tale of a young man's struggles and rise in Victorian England."
+    "description": "Tale of a young man's struggles and rise in Victorian England.",
+    "featured": false
   },
   {
     "id": "bleak_house",
@@ -1482,7 +1646,8 @@
     "category": "Social Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Complex narrative exposing legal corruption and social issues."
+    "description": "Complex narrative exposing legal corruption and social issues.",
+    "featured": false
   },
   {
     "id": "great_expectations",
@@ -1491,7 +1656,8 @@
     "category": "Coming of Age",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story of Pip's journey from poor forge boy to gentleman expectations."
+    "description": "Story of Pip's journey from poor forge boy to gentleman expectations.",
+    "featured": false
   },
   {
     "id": "david_copperfield",
@@ -1500,7 +1666,8 @@
     "category": "Autobiographical",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Semi-autobiographical novel of a man's life from childhood to adulthood."
+    "description": "Semi-autobiographical novel of a man's life from childhood to adulthood.",
+    "featured": false
   },
   {
     "id": "tale_two_cities",
@@ -1509,7 +1676,8 @@
     "category": "Historical",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Epic novel set during the French Revolution with themes of sacrifice and resurrection."
+    "description": "Epic novel set during the French Revolution with themes of sacrifice and resurrection.",
+    "featured": false
   },
   {
     "id": "hard_times",
@@ -1518,7 +1686,8 @@
     "category": "Social Satire",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Critique of industrialization and utilitarianism in Victorian England."
+    "description": "Critique of industrialization and utilitarianism in Victorian England.",
+    "featured": false
   },
   {
     "id": "dombey_son",
@@ -1527,7 +1696,8 @@
     "category": "Social Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story of a merchant and his complex family relationships."
+    "description": "Story of a merchant and his complex family relationships.",
+    "featured": false
   },
   {
     "id": "martin_chuzzlewit",
@@ -1536,7 +1706,8 @@
     "category": "Social Comedy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Adventures of a young man seeking his fortune both in England and America."
+    "description": "Adventures of a young man seeking his fortune both in England and America.",
+    "featured": false
   },
   {
     "id": "barnaby_rudge",
@@ -1545,7 +1716,8 @@
     "category": "Historical",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Historical novel set during the Gordon Riots in 18th century London."
+    "description": "Historical novel set during the Gordon Riots in 18th century London.",
+    "featured": false
   },
   {
     "id": "tess_d_urbervilles",
@@ -1554,7 +1726,8 @@
     "category": "Tragedy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Tragic tale of a young woman's suffering and social injustice."
+    "description": "Tragic tale of a young woman's suffering and social injustice.",
+    "featured": false
   },
   {
     "id": "far_from_madding",
@@ -1563,7 +1736,8 @@
     "category": "Romance",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story of a woman managing farmland and navigating complex relationships."
+    "description": "Story of a woman managing farmland and navigating complex relationships.",
+    "featured": false
   },
   {
     "id": "mayor_casterbridge",
@@ -1572,7 +1746,8 @@
     "category": "Tragedy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Tale of a man's rise and fall in Victorian England."
+    "description": "Tale of a man's rise and fall in Victorian England.",
+    "featured": false
   },
   {
     "id": "jude_obscure",
@@ -1581,7 +1756,8 @@
     "category": "Tragedy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story of an impoverished man's unsuccessful quest for learning and love."
+    "description": "Story of an impoverished man's unsuccessful quest for learning and love.",
+    "featured": false
   },
   {
     "id": "wood_beyond_world",
@@ -1590,7 +1766,8 @@
     "category": "Fantasy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Early fantasy exploring a magical realm beyond the known world."
+    "description": "Early fantasy exploring a magical realm beyond the known world.",
+    "featured": false
   },
   {
     "id": "thirty_nine_steps",
@@ -1599,7 +1776,8 @@
     "category": "Thriller",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Action-packed espionage thriller across England and Scotland."
+    "description": "Action-packed espionage thriller across England and Scotland.",
+    "featured": false
   },
   {
     "id": "man_property",
@@ -1608,7 +1786,8 @@
     "category": "Social Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "First book of The Forsyte Saga exploring wealth and family."
+    "description": "First book of The Forsyte Saga exploring wealth and family.",
+    "featured": false
   },
   {
     "id": "lady_chatterley",
@@ -1617,7 +1796,8 @@
     "category": "Literary Romance",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Controversial novel exploring passion and class differences."
+    "description": "Controversial novel exploring passion and class differences.",
+    "featured": false
   },
   {
     "id": "sons_lovers",
@@ -1626,7 +1806,8 @@
     "category": "Coming of Age",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Semi-autobiographical novel of a man's complex relationships."
+    "description": "Semi-autobiographical novel of a man's complex relationships.",
+    "featured": false
   },
   {
     "id": "ulysses",
@@ -1635,7 +1816,8 @@
     "category": "Modernist",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Experimental modernist novel paralleling Homer's Odyssey in Dublin."
+    "description": "Experimental modernist novel paralleling Homer's Odyssey in Dublin.",
+    "featured": false
   },
   {
     "id": "portrait_artist",
@@ -1644,7 +1826,8 @@
     "category": "Coming of Age",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Stream of consciousness novel following an artist's spiritual journey."
+    "description": "Stream of consciousness novel following an artist's spiritual journey.",
+    "featured": false
   },
   {
     "id": "dubliners",
@@ -1653,7 +1836,8 @@
     "category": "Short Stories",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Collection of stories depicting the lives of middle-class Dubliners."
+    "description": "Collection of stories depicting the lives of middle-class Dubliners.",
+    "featured": false
   },
   {
     "id": "virgin_in_garden",
@@ -1662,7 +1846,8 @@
     "category": "Literary Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Novel set in 1950s England about art, academia and desire."
+    "description": "Novel set in 1950s England about art, academia and desire.",
+    "featured": false
   },
   {
     "id": "mrs_dalloway",
@@ -1671,7 +1856,8 @@
     "category": "Modernist",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Stream of consciousness novel following a woman's day in post-war London."
+    "description": "Stream of consciousness novel following a woman's day in post-war London.",
+    "featured": false
   },
   {
     "id": "to_lighthouse",
@@ -1680,7 +1866,8 @@
     "category": "Modernist",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Abstract novel exploring consciousness, time and human relationships."
+    "description": "Abstract novel exploring consciousness, time and human relationships.",
+    "featured": false
   },
   {
     "id": "orlando",
@@ -1689,7 +1876,8 @@
     "category": "Fantasy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Experimental novel following a character who changes sex across centuries."
+    "description": "Experimental novel following a character who changes sex across centuries.",
+    "featured": false
   },
   {
     "id": "waves",
@@ -1698,7 +1886,8 @@
     "category": "Modernist",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Poetic novel in monologues exploring consciousness and mortality."
+    "description": "Poetic novel in monologues exploring consciousness and mortality.",
+    "featured": false
   },
   {
     "id": "animal_farm",
@@ -1707,7 +1896,8 @@
     "category": "Political Allegory",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Satirical allegory of the Russian Revolution and totalitarianism."
+    "description": "Satirical allegory of the Russian Revolution and totalitarianism.",
+    "featured": true
   },
   {
     "id": "1984",
@@ -1716,7 +1906,8 @@
     "category": "Dystopian",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Dystopian novel depicting a totalitarian future where freedom is suppressed."
+    "description": "Dystopian novel depicting a totalitarian future where freedom is suppressed.",
+    "featured": true
   },
   {
     "id": "brave_new_world",
@@ -1725,7 +1916,8 @@
     "category": "Dystopian",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Futuristic dystopia exploring control through pleasure and technology."
+    "description": "Futuristic dystopia exploring control through pleasure and technology.",
+    "featured": false
   },
   {
     "id": "point_counter_point",
@@ -1734,7 +1926,8 @@
     "category": "Literary Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Complex novel exploring multiple perspectives in modern society."
+    "description": "Complex novel exploring multiple perspectives in modern society.",
+    "featured": false
   },
   {
     "id": "catcher_rye",
@@ -1743,7 +1936,8 @@
     "category": "Coming of Age",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story of a teenage boy's three days in New York City questioning society."
+    "description": "Story of a teenage boy's three days in New York City questioning society.",
+    "featured": false
   },
   {
     "id": "sun_also_rises",
@@ -1752,7 +1946,8 @@
     "category": "Literary Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Lost Generation tale set in Europe following WWI."
+    "description": "Lost Generation tale set in Europe following WWI.",
+    "featured": false
   },
   {
     "id": "for_whom_bell_tolls",
@@ -1761,7 +1956,8 @@
     "category": "Historical",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Novel set during the Spanish Civil War exploring sacrifice and heroism."
+    "description": "Novel set during the Spanish Civil War exploring sacrifice and heroism.",
+    "featured": false
   },
   {
     "id": "old_man_sea",
@@ -1770,7 +1966,8 @@
     "category": "Novella",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story of an aging fisherman's struggle with a giant marlin."
+    "description": "Story of an aging fisherman's struggle with a giant marlin.",
+    "featured": false
   },
   {
     "id": "grapes_wrath",
@@ -1779,7 +1976,8 @@
     "category": "Social Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Epic tale of the Joad family during the Great Depression in California."
+    "description": "Epic tale of the Joad family during the Great Depression in California.",
+    "featured": false
   },
   {
     "id": "east_eden",
@@ -1788,7 +1986,8 @@
     "category": "Family Saga",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Multigenerational saga exploring good and evil in California history."
+    "description": "Multigenerational saga exploring good and evil in California history.",
+    "featured": false
   },
   {
     "id": "candles_burn",
@@ -1797,7 +1996,8 @@
     "category": "Literary Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story exploring ambition and the American Dream in the Jazz Age."
+    "description": "Story exploring ambition and the American Dream in the Jazz Age.",
+    "featured": false
   },
   {
     "id": "beautiful_damned",
@@ -1806,7 +2006,8 @@
     "category": "Literary Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Novel of a wealthy couple's moral decline during the Jazz Age."
+    "description": "Novel of a wealthy couple's moral decline during the Jazz Age.",
+    "featured": false
   },
   {
     "id": "tender_night",
@@ -1815,7 +2016,8 @@
     "category": "Literary Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Story of a psychiatrist and his wife on the French Riviera."
+    "description": "Story of a psychiatrist and his wife on the French Riviera.",
+    "featured": false
   },
   {
     "id": "meditations",
@@ -1824,7 +2026,8 @@
     "category": "Philosophy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Stoic philosophical reflections written by a Roman Emperor."
+    "description": "Stoic philosophical reflections written by a Roman Emperor.",
+    "featured": false
   },
   {
     "id": "thus_spoke_zara",
@@ -1833,7 +2036,8 @@
     "category": "Philosophy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Philosophical fiction exploring concepts of the Übermensch and morality."
+    "description": "Philosophical fiction exploring concepts of the Übermensch and morality.",
+    "featured": false
   },
   {
     "id": "critique_pure_reason",
@@ -1842,7 +2046,8 @@
     "category": "Philosophy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Fundamental work of epistemology exploring limits of human knowledge."
+    "description": "Fundamental work of epistemology exploring limits of human knowledge.",
+    "featured": false
   },
   {
     "id": "leviathan",
@@ -1851,7 +2056,8 @@
     "category": "Political Philosophy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Political treatise on the nature of authority and social contract."
+    "description": "Political treatise on the nature of authority and social contract.",
+    "featured": false
   },
   {
     "id": "social_contract",
@@ -1860,7 +2066,8 @@
     "category": "Political Philosophy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Treatise on political legitimacy and the general will."
+    "description": "Treatise on political legitimacy and the general will.",
+    "featured": false
   },
   {
     "id": "origin_species",
@@ -1869,7 +2076,8 @@
     "category": "Science",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Groundbreaking work introducing the theory of natural selection."
+    "description": "Groundbreaking work introducing the theory of natural selection.",
+    "featured": false
   },
   {
     "id": "descent_man",
@@ -1878,7 +2086,8 @@
     "category": "Science",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Darwin's exploration of human evolution and sexual selection."
+    "description": "Darwin's exploration of human evolution and sexual selection.",
+    "featured": false
   },
   {
     "id": "decline_fall_roman",
@@ -1887,7 +2096,8 @@
     "category": "History",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Masterwork of historical literature chronicling Rome's collapse."
+    "description": "Masterwork of historical literature chronicling Rome's collapse.",
+    "featured": false
   },
   {
     "id": "phantom_opera",
@@ -1896,7 +2106,8 @@
     "category": "Gothic",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Gothic novel of mystery and obsession in the Paris Opera House."
+    "description": "Gothic novel of mystery and obsession in the Paris Opera House.",
+    "featured": false
   },
   {
     "id": "Count_Monte_Cristo",
@@ -1905,7 +2116,8 @@
     "category": "Adventure",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Epic adventure of escape, fortune and revenge."
+    "description": "Epic adventure of escape, fortune and revenge.",
+    "featured": false
   },
   {
     "id": "three_musketeers",
@@ -1914,7 +2126,8 @@
     "category": "Adventure",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Swashbuckling tale of friendship and adventure in 17th century France."
+    "description": "Swashbuckling tale of friendship and adventure in 17th century France.",
+    "featured": false
   },
   {
     "id": "dumas_monte_complete",
@@ -1923,7 +2136,8 @@
     "category": "Adventure",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Tale of a mysterious prisoner and royal intrigue in France."
+    "description": "Tale of a mysterious prisoner and royal intrigue in France.",
+    "featured": false
   },
   {
     "id": "vingt_ans_apres",
@@ -1932,7 +2146,8 @@
     "category": "Adventure",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Sequel to The Three Musketeers following their adventures in middle age."
+    "description": "Sequel to The Three Musketeers following their adventures in middle age.",
+    "featured": false
   },
   {
     "id": "wrathful_god",
@@ -1941,7 +2156,8 @@
     "category": "Gothic",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Complete edition of the dark tale of passion on the Yorkshire moors."
+    "description": "Complete edition of the dark tale of passion on the Yorkshire moors.",
+    "featured": false
   },
   {
     "id": "picture_dorian",
@@ -1950,7 +2166,8 @@
     "category": "Gothic",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Tale of beauty, corruption and the consequences of vanity."
+    "description": "Tale of beauty, corruption and the consequences of vanity.",
+    "featured": false
   },
   {
     "id": "importance_earnest",
@@ -1959,7 +2176,8 @@
     "category": "Comedy",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Witty comedy of manners and mistaken identities."
+    "description": "Witty comedy of manners and mistaken identities.",
+    "featured": false
   },
   {
     "id": "woman_no_importance",
@@ -1968,7 +2186,8 @@
     "category": "Drama",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Social drama exploring marriage, society and morality."
+    "description": "Social drama exploring marriage, society and morality.",
+    "featured": false
   },
   {
     "id": "time_machine",
@@ -1977,7 +2196,8 @@
     "category": "Science Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Early science fiction exploring the future of humanity and class division."
+    "description": "Early science fiction exploring the future of humanity and class division.",
+    "featured": false
   },
   {
     "id": "island_doctor_moreau",
@@ -1986,7 +2206,8 @@
     "category": "Science Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Dark science fiction exploring ethics and the nature of humanity."
+    "description": "Dark science fiction exploring ethics and the nature of humanity.",
+    "featured": false
   },
   {
     "id": "invisible_man",
@@ -1995,7 +2216,8 @@
     "category": "Science Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Novel exploring power and corruption through invisibility."
+    "description": "Novel exploring power and corruption through invisibility.",
+    "featured": false
   },
   {
     "id": "war_worlds",
@@ -2004,6 +2226,7 @@
     "category": "Science Fiction",
     "language": "English",
     "cover": "covers/default.jpg",
-    "description": "Pioneering science fiction depicting an alien invasion of Earth."
+    "description": "Pioneering science fiction depicting an alien invasion of Earth.",
+    "featured": false
   }
 ]

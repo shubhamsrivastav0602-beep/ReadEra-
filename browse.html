@@ -292,10 +292,128 @@
             color: #8B4513;
         }
 
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #8B4513;
+        }
+
         .stat-label {
             font-size: 0.9rem;
             color: #64748b;
             margin-top: 0.5rem;
+        }
+
+        /* Search Bar */
+        .search-section {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .search-container {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .search-input-group {
+            flex: 1;
+            min-width: 250px;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .search-input-group input {
+            flex: 1;
+            padding: 0.75rem 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        .search-input-group input:focus {
+            outline: none;
+            border-color: #8B4513;
+            box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.1);
+        }
+
+        .search-btn {
+            padding: 0.75rem 1.5rem;
+            background: #8B4513;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .search-btn:hover {
+            background: #6b3410;
+        }
+
+        .search-filters {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .search-filter-label {
+            font-size: 0.9rem;
+            color: #64748b;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .search-filter-label select {
+            padding: 0.5rem 0.75rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-family: inherit;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+
+        .search-filter-label select:focus {
+            outline: none;
+            border-color: #8B4513;
+        }
+
+        .search-results-info {
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-top: 0.75rem;
+            display: none;
+        }
+
+        .search-results-info.show {
+            display: block;
         }
 
         /* Footer */
@@ -349,6 +467,43 @@
             <p>Discover 223 free Creative Commons & Public Domain books in Sanskrit, Hindi, English and more</p>
         </div>
 
+        <!-- Search Section -->
+        <div class="search-section">
+            <div class="search-container">
+                <div class="search-input-group">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="Search by title, author, or keyword..."
+                        aria-label="Search books"
+                        autocomplete="off"
+                    >
+                    <button class="search-btn" id="searchBtn" onclick="searchBooks()"><i class="fas fa-search"></i> Search</button>
+                </div>
+            </div>
+            
+            <div class="search-filters">
+                <label class="search-filter-label">
+                    <i class="fas fa-language"></i> Language:
+                    <select id="languageFilter" onchange="updateSearch()">
+                        <option value="">All Languages</option>
+                        <option value="Sanskrit">Sanskrit</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="English">English</option>
+                        <option value="Buddhist Philosophy">Buddhist Philosophy</option>
+                    </select>
+                </label>
+                <label class="search-filter-label">
+                    <i class="fas fa-tag"></i> Category:
+                    <select id="categoryFilter" onchange="updateSearch()">
+                        <option value="">All Categories</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div class="search-results-info" id="searchResultsInfo"></div>
+        </div>
+
         <!-- Stats -->
         <div class="stats" id="statsContainer" style="display: none;">
             <div class="stat-card">
@@ -386,6 +541,7 @@
         let allBooks = [];
         let filteredBooks = [];
         let coverMap = {};
+        let currentSearchQuery = '';
 
         // Load books and covers
         async function loadBooks() {
@@ -417,8 +573,18 @@
                 // Show stats
                 showStats();
                 
+                // Populate category filter
+                populateCategoryFilter();
+                
                 // Render books
                 filterBooks('all');
+
+                // Setup search input enter key
+                document.getElementById('searchInput').addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        searchBooks();
+                    }
+                });
             } catch (error) {
                 console.error("Error loading books:", error);
                 const container = document.getElementById('booksContainer');
@@ -432,6 +598,21 @@
             }
         }
 
+        // Populate category filter
+        function populateCategoryFilter() {
+            const categories = new Set(allBooks.map(b => b.category));
+            const categorySelect = document.getElementById('categoryFilter');
+            
+            categories.forEach(cat => {
+                if (cat) {
+                    const option = document.createElement('option');
+                    option.value = cat;
+                    option.textContent = cat;
+                    categorySelect.appendChild(option);
+                }
+            });
+        }
+
         // Show stats
         function showStats() {
             if (allBooks.length === 0) return;
@@ -443,6 +624,89 @@
             document.getElementById('totalLanguages').textContent = languages.size;
             document.getElementById('totalCategories').textContent = categories.size;
             document.getElementById('statsContainer').style.display = 'grid';
+        }
+
+        // Search books
+        async function searchBooks() {
+            const query = document.getElementById('searchInput').value.trim();
+            const language = document.getElementById('languageFilter').value;
+            const category = document.getElementById('categoryFilter').value;
+
+            if (!query) {
+                currentSearchQuery = '';
+                filterBooks('all');
+                return;
+            }
+
+            currentSearchQuery = query;
+
+            try {
+                // Build query string
+                let url = `/api/books/search?q=${encodeURIComponent(query)}`;
+                if (language) url += `&language=${encodeURIComponent(language)}`;
+                if (category) url += `&category=${encodeURIComponent(category)}`;
+
+                const response = await fetch(url);
+                const data = await response.json();
+
+                if (data.success) {
+                    filteredBooks = data.results;
+                    showSearchInfo(data.total, query);
+                    renderBooks();
+                } else {
+                    showSearchInfo(0, query);
+                    renderBooks();
+                }
+            } catch (error) {
+                console.error('Search error:', error);
+                // Fallback to client-side search
+                clientSideSearch(query, language, category);
+            }
+        }
+
+        // Client-side search fallback
+        function clientSideSearch(query, language, category) {
+            let results = allBooks;
+
+            if (query) {
+                const q = query.toLowerCase();
+                results = results.filter(b => 
+                    b.title.toLowerCase().includes(q) ||
+                    b.author.toLowerCase().includes(q) ||
+                    b.category.toLowerCase().includes(q) ||
+                    b.description.toLowerCase().includes(q)
+                );
+            }
+
+            if (language) {
+                results = results.filter(b => b.language === language);
+            }
+
+            if (category) {
+                results = results.filter(b => b.category === category);
+            }
+
+            filteredBooks = results;
+            showSearchInfo(results.length, query);
+            renderBooks();
+        }
+
+        // Show search results info
+        function showSearchInfo(count, query) {
+            const infoEl = document.getElementById('searchResultsInfo');
+            if (query) {
+                infoEl.textContent = `Found ${count} book${count !== 1 ? 's' : ''} matching "${query}"`;
+                infoEl.classList.add('show');
+            } else {
+                infoEl.classList.remove('show');
+            }
+        }
+
+        // Update search on filter change
+        function updateSearch() {
+            if (currentSearchQuery) {
+                searchBooks();
+            }
         }
 
         // Filter books
@@ -473,7 +737,7 @@
                     <div class="empty-state" style="grid-column: 1/-1;">
                         <i class="fas fa-search"></i>
                         <h3>No Books Found</h3>
-                        <p>Try selecting a different filter</p>
+                        <p>${currentSearchQuery ? 'Try adjusting your search terms' : 'Try selecting a different filter'}</p>
                     </div>
                 `;
                 return;

@@ -52,9 +52,14 @@ const AuthService = {
 
             // Save session to localStorage
             localStorage.setItem('token', data.session.access_token);
+            localStorage.setItem('refresh_token', data.session.refresh_token);
             localStorage.setItem('user', JSON.stringify(data.user));
+            localStorage.setItem('token_expiry', Date.now() + (data.session.expires_in * 1000));
 
             showToast('Welcome back!', 'success');
+
+            // Start token refresh timer
+            this.startTokenRefreshTimer();
 
             // Redirect to home page
             setTimeout(() => {
@@ -68,14 +73,70 @@ const AuthService = {
         }
     },
 
+    // Refresh token before it expires
+    async refreshTokenIfNeeded() {
+        try {
+            const tokenExpiry = localStorage.getItem('token_expiry');
+            const now = Date.now();
+            
+            // If token expires in less than 5 minutes, refresh it
+            if (tokenExpiry && (parseInt(tokenExpiry) - now) < 5 * 60 * 1000) {
+                const { data, error } = await supabaseClient.auth.refreshSession();
+                
+                if (error) throw error;
+                
+                // Update token in localStorage
+                localStorage.setItem('token', data.session.access_token);
+                localStorage.setItem('refresh_token', data.session.refresh_token);
+                localStorage.setItem('token_expiry', Date.now() + (data.session.expires_in * 1000));
+                
+                console.log('Token refreshed successfully');
+                return { success: true };
+            }
+            
+            return { success: true };
+        } catch (error) {
+            console.error('Token refresh failed:', error);
+            // If refresh fails, force logout
+            this.signOut();
+            return { success: false, error: error.message };
+        }
+    },
+
+    // Start automatic token refresh timer
+    startTokenRefreshTimer() {
+        // Refresh token every 30 minutes
+        if (window.tokenRefreshInterval) {
+            clearInterval(window.tokenRefreshInterval);
+        }
+        
+        window.tokenRefreshInterval = setInterval(() => {
+            if (this.isAuthenticated()) {
+                this.refreshTokenIfNeeded();
+            }
+        }, 30 * 60 * 1000);
+    },
+
+    // Stop token refresh timer
+    stopTokenRefreshTimer() {
+        if (window.tokenRefreshInterval) {
+            clearInterval(window.tokenRefreshInterval);
+        }
+    },
+
     // Sign out user
     async signOut() {
         try {
+            // Stop token refresh timer
+            this.stopTokenRefreshTimer();
+
             const { error } = await supabaseClient.auth.signOut();
             if (error) throw error;
 
             // Clear localStorage
             localStorage.removeItem('token');
+            localStorage.removeItem('refresh_token');
+            localStorage.removeItem('token_expiry');
             localStorage.removeItem('user');
             localStorage.removeItem('readera_current_user');
             localStorage.removeItem('admin_logged_in');

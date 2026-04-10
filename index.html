@@ -352,6 +352,32 @@
             width: 100%;
             height: 220px;
             object-fit: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #8B4513 0%, #d4a574 100%);
+        }
+
+        .book-cover.sanskrit {
+            background: linear-gradient(135deg, #8B4513 0%, #d4a574 100%);
+        }
+
+        .book-cover.hindi {
+            background: linear-gradient(135deg, #C41E3A 0%, #FF6B6B 100%);
+        }
+
+        .book-cover.english {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+        }
+
+        .book-cover.buddhist {
+            background: linear-gradient(135deg, #F57C00 0%, #FFB74D 100%);
+        }
+
+        .book-cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .book-info {
@@ -970,28 +996,90 @@
             }
         }
 
-        // Load featured books from Supabase
+        // Load featured books from Flask API
         async function loadFeaturedBooks() {
             const container = document.getElementById('featured-books-grid');
-            container.innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Loading books...</div>';
+            container.innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Loading featured books...</div>';
 
-            const result = await BookService.getFeaturedBooks(8);
+            try {
+                const response = await fetch('/api/books?page=1&limit=500');
+                const data = await response.json();
 
-            if (result.success && result.books.length > 0) {
-                container.innerHTML = result.books.map(book => `
-                    <div class="book-card" onclick="location.href='book.html?id=${book.id}'">
-                        <img src="${book.cover_url || 'https://placehold.co/300x400/8B4513/white?text=No+Cover'}" 
-                             class="book-cover" 
-                             alt="${book.title}"
-                             onerror="this.src='https://placehold.co/300x400/8B4513/white?text=No+Cover'">
-                        <div class="book-info">
-                            <div class="book-title">${escapeHtml(book.title.substring(0, 35))}</div>
-                            <div class="book-author">${escapeHtml(book.author || 'Unknown')}</div>
-                        </div>
-                    </div>
-                `).join('');
-            } else {
-                container.innerHTML = '<p style="text-align: center; color: #64748b;">No books found. Please check back later.</p>';
+                if (data.success) {
+                    // Filter only featured books
+                    const featuredBooks = data.books.filter(book => book.featured === true).slice(0, 20);
+                    
+                    if (featuredBooks.length > 0) {
+                        container.innerHTML = '';
+                        
+                        // Load each book with potential Google Books cover
+                        for (const book of featuredBooks) {
+                            const bookCard = document.createElement('div');
+                            bookCard.className = 'book-card';
+                            bookCard.onclick = () => {
+                                location.href = `book.html?id=${book.id}`;
+                            };
+                            
+                            // Get gradient color based on language
+                            let gradientClass = 'english';
+                            if (book.language === 'Sanskrit') gradientClass = 'sanskrit';
+                            else if (book.language === 'Hindi') gradientClass = 'hindi';
+                            else if (book.language.includes('Buddhist')) gradientClass = 'buddhist';
+                            
+                            // Try to fetch Google Books cover
+                            let coverHtml = `<div class="book-cover ${gradientClass}" style="display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; text-align: center; padding: 1rem; font-size: 0.9rem;">
+                                                <div>${escapeHtml(book.title.substring(0, 30))}</div>
+                                            </div>`;
+                            
+                            // Attempt to load Google Books cover asynchronously
+                            fetchGoogleBookscover(book.title, book.author).then(coverUrl => {
+                                if (coverUrl) {
+                                    const coverImg = bookCard.querySelector('.book-cover');
+                                    if (coverImg) {
+                                        coverImg.innerHTML = `<img src="${coverUrl}" alt="${book.title}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.parentElement.className='book-cover ${gradientClass}'">`;
+                                    }
+                                }
+                            }).catch(err => {
+                                // Ignore errors, use gradient fallback
+                                console.log(`Could not load cover for ${book.title}:`, err);
+                            });
+                            
+                            bookCard.innerHTML = `
+                                ${coverHtml}
+                                <div class="book-info">
+                                    <div class="book-title">${escapeHtml(book.title.substring(0, 40))}</div>
+                                    <div class="book-author">${escapeHtml(book.author || 'Unknown')}</div>
+                                    <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.35rem;">${book.language}</div>
+                                </div>
+                            `;
+                            
+                            container.appendChild(bookCard);
+                        }
+                    } else {
+                        container.innerHTML = '<p style="text-align: center; color: #64748b; grid-column: 1/-1;">No featured books found yet.</p>';
+                    }
+                } else {
+                    container.innerHTML = '<p style="text-align: center; color: #e74c3c; grid-column: 1/-1;">Error loading books</p>';
+                }
+            } catch (error) {
+                console.error('Error loading featured books:', error);
+                container.innerHTML = '<p style="text-align: center; color: #e74c3c; grid-column: 1/-1;">Failed to load books</p>';
+            }
+        }
+
+        async function fetchGoogleBookscover(title, author) {
+            try {
+                const searchQuery = `${title} ${author || ''}`.trim();
+                const response = await fetch(`/api/google-books/${encodeURIComponent(searchQuery)}`);
+                const data = await response.json();
+                
+                if (data.success && data.cover_url) {
+                    return data.cover_url.replaceAll('http://', 'https://');
+                }
+                return null;
+            } catch (error) {
+                console.log('Google Books API error:', error);
+                return null;
             }
         }
 

@@ -314,25 +314,84 @@
             margin-top: 2rem;
         }
 
-        /* Night Mode */
+        /* Night Mode with smooth transitions */
+        body {
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
         body.night-mode {
-            background: #1a1a1a;
-            color: #e0e0e0;
+            background: #0d1117;
+            color: #c9d1d9;
         }
 
         body.night-mode .reader-toolbar {
-            background: #222;
-            border-bottom-color: #333;
+            background: #161b22;
+            border-bottom-color: #30363d;
         }
 
         body.night-mode .book-content {
-            color: #d0d0d0;
+            color: #e6edf3;
+            text-shadow: 0 0 1px rgba(0,0,0,0.3);
         }
 
         body.night-mode .control-btn {
-            background: #333;
-            color: #e0e0e0;
-            border-color: #444;
+            background: #21262d;
+            color: #c9d1d9;
+            border-color: #30363d;
+        }
+
+        body.night-mode .control-btn:hover {
+            background: #8B4513;
+            color: #ffffff;
+            border-color: #8B4513;
+        }
+
+        body.night-mode .font-btn {
+            background: #21262d;
+            color: #c9d1d9;
+            border-color: #30363d;
+        }
+
+        body.night-mode .font-btn:hover {
+            background: #8B4513;
+            color: #ffffff;
+            border-color: #8B4513;
+        }
+
+        body.night-mode .book-header {
+            border-bottom-color: #30363d;
+        }
+
+        body.night-mode .book-header h1 {
+            color: #e6edf3;
+        }
+
+        body.night-mode .book-header p {
+            color: #8b949e;
+        }
+
+        body.night-mode .book-title-info h2 {
+            color: #e6edf3;
+        }
+
+        body.night-mode .book-title-info p {
+            color: #8b949e;
+        }
+
+        body.night-mode .book-meta {
+            color: #8b949e;
+        }
+
+        body.night-mode .pagination {
+            border-top-color: #30363d;
+        }
+
+        body.night-mode .page-info {
+            color: #8b949e;
+        }
+
+        body.night-mode .back-btn:hover {
+            color: #c4a574;
         }
 
         /* Responsive */
@@ -368,7 +427,7 @@
     <div class="reader-toolbar">
         <div class="toolbar-container">
             <div class="book-info">
-                <button class="back-btn" onclick="goBack()" title="Back to Browse">
+                <button class="back-btn" onclick="goToBrowse()" title="Back to Browse">
                     <i class="fas fa-arrow-left"></i>
                 </button>
                 <div class="book-title-info">
@@ -451,7 +510,7 @@
                 <i class="fas fa-exclamation-circle" style="font-size: 2rem; margin-bottom: 1rem;"></i>
                 <h3>Unable to load book</h3>
                 <p id="errorMessage" style="margin-top: 0.5rem;"></p>
-                <button class="control-btn" onclick="goBack()" style="margin-top: 1rem;">
+                <button class="control-btn" onclick="goToBrowse()" style="margin-top: 1rem;">
                     <i class="fas fa-arrow-left"></i> Back to Browse
                 </button>
             </div>
@@ -587,8 +646,8 @@
             });
         }
 
-        function goBack() {
-            window.history.back();
+        function goToBrowse() {
+            window.location.href = 'browse.html';
         }
 
         function showError(message) {

@@ -4,15 +4,15 @@
     / _` | '_/ _| ' \| |\ V / -_)
     \__,_|_| \__|_||_|_| \_/\___| -->
   <head data-release=1b68058e data-node="www06.us.archive.org">
-    <title>Haiyku upload video : Shubham Paswan : Free Download, Borrow, and Streaming : Internet Archive</title>
+    <title>Sanskrit The Book Of Psalms : Free Gospel Tracts : Free Download, Borrow, and Streaming : Internet Archive</title>
 
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     
         <meta name="google-site-verification" content="Q2YSouphkkgHkFNP7FgAkc4TmBs1Gmag3uGNndb53B8" />
     <meta name="google-site-verification" content="bpjKvUvsX0lxfmjg19TLblckWkDpnptZEYsBntApxUk" />
 
-    <meta name="baggage" content="sentry-trace_id=7617ef3eb0a44d609f860784c6e33287,sentry-sample_rate=0.001,sentry-transaction=%2Fdetails.php,sentry-public_key=94bf3037c1e245c8a927aaa4daad2dbb,sentry-environment=production,sentry-sampled=false,sentry-sample_rand=0.460268"/>    <meta name="sentry-trace" content="7617ef3eb0a44d609f860784c6e33287-56307bd6d1de48d1-0"/>
-    <script  nonce="a8ad34d38f9ea691c06b34a19975302c" >
+    <meta name="baggage" content="sentry-trace_id=b5f3ae51d38642b491f0969046a4742c,sentry-sample_rate=0.001,sentry-transaction=%2Fdetails.php,sentry-public_key=94bf3037c1e245c8a927aaa4daad2dbb,sentry-environment=production,sentry-sampled=false,sentry-sample_rand=0.528075"/>    <meta name="sentry-trace" content="b5f3ae51d38642b491f0969046a4742c-18421940b96a4a8e-0"/>
+    <script  nonce="f5407eac1a54e5951b5a955c34fa5478" >
 /* @licstart  The following is the entire license notice for the
  * JavaScript code in this page.
  *
@@ -36,11 +36,12 @@
         <meta charset="UTF-8">
                       <meta property="mediatype" content="texts">
                       <meta property="primary_collection" content="booksbylanguage_hindi">
-            <script src="//archive.org/includes/athena.js?v=1b68058e" type="text/javascript"></script>
+            <script src="//archive.org/includes/build/js/ia-sentry.min.js?v=1b68058e" type="text/javascript"></script>
+    <script src="//archive.org/includes/athena.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/includes/apollo.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/components/npm/lit/polyfill-support.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/components/npm/@webcomponents/webcomponentsjs/webcomponents-bundle.js?v=1b68058e" type="text/javascript"></script>
-<script nonce="a8ad34d38f9ea691c06b34a19975302c" >
+<script nonce="f5407eac1a54e5951b5a955c34fa5478" >
       window.__realDefine = customElements.define.bind(customElements);
       customElements.define = function() {
         try {
@@ -50,27 +51,29 @@
         }
       }
     </script>    <script src="//archive.org/includes/build/js/ia-topnav.min.js?v=1b68058e" type="text/javascript"></script>
-    <script src="//archive.org/includes/build/js/details-carousel.min.js?v=1b68058e" type="text/javascript"></script>
-<meta name="description" content="This is the upload page for anime content."/>
-                      <meta property="og:title" content="Haiyku upload video : Shubham Paswan : Free Download, Borrow, and Streaming : Internet Archive">
-                      <meta property="og:description" content="This is the upload page for anime content.">
+    <script src="//archive.org/includes/build/js/details-bookreader.min.js?v=1b68058e" type="text/javascript"></script>
+    <link href="/includes/build/BookReader/BookReader.css?v=1b68058e" rel="stylesheet" type="text/css"/>
+    <link href="/bookreader/BookReader-ia.css?v=1b68058e" rel="stylesheet" type="text/css"/>
+<meta name="AB:BrExperimentsPanel" content="On"><meta name="description" content="The Book of Psalms, also known as the Psalms, or the Psalter, is the first book of the third section of the Tanakh called Ketuvim, and a book of the Old..."/>
+                      <meta property="og:title" content="Sanskrit The Book Of Psalms : Free Gospel Tracts : Free Download, Borrow, and Streaming : Internet Archive">
+                      <meta property="og:description" content="The Book of Psalms, also known as the Psalms, or the Psalter, is the first book of the third section of the Tanakh called Ketuvim, and a book of the Old...">
                       <meta property="og:site_name" content="Internet Archive">
-                      <meta property="og:image" content="https://archive.org/services/img/upload_202505">
-                      <meta property="og:url" content="https://archive.org/details/upload_202505">
+                      <meta property="og:image" content="https://archive.org/services/img/sanskrit-the-book-of-psalms">
+                      <meta property="og:url" content="https://archive.org/details/sanskrit-the-book-of-psalms">
         <meta property="twitter:card" content="player"/>
 <meta property="twitter:site" content="@internetarchive"/>
 <meta property="twitter:account_id" content="18957805"/>
-<meta property="twitter:description" content="This is the upload page for anime content."/>
-<meta property="twitter:title" content="Haiyku upload video : Shubham Paswan : Free Download, Borrow, and Streaming : Internet Archive"/>
-<meta property="twitter:image" content="https://archive.org/services/img/upload_202505/full/pct:200/0/default.jpg"/>
-<link rel="canonical" href="https://archive.org/details/upload_202505">
+<meta property="twitter:description" content="The Book of Psalms, also known as the Psalms, or the Psalter, is the first book of the third section of the Tanakh called Ketuvim, and a book of the Old..."/>
+<meta property="twitter:title" content="Sanskrit The Book Of Psalms : Free Gospel Tracts : Free Download, Borrow, and Streaming : Internet Archive"/>
+<meta property="twitter:image" content="https://archive.org/services/img/sanskrit-the-book-of-psalms/full/pct:200/0/default.jpg"/>
+<link rel="canonical" href="https://archive.org/details/sanskrit-the-book-of-psalms">
     <script type="application/ld+json">
       {"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/archive.org\/details\/texts","name":"Texts","image":"https:\/\/archive.org\/services\/img\/texts"}}]}    </script>
     <meta name="monetization" content="$ilp.uphold.com/D7BwPKMQzBiD">
     <link href="//archive.org/includes/build/css/archive.min.css?v=1b68058e" rel="stylesheet" type="text/css"/>
     <link rel="SHORTCUT ICON" href="https://archive.org/images/glogo.jpg"/>
   </head>
-  <body class="navia ia-module tiles responsive">
+  <body class="navia ia-module tiles responsive BRfullscreenActive">
     <a href="#maincontent" class="hidden-for-screen-readers">Skip to main content</a>
 
     <!-- Wraps all page content -->
@@ -2972,45 +2975,77 @@
           
 <!--HTML-->
 </div><!--//.container-ia-->
-    <div id="theatre-ia-wrap" class="container container-ia width-max js-playset-list ">
-        <link itemprop="url" href="https://archive.org/details/upload_202505">
+      <style>
+    body.navia.BRfullscreenActive #theatre-ia-wrap,
+    ia-book-theater[viewportinfullscreen] {
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      min-height: 100%;
+    }
 
-          <link itemprop="image" href="https://archive.org/services/img/upload_202505">
+    #BookReader.fullscreenActive {
+      position: fixed;
+      height: 100%;
+    }
+  </style>
+    <div id="theatre-ia-wrap" class="container container-ia width-max js-playset-list ">
+        <link itemprop="url" href="https://archive.org/details/sanskrit-the-book-of-psalms">
+
+          <link itemprop="image" href="https://archive.org/services/img/sanskrit-the-book-of-psalms">
     
         
 
   <h1 class="sr-only">
-    Haiyku upload video  </h1>
+    Sanskrit The Book Of Psalms  </h1>
   <h2 class="sr-only">
-     Item Preview
+    Bookreader Item Preview
   </h2>
 
-  <div id="theatre-ia" class="container ">
+  <div id="theatre-ia" class="container  width-max">
 
           <div class="row">
         <div class="xs-col-12">
           <div id="theatre-controls">
-                                                                                                                        
+                                                  <a href="/details/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms" aria-label="Fullscreen view"><div
+                title="fullscreen view"
+                data-toggle="tooltip" data-container="body" data-placement="left"
+                class="iconochive-fullscreen"></div></a>
+                                      <a href="/details/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms" aria-label="Search inside"><div
+                title="search inside"
+                data-toggle="tooltip" data-container="body" data-placement="left"
+                class="iconochive-search"></div></a>
+                                                                                    
                       </div><!--/#theatre-controls-->
 
 
 
-                                        <div class="row" style="color:white">
-                    <div class="col-md-10 col-md-offset-1 no-preview">
-                      <p class="theatre-title">
-                        There Is No Preview Available For This Item
-                      </p>
-                      <p>
-                                                                                                  
-                                                                            This item does not appear to have any files that can be experienced on Archive.org.                        
-                                                  <br><span class="hidden-xs hidden-sm">
-                            Please download files in this item to interact with them on your computer.
-                          </span><br>
-                                                    <a class="show-all" href="/download/upload_202505" target="_blank">Show all files</a>
-                                              </p>
-                    </div>
+                                      <noscript>
+                  <div class="alert alert-danger alert-dismissable" data-dismiss="alert">
+                    <button type="button" class="close" data-dismiss="alert"
+                      aria-hidden="true"><span class="iconochive-remove-circle"  aria-hidden="true"></span><span class="icon-label sr-only">remove-circle</span></button>
+                    Internet Archive&apos;s in-browser bookreader                    "theater" requires JavaScript to be enabled.
+                    It appears your browser does not have it turned on.
+                    Please see your browser settings for this feature.
                   </div>
-                                    </div><!--/.xs-col-12-->
+                </noscript>
+                    <input class="js-ia-metadata" type="hidden" value='{"alternate_locations":{"servers":[{"server":"dn721306.ca.archive.org","dir":"/0/items/sanskrit-the-book-of-psalms"}],"workable":[{"server":"dn721306.ca.archive.org","dir":"/0/items/sanskrit-the-book-of-psalms"}]},"created":1775796947,"d1":"ia600605.us.archive.org","d2":"ia800605.us.archive.org","dir":"/11/items/sanskrit-the-book-of-psalms","files":[{"name":"Sanskrit - The Book of Psalms.pdf","source":"original","mtime":"1735379611","size":"566865","md5":"5132ddd94dbbfe80c187791441025d1f","crc32":"2d454ccb","sha1":"5b980371f7f3c255215a26e05e41c2c0ac80c833","format":"Text PDF","viruscheck":"1735379964"},{"name":"Sanskrit - The Book of Psalms_chocr.html.gz","source":"derivative","ocr":"tesseract 5.3.0-6-g76ae","ocr_parameters":"lang-san;two-pass-disabled;pass-dpi-disabled;autonomous-mode-disabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_detected_script":"Devanagari","ocr_detected_script_conf":"1.0000","ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"chOCR","original":"Sanskrit - The Book of Psalms_jp2.zip","mtime":"1735380326","size":"2909836","md5":"c2680fc4538fec48e373ddefc6445ffe","crc32":"49f7c0e1","sha1":"5ed975caca26aa5f942298c9052583286b7b1400"},{"name":"Sanskrit - The Book of Psalms_djvu.txt","source":"derivative","format":"DjVuTXT","original":"Sanskrit - The Book of Psalms_djvu.xml","mtime":"1735380383","size":"552522","md5":"6fb86954e6437ab0bf9f8bcb736e26b0","crc32":"29b27909","sha1":"4da888c8b5a54ca299fa1408734bf549b9538d72"},{"name":"Sanskrit - The Book of Psalms_djvu.xml","source":"derivative","format":"Djvu XML","original":"Sanskrit - The Book of Psalms_hocr.html","mtime":"1735380355","size":"2901606","md5":"00b6a1a4b770ffe257e5080d9226565d","crc32":"6dc7934e","sha1":"6db040c5197b7cea9daef3a645b61bd97bf89f9a"},{"name":"Sanskrit - The Book of Psalms_hocr.html","source":"derivative","hocr_char_to_word_module_version":"1.3.0","hocr_char_to_word_hocr_version":"1.1.56","ocr_parameters":"lang-san;two-pass-disabled;pass-dpi-disabled;autonomous-mode-disabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_detected_script":"Devanagari","ocr_detected_script_conf":"1.0000","ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"hOCR","original":"Sanskrit - The Book of Psalms_chocr.html.gz","mtime":"1735380343","size":"5288943","md5":"15b4f4d72921176f53b3f66b80cfaeb4","crc32":"5d8ee56d","sha1":"b386288b85e9c44422b8751dc2fd50277a8ef5d2"},{"name":"Sanskrit - The Book of Psalms_hocr_pageindex.json.gz","source":"derivative","hocr_pageindex_module_version":"1.1.0","hocr_pageindex_hocr_version":"1.1.56","format":"OCR Page Index","original":"Sanskrit - The Book of Psalms_hocr.html","mtime":"1735380359","size":"586","md5":"ec5094538518d3e9ea823bdec91b65e1","crc32":"c15c4db6","sha1":"2b70c2b4a87975a3a481c48a05217def6dbdaf73"},{"name":"Sanskrit - The Book of Psalms_hocr_searchtext.txt.gz","source":"derivative","hocr_fts_text_module_version":"1.2.0","hocr_fts_text_hocr_version":"1.1.56","word_conf_0_10":"401","word_conf_11_20":"245","word_conf_21_30":"340","word_conf_31_40":"487","word_conf_41_50":"675","word_conf_51_60":"818","word_conf_61_70":"1249","word_conf_71_80":"2478","word_conf_81_90":"8010","word_conf_91_100":"16238","format":"OCR Search Text","original":"Sanskrit - The Book of Psalms_hocr.html","mtime":"1735380373","size":"97010","md5":"6cb0532b8f17e78f20dc6a274f5fc430","crc32":"6d59519c","sha1":"736c97fcd623571bed7834822f0ee3264516fea4"},{"name":"Sanskrit - The Book of Psalms_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"Sanskrit - The Book of Psalms.pdf","mtime":"1735380061","size":"42492698","md5":"1578639aba760df2c84d235e5c34f1b8","crc32":"6467cea6","sha1":"c4c39d71ab213a34c445d5f19474aa28e82e1886","filecount":"47"},{"name":"Sanskrit - The Book of Psalms_page_numbers.json","source":"derivative","hocr_pagenumber_module_version":"1.0.5","hocr_pagenumber_hocr_version":"1.1.54","hocr_pagenumber_confidence":"33","format":"Page Numbers JSON","original":"Sanskrit - The Book of Psalms_hocr.html","mtime":"1735380412","size":"8138","md5":"5b2134fbb39064d71b9f3560168e3dc4","crc32":"4668e284","sha1":"52ef4cc71f9a7d0e64f4fca753b6c55c22511b36"},{"name":"Sanskrit - The Book of Psalms_scandata.xml","source":"derivative","format":"Scandata","original":"Sanskrit - The Book of Psalms_djvu.xml","mtime":"1735380412","size":"16558","md5":"160238096aa1765789e7550b7dcf211d","crc32":"a2aff08a","sha1":"3767b8f185f9df066e644f036439d670ca1a44cb"},{"name":"__ia_thumb.jpg","source":"original","mtime":"1735380429","size":"19096","md5":"777f0b13dca64f68b877d44dd628df96","crc32":"8fdebff5","sha1":"7048b35401a2dc71ceeee8badfbf0e73484fef7e","format":"Item Tile"},{"name":"sanskrit-the-book-of-psalms_archive.torrent","source":"metadata","btih":"e9d189a0e8292940d7bb5e635c9c50e93cbd6dae","mtime":"1745364245","size":"5834","md5":"1fa1b11e9c056bf6fba5b402d0721aa0","crc32":"9f912c4e","sha1":"f022da052690d089d65862b18eeb481e295ea2ce","format":"Archive BitTorrent"},{"name":"sanskrit-the-book-of-psalms_files.xml","source":"original","format":"Metadata","md5":"5b3c077e43aa647915b0c3e1c8c62090","summation":"md5"},{"name":"sanskrit-the-book-of-psalms_meta.sqlite","source":"original","mtime":"1735379649","size":"20480","md5":"226938a9428053a15fd0c66c4dfbe1c4","crc32":"c8474ca3","sha1":"a75bcc5447ae905cc90e4dfff50333a0fe143b3d","format":"Metadata"},{"name":"sanskrit-the-book-of-psalms_meta.xml","source":"original","mtime":"1745364244","size":"1832","md5":"ecae791fd55f9d0d49e0352abac08df5","crc32":"c57c5b06","sha1":"86af4af3a940fa7a4b68f81980c5c6e0c7131348","format":"Metadata"}],"files_count":15,"item_last_updated":1745364245,"item_size":54882004,"metadata":{"identifier":"sanskrit-the-book-of-psalms","mediatype":"texts","collection":["booksbylanguage_hindi","booksbylanguage"],"creator":"Free Gospel Tracts","description":"\u003Cspan style=\u0022color:rgb(26,26,26);font-family:Inter, sans-serif;font-size:16px;\u0022\u003EThe Book of Psalms, also known as the Psalms, or the Psalter, is the first book of the third section of the Tanakh called Ketuvim, and a book of the Old Testament. The book is an anthology of Hebrew religious hymns.\u003C/span\u003E","language":"san","licenseurl":"https://creativecommons.org/publicdomain/mark/1.0/","scanner":"Internet Archive HTML5 Uploader 1.7.0","subject":"Christianity","title":"Sanskrit The Book Of Psalms","uploader":"adrian1baldovino@gmail.com","publicdate":"2024-12-28 09:53:58","addeddate":"2024-12-28 09:53:58","curation":"[curator]validator@archive.org[/curator][date]20241228095924[/date][comment]checked for malware[/comment]","identifier-access":"http://archive.org/details/sanskrit-the-book-of-psalms","identifier-ark":"ark:/13960/s25vd6gqzzn","ppi":"300","ocr":"tesseract 5.3.0-6-g76ae","ocr_parameters":"-l san","ocr_module_version":"0.0.21","ocr_detected_script":"Devanagari","ocr_detected_script_conf":"1.0000","ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","page_number_confidence":"33","page_number_module_version":"1.0.5","collection_added":"booksbylanguage"},"server":"ia800605.us.archive.org","uniq":1920929129,"workable_servers":["ia800605.us.archive.org","ia600605.us.archive.org"]}'/>
+                    <ia-book-theater
+                  viewportinfullscreen                  class="focus-on-child-only"
+                  baseHost="archive.org"
+                  signedIn="false"
+                >
+                  <div id="IABookReaderMessageWrapper" class="BookReaderMessage focus-on-child-only" style="display:none;" slot="header"></div>
+                  <div id="IABookReaderWrapper" slot="main">
+                    <div id="BookReader" class="BookReader fullscreenActive"></div>
+                  </div>
+                </ia-book-theater>
+                    <input class="js-bookreader" type="hidden" value='{"isBeta":false,"br_ui":null,"urlHistoryBasePath":"/details/sanskrit-the-book-of-psalms/","resumeCookiePath":"/details/sanskrit-the-book-of-psalms","initialSearchTerm":null,"purchase_url":"","has_multiple_readable_files":false,"multipleBooksList":{"by_subprefix":{"Sanskrit - The Book of Psalms":{"title":"Sanskrit - The Book of Psalms.pdf","url_path":"/details/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms","orig_sort":0,"file_subprefix":"Sanskrit - The Book of Psalms","file_source":"Sanskrit - The Book of Psalms_jp2.zip","file_format":"Single Page Processed JP2 ZIP","file_origin":"Sanskrit - The Book of Psalms.pdf","raw":{"name":"Sanskrit - The Book of Psalms_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"Sanskrit - The Book of Psalms.pdf","mtime":"1735380061","size":"42492698","md5":"1578639aba760df2c84d235e5c34f1b8","crc32":"6467cea6","sha1":"c4c39d71ab213a34c445d5f19474aa28e82e1886","filecount":"47"}}}},"autofit":"auto","url":"//ia800605.us.archive.org/BookReader/BookReaderJSIA.php?id=sanskrit-the-book-of-psalms\u0026itemPath=/11/items/sanskrit-the-book-of-psalms\u0026server=ia800605.us.archive.org\u0026format=jsonp\u0026subPrefix=Sanskrit%20-%20The%20Book%20of%20Psalms\u0026requestUri=/details/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt%3Fview%3Dtheater"}'/>
+                      </div><!--/.xs-col-12-->
       </div><!--/.row-->
     
         <div id="cher-modal" class="modal fade" role="dialog" aria-modal="true" aria-labelledby="modal-main-heading">
@@ -3030,31 +3065,31 @@
             <div style="text-align:center;margin:50px auto;">
               <div class="topinblock">
                     <div id="sharer">
-            <a href="https://twitter.com/intent/tweet?url=https://archive.org/details/upload_202505/upload_202505_djvu.txt&amp;via=internetarchive&amp;text=Haiyku+upload+video+%3A+Shubham+Paswan+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
+            <a href="https://twitter.com/intent/tweet?url=https://archive.org/details/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt&amp;via=internetarchive&amp;text=Sanskrit+The+Book+Of+Psalms+%3A+Free+Gospel+Tracts+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
         <div class="sharee iconochive-twitter" data-toggle="tooltip" data-placement="bottom" title="Share to Twitter"></div>
         <span class="sr-only">Share to Twitter</span>
       </a>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=https://archive.org/details/upload_202505/upload_202505_djvu.txt" target="_blank">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://archive.org/details/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt" target="_blank">
         <div class="sharee iconochive-facebook" data-toggle="tooltip" data-placement="bottom" title="Share to Facebook"></div>
         <span class="sr-only">Share to Facebook</span>
       </a>
-      <a href="http://www.reddit.com/submit?url=https://archive.org/details/upload_202505/upload_202505_djvu.txt&amp;title=Haiyku+upload+video+%3A+Shubham+Paswan+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
+      <a href="http://www.reddit.com/submit?url=https://archive.org/details/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt&amp;title=Sanskrit+The+Book+Of+Psalms+%3A+Free+Gospel+Tracts+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
         <div class="sharee iconochive-reddit" data-toggle="tooltip" data-placement="bottom" title="Share to Reddit"></div>
         <span class="sr-only">Share to Reddit</span>
       </a>
-      <a href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Haiyku+upload+video+%3A+Shubham+Paswan+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive&amp;caption=Haiyku+upload+video+%3A+Shubham+Paswan+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive&amp;content=https://archive.org/details/upload_202505/upload_202505_djvu.txt&amp;canonicalUrl=https://archive.org/details/upload_202505/upload_202505_djvu.txt" target="_blank">
+      <a href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Sanskrit+The+Book+Of+Psalms+%3A+Free+Gospel+Tracts+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive&amp;caption=Sanskrit+The+Book+Of+Psalms+%3A+Free+Gospel+Tracts+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive&amp;content=https://archive.org/details/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt&amp;canonicalUrl=https://archive.org/details/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt" target="_blank">
         <div class="sharee iconochive-tumblr" data-toggle="tooltip" data-placement="bottom" title="Share to Tumblr"></div>
         <span class="sr-only">Share to Tumblr</span>
       </a>
-      <a href="http://www.pinterest.com/pin/create/button/?url=https://archive.org/details/upload_202505/upload_202505_djvu.txt&amp;description=Haiyku+upload+video+%3A+Shubham+Paswan+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
+      <a href="http://www.pinterest.com/pin/create/button/?url=https://archive.org/details/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt&amp;description=Sanskrit+The+Book+Of+Psalms+%3A+Free+Gospel+Tracts+%3A+Free+Download%2C+Borrow%2C+and+Streaming+%3A+Internet+Archive" target="_blank">
         <div class="sharee iconochive-pinterest" data-toggle="tooltip" data-placement="bottom" title="Share to Pinterest"></div>
         <span class="sr-only">Share to Pinterest</span>
       </a>
-            <a href="mailto:?body=https://archive.org/details/upload_202505/upload_202505_djvu.txt&amp;subject=Haiyku upload video : Shubham Paswan : Free Download, Borrow, and Streaming : Internet Archive">
+            <a href="mailto:?body=https://archive.org/details/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt&amp;subject=Sanskrit The Book Of Psalms : Free Gospel Tracts : Free Download, Borrow, and Streaming : Internet Archive">
         <div class="sharee iconochive-email" data-toggle="tooltip" data-placement="bottom" title="Share via email"></div>
         <span class="sr-only">Share via email</span>
       </a>
-                  <a href="#" id="copy-link" data-copylink="https://archive.org/details/upload_202505/upload_202505_djvu.txt">
+                  <a href="#" id="copy-link" data-copylink="https://archive.org/details/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt">
         <div class="sharee" data-toggle="tooltip" data-placement="bottom" title="Copy link">
           <img src="/images/link.svg" />
         </div>
@@ -3073,7 +3108,7 @@
                       class="form-control textarea-invert-readonly"
                       rows="3"
                       readonly="readonly"
-                      data-subfile-name=upload_202505_djvu.txt                    ><iframe src="https://archive.org/embed/upload_202505/upload_202505_djvu.txt" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></textarea>
+                      data-subfile-name=sanskrit-the-book-of-psalms_djvu.txt                    ><iframe src="https://archive.org/embed/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></textarea>
                                       </div>
                 </form>
               </div>
@@ -3085,14 +3120,14 @@
                       class="form-control textarea-invert-readonly"
                       rows="3"
                       readonly="readonly"
-                      data-subfile-name=upload_202505_djvu.txt                    >[archiveorg upload_202505/upload_202505_djvu.txt width=560 height=384 frameborder=0 webkitallowfullscreen=true mozallowfullscreen=true]</textarea>
+                      data-subfile-name=sanskrit-the-book-of-psalms_djvu.txt                    >[archiveorg sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_djvu.txt width=560 height=384 frameborder=0 webkitallowfullscreen=true mozallowfullscreen=true]</textarea>
                                       </div>
                 </form>
               </div>
                                       <div>
                 Want more?
                 <a
-                  href="/help/audio.php?identifier=upload_202505"
+                  href="/help/audio.php?identifier=sanskrit-the-book-of-psalms"
                 >Advanced embedding details, examples, and help</a>!
               </div>
                       </div><!--/#cher-body-->
@@ -3102,7 +3137,7 @@
     </div><!--/#cher-modal-->
       </div><!--//#theatre-ia-->
   <div id="flag-overlay"
-    class="center-area flagged-solid">
+    class="center-area ">
       </div>
 </div><!--//.container-ia-->
 <div class="container container-ia item-details-about">
@@ -3116,9 +3151,9 @@
         <button
           class='button js-manage-toggle_list_status '
           type='button'
-          data-href='/bookmarks.php?add_bookmark=1&amp;mediatype=texts&amp;identifier=upload_202505&amp;title=Haiyku+upload+video'
+          data-href='/bookmarks.php?add_bookmark=1&amp;mediatype=texts&amp;identifier=sanskrit-the-book-of-psalms&amp;title=Sanskrit+The+Book+Of+Psalms'
           data-target='#favorite-modal'
-          data-id='upload_202505'
+          data-id='sanskrit-the-book-of-psalms'
           data-fav-collection='fav-'
           data-toggle='tooltip'
           data-container='body'
@@ -3155,27 +3190,27 @@
           <h1 class="dropdown-title">Flag this item for</h1>
           <ul role="menu">
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fupload_202505" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fsanskrit-the-book-of-psalms" role="menuitem">
                   Graphic Violence                </a>
               </li>
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fupload_202505" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fsanskrit-the-book-of-psalms" role="menuitem">
                   Explicit Sexual Content                </a>
               </li>
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fupload_202505" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fsanskrit-the-book-of-psalms" role="menuitem">
                   Hate Speech                </a>
               </li>
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fupload_202505" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fsanskrit-the-book-of-psalms" role="menuitem">
                   Misinformation/Disinformation                </a>
               </li>
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fupload_202505" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fsanskrit-the-book-of-psalms" role="menuitem">
                   Marketing/Phishing/Advertising                </a>
               </li>
                                         <li class="flag-option ">
-                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fupload_202505" role="menuitem">
+                <a href="/login?referer=https%3A%2F%2Farchive.org%2Fdetails%2Fsanskrit-the-book-of-psalms" role="menuitem">
                   Misleading/Inaccurate/Missing Metadata                </a>
               </li>
                       </ul>
@@ -3186,12 +3221,12 @@
     <div class="thats-left item-details-metadata col-sm-8 col-sm-pull-4">
       <div class="left-icon"><span class="iconochive-texts texts"  aria-hidden="true"></span><span class="icon-label sr-only">texts</span></div>
       <h1 class="item-title">
-        <span class="breaker-breaker" itemprop="name">Haiyku upload video</span>
+        <span class="breaker-breaker" itemprop="name">Sanskrit The Book Of Psalms</span>
       </h1>
                           <dl class="metadata-definition" aria-label="Item creator metadata">
                 <dt>by</dt>
     <dd           >
-            <span itemprop="creator"><a href="/search.php?query=creator%3A%22Shubham+Paswan%22">Shubham Paswan</a></span>                </dd>
+            <span itemprop="creator"><a href="/search.php?query=creator%3A%22Free+Gospel+Tracts%22">Free Gospel Tracts</a></span>                </dd>
               </dl>
                             <br/>
     </div><!--/.thats-left-->
@@ -3207,20 +3242,14 @@
                                         </div>
         <div class="row metadata-list">
       <dl aria-label="Item metadata" class="metadata-definition">
-            <dt>Publication date</dt>
-        <dd class="">
-          <a href="/search.php?query=date:2025-05-18">
-            <span itemprop="datePublished">2025-05-18</span>
-          </a>
-                </dd>
     
             <dt>Usage</dt>
-        <dd class=""><a rel="license" title="Attribution-NoDerivs 4.0 International" href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">Attribution-NoDerivs 4.0 International<img class="cclic" src="/images/cc/cc.png" alt="Creative Commons License" /><img class="cclic" src="/images/cc/by.png"  alt=by /><img class="cclic" src="/images/cc/nd.png"  alt=nd /></a></dd>
+        <dd class=""><a rel="license" title="Public Domain Mark 1.0" href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark 1.0<img class="cclic" src="/images/cc/cc.png" alt="Creative Commons License" /><img class="cclic" src="/images/cc/publicdomain.png"  alt=publicdomain /></a></dd>
     
             <dt>Topics</dt>
         <dd class=""
           itemprop="keywords"
-          ><a href="/search.php?query=subject%3A%22anime%22" rel="ugc nofollow">anime</a>, <a href="/search.php?query=subject%3A%22upload%22" rel="ugc nofollow">upload</a>, <a href="/search.php?query=subject%3A%22form%22" rel="ugc nofollow">form</a>, <a href="/search.php?query=subject%3A%22video%22" rel="ugc nofollow">video</a></dd>
+          ><a href="/search.php?query=subject%3A%22Christianity%22" rel="ugc nofollow">Christianity</a></dd>
     
         <dt>Collection</dt>
     <dd           >
@@ -3230,7 +3259,7 @@
       
                   <dt>Language</dt>
     <dd           >
-            <span itemprop="inLanguage"><a href="/search.php?query=%28language%3Ahin+OR+language%3A%22Hindi%22%29">Hindi</a></span>                </dd>
+            <span itemprop="inLanguage"><a href="/search.php?query=%28language%3Asan+OR+language%3A%22Sanskrit%22%29">Sanskrit</a></span>                </dd>
               
             
     
@@ -3239,12 +3268,12 @@
     <!-- display Item Size in this position if theatre_type is not TV -->
               <dt>Item Size</dt>
     <dd           >
-            23.0K                </dd>
+            52.3M                </dd>
         
     </dl>
     </div> <!-- class="row metadata-list" -->
     <div class="clearfix"></div>
-    <div id="descript" itemprop="description">This is the upload page for anime content.
+    <div id="descript" itemprop="description"><span style="color:rgb(26,26,26);font-family:Inter, sans-serif;font-size:16px;">The Book of Psalms, also known as the Psalms, or the Psalter, is the first book of the third section of the Tanakh called Ketuvim, and a book of the Old Testament. The book is an anthology of Hebrew religious hymns.</span>
 </div><!--/#descript-->
 
 
@@ -3253,22 +3282,60 @@
       <dl class="metadata-definition" aria-label="Additional item metadata">
                             <dt>Addeddate</dt>
     <dd           >
-            2025-05-18 09:15:30                </dd>
+            2024-12-28 09:53:58                </dd>
                                     <dt>Collection_added</dt>
     <dd           >
             booksbylanguage                </dd>
                                     <dt>Identifier</dt>
-    <dd           >
-            <span itemprop="identifier">upload_202505</span>                </dd>
+    <dd class=" breaker-breaker"          >
+            <span itemprop="identifier">sanskrit-the-book-of-psalms</span>                </dd>
                                     <dt>Identifier-ark</dt>
     <dd           >
-            ark:/13960/s24c3gpmz4d                </dd>
-                                    <dt>Scanner</dt>
+            ark:/13960/s25vd6gqzzn                </dd>
+                                    <dt>Ocr</dt>
     <dd           >
-            Internet Archive HTML5 Uploader 1.7.0                </dd>
+            tesseract 5.3.0-6-g76ae                </dd>
+                                    <dt>Ocr_detected_lang</dt>
+    <dd           >
+            hi                </dd>
+                                    <dt>Ocr_detected_lang_conf</dt>
+    <dd           >
+            1.0000                </dd>
+                                    <dt>Ocr_detected_script</dt>
+    <dd           >
+            Devanagari                </dd>
+                                    <dt>Ocr_detected_script_conf</dt>
+    <dd           >
+            1.0000                </dd>
+                                    <dt>Ocr_module_version</dt>
+    <dd           >
+            0.0.21                </dd>
+                                    <dt>Ocr_parameters</dt>
+    <dd           >
+            -l san                </dd>
+                                    <dt>Page_number_confidence</dt>
+    <dd           >
+            33                </dd>
                 
-              </dl>
+                                        <dt class="metadata-hidden" style="display: none">Page_number_module_version</dt>
+    <dd class="metadata-hidden" style="display: none"           >
+            1.0.5                </dd>
+                                        <dt class="metadata-hidden" style="display: none">Ppi</dt>
+    <dd class="metadata-hidden" style="display: none"           >
+            300                </dd>
+                                        <dt class="metadata-hidden" style="display: none">Scanner</dt>
+    <dd class="metadata-hidden" style="display: none"           >
+            Internet Archive HTML5 Uploader 1.7.0                </dd>
+                                </dl>
 
+              <button
+          type="button"
+          class="show-more-button"
+          aria-label="Show more item metadata"
+        >
+          <div class="show-more-button__text">Show More</div>
+          <div class="show-more-button__text" style="display: none">Show Less</div>
+        </button>
           </div>
         
     
@@ -3294,14 +3361,14 @@
       <div class="reviews-placeholder"></div>
       <ia-reviews
         style="display:none"
-        identifier="upload_202505"
+        identifier="sanskrit-the-book-of-psalms"
         baseHost=""
         endpointPath="/write-review.php"
         submitterItemname="0"
         submitterScreenname="0"
         maxSubjectLength="100"
         maxBodyLength="1000"
-        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3cml0ZS1yZXZpZXciLCJpYXQiOjE3NzU3OTY5MTIuMjc4OTc0LCJuYmYiOjE3NzU3OTY4NTIuMjc4OTc0LCJleHAiOjE3NzU4ODMzMTIuMjc4OTc0LCJ0aW1lIjoxNzc1Nzk2OTEyLCJzdHJpbmciOiJ1cGxvYWRfMjAyNTA1In0._Oljgss6B6EFsRpH195Crs_NFaDAB7GDN-UeybOH1cM"
+        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3cml0ZS1yZXZpZXciLCJpYXQiOjE3NzU3OTY5NDcuODI0MDU2LCJuYmYiOjE3NzU3OTY4ODcuODI0MDU2LCJleHAiOjE3NzU4ODMzNDcuODI0MDU2LCJ0aW1lIjoxNzc1Nzk2OTQ3LCJzdHJpbmciOiJzYW5za3JpdC10aGUtYm9vay1vZi1wc2FsbXMifQ.PLDowuJ5Iao6hvBMA5AfnILqnM5Tqa0w9LDS4QL8k9Q"
                                         reviewSubmissionError="You must be logged in to write reviews."        ></ia-reviews>
       </div>
           </div><!--/.thats-left-->
@@ -3317,7 +3384,7 @@
         <span
           class="item-stats-summary__count"
                       itemprop="userInteractionCount"
-                  >8</span>
+                  >23</span>
 
         Views      </p>
 
@@ -3326,7 +3393,7 @@
 
           </section>
     
-                      <section class="boxy white-bg item-download-options">
+                                <section class="boxy white-bg item-download-options">
       <h1 class="download-button">
         DOWNLOAD OPTIONS
       </h1>
@@ -3334,39 +3401,156 @@
       
                         <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/upload_202505/upload.html" title="282.0B">
+                              <a class="stealth" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_chocr.html.gz" title="2.8M">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/upload_202505/upload.html"
-                  title="282.0B"
+                                          <a class="format-summary download-pill" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_chocr.html.gz"
+                  title="2.8M"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
-                  HTML                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
+                  CHOCR                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                                 <div class="format-group">
                         <div class="summary-rite">
-                              <a class="stealth" href="/download/upload_202505/upload_202505_archive.torrent" title="1.6K">
+                                  <button class="btn btn-primary btn-xs js-ebook-maker" data-maker='{"base":"Sanskrit - The Book of Psalms","source_ending":"_hocr.html","type":"daisy","format":"Daisy","identifier":"sanskrit-the-book-of-psalms"}'>Generate</button>
+                              </div>
+                                          DAISY                          
+                          <p class="download-format-description">For users with print-disabilities</p>
+                      </div>
+                                <div class="format-group">
+                        <div class="summary-rite">
+                                  <button class="btn btn-primary btn-xs js-ebook-maker" data-maker='{"base":"Sanskrit - The Book of Psalms","source_ending":"_hocr.html","type":"epub","format":"EPUB","identifier":"sanskrit-the-book-of-psalms"}'>Generate</button>
+                              </div>
+                                          EPUB                          
+                      </div>
+                                <div class="format-group">
+                        <div class="summary-rite">
+                              <a class="stealth" href="/stream/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_djvu.txt" title="539.6K">
                   <span class="hover-badge-stealth">
                     <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
                 </a>
                           </div>
-                                          <a class="format-summary download-pill" href="/download/upload_202505/upload_202505_archive.torrent"
-                  title="1.6K"
+                                          <a class="format-summary download-pill" href="/stream/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_djvu.txt"
+                  title="539.6K"
+                  data-toggle="tooltip" data-placement="auto left" data-container="body">
+                  FULL TEXT                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
+                          
+                      </div>
+                                <div class="format-group">
+                        <div class="summary-rite">
+                              <a class="stealth" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_hocr.html" title="5.0M">
+                  <span class="hover-badge-stealth">
+                    <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
+                </a>
+                          </div>
+                                          <a class="format-summary download-pill" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_hocr.html"
+                  title="5.0M"
+                  data-toggle="tooltip" data-placement="auto left" data-container="body">
+                  HOCR                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
+                          
+                      </div>
+                                <div class="format-group">
+                        <div class="summary-rite">
+                              <a class="stealth" href="/download/sanskrit-the-book-of-psalms/__ia_thumb.jpg" title="18.6K">
+                  <span class="hover-badge-stealth">
+                    <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
+                </a>
+                          </div>
+                                          <a class="format-summary download-pill" href="/download/sanskrit-the-book-of-psalms/__ia_thumb.jpg"
+                  title="18.6K"
+                  data-toggle="tooltip" data-placement="auto left" data-container="body">
+                  ITEM TILE                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
+                          
+                      </div>
+                                <div class="format-group">
+                        <div class="summary-rite">
+                              <a class="stealth" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_hocr_pageindex.json.gz" title="586.0B">
+                  <span class="hover-badge-stealth">
+                    <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
+                </a>
+                          </div>
+                                          <a class="format-summary download-pill" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_hocr_pageindex.json.gz"
+                  title="586.0B"
+                  data-toggle="tooltip" data-placement="auto left" data-container="body">
+                  OCR PAGE INDEX                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
+                          
+                      </div>
+                                <div class="format-group">
+                        <div class="summary-rite">
+                              <a class="stealth" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_hocr_searchtext.txt.gz" title="94.7K">
+                  <span class="hover-badge-stealth">
+                    <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
+                </a>
+                          </div>
+                                          <a class="format-summary download-pill" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_hocr_searchtext.txt.gz"
+                  title="94.7K"
+                  data-toggle="tooltip" data-placement="auto left" data-container="body">
+                  OCR SEARCH TEXT                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
+                          
+                      </div>
+                                <div class="format-group">
+                        <div class="summary-rite">
+                              <a class="stealth" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_page_numbers.json" title="7.9K">
+                  <span class="hover-badge-stealth">
+                    <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
+                </a>
+                          </div>
+                                          <a class="format-summary download-pill" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_page_numbers.json"
+                  title="7.9K"
+                  data-toggle="tooltip" data-placement="auto left" data-container="body">
+                  PAGE NUMBERS JSON                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
+                          
+                      </div>
+                                <div class="format-group">
+                        <div class="summary-rite">
+                              <a class="stealth" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms.pdf" title="553.6K">
+                  <span class="hover-badge-stealth">
+                    <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
+                </a>
+                          </div>
+                                          <a class="format-summary download-pill" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms.pdf"
+                  title="553.6K"
+                  data-toggle="tooltip" data-placement="auto left" data-container="body">
+                  PDF                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
+                          
+                      </div>
+                                <div class="format-group">
+                        <div class="summary-rite">
+                              <a class="stealth" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_jp2.zip" title="40.5M">
+                  <span class="hover-badge-stealth">
+                    <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
+                </a>
+                          </div>
+                                          <a class="format-summary download-pill" href="/download/sanskrit-the-book-of-psalms/Sanskrit%20-%20The%20Book%20of%20Psalms_jp2.zip"
+                  title="40.5M"
+                  data-toggle="tooltip" data-placement="auto left" data-container="body">
+                  SINGLE PAGE PROCESSED JP2 ZIP                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
+                          
+                      </div>
+                                <div class="format-group">
+                        <div class="summary-rite">
+                              <a class="stealth" href="/download/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_archive.torrent" title="5.7K">
+                  <span class="hover-badge-stealth">
+                    <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                    1 file                  </span>
+                </a>
+                          </div>
+                                          <a class="format-summary download-pill" href="/download/sanskrit-the-book-of-psalms/sanskrit-the-book-of-psalms_archive.torrent"
+                  title="5.7K"
                   data-toggle="tooltip" data-placement="auto left" data-container="body">
                   TORRENT                  <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                </a>
                           
                       </div>
                             <div class="show-all">
           <div class="pull-right">
-            <a class="boxy-ttl hover-badge" href="/compress/upload_202505">
-              <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span> 5 Files
+            <a class="boxy-ttl hover-badge" href="/compress/sanskrit-the-book-of-psalms">
+              <span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span> 15 Files
             </a><br/>
                           <a class="boxy-ttl hover-badge"
-                                href="/compress/upload_202505/formats=HTML,ARCHIVE BITTORRENT,METADATA"><span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                5 Original</a><br/>
+                                href="/compress/sanskrit-the-book-of-psalms/formats=TEXT PDF,ITEM TILE,ARCHIVE BITTORRENT,METADATA"><span class="iconochive-download"  aria-hidden="true"></span><span class="icon-label sr-only">download</span>                6 Original</a><br/>
                       </div>
-          <a class="boxy-ttl" href="/download/upload_202505">SHOW ALL</a>
+          <a class="boxy-ttl" href="/download/sanskrit-the-book-of-psalms">SHOW ALL</a>
           <br clear="all" class="clearfix"/>
         </div>
       
@@ -3405,11 +3589,11 @@
               <section class="boxy white-bg item-upload-info">
       <p>
         Uploaded by
-                  <a href="/details/@akshay_kumar352" class="item-upload-info__uploader-name">
-            akshay kumar352          </a>
+                  <a href="/details/@adrian_baldovino" class="item-upload-info__uploader-name">
+            <span title="Filipino Tracts and Literature Society Inc.">Filipino Tracts and Literature Society I...</span>          </a>
         
                   on <time
-                      >May 18, 2025</time>
+                      >December 28, 2024</time>
               </p>
     </section>
           </div><!--/.col-md-2-->
@@ -3418,7 +3602,7 @@
       </div><!--//.container-ia-->
   <div id="also-found"
     class="container container-ia width-max js-playset"
-    data-identifier="upload_202505"
+    data-identifier="sanskrit-the-book-of-psalms"
     data-host-name="www06.us.archive.org"
     data-mediatype="texts">
     <div class="row">
@@ -3444,7 +3628,7 @@
   0.0000   0.0000                                petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require
                                              |common/ia:66:require_once
                                              |setup.php:384:log
-  0.0079   0.0079                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
+  0.0164   0.0164                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
                                              |details.php:172:value
                                              |common/Cache.inc:238:fetch
                                              |Caching/TieredReactiveCache.inc:141:fetch
@@ -3471,7 +3655,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0111   0.0032                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
+  0.0225   0.0061                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
                                              |details.php:172:value
                                              |common/Cache.inc:238:fetch
                                              |Caching/TieredReactiveCache.inc:141:fetch
@@ -3498,7 +3682,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0134   0.0023                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:51:getItem
+  0.0265   0.0040                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:51:getItem
                                              |common/Item.inc:78:parseMetadata
                                              |Item.inc:139:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3509,7 +3693,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0156   0.0022                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:51:getItem
+  0.0295   0.0030                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:51:getItem
                                              |common/Item.inc:78:parseMetadata
                                              |Item.inc:139:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3520,64 +3704,27 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0205   0.0050                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:305:get_status
-                                             |Lending/LendingACL.php:118:get_metadata_fields
-                                             |LendingUtils.php:670:cached_metadata
-                                             |LendingUtils.php:76:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:184:log
-  0.0225   0.0020                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:305:get_status
-                                             |Lending/LendingACL.php:118:get_metadata_fields
-                                             |LendingUtils.php:670:cached_metadata
-                                             |LendingUtils.php:76:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:193:log
-  0.0263   0.0038                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:403:get_file_list_with_theater_support
-                                             |BookReader/BookLikeFiles.inc:68:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:184:log
-  0.0281   0.0018                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:403:get_file_list_with_theater_support
-                                             |BookReader/BookLikeFiles.inc:68:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:193:log
-  0.0322   0.0040                                       render   var/cache/petabox/petabox/www/sf/details.php:101:log
-  0.0324   0.0002                             start db connect   var/cache/petabox/petabox/www/sf/details.php:102:render
-                                             |common/Details.inc:5065:setupAndActionsFlags
-                                             |DetailsFlags.inc:27:getFlags
-                                             |DetailsFlags.inc:121:__callStatic
-                                             |ValidateArgs.inc:63:counts_by_flag_VALIDATED
-                                             |Flags.inc:243:get_VALIDATED
-                                             |Flags.inc:115:get_memberships
-                                             |SimpleLists.inc:86:get_records
-                                             |SimpleLists/Storage.inc:39:q
+  0.0445   0.0150                             start db connect   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:599:title
+                                             |Collection.inc:60:q1
+                                             |DB.inc:397:q
                                              |DB.inc:381:execute
                                              |DB.inc:1121:query
                                              |DB.inc:136:query0
@@ -3585,15 +3732,27 @@
                                              |DB.inc:813:connect
                                              |DB.inc:105:conn
                                              |DB.inc:915:log
-  0.0498   0.0173                                       got db   var/cache/petabox/petabox/www/sf/details.php:102:render
-                                             |common/Details.inc:5065:setupAndActionsFlags
-                                             |DetailsFlags.inc:27:getFlags
-                                             |DetailsFlags.inc:121:__callStatic
-                                             |ValidateArgs.inc:63:counts_by_flag_VALIDATED
-                                             |Flags.inc:243:get_VALIDATED
-                                             |Flags.inc:115:get_memberships
-                                             |SimpleLists.inc:86:get_records
-                                             |SimpleLists/Storage.inc:39:q
+  0.0774   0.0329                                       got db   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:599:title
+                                             |Collection.inc:60:q1
+                                             |DB.inc:397:q
                                              |DB.inc:381:execute
                                              |DB.inc:1121:query
                                              |DB.inc:136:query0
@@ -3601,28 +3760,181 @@
                                              |DB.inc:813:connect
                                              |DB.inc:105:conn
                                              |DB.inc:964:log
-  0.0638   0.0140                          begin session_start   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0807   0.0033                             start db connect   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:621:connectReadOnly
+                                             |DB.inc:106:conn
+                                             |DB.inc:915:log
+  0.0809   0.0001                   got existing db connection   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:621:connectReadOnly
+                                             |DB.inc:106:conn
+                                             |DB.inc:920:log
+  0.0820   0.0011                  getting "search" item stats   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:639:get
+                                             |ItemStats.inc:22:log
+  0.1092   0.0273                      got "search" item stats   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
+                                             |common/Item.inc:647:value
+                                             |Cache.inc:238:fetch
+                                             |Caching/TieredReactiveCache.inc:141:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:Caching\{closure}
+                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
+                                             |TieredReactiveCache.inc:223:fetch
+                                             |ReactiveCache.inc:513:recompute_cache_miss
+                                             |ReactiveCache.inc:547:_recompute
+                                             |ReactiveCache.inc:632:do_recompute
+                                             |ReactiveCache.inc:909:call_user_func_array
+                                             |./unknown:unknown:{closure}
+                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
+                                             |Cache.inc:653:{closure}
+                                             |Item.inc:639:get
+                                             |ItemStats.inc:38:log
+  0.1189   0.0097                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:305:get_status
+                                             |Lending/LendingACL.php:118:get_metadata_fields
+                                             |LendingUtils.php:670:cached_metadata
+                                             |LendingUtils.php:76:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:184:log
+  0.1211   0.0022                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:305:get_status
+                                             |Lending/LendingACL.php:118:get_metadata_fields
+                                             |LendingUtils.php:670:cached_metadata
+                                             |LendingUtils.php:76:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:193:log
+  0.1260   0.0049                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:403:get_file_list_with_theater_support
+                                             |BookReader/BookLikeFiles.inc:68:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:184:log
+  0.1284   0.0025                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:403:get_file_list_with_theater_support
+                                             |BookReader/BookLikeFiles.inc:68:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:193:log
+  0.1484   0.0200                                       render   var/cache/petabox/petabox/www/sf/details.php:101:log
+  0.1567   0.0083                          begin session_start   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4828:head
                                              |Nav.inc:152:__construct
                                              |Nav.inc:222:session_start
                                              |Cookies.inc:50:log
-  0.0639   0.0001   skipping session_start, user not logged-in   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.1568   0.0000   skipping session_start, user not logged-in   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4828:head
                                              |Nav.inc:152:__construct
                                              |Nav.inc:222:session_start
                                              |Cookies.inc:60:log
-  0.0682   0.0044                                 header drawn   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.1592   0.0025                                 header drawn   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4832:log
-  0.1064   0.0381                                     bug dump   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.1600   0.0007                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:102:render
+                                             |common/Details.inc:5092:theatre
+                                             |Details.inc:2628:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:184:log
+  0.1626   0.0026                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:102:render
+                                             |common/Details.inc:5092:theatre
+                                             |Details.inc:2628:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:193:log
+  0.1989   0.0363                                     bug dump   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5125:footer
                                              |setup.php:148:footer
                                              |Nav.inc:806:dump
                                              |Bug.inc:94:log
     -->
-    <script  nonce="a8ad34d38f9ea691c06b34a19975302c" >
+    <script  nonce="f5407eac1a54e5951b5a955c34fa5478" >
 if (typeof archive_analytics !== 'undefined') {
   archive_analytics.send_pageview_on_load(archive_analytics);
   archive_analytics.process_url_events(location);
@@ -3632,16 +3944,16 @@ if (typeof archive_analytics !== 'undefined') {
       vs[i] = {};
     }
     vs[i]['cache_bust']=Math.random();
-    vs[i]['server_ms']=106;
+    vs[i]['server_ms']=198;
     vs[i]['server_name']="www06.us.archive.org";
       }
 }
 </script>
-          <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=1414069604" alt="" />
+          <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=255332426" alt="" />
           <noscript>
-        <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=2040848953" />
+        <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=1849303341" />
       </noscript>
-          <script  nonce="a8ad34d38f9ea691c06b34a19975302c" >
+          <script  nonce="f5407eac1a54e5951b5a955c34fa5478" >
         document.addEventListener('DOMContentLoaded', function() {
           if (typeof archive_analytics !== 'undefined')
             archive_analytics.create_tracking_image('in_page_executes');

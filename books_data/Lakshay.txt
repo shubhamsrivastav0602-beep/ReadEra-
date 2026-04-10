@@ -11,8 +11,8 @@
         <meta name="google-site-verification" content="Q2YSouphkkgHkFNP7FgAkc4TmBs1Gmag3uGNndb53B8" />
     <meta name="google-site-verification" content="bpjKvUvsX0lxfmjg19TLblckWkDpnptZEYsBntApxUk" />
 
-    <meta name="baggage" content="sentry-trace_id=3cfbe9575318476989ae1ff2af142834,sentry-sample_rate=0.001,sentry-transaction=%2Fdetails.php,sentry-public_key=94bf3037c1e245c8a927aaa4daad2dbb,sentry-environment=production,sentry-sampled=false,sentry-sample_rand=0.796467"/>    <meta name="sentry-trace" content="3cfbe9575318476989ae1ff2af142834-bf9ad0c56baf477c-0"/>
-    <script  nonce="6d2e9b694af6a6525c5234b203a2f500" >
+    <meta name="baggage" content="sentry-trace_id=da5ff0060a6a45f5a3faab97d6d89a3a,sentry-sample_rate=0.001,sentry-transaction=%2Fdetails.php,sentry-public_key=94bf3037c1e245c8a927aaa4daad2dbb,sentry-environment=production,sentry-sampled=false,sentry-sample_rand=0.357014"/>    <meta name="sentry-trace" content="da5ff0060a6a45f5a3faab97d6d89a3a-8ead625ad2724d8f-0"/>
+    <script  nonce="438e6335b55b7f3c7d1d2e2426340758" >
 /* @licstart  The following is the entire license notice for the
  * JavaScript code in this page.
  *
@@ -40,7 +40,7 @@
     <script src="//archive.org/includes/apollo.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/components/npm/lit/polyfill-support.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/components/npm/@webcomponents/webcomponentsjs/webcomponents-bundle.js?v=1b68058e" type="text/javascript"></script>
-<script nonce="6d2e9b694af6a6525c5234b203a2f500" >
+<script nonce="438e6335b55b7f3c7d1d2e2426340758" >
       window.__realDefine = customElements.define.bind(customElements);
       customElements.define = function() {
         try {
@@ -3301,7 +3301,7 @@
         submitterScreenname="0"
         maxSubjectLength="100"
         maxBodyLength="1000"
-        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3cml0ZS1yZXZpZXciLCJpYXQiOjE3NzU3OTY1OTQuODE4NDgsIm5iZiI6MTc3NTc5NjUzNC44MTg0OCwiZXhwIjoxNzc1ODgyOTk0LjgxODQ4LCJ0aW1lIjoxNzc1Nzk2NTk0LCJzdHJpbmciOiJMYWtzaGF5In0.q-kNoaw_1ohceRhhcZB7qE9-QRI3k5XwBRg0v9tEXK4"
+        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3cml0ZS1yZXZpZXciLCJpYXQiOjE3NzU3OTY5MDMuNzc5OTQyLCJuYmYiOjE3NzU3OTY4NDMuNzc5OTQyLCJleHAiOjE3NzU4ODMzMDMuNzc5OTQyLCJ0aW1lIjoxNzc1Nzk2OTAzLCJzdHJpbmciOiJMYWtzaGF5In0.A16hCYSNQ9EB5XoG_IikvioIiagUgO-1Aa69ItfSTqU"
                                         reviewSubmissionError="You must be logged in to write reviews."        ></ia-reviews>
       </div>
           </div><!--/.thats-left-->
@@ -3444,7 +3444,7 @@
   0.0000   0.0000                                petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require
                                              |common/ia:66:require_once
                                              |setup.php:384:log
-  0.0141   0.0141                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
+  0.0091   0.0091                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
                                              |details.php:172:value
                                              |common/Cache.inc:238:fetch
                                              |Caching/TieredReactiveCache.inc:141:fetch
@@ -3471,7 +3471,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0441   0.0300                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
+  0.0121   0.0030                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
                                              |details.php:172:value
                                              |common/Cache.inc:238:fetch
                                              |Caching/TieredReactiveCache.inc:141:fetch
@@ -3498,7 +3498,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0589   0.0147                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:51:getItem
+  0.0151   0.0030                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:51:getItem
                                              |common/Item.inc:78:parseMetadata
                                              |Item.inc:139:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3509,7 +3509,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.1026   0.0438                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:51:getItem
+  0.0176   0.0025                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:51:getItem
                                              |common/Item.inc:78:parseMetadata
                                              |Item.inc:139:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3520,27 +3520,64 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.1117   0.0091                             start db connect   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:599:title
-                                             |Collection.inc:60:q1
-                                             |DB.inc:397:q
+  0.0242   0.0066                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:305:get_status
+                                             |Lending/LendingACL.php:118:get_metadata_fields
+                                             |LendingUtils.php:670:cached_metadata
+                                             |LendingUtils.php:76:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:184:log
+  0.0266   0.0024                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:305:get_status
+                                             |Lending/LendingACL.php:118:get_metadata_fields
+                                             |LendingUtils.php:670:cached_metadata
+                                             |LendingUtils.php:76:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:193:log
+  0.0313   0.0047                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:403:get_file_list_with_theater_support
+                                             |BookReader/BookLikeFiles.inc:68:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:184:log
+  0.0338   0.0025                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+                                             |common/Details.inc:403:get_file_list_with_theater_support
+                                             |BookReader/BookLikeFiles.inc:68:get_obj
+                                             |Metadata.inc:612:_get_obj
+                                             |Metadata.inc:641:run_pipeline
+                                             |Metadata.inc:1688:read
+                                             |Metadata/AdapterPipeline.inc:288:_read
+                                             |AdapterPipeline.inc:324:pipeline
+                                             |AdapterPipeline.inc:466:fetch
+                                             |AdapterPipeline.inc:895:execute_pipeline
+                                             |RecordServer.inc:193:log
+  0.0377   0.0038                                       render   var/cache/petabox/petabox/www/sf/details.php:101:log
+  0.0379   0.0003                             start db connect   var/cache/petabox/petabox/www/sf/details.php:102:render
+                                             |common/Details.inc:5065:setupAndActionsFlags
+                                             |DetailsFlags.inc:27:getFlags
+                                             |DetailsFlags.inc:121:__callStatic
+                                             |ValidateArgs.inc:63:counts_by_flag_VALIDATED
+                                             |Flags.inc:243:get_VALIDATED
+                                             |Flags.inc:115:get_memberships
+                                             |SimpleLists.inc:86:get_records
+                                             |SimpleLists/Storage.inc:39:q
                                              |DB.inc:381:execute
                                              |DB.inc:1121:query
                                              |DB.inc:136:query0
@@ -3548,27 +3585,15 @@
                                              |DB.inc:813:connect
                                              |DB.inc:105:conn
                                              |DB.inc:915:log
-  0.1229   0.0112                                       got db   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:599:title
-                                             |Collection.inc:60:q1
-                                             |DB.inc:397:q
+  0.0532   0.0153                                       got db   var/cache/petabox/petabox/www/sf/details.php:102:render
+                                             |common/Details.inc:5065:setupAndActionsFlags
+                                             |DetailsFlags.inc:27:getFlags
+                                             |DetailsFlags.inc:121:__callStatic
+                                             |ValidateArgs.inc:63:counts_by_flag_VALIDATED
+                                             |Flags.inc:243:get_VALIDATED
+                                             |Flags.inc:115:get_memberships
+                                             |SimpleLists.inc:86:get_records
+                                             |SimpleLists/Storage.inc:39:q
                                              |DB.inc:381:execute
                                              |DB.inc:1121:query
                                              |DB.inc:136:query0
@@ -3576,159 +3601,28 @@
                                              |DB.inc:813:connect
                                              |DB.inc:105:conn
                                              |DB.inc:964:log
-  0.1259   0.0030                             start db connect   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:621:connectReadOnly
-                                             |DB.inc:106:conn
-                                             |DB.inc:915:log
-  0.1261   0.0001                   got existing db connection   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:621:connectReadOnly
-                                             |DB.inc:106:conn
-                                             |DB.inc:920:log
-  0.1271   0.0010                  getting "search" item stats   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:639:get
-                                             |ItemStats.inc:22:log
-  0.1508   0.0237                      got "search" item stats   var/cache/petabox/petabox/www/sf/details.php:80:getExtraInfo
-                                             |common/Item.inc:647:value
-                                             |Cache.inc:238:fetch
-                                             |Caching/TieredReactiveCache.inc:141:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:Caching\{closure}
-                                             |/var/cache/petabox/petabox/www/common/Caching/TieredReactiveCache.inc:88:recompute_fn
-                                             |TieredReactiveCache.inc:223:fetch
-                                             |ReactiveCache.inc:513:recompute_cache_miss
-                                             |ReactiveCache.inc:547:_recompute
-                                             |ReactiveCache.inc:632:do_recompute
-                                             |ReactiveCache.inc:909:call_user_func_array
-                                             |./unknown:unknown:{closure}
-                                             |/var/cache/petabox/petabox/www/common/Cache.inc:387:recompute
-                                             |Cache.inc:653:{closure}
-                                             |Item.inc:639:get
-                                             |ItemStats.inc:38:log
-  0.1571   0.0064                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:305:get_status
-                                             |Lending/LendingACL.php:118:get_metadata_fields
-                                             |LendingUtils.php:670:cached_metadata
-                                             |LendingUtils.php:76:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:184:log
-  0.2291   0.0719                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:305:get_status
-                                             |Lending/LendingACL.php:118:get_metadata_fields
-                                             |LendingUtils.php:670:cached_metadata
-                                             |LendingUtils.php:76:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:193:log
-  0.2341   0.0051                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:403:get_file_list_with_theater_support
-                                             |BookReader/BookLikeFiles.inc:68:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:184:log
-  0.3574   0.1232                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
-                                             |common/Details.inc:403:get_file_list_with_theater_support
-                                             |BookReader/BookLikeFiles.inc:68:get_obj
-                                             |Metadata.inc:612:_get_obj
-                                             |Metadata.inc:641:run_pipeline
-                                             |Metadata.inc:1688:read
-                                             |Metadata/AdapterPipeline.inc:288:_read
-                                             |AdapterPipeline.inc:324:pipeline
-                                             |AdapterPipeline.inc:466:fetch
-                                             |AdapterPipeline.inc:895:execute_pipeline
-                                             |RecordServer.inc:193:log
-  0.3602   0.0028                                       render   var/cache/petabox/petabox/www/sf/details.php:101:log
-  0.3679   0.0077                          begin session_start   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0636   0.0104                          begin session_start   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4828:head
                                              |Nav.inc:152:__construct
                                              |Nav.inc:222:session_start
                                              |Cookies.inc:50:log
-  0.3680   0.0000   skipping session_start, user not logged-in   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0637   0.0001   skipping session_start, user not logged-in   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4828:head
                                              |Nav.inc:152:__construct
                                              |Nav.inc:222:session_start
                                              |Cookies.inc:60:log
-  0.3721   0.0041                                 header drawn   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0674   0.0037                                 header drawn   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4832:log
-  0.4224   0.0504                                     bug dump   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0908   0.0234                                     bug dump   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5125:footer
                                              |setup.php:148:footer
                                              |Nav.inc:806:dump
                                              |Bug.inc:94:log
     -->
-    <script  nonce="6d2e9b694af6a6525c5234b203a2f500" >
+    <script  nonce="438e6335b55b7f3c7d1d2e2426340758" >
 if (typeof archive_analytics !== 'undefined') {
   archive_analytics.send_pageview_on_load(archive_analytics);
   archive_analytics.process_url_events(location);
@@ -3738,16 +3632,16 @@ if (typeof archive_analytics !== 'undefined') {
       vs[i] = {};
     }
     vs[i]['cache_bust']=Math.random();
-    vs[i]['server_ms']=422;
+    vs[i]['server_ms']=90;
     vs[i]['server_name']="www06.us.archive.org";
       }
 }
 </script>
-          <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=969382241" alt="" />
+          <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=133632007" alt="" />
           <noscript>
-        <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=1289797462" />
+        <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=1610060752" />
       </noscript>
-          <script  nonce="6d2e9b694af6a6525c5234b203a2f500" >
+          <script  nonce="438e6335b55b7f3c7d1d2e2426340758" >
         document.addEventListener('DOMContentLoaded', function() {
           if (typeof archive_analytics !== 'undefined')
             archive_analytics.create_tracking_image('in_page_executes');

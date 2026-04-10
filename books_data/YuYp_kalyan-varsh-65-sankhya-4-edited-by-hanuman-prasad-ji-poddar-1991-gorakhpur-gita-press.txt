@@ -11,8 +11,8 @@
         <meta name="google-site-verification" content="Q2YSouphkkgHkFNP7FgAkc4TmBs1Gmag3uGNndb53B8" />
     <meta name="google-site-verification" content="bpjKvUvsX0lxfmjg19TLblckWkDpnptZEYsBntApxUk" />
 
-    <meta name="baggage" content="sentry-trace_id=5e94aaeffe04408d8f37cdc5f287afc4,sentry-sample_rate=0.001,sentry-transaction=%2Fdetails.php,sentry-public_key=94bf3037c1e245c8a927aaa4daad2dbb,sentry-environment=production,sentry-sampled=false,sentry-sample_rand=0.953619"/>    <meta name="sentry-trace" content="5e94aaeffe04408d8f37cdc5f287afc4-706003fbe85d4150-0"/>
-    <script  nonce="0999984443610cdeea5b71bd23977444" >
+    <meta name="baggage" content="sentry-trace_id=d6357c5f4f1d41d384be8a3ace9ac367,sentry-sample_rate=0.001,sentry-transaction=%2Fdetails.php,sentry-public_key=94bf3037c1e245c8a927aaa4daad2dbb,sentry-environment=production,sentry-sampled=false,sentry-sample_rand=0.4141"/>    <meta name="sentry-trace" content="d6357c5f4f1d41d384be8a3ace9ac367-438ec673eab64dd4-0"/>
+    <script  nonce="fb8c1e0bd60bb62403732ece0d223843" >
 /* @licstart  The following is the entire license notice for the
  * JavaScript code in this page.
  *
@@ -41,7 +41,7 @@
     <script src="//archive.org/includes/apollo.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/components/npm/lit/polyfill-support.js?v=1b68058e" type="text/javascript"></script>
     <script src="//archive.org/components/npm/@webcomponents/webcomponentsjs/webcomponents-bundle.js?v=1b68058e" type="text/javascript"></script>
-<script nonce="0999984443610cdeea5b71bd23977444" >
+<script nonce="fb8c1e0bd60bb62403732ece0d223843" >
       window.__realDefine = customElements.define.bind(customElements);
       customElements.define = function() {
         try {
@@ -3033,7 +3033,7 @@
                     Please see your browser settings for this feature.
                   </div>
                 </noscript>
-                    <input class="js-ia-metadata" type="hidden" value='{"alternate_locations":{"servers":[{"server":"dn721902.ca.archive.org","dir":"/0/items/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press"}],"workable":[{"server":"dn721902.ca.archive.org","dir":"/0/items/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press"}]},"created":1775796613,"d1":"ia600102.us.archive.org","d2":"ia800102.us.archive.org","dir":"/31/items/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press","files":[{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press.pdf","source":"original","mtime":"1692030403","size":"28261809","md5":"c14e90b2929e84ddcf99259bdd80f9b4","crc32":"702cefe1","sha1":"a8370427b9c70a6b882a82d31f6050db6f1bf454","format":"Text PDF","viruscheck":"1692030900"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_chocr.html.gz","source":"derivative","ocr":"tesseract 5.3.0-3-g9920","ocr_parameters":"lang-mar;lang-hin;lang-swa;lang-Latin;lang-Devanagari;two-pass-disabled;pass-dpi-disabled;autonomous-mode-enabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_autonomous":"true","ocr_detected_script":["Devanagari","Latin"],"ocr_detected_script_conf":["0.9846","0.0154"],"ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"chOCR","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_jp2.zip","mtime":"1692033455","size":"2028435","md5":"9f37858eb43e037863cff9d97c7e616f","crc32":"2242681c","sha1":"a51ff440e93e58fd04b5c32c8b8057e7b6cd72ce"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_djvu.txt","source":"derivative","format":"DjVuTXT","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_djvu.xml","mtime":"1692035937","size":"365291","md5":"a0a5ee6b62f715d6efd4306aac113110","crc32":"ad30740f","sha1":"bc5e62050792bda39458e22329e1b115850d351a"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_djvu.xml","source":"derivative","format":"Djvu XML","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr.html","mtime":"1692034573","size":"2216643","md5":"291cb117aead10f5c4a1ad7daab71efb","crc32":"3f9699dd","sha1":"b3990b31a10bb928458fd3382a32ceccb9f9fddc"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr.html","source":"derivative","hocr_char_to_word_module_version":"1.2.0","hocr_char_to_word_hocr_version":"1.1.45","ocr_parameters":"lang-mar;lang-hin;lang-swa;lang-Latin;lang-Devanagari;two-pass-disabled;pass-dpi-disabled;autonomous-mode-enabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_autonomous":"true","ocr_detected_script":["Devanagari","Latin"],"ocr_detected_script_conf":["0.9846","0.0154"],"ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"hOCR","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_chocr.html.gz","mtime":"1692034469","size":"4258672","md5":"b6c25f7637af6d8890af193800b5a4c8","crc32":"40aab83d","sha1":"c1b32736dc3d72bf9b3721be787c3acbc51da57d"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr_pageindex.json.gz","source":"derivative","hocr_pageindex_module_version":"1.0.0","hocr_pageindex_hocr_version":"1.1.15","format":"OCR Page Index","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr.html","mtime":"1692034792","size":"557","md5":"4ce6f2bc2fe2ccb3be128cbedcd98edd","crc32":"20e7ae6c","sha1":"ea12ceedd7925b815f06df36061c61ac5a02f7d5"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr_searchtext.txt.gz","source":"derivative","hocr_fts_text_module_version":"1.1.0","hocr_fts_text_hocr_version":"1.1.15","word_conf_0_10":"353","word_conf_11_20":"200","word_conf_21_30":"274","word_conf_31_40":"429","word_conf_41_50":"498","word_conf_51_60":"600","word_conf_61_70":"686","word_conf_71_80":"1058","word_conf_81_90":"3874","word_conf_91_100":"17412","format":"OCR Search Text","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr.html","mtime":"1692035826","size":"77092","md5":"4f81abac5b9434a897e92455f44c8a75","crc32":"ed25749c","sha1":"a4391442b0cc4706019130db85908c61739f58ac"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press.pdf","mtime":"1692031647","size":"18718655","md5":"acc9ca01c4e42f001b5d0196168c8aca","crc32":"1d4eb6f8","sha1":"5f0ceaf41228332bb72f7c8764db7bc1a9e116df","filecount":"46"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_page_numbers.json","source":"derivative","hocr_pagenumber_module_version":"1.0.3","hocr_pagenumber_hocr_version":"1.1.54","hocr_pagenumber_confidence":"90","format":"Page Numbers JSON","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr.html","mtime":"1692036442","size":"8428","md5":"eb3ffd6bfedb8912b56dc42092fbf468","crc32":"a8c2e8f2","sha1":"5d3e0caeb1911dcdc975cb168f6173054b0bf59b"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_scandata.xml","source":"derivative","format":"Scandata","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_djvu.xml","mtime":"1692036442","size":"16629","md5":"401e1f70a1a3bdfd5770df025ec6cc79","crc32":"aa4079a1","sha1":"fab0c29bd8f7be68b59220eeea3da594210fd2ad"},{"name":"YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press_archive.torrent","source":"metadata","btih":"166e466e162a756025f18289a48e27f4ec122923","mtime":"1745365838","size":"7050","md5":"849c68c90311248a4be869f6db3df07b","crc32":"9ca917e5","sha1":"aca4dd15c16d38df6f6714f86fa5bea0aed7098a","format":"Archive BitTorrent"},{"name":"YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press_files.xml","source":"original","format":"Metadata","md5":"c35eb91410a8d8d046a94bd3d638c4be","summation":"md5"},{"name":"YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press_meta.sqlite","source":"original","mtime":"1692030518","size":"20480","md5":"342d8c21a1419243e5f2313d52508160","crc32":"aa036a70","sha1":"4b4dc23e5e81dc8eff075d956d577f79207472a5","format":"Metadata"},{"name":"YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press_meta.xml","source":"original","mtime":"1745365836","size":"1990","md5":"198817d9d089a00622a109bc4171ca2d","crc32":"0bab14fa","sha1":"72683782d33dfaa2695dcadcd29090d1b53f3132","format":"Metadata"},{"name":"__ia_thumb.jpg","source":"original","mtime":"1692036578","size":"21612","md5":"26ecd5c9ceba245b31bfbce3827b9be3","crc32":"2fb63a78","sha1":"96712bfa1f3d738afe26004c27f6250038c668c3","format":"Item Tile","rotation":"0"}],"files_count":15,"item_last_updated":1745365838,"item_size":56003343,"metadata":{"identifier":"YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press","mediatype":"texts","collection":["booksbylanguage_hindi","booksbylanguage"],"creator":"Gita Press","description":"\u0027Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press\u0027","licenseurl":"https://creativecommons.org/publicdomain/zero/1.0/","scanner":"Internet Archive HTML5 Uploader 1.7.0","subject":["Nanaji Deshmukh Library","BJP Headquarters Jammu"],"title":"Kalyan Varsh 65 Sankhya 4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur Gita Press","uploader":"indiclibrary1@gmail.com","publicdate":"2023-08-14 16:27:16","addeddate":"2023-08-14 16:27:16","curation":"[curator]validator@archive.org[/curator][date]20230814163501[/date][comment]checked for malware[/comment]","identifier-access":"http://archive.org/details/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press","identifier-ark":"ark:/13960/s2kx9gqs2rk","ppi":"256","ocr":"tesseract 5.3.0-3-g9920","ocr_parameters":"-l mar+hin+swa+Latin+Devanagari","ocr_module_version":"0.0.21","ocr_autonomous":"true","ocr_detected_script":["Devanagari","Latin"],"ocr_detected_script_conf":["0.9846","0.0154"],"ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","page_number_confidence":"90","page_number_module_version":"1.0.3","collection_added":"booksbylanguage"},"server":"ia600102.us.archive.org","uniq":1088983143,"workable_servers":["ia600102.us.archive.org","ia800102.us.archive.org"]}'/>
+                    <input class="js-ia-metadata" type="hidden" value='{"alternate_locations":{"servers":[{"server":"dn721902.ca.archive.org","dir":"/0/items/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press"}],"workable":[{"server":"dn721902.ca.archive.org","dir":"/0/items/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press"}]},"created":1775796613,"d1":"ia600102.us.archive.org","d2":"ia800102.us.archive.org","dir":"/31/items/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press","files":[{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press.pdf","source":"original","mtime":"1692030403","size":"28261809","md5":"c14e90b2929e84ddcf99259bdd80f9b4","crc32":"702cefe1","sha1":"a8370427b9c70a6b882a82d31f6050db6f1bf454","format":"Text PDF","viruscheck":"1692030900"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_chocr.html.gz","source":"derivative","ocr":"tesseract 5.3.0-3-g9920","ocr_parameters":"lang-mar;lang-hin;lang-swa;lang-Latin;lang-Devanagari;two-pass-disabled;pass-dpi-disabled;autonomous-mode-enabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_autonomous":"true","ocr_detected_script":["Devanagari","Latin"],"ocr_detected_script_conf":["0.9846","0.0154"],"ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"chOCR","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_jp2.zip","mtime":"1692033455","size":"2028435","md5":"9f37858eb43e037863cff9d97c7e616f","crc32":"2242681c","sha1":"a51ff440e93e58fd04b5c32c8b8057e7b6cd72ce"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_djvu.txt","source":"derivative","format":"DjVuTXT","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_djvu.xml","mtime":"1692035937","size":"365291","md5":"a0a5ee6b62f715d6efd4306aac113110","crc32":"ad30740f","sha1":"bc5e62050792bda39458e22329e1b115850d351a"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_djvu.xml","source":"derivative","format":"Djvu XML","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr.html","mtime":"1692034573","size":"2216643","md5":"291cb117aead10f5c4a1ad7daab71efb","crc32":"3f9699dd","sha1":"b3990b31a10bb928458fd3382a32ceccb9f9fddc"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr.html","source":"derivative","hocr_char_to_word_module_version":"1.2.0","hocr_char_to_word_hocr_version":"1.1.45","ocr_parameters":"lang-mar;lang-hin;lang-swa;lang-Latin;lang-Devanagari;two-pass-disabled;pass-dpi-disabled;autonomous-mode-enabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_autonomous":"true","ocr_detected_script":["Devanagari","Latin"],"ocr_detected_script_conf":["0.9846","0.0154"],"ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","format":"hOCR","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_chocr.html.gz","mtime":"1692034469","size":"4258672","md5":"b6c25f7637af6d8890af193800b5a4c8","crc32":"40aab83d","sha1":"c1b32736dc3d72bf9b3721be787c3acbc51da57d"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr_pageindex.json.gz","source":"derivative","hocr_pageindex_module_version":"1.0.0","hocr_pageindex_hocr_version":"1.1.15","format":"OCR Page Index","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr.html","mtime":"1692034792","size":"557","md5":"4ce6f2bc2fe2ccb3be128cbedcd98edd","crc32":"20e7ae6c","sha1":"ea12ceedd7925b815f06df36061c61ac5a02f7d5"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr_searchtext.txt.gz","source":"derivative","hocr_fts_text_module_version":"1.1.0","hocr_fts_text_hocr_version":"1.1.15","word_conf_0_10":"353","word_conf_11_20":"200","word_conf_21_30":"274","word_conf_31_40":"429","word_conf_41_50":"498","word_conf_51_60":"600","word_conf_61_70":"686","word_conf_71_80":"1058","word_conf_81_90":"3874","word_conf_91_100":"17412","format":"OCR Search Text","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr.html","mtime":"1692035826","size":"77092","md5":"4f81abac5b9434a897e92455f44c8a75","crc32":"ed25749c","sha1":"a4391442b0cc4706019130db85908c61739f58ac"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press.pdf","mtime":"1692031647","size":"18718655","md5":"acc9ca01c4e42f001b5d0196168c8aca","crc32":"1d4eb6f8","sha1":"5f0ceaf41228332bb72f7c8764db7bc1a9e116df","filecount":"46"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_page_numbers.json","source":"derivative","hocr_pagenumber_module_version":"1.0.3","hocr_pagenumber_hocr_version":"1.1.54","hocr_pagenumber_confidence":"90","format":"Page Numbers JSON","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_hocr.html","mtime":"1692036442","size":"8428","md5":"eb3ffd6bfedb8912b56dc42092fbf468","crc32":"a8c2e8f2","sha1":"5d3e0caeb1911dcdc975cb168f6173054b0bf59b"},{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_scandata.xml","source":"derivative","format":"Scandata","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_djvu.xml","mtime":"1692036442","size":"16629","md5":"401e1f70a1a3bdfd5770df025ec6cc79","crc32":"aa4079a1","sha1":"fab0c29bd8f7be68b59220eeea3da594210fd2ad"},{"name":"YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press_archive.torrent","source":"metadata","btih":"166e466e162a756025f18289a48e27f4ec122923","mtime":"1745365838","size":"7050","md5":"849c68c90311248a4be869f6db3df07b","crc32":"9ca917e5","sha1":"aca4dd15c16d38df6f6714f86fa5bea0aed7098a","format":"Archive BitTorrent"},{"name":"YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press_files.xml","source":"original","format":"Metadata","md5":"c35eb91410a8d8d046a94bd3d638c4be","summation":"md5"},{"name":"YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press_meta.sqlite","source":"original","mtime":"1692030518","size":"20480","md5":"342d8c21a1419243e5f2313d52508160","crc32":"aa036a70","sha1":"4b4dc23e5e81dc8eff075d956d577f79207472a5","format":"Metadata"},{"name":"YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press_meta.xml","source":"original","mtime":"1745365836","size":"1990","md5":"198817d9d089a00622a109bc4171ca2d","crc32":"0bab14fa","sha1":"72683782d33dfaa2695dcadcd29090d1b53f3132","format":"Metadata"},{"name":"__ia_thumb.jpg","source":"original","mtime":"1692036578","size":"21612","md5":"26ecd5c9ceba245b31bfbce3827b9be3","crc32":"2fb63a78","sha1":"96712bfa1f3d738afe26004c27f6250038c668c3","format":"Item Tile","rotation":"0"}],"files_count":15,"item_last_updated":1745365838,"item_size":56003343,"metadata":{"identifier":"YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press","mediatype":"texts","collection":["booksbylanguage_hindi","booksbylanguage"],"creator":"Gita Press","description":"\u0027Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press\u0027","licenseurl":"https://creativecommons.org/publicdomain/zero/1.0/","scanner":"Internet Archive HTML5 Uploader 1.7.0","subject":["Nanaji Deshmukh Library","BJP Headquarters Jammu"],"title":"Kalyan Varsh 65 Sankhya 4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur Gita Press","uploader":"indiclibrary1@gmail.com","publicdate":"2023-08-14 16:27:16","addeddate":"2023-08-14 16:27:16","curation":"[curator]validator@archive.org[/curator][date]20230814163501[/date][comment]checked for malware[/comment]","identifier-access":"http://archive.org/details/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press","identifier-ark":"ark:/13960/s2kx9gqs2rk","ppi":"256","ocr":"tesseract 5.3.0-3-g9920","ocr_parameters":"-l mar+hin+swa+Latin+Devanagari","ocr_module_version":"0.0.21","ocr_autonomous":"true","ocr_detected_script":["Devanagari","Latin"],"ocr_detected_script_conf":["0.9846","0.0154"],"ocr_detected_lang":"hi","ocr_detected_lang_conf":"1.0000","page_number_confidence":"90","page_number_module_version":"1.0.3","collection_added":"booksbylanguage"},"server":"ia800102.us.archive.org","uniq":1088983143,"workable_servers":["ia800102.us.archive.org","ia600102.us.archive.org"]}'/>
                     <ia-book-theater
                   viewportinfullscreen                  class="focus-on-child-only"
                   baseHost="archive.org"
@@ -3044,7 +3044,7 @@
                     <div id="BookReader" class="BookReader fullscreenActive"></div>
                   </div>
                 </ia-book-theater>
-                    <input class="js-bookreader" type="hidden" value='{"isBeta":false,"br_ui":null,"urlHistoryBasePath":"/details/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press/","resumeCookiePath":"/details/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press","initialSearchTerm":null,"purchase_url":"","has_multiple_readable_files":false,"multipleBooksList":{"by_subprefix":{"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press":{"title":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press.pdf","url_path":"/details/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press/Kalyan%20Varsh-65%20Sankhya-4%20Edited%20By%20Hanuman%20Prasad%20JI%20Poddar%201991%20Gorakhpur%20-%20Gita%20Press","orig_sort":0,"file_subprefix":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press","file_source":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_jp2.zip","file_format":"Single Page Processed JP2 ZIP","file_origin":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press.pdf","raw":{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press.pdf","mtime":"1692031647","size":"18718655","md5":"acc9ca01c4e42f001b5d0196168c8aca","crc32":"1d4eb6f8","sha1":"5f0ceaf41228332bb72f7c8764db7bc1a9e116df","filecount":"46"}}}},"autofit":"auto","url":"//ia800102.us.archive.org/BookReader/BookReaderJSIA.php?id=YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press\u0026itemPath=/31/items/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press\u0026server=ia800102.us.archive.org\u0026format=jsonp\u0026subPrefix=Kalyan%20Varsh-65%20Sankhya-4%20Edited%20By%20Hanuman%20Prasad%20JI%20Poddar%201991%20Gorakhpur%20-%20Gita%20Press\u0026requestUri=/details/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press_djvu.txt%3Fview%3Dtheater"}'/>
+                    <input class="js-bookreader" type="hidden" value='{"isBeta":false,"br_ui":null,"urlHistoryBasePath":"/details/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press/","resumeCookiePath":"/details/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press","initialSearchTerm":null,"purchase_url":"","has_multiple_readable_files":false,"multipleBooksList":{"by_subprefix":{"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press":{"title":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press.pdf","url_path":"/details/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press/Kalyan%20Varsh-65%20Sankhya-4%20Edited%20By%20Hanuman%20Prasad%20JI%20Poddar%201991%20Gorakhpur%20-%20Gita%20Press","orig_sort":0,"file_subprefix":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press","file_source":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_jp2.zip","file_format":"Single Page Processed JP2 ZIP","file_origin":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press.pdf","raw":{"name":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"Kalyan Varsh-65 Sankhya-4 Edited By Hanuman Prasad JI Poddar 1991 Gorakhpur - Gita Press.pdf","mtime":"1692031647","size":"18718655","md5":"acc9ca01c4e42f001b5d0196168c8aca","crc32":"1d4eb6f8","sha1":"5f0ceaf41228332bb72f7c8764db7bc1a9e116df","filecount":"46"}}}},"autofit":"auto","url":"//ia600102.us.archive.org/BookReader/BookReaderJSIA.php?id=YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press\u0026itemPath=/31/items/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press\u0026server=ia600102.us.archive.org\u0026format=jsonp\u0026subPrefix=Kalyan%20Varsh-65%20Sankhya-4%20Edited%20By%20Hanuman%20Prasad%20JI%20Poddar%201991%20Gorakhpur%20-%20Gita%20Press\u0026requestUri=/details/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press/YuYp_kalyan-varsh-65-sankhya-4-edited-by-hanuman-prasad-ji-poddar-1991-gorakhpur-gita-press_djvu.txt%3Fview%3Dtheater"}'/>
                       </div><!--/.xs-col-12-->
       </div><!--/.row-->
     
@@ -3368,7 +3368,7 @@
         submitterScreenname="0"
         maxSubjectLength="100"
         maxBodyLength="1000"
-        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3cml0ZS1yZXZpZXciLCJpYXQiOjE3NzU3OTY2MTMuODA1OTA4LCJuYmYiOjE3NzU3OTY1NTMuODA1OTA4LCJleHAiOjE3NzU4ODMwMTMuODA1OTA4LCJ0aW1lIjoxNzc1Nzk2NjEzLCJzdHJpbmciOiJZdVlwX2thbHlhbi12YXJzaC02NS1zYW5raHlhLTQtZWRpdGVkLWJ5LWhhbnVtYW4tcHJhc2FkLWppLXBvZGRhci0xOTkxLWdvcmFraHB1ci1naXRhLXByZXNzIn0.Y3gQzSv_G7wAilIc2UhwpQul5Gge18rOHNUp5z3DVs4"
+        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3cml0ZS1yZXZpZXciLCJpYXQiOjE3NzU3OTY5MjAuNzEwNzM4LCJuYmYiOjE3NzU3OTY4NjAuNzEwNzM4LCJleHAiOjE3NzU4ODMzMjAuNzEwNzM4LCJ0aW1lIjoxNzc1Nzk2OTIwLCJzdHJpbmciOiJZdVlwX2thbHlhbi12YXJzaC02NS1zYW5raHlhLTQtZWRpdGVkLWJ5LWhhbnVtYW4tcHJhc2FkLWppLXBvZGRhci0xOTkxLWdvcmFraHB1ci1naXRhLXByZXNzIn0.xvSy9dJLx1zCZTn7anEMpt24g_TXA6K1yoBlo55qShI"
                                         reviewSubmissionError="You must be logged in to write reviews."        ></ia-reviews>
       </div>
           </div><!--/.thats-left-->
@@ -3630,7 +3630,7 @@
   0.0000   0.0000                                petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require
                                              |common/ia:66:require_once
                                              |setup.php:384:log
-  0.0094   0.0094                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
+  0.0199   0.0199                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
                                              |details.php:172:value
                                              |common/Cache.inc:238:fetch
                                              |Caching/TieredReactiveCache.inc:141:fetch
@@ -3657,7 +3657,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0138   0.0044                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
+  0.0234   0.0035                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:37:redirectToOffshootIfNeeded
                                              |details.php:172:value
                                              |common/Cache.inc:238:fetch
                                              |Caching/TieredReactiveCache.inc:141:fetch
@@ -3684,7 +3684,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0161   0.0022                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:51:getItem
+  0.0265   0.0031                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:51:getItem
                                              |common/Item.inc:78:parseMetadata
                                              |Item.inc:139:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3695,7 +3695,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0181   0.0020                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:51:getItem
+  0.0288   0.0023                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:51:getItem
                                              |common/Item.inc:78:parseMetadata
                                              |Item.inc:139:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3706,7 +3706,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0281   0.0100                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+  0.0424   0.0136                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
                                              |common/Details.inc:305:get_status
                                              |Lending/LendingACL.php:118:get_metadata_fields
                                              |LendingUtils.php:670:cached_metadata
@@ -3719,7 +3719,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0302   0.0020                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+  0.0449   0.0024                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
                                              |common/Details.inc:305:get_status
                                              |Lending/LendingACL.php:118:get_metadata_fields
                                              |LendingUtils.php:670:cached_metadata
@@ -3732,7 +3732,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0340   0.0038                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+  0.0513   0.0064                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:99:__construct
                                              |common/Details.inc:403:get_file_list_with_theater_support
                                              |BookReader/BookLikeFiles.inc:68:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3743,7 +3743,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0360   0.0020                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
+  0.0563   0.0050                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:99:__construct
                                              |common/Details.inc:403:get_file_list_with_theater_support
                                              |BookReader/BookLikeFiles.inc:68:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3754,8 +3754,8 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0397   0.0036                                       render   var/cache/petabox/petabox/www/sf/details.php:101:log
-  0.0399   0.0003                             start db connect   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0636   0.0073                                       render   var/cache/petabox/petabox/www/sf/details.php:101:log
+  0.0639   0.0003                             start db connect   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5065:setupAndActionsFlags
                                              |DetailsFlags.inc:27:getFlags
                                              |DetailsFlags.inc:121:__callStatic
@@ -3771,7 +3771,7 @@
                                              |DB.inc:813:connect
                                              |DB.inc:105:conn
                                              |DB.inc:915:log
-  0.0531   0.0132                                       got db   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0760   0.0121                                       got db   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5065:setupAndActionsFlags
                                              |DetailsFlags.inc:27:getFlags
                                              |DetailsFlags.inc:121:__callStatic
@@ -3787,22 +3787,22 @@
                                              |DB.inc:813:connect
                                              |DB.inc:105:conn
                                              |DB.inc:964:log
-  0.0617   0.0085                          begin session_start   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0842   0.0082                          begin session_start   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4828:head
                                              |Nav.inc:152:__construct
                                              |Nav.inc:222:session_start
                                              |Cookies.inc:50:log
-  0.0617   0.0000   skipping session_start, user not logged-in   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0842   0.0000   skipping session_start, user not logged-in   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4828:head
                                              |Nav.inc:152:__construct
                                              |Nav.inc:222:session_start
                                              |Cookies.inc:60:log
-  0.0654   0.0037                                 header drawn   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0866   0.0024                                 header drawn   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5071:nav
                                              |Details.inc:4832:log
-  0.0665   0.0010                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0873   0.0007                             redis_read start   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5092:theatre
                                              |Details.inc:2628:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3813,7 +3813,7 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:184:log
-  0.0689   0.0024                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.0945   0.0072                            redis_read finish   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5092:theatre
                                              |Details.inc:2628:get_obj
                                              |Metadata.inc:612:_get_obj
@@ -3824,13 +3824,13 @@
                                              |AdapterPipeline.inc:466:fetch
                                              |AdapterPipeline.inc:895:execute_pipeline
                                              |RecordServer.inc:193:log
-  0.0979   0.0291                                     bug dump   var/cache/petabox/petabox/www/sf/details.php:102:render
+  0.1731   0.0786                                     bug dump   var/cache/petabox/petabox/www/sf/details.php:102:render
                                              |common/Details.inc:5125:footer
                                              |setup.php:148:footer
                                              |Nav.inc:806:dump
                                              |Bug.inc:94:log
     -->
-    <script  nonce="0999984443610cdeea5b71bd23977444" >
+    <script  nonce="fb8c1e0bd60bb62403732ece0d223843" >
 if (typeof archive_analytics !== 'undefined') {
   archive_analytics.send_pageview_on_load(archive_analytics);
   archive_analytics.process_url_events(location);
@@ -3840,16 +3840,16 @@ if (typeof archive_analytics !== 'undefined') {
       vs[i] = {};
     }
     vs[i]['cache_bust']=Math.random();
-    vs[i]['server_ms']=97;
+    vs[i]['server_ms']=173;
     vs[i]['server_name']="www06.us.archive.org";
       }
 }
 </script>
-          <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=326667598" alt="" />
+          <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=1184958907" alt="" />
           <noscript>
-        <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=1536438540" />
+        <img src="//athena.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=397163686" />
       </noscript>
-          <script  nonce="0999984443610cdeea5b71bd23977444" >
+          <script  nonce="fb8c1e0bd60bb62403732ece0d223843" >
         document.addEventListener('DOMContentLoaded', function() {
           if (typeof archive_analytics !== 'undefined')
             archive_analytics.create_tracking_image('in_page_executes');

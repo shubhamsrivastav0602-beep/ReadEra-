@@ -1,5 +1,0 @@
-google-generativeai
-supabase
-requests
-beautifulsoup4
-tqdm

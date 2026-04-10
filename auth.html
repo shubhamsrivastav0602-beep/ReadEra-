@@ -23,7 +23,6 @@
             flex-direction: column;
         }
 
-        /* ========== NAVBAR ========== */
         .navbar {
             background: white;
             padding: 0.75rem 1.5rem;
@@ -49,11 +48,6 @@
             font-size: 1.65rem;
             font-weight: 700;
             text-decoration: none;
-            letter-spacing: -0.02em;
-        }
-
-        .logo a:hover {
-            color: #6b3410;
         }
 
         .nav-primary {
@@ -74,8 +68,7 @@
             transition: background 0.2s, color 0.2s;
         }
 
-        .nav-primary>li>a:hover,
-        .nav-primary>li>a[aria-current="page"] {
+        .nav-primary>li>a:hover {
             color: #8B4513;
             background: rgba(139, 69, 19, 0.08);
         }
@@ -167,7 +160,6 @@
             flex-wrap: wrap;
         }
 
-        /* ========== AUTH CONTAINER ========== */
         .auth-container {
             flex: 1;
             display: flex;
@@ -183,7 +175,6 @@
             width: 100%;
             max-width: 480px;
             overflow: hidden;
-            transition: transform 0.2s;
         }
 
         .auth-tabs {
@@ -208,11 +199,6 @@
             color: #8B4513;
             border-bottom: 2px solid #8B4513;
             background: rgba(139, 69, 19, 0.03);
-        }
-
-        .tab-btn:hover:not(.active) {
-            color: #8B4513;
-            background: #f8fafc;
         }
 
         .auth-form {
@@ -244,10 +230,6 @@
         .form-group input:focus {
             outline: none;
             border-color: #8B4513;
-        }
-
-        .form-group input.error {
-            border-color: #ef4444;
         }
 
         .error-message {
@@ -299,22 +281,11 @@
             font-weight: 500;
         }
 
-        .auth-footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* ========== FOOTER ========== */
         .site-footer {
             background: linear-gradient(180deg, #0c2744 0%, #061526 100%);
             color: #cbd5e1;
             margin-top: auto;
             padding: 2rem 1.5rem 1.5rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.06);
-        }
-
-        .footer-inner {
-            max-width: 1200px;
-            margin: 0 auto;
             text-align: center;
         }
 
@@ -334,10 +305,9 @@
 
         .footer-bottom-links a:hover {
             color: #fbbf24;
-            text-decoration: underline;
         }
 
-        /* ========== DARK MODE ========== */
+        /* Dark Mode */
         body.dark-mode {
             background: #0f172a;
             color: #e2e8f0;
@@ -361,19 +331,9 @@
             background: rgba(251, 191, 36, 0.1);
         }
 
-        body.dark-mode .theme-toggle {
-            background: #1f2937;
-            border-color: #334155;
-            color: #e2e8f0;
-        }
-
         body.dark-mode .auth-card {
             background: #1f2937;
             border: 1px solid #334155;
-        }
-
-        body.dark-mode .tab-btn {
-            color: #94a3b8;
         }
 
         body.dark-mode .tab-btn.active {
@@ -391,28 +351,17 @@
             color: #e2e8f0;
         }
 
-        body.dark-mode .form-group input:focus {
-            border-color: #fbbf24;
-        }
-
-        body.dark-mode .auth-footer {
-            border-top-color: #334155;
-        }
-
-        body.dark-mode .auth-footer a {
-            color: #fbbf24;
+        body.dark-mode .theme-toggle {
+            background: #1f2937;
+            border-color: #334155;
+            color: #e2e8f0;
         }
 
         body.dark-mode .site-footer {
             background: linear-gradient(180deg, #020617 0%, #000 100%);
         }
 
-        /* ========== MOBILE ========== */
         @media (max-width: 768px) {
-            .auth-card {
-                margin: 0 1rem;
-            }
-
             .auth-form {
                 padding: 1.5rem;
             }
@@ -452,12 +401,12 @@
 
 <body>
 
-    <nav class="navbar" aria-label="Main">
+    <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
                 <a href="index.html">ReadEra</a>
             </div>
-            <button type="button" class="menu-toggle" id="mobile-menu-btn" aria-expanded="false">
+            <button type="button" class="menu-toggle" id="mobile-menu-btn">
                 <i class="fas fa-bars"></i>
             </button>
             <div class="nav-drawer" id="nav-drawer">
@@ -468,8 +417,7 @@
                     <li><a href="about.html">About</a></li>
                 </ul>
                 <div class="nav-actions">
-                    <button type="button" class="theme-toggle" id="theme-toggle"
-                        aria-label="Toggle dark mode">🌙</button>
+                    <button type="button" class="theme-toggle" id="theme-toggle">🌙</button>
                     <a href="browse.html" class="btn btn-outline">Explore</a>
                 </div>
             </div>
@@ -483,7 +431,6 @@
                 <button class="tab-btn" data-tab="signup">Sign Up</button>
             </div>
 
-            <!-- Login Form -->
             <div id="login-form" class="auth-form">
                 <form id="loginForm">
                     <div class="form-group">
@@ -503,7 +450,6 @@
                 </div>
             </div>
 
-            <!-- Signup Form -->
             <div id="signup-form" class="auth-form" style="display: none;">
                 <form id="signupForm">
                     <div class="form-group">
@@ -547,10 +493,6 @@
     <script src="js/theme.js"></script>
 
     <script>
-        // ============================================
-        // AUTH PAGE LOGIC
-        // ============================================
-
         // DOM Elements
         const loginForm = document.getElementById('loginForm');
         const signupForm = document.getElementById('signupForm');
@@ -560,33 +502,24 @@
         const switchToSignup = document.getElementById('switchToSignup');
         const switchToLogin = document.getElementById('switchToLogin');
 
-        // Switch to Login tab
         function showLogin() {
             loginDiv.style.display = 'block';
             signupDiv.style.display = 'none';
             tabBtns.forEach(btn => {
-                if (btn.dataset.tab === 'login') {
-                    btn.classList.add('active');
-                } else {
-                    btn.classList.remove('active');
-                }
+                if (btn.dataset.tab === 'login') btn.classList.add('active');
+                else btn.classList.remove('active');
             });
         }
 
-        // Switch to Signup tab
         function showSignup() {
             loginDiv.style.display = 'none';
             signupDiv.style.display = 'block';
             tabBtns.forEach(btn => {
-                if (btn.dataset.tab === 'signup') {
-                    btn.classList.add('active');
-                } else {
-                    btn.classList.remove('active');
-                }
+                if (btn.dataset.tab === 'signup') btn.classList.add('active');
+                else btn.classList.remove('active');
             });
         }
 
-        // Clear all error messages
         function clearErrors() {
             document.querySelectorAll('.error-message').forEach(el => {
                 el.classList.remove('show');
@@ -597,25 +530,35 @@
             });
         }
 
-        // Show error for specific field
         function showError(fieldId, message) {
             const errorEl = document.getElementById(fieldId);
             if (errorEl) {
                 errorEl.textContent = message;
                 errorEl.classList.add('show');
             }
-            const inputEl = document.getElementById(fieldId.replace('Error', ''));
-            if (inputEl) {
-                inputEl.classList.add('error');
-            }
         }
 
-        // Validate email
         function isValidEmail(email) {
             return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
         }
 
-        // Handle Login
+        function showToastMessage(message, type) {
+            let toastContainer = document.getElementById('toast-container');
+            if (!toastContainer) {
+                toastContainer = document.createElement('div');
+                toastContainer.id = 'toast-container';
+                toastContainer.style.cssText = 'position:fixed;bottom:20px;right:20px;z-index:9999';
+                document.body.appendChild(toastContainer);
+            }
+            const toast = document.createElement('div');
+            toast.style.cssText = `background:${type === 'success' ? '#10b981' : '#ef4444'};color:white;padding:12px 20px;margin-top:10px;border-radius:8px;font-size:14px;animation:slideIn 0.3s ease;cursor:pointer`;
+            toast.textContent = message;
+            toastContainer.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+            toast.onclick = () => toast.remove();
+        }
+
+        // Handle Login - FIXED
         loginForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             clearErrors();
@@ -624,7 +567,6 @@
             const password = document.getElementById('loginPassword').value;
 
             let hasError = false;
-
             if (!email) {
                 showError('loginEmailError', 'Email is required');
                 hasError = true;
@@ -632,31 +574,41 @@
                 showError('loginEmailError', 'Enter a valid email address');
                 hasError = true;
             }
-
             if (!password) {
                 showError('loginPasswordError', 'Password is required');
                 hasError = true;
             }
-
             if (hasError) return;
 
             const submitBtn = document.getElementById('loginSubmitBtn');
             submitBtn.disabled = true;
             submitBtn.textContent = 'Logging in...';
 
-            const result = await AuthService.signIn(email, password);
+            try {
+                // Direct Supabase login
+                const { data, error } = await supabaseClient.auth.signInWithPassword({
+                    email: email,
+                    password: password
+                });
 
-            if (result.success) {
-                // Success - redirect handled in AuthService
-                console.log('Login successful');
-            } else {
-                showError('loginEmailError', result.error || 'Login failed. Please check your credentials.');
+                if (error) throw error;
+
+                if (data && data.user) {
+                    localStorage.setItem('token', data.session.access_token);
+                    localStorage.setItem('user', JSON.stringify(data.user));
+                    showToastMessage('Login successful! Redirecting...', 'success');
+                    setTimeout(() => {
+                        window.location.href = 'index.html';
+                    }, 1000);
+                }
+            } catch (error) {
+                showError('loginEmailError', error.message || 'Invalid email or password');
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Login';
             }
         });
 
-        // Handle Signup
+        // Handle Signup - FIXED
         signupForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             clearErrors();
@@ -666,15 +618,10 @@
             const password = document.getElementById('signupPassword').value;
 
             let hasError = false;
-
             if (!fullName) {
                 showError('signupNameError', 'Full name is required');
                 hasError = true;
-            } else if (fullName.length < 2) {
-                showError('signupNameError', 'Name must be at least 2 characters');
-                hasError = true;
             }
-
             if (!email) {
                 showError('signupEmailError', 'Email is required');
                 hasError = true;
@@ -682,7 +629,6 @@
                 showError('signupEmailError', 'Enter a valid email address');
                 hasError = true;
             }
-
             if (!password) {
                 showError('signupPasswordError', 'Password is required');
                 hasError = true;
@@ -690,38 +636,39 @@
                 showError('signupPasswordError', 'Password must be at least 6 characters');
                 hasError = true;
             }
-
             if (hasError) return;
 
             const submitBtn = document.getElementById('signupSubmitBtn');
             submitBtn.disabled = true;
             submitBtn.textContent = 'Creating account...';
 
-            const result = await AuthService.signUp(email, password, fullName);
+            try {
+                const { data, error } = await supabaseClient.auth.signUp({
+                    email: email,
+                    password: password,
+                    options: { data: { full_name: fullName } }
+                });
 
-            if (result.success) {
-                // Show success message and switch to login
-                showToast('Account created! Please check your email to verify.', 'success');
+                if (error) throw error;
+
+                showToastMessage('Account created! Please check your email to verify.', 'success');
                 setTimeout(() => {
                     showLogin();
                     document.getElementById('loginEmail').value = email;
                 }, 1500);
-            } else {
-                showError('signupEmailError', result.error || 'Signup failed. Email might already be in use.');
+            } catch (error) {
+                showError('signupEmailError', error.message || 'Signup failed. Email might already be in use.');
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Create Account';
             }
-
-            submitBtn.disabled = false;
-            submitBtn.textContent = 'Create Account';
         });
 
         // Tab switching
         tabBtns.forEach(btn => {
             btn.addEventListener('click', () => {
-                if (btn.dataset.tab === 'login') {
-                    showLogin();
-                } else {
-                    showSignup();
-                }
+                if (btn.dataset.tab === 'login') showLogin();
+                else showSignup();
             });
         });
 
@@ -735,8 +682,8 @@
             showLogin();
         });
 
-        // Check if already logged in, redirect to home
-        if (AuthService.isAuthenticated()) {
+        // Check if already logged in
+        if (localStorage.getItem('token')) {
             window.location.href = 'index.html';
         }
 
@@ -748,6 +695,11 @@
                 navDrawer.classList.toggle('is-open');
             });
         }
+
+        // Add animation styles
+        const style = document.createElement('style');
+        style.textContent = `@keyframes slideIn{from{transform:translateX(100%);opacity:0}to{transform:translateX(0);opacity:1}}`;
+        document.head.appendChild(style);
     </script>
 </body>
 

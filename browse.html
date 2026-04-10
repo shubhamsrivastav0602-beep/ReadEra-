@@ -474,9 +474,9 @@
             return icons[language] || '📚';
         }
 
-        // Read book
+        // Read book in new tab
         function readBook(bookId) {
-            alert(`Opening: ${bookId}\n\nReading functionality coming soon!`);
+            window.open(`book.html?id=${bookId}`, '_blank');
         }
 
         // Add to library

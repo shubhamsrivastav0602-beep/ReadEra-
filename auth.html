@@ -495,6 +495,21 @@
         // LOCAL AUTHENTICATION (NO SUPABASE NEEDED)
         // ============================================
 
+        // Initialize page - clear inputs and check auth
+        window.addEventListener('DOMContentLoaded', () => {
+            // Clear all form inputs on page load
+            document.getElementById('loginEmail').value = '';
+            document.getElementById('loginPassword').value = '';
+            document.getElementById('signupName').value = '';
+            document.getElementById('signupEmail').value = '';
+            document.getElementById('signupPassword').value = '';
+
+            // Check if already logged in - redirect if authenticated
+            if (localStorage.getItem('token') && localStorage.getItem('user')) {
+                window.location.href = 'profile.html';
+            }
+        });
+
         // Get users from localStorage or initialize empty array
         let users = JSON.parse(localStorage.getItem('readera_users') || '[]');
 
@@ -712,9 +727,9 @@
             showLogin();
         });
 
-        // Check if already logged in
-        if (localStorage.getItem('readera_current_user')) {
-            window.location.href = 'index.html';
+        // Check if already logged in - redirect if authenticated
+        if (localStorage.getItem('token') && localStorage.getItem('user')) {
+            window.location.href = 'profile.html';
         }
 
         // Mobile menu toggle

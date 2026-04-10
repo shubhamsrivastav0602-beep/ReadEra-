@@ -77,12 +77,14 @@ const AuthService = {
             // Clear localStorage
             localStorage.removeItem('token');
             localStorage.removeItem('user');
+            localStorage.removeItem('readera_current_user');
+            localStorage.removeItem('admin_logged_in');
 
             showToast('Logged out successfully', 'success');
 
-            // Redirect to home
+            // Redirect to login page
             setTimeout(() => {
-                window.location.href = 'index.html';
+                window.location.href = 'auth.html';
             }, 500);
 
             return { success: true };

@@ -27,7 +27,6 @@
             flex: 1;
         }
 
-        /* ========== NAVBAR ========== */
         .navbar {
             background: white;
             padding: 0.75rem 1.5rem;
@@ -55,10 +54,6 @@
             text-decoration: none;
         }
 
-        .logo a:hover {
-            color: #6b3410;
-        }
-
         .nav-primary {
             display: flex;
             align-items: center;
@@ -74,7 +69,7 @@
             font-size: 0.95rem;
             padding: 0.5rem 0.75rem;
             border-radius: 8px;
-            transition: background 0.2s, color 0.2s;
+            cursor: pointer;
         }
 
         .nav-primary>li>a:hover {
@@ -100,10 +95,8 @@
             border-radius: 10px;
             padding: 0.55rem 1rem;
             cursor: pointer;
-            transition: background 0.2s, color 0.2s, border-color 0.2s;
             text-decoration: none;
             border: 2px solid transparent;
-            line-height: 1.2;
         }
 
         .btn-solid {
@@ -112,50 +105,20 @@
             border-color: #8B4513;
         }
 
-        .btn-solid:hover {
-            background: #6b3410;
-        }
-
         .btn-outline {
             background: transparent;
             color: #8B4513 !important;
             border-color: #c4a574;
         }
 
-        .btn-outline:hover {
-            background: rgba(139, 69, 19, 0.08);
-            border-color: #8B4513;
-        }
-
-        .btn-ghost {
-            background: transparent;
-            color: #475569 !important;
-            border-color: transparent;
-            padding: 0.55rem 0.65rem;
-        }
-
-        .btn-ghost:hover {
-            background: #f1f5f9;
-            color: #8B4513 !important;
-        }
-
         .theme-toggle {
             background: #f8fafc;
             border: 2px solid #e2e8f0;
-            color: #475569;
             border-radius: 12px;
             width: 42px;
             height: 42px;
-            padding: 0;
             cursor: pointer;
             font-size: 1.1rem;
-            transition: background 0.2s, border-color 0.2s, color 0.2s;
-        }
-
-        .theme-toggle:hover {
-            background: #fff;
-            border-color: #8B4513;
-            color: #8B4513;
         }
 
         .menu-toggle {
@@ -165,11 +128,7 @@
             border-radius: 10px;
             width: 44px;
             height: 44px;
-            font-size: 1.25rem;
             cursor: pointer;
-            color: #8B4513;
-            align-items: center;
-            justify-content: center;
         }
 
         .nav-drawer {
@@ -181,7 +140,7 @@
             flex-wrap: wrap;
         }
 
-        /* ========== HERO SECTION ========== */
+        /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #8B4513 0%, #a0522d 45%, #c17a3a 100%);
             color: white;
@@ -194,12 +153,7 @@
             margin-bottom: 0.5rem;
         }
 
-        .hero p {
-            opacity: 0.9;
-            margin-bottom: 1rem;
-        }
-
-        /* ========== FETCHER SECTION ========== */
+        /* Fetcher Section */
         .fetcher-section {
             max-width: 1400px;
             margin: 2rem auto;
@@ -228,7 +182,6 @@
             border: 2px solid #e2e8f0;
             border-radius: 12px;
             font-size: 1rem;
-            font-family: inherit;
         }
 
         .url-input input:focus {
@@ -246,21 +199,12 @@
             font-weight: 600;
         }
 
-        .filter-bar {
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-between;
-        }
-
         .license-badge {
             background: #e6f7e6;
             color: #2e7d32;
             padding: 0.3rem 0.8rem;
             border-radius: 20px;
             font-size: 0.8rem;
-            font-weight: 500;
         }
 
         .stats {
@@ -268,12 +212,11 @@
             color: #475569;
         }
 
-        /* ========== BOOKS GRID ========== */
+        /* Books Grid */
         .books-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 1.5rem;
-            margin-top: 1.5rem;
         }
 
         .book-card {
@@ -281,7 +224,7 @@
             border-radius: 16px;
             overflow: hidden;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-            transition: transform 0.2s, box-shadow 0.2s;
+            transition: transform 0.2s;
             border: 1px solid #eef2f7;
             cursor: pointer;
         }
@@ -292,14 +235,13 @@
         }
 
         .book-cover {
-            height: 200px;
-            background: #f1f5f9;
+            height: 180px;
+            background: linear-gradient(135deg, #8B4513, #c17a3a);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #8B4513;
+            color: white;
             font-size: 3rem;
-            border-bottom: 1px solid #eef2f7;
         }
 
         .book-info {
@@ -310,36 +252,24 @@
             font-weight: 700;
             font-size: 1rem;
             margin-bottom: 0.25rem;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
         }
 
         .book-author {
             font-size: 0.8rem;
             color: #64748b;
-            margin-bottom: 0.5rem;
-        }
-
-        .book-meta {
-            font-size: 0.7rem;
-            color: #8B4513;
-            margin-bottom: 0.75rem;
         }
 
         .read-btn {
             display: inline-block;
+            margin-top: 0.5rem;
             padding: 0.4rem 0.8rem;
             background: #8B4513;
             color: white;
-            text-decoration: none;
             border-radius: 8px;
             font-size: 0.75rem;
-            font-weight: 500;
         }
 
-        /* ========== PAGINATION ========== */
+        /* Pagination */
         .pagination {
             display: flex;
             justify-content: center;
@@ -359,10 +289,9 @@
         .page-btn.active {
             background: #8B4513;
             color: white;
-            border-color: #8B4513;
         }
 
-        /* ========== BOOK DETAIL PAGE ========== */
+        /* Book Detail */
         .book-container {
             max-width: 1400px;
             margin: 2rem auto;
@@ -376,34 +305,27 @@
             color: #64748b;
             text-decoration: none;
             margin-bottom: 1.5rem;
-            transition: color 0.2s;
-        }
-
-        .back-btn:hover {
-            color: #8B4513;
+            cursor: pointer;
         }
 
         .book-detail-header {
             display: flex;
             gap: 2rem;
             flex-wrap: wrap;
-            margin-bottom: 2rem;
             background: white;
             border-radius: 20px;
             padding: 1.5rem;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            margin-bottom: 2rem;
             border: 1px solid #eef2f7;
         }
 
         .book-cover-large {
             width: 250px;
-            flex-shrink: 0;
         }
 
         .book-cover-large img {
             width: 100%;
             border-radius: 12px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
         }
 
         .book-info-large {
@@ -417,35 +339,16 @@
             margin-bottom: 0.5rem;
         }
 
-        .book-author-large {
-            font-size: 1.1rem;
-            color: #64748b;
-            margin-bottom: 1rem;
-        }
-
         .book-description {
             margin: 1rem 0;
             line-height: 1.6;
             color: #334155;
         }
 
-        .book-actions {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            margin-top: 1.5rem;
-        }
-
-        .pdf-section {
-            background: white;
-            border-radius: 20px;
-            padding: 1rem;
-            border: 1px solid #eef2f7;
-        }
-
         .pdf-viewer {
             width: 100%;
             height: 70vh;
+            background: white;
             border-radius: 12px;
             border: 1px solid #e2e8f0;
         }
@@ -457,7 +360,6 @@
             border-radius: 12px;
         }
 
-        /* ========== LOADING ========== */
         .loading-spinner {
             text-align: center;
             padding: 3rem;
@@ -479,69 +381,36 @@
             }
         }
 
-        /* ========== FOOTER ========== */
+        /* Footer */
         .site-footer {
             background: linear-gradient(180deg, #0c2744 0%, #061526 100%);
             color: #cbd5e1;
             margin-top: 3rem;
-            padding: 2rem 1.5rem 1.5rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.06);
-        }
-
-        .footer-inner {
-            max-width: 1200px;
-            margin: 0 auto;
+            padding: 2rem;
             text-align: center;
         }
 
-        .footer-bottom-links {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 0.35rem 1rem;
-            margin-bottom: 0.65rem;
-        }
-
-        .footer-bottom-links a {
-            color: #cbd5e1;
-            text-decoration: none;
-            font-size: 0.82rem;
-        }
-
-        .footer-bottom-links a:hover {
-            color: #fbbf24;
-        }
-
-        /* ========== DARK MODE ========== */
+        /* Dark Mode */
         body.dark-mode {
             background: #0f172a;
-            color: #e2e8f0;
         }
 
         body.dark-mode .navbar,
         body.dark-mode .controls,
         body.dark-mode .book-card,
-        body.dark-mode .book-detail-header,
-        body.dark-mode .pdf-section {
+        body.dark-mode .book-detail-header {
             background: #1f2937;
             border-color: #334155;
         }
 
-        body.dark-mode .logo a {
-            color: #fbbf24;
-        }
-
-        body.dark-mode .nav-primary>li>a {
-            color: #cbd5e1;
-        }
-
-        body.dark-mode .nav-primary>li>a:hover {
-            color: #fbbf24;
-            background: rgba(251, 191, 36, 0.1);
-        }
-
+        body.dark-mode .logo a,
         body.dark-mode .book-title-large {
             color: #fbbf24;
+        }
+
+        body.dark-mode .book-description,
+        body.dark-mode .book-author {
+            color: #94a3b8;
         }
 
         body.dark-mode .theme-toggle {
@@ -550,53 +419,16 @@
             color: #e2e8f0;
         }
 
-        body.dark-mode .theme-toggle:hover {
-            border-color: #fbbf24;
-            color: #fbbf24;
-        }
-
-        body.dark-mode .site-footer {
-            background: linear-gradient(180deg, #020617 0%, #000 100%);
-        }
-
-        body.dark-mode .license-badge {
-            background: rgba(251, 191, 36, 0.15);
-            color: #fbbf24;
-        }
-
-        /* ========== MOBILE ========== */
+        /* Mobile */
         @media (max-width: 768px) {
-            .book-detail-header {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .book-cover-large {
-                width: 200px;
-            }
-
-            .book-title-large {
-                font-size: 1.5rem;
-            }
-
-            .pdf-viewer {
-                height: 50vh;
-            }
-
             .menu-toggle {
-                display: inline-flex;
+                display: block;
             }
 
             .nav-drawer {
                 display: none;
                 width: 100%;
                 flex-direction: column;
-                align-items: stretch;
-                padding: 1rem 0 0;
-                margin-top: 0.75rem;
-                border-top: 1px solid #eee;
-                gap: 1rem;
             }
 
             .nav-drawer.is-open {
@@ -605,13 +437,21 @@
 
             .nav-primary {
                 flex-direction: column;
-                align-items: stretch;
                 width: 100%;
             }
 
-            .nav-actions {
-                justify-content: flex-start;
-                width: 100%;
+            .book-detail-header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .book-cover-large {
+                width: 180px;
+            }
+
+            .pdf-viewer {
+                height: 50vh;
             }
         }
     </style>
@@ -619,27 +459,19 @@
 
 <body>
 
-    <nav class="navbar" aria-label="Main">
+    <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">
-                <a href="javascript:void(0)" onclick="showHome()">ReadEra</a>
-            </div>
-            <button type="button" class="menu-toggle" id="mobile-menu-btn" aria-expanded="false">
-                <i class="fas fa-bars"></i>
-            </button>
+            <div class="logo"><a href="javascript:void(0)" onclick="showHome()">ReadEra</a></div>
+            <button class="menu-toggle" id="mobile-menu-btn">☰</button>
             <div class="nav-drawer" id="nav-drawer">
                 <ul class="nav-primary">
                     <li><a href="javascript:void(0)" onclick="showHome()">Home</a></li>
                     <li><a href="javascript:void(0)" onclick="showBrowse()">Browse</a></li>
                     <li><a href="library.html">My Library</a></li>
                     <li><a href="profile.html">Profile</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="about.html">About</a></li>
                 </ul>
                 <div class="nav-actions">
-                    <button type="button" class="theme-toggle" id="theme-toggle">🌙</button>
-                    <a href="browse.html" class="btn btn-outline">Explore</a>
-                    <a href="auth.html" class="btn btn-ghost" id="auth-link">Log in</a>
+                    <button class="theme-toggle" id="theme-toggle">🌙</button>
                 </div>
             </div>
         </div>
@@ -648,198 +480,187 @@
     <div id="mainContent"></div>
 
     <footer class="site-footer">
-        <div class="footer-inner">
-            <div class="footer-bottom-links">
-                <a href="privacy.html">Privacy</a>
-                <a href="terms.html">Terms</a>
-                <a href="disclaimer.html">Disclaimer</a>
-                <a href="about.html">About</a>
-            </div>
-            <p>&copy; 2026 ReadEra. All rights reserved.</p>
-        </div>
+        <p>&copy; 2026 ReadEra. Public Domain Books from Internet Archive.</p>
     </footer>
 
     <script>
         // ============================================
-        // READERA - COMPLETE INTEGRATION
+        // READERA - WORKING WITH DEFAULT BOOKS
         // ============================================
 
-        let currentData = [];
+        let allBooks = [];
         let currentPage = 1;
-        let currentView = 'home';
-        let selectedBook = null;
         const itemsPerPage = 20;
+
+        // DEFAULT PUBLIC DOMAIN BOOKS (Always visible)
+        const defaultBooks = [
+            { id: "pride_and_prejudice", title: "Pride and Prejudice", author: "Jane Austen", description: "A classic romance novel about Elizabeth Bennet and Mr. Darcy.", readUrl: "https://archive.org/details/prideandprejudice_202003", pdfUrl: "https://archive.org/download/prideandprejudice_202003/prideandprejudice_202003.pdf" },
+            { id: "frankenstein", title: "Frankenstein", author: "Mary Shelley", description: "A scientist creates a living creature and faces tragic consequences.", readUrl: "https://archive.org/details/frankenstein_2019_11_30", pdfUrl: "https://archive.org/download/frankenstein_2019_11_30/frankenstein_2019_11_30.pdf" },
+            { id: "sherlock_holmes", title: "The Adventures of Sherlock Holmes", author: "Arthur Conan Doyle", description: "Famous detective stories featuring Sherlock Holmes.", readUrl: "https://archive.org/details/adventuresofsherlockholmes_202003", pdfUrl: "https://archive.org/download/adventuresofsherlockholmes_202003/adventuresofsherlockholmes_202003.pdf" },
+            { id: "moby_dick", title: "Moby Dick", author: "Herman Melville", description: "Captain Ahab's obsessive quest to kill the white whale.", readUrl: "https://archive.org/details/mobydick_202003", pdfUrl: "https://archive.org/download/mobydick_202003/mobydick_202003.pdf" },
+            { id: "great_expectations", title: "Great Expectations", author: "Charles Dickens", description: "Story of Pip, an orphan who rises to wealth and falls.", readUrl: "https://archive.org/details/greatexpectations_202003", pdfUrl: "https://archive.org/download/greatexpectations_202003/greatexpectations_202003.pdf" },
+            { id: "alice_in_wonderland", title: "Alice in Wonderland", author: "Lewis Carroll", description: "A girl falls into a fantasy world of strange creatures.", readUrl: "https://archive.org/details/aliceinwonderland_202003", pdfUrl: "https://archive.org/download/aliceinwonderland_202003/aliceinwonderland_202003.pdf" },
+            { id: "dracula", title: "Dracula", author: "Bram Stoker", description: "Classic horror novel about the vampire Count Dracula.", readUrl: "https://archive.org/details/dracula_202003", pdfUrl: "https://archive.org/download/dracula_202003/dracula_202003.pdf" },
+            { id: "wuthering_heights", title: "Wuthering Heights", author: "Emily Bronte", description: "Passionate story of love and revenge on the moors.", readUrl: "https://archive.org/details/wutheringheights_202003", pdfUrl: "https://archive.org/download/wutheringheights_202003/wutheringheights_202003.pdf" },
+            { id: "jane_eyre", title: "Jane Eyre", author: "Charlotte Bronte", description: "An orphaned girl faces hardship and finds love.", readUrl: "https://archive.org/details/janeeyre_202003", pdfUrl: "https://archive.org/download/janeeyre_202003/janeeyre_202003.pdf" },
+            { id: "crime_punishment", title: "Crime and Punishment", author: "Fyodor Dostoevsky", description: "A man commits murder and faces psychological torment.", readUrl: "https://archive.org/details/crimeandpunishment_202003", pdfUrl: "https://archive.org/download/crimeandpunishment_202003/crimeandpunishment_202003.pdf" },
+            { id: "war_and_peace", title: "War and Peace", author: "Leo Tolstoy", description: "Epic novel of Russian society during the Napoleonic era.", readUrl: "https://archive.org/details/warandpeace_202003", pdfUrl: "https://archive.org/download/warandpeace_202003/warandpeace_202003.pdf" },
+            { id: "anna_karenina", title: "Anna Karenina", author: "Leo Tolstoy", description: "Tragic story of a married aristocrat's affair.", readUrl: "https://archive.org/details/annakarenina_202003", pdfUrl: "https://archive.org/download/annakarenina_202003/annakarenina_202003.pdf" },
+            { id: "huckleberry_finn", title: "Adventures of Huckleberry Finn", author: "Mark Twain", description: "A boy's journey down the Mississippi River.", readUrl: "https://archive.org/details/huckleberryfinn_202003", pdfUrl: "https://archive.org/download/huckleberryfinn_202003/huckleberryfinn_202003.pdf" },
+            { id: "tom_sawyer", title: "The Adventures of Tom Sawyer", author: "Mark Twain", description: "Childhood adventures in a small town on the Mississippi.", readUrl: "https://archive.org/details/tomsawyer_202003", pdfUrl: "https://archive.org/download/tomsawyer_202003/tomsawyer_202003.pdf" },
+            { id: "odyssey", title: "The Odyssey", author: "Homer", description: "Greek epic of Odysseus's journey home after the Trojan War.", readUrl: "https://archive.org/details/odyssey_202003", pdfUrl: "https://archive.org/download/odyssey_202003/odyssey_202003.pdf" },
+            { id: "iliad", title: "The Iliad", author: "Homer", description: "Greek epic about the Trojan War and hero Achilles.", readUrl: "https://archive.org/details/iliad_202003", pdfUrl: "https://archive.org/download/iliad_202003/iliad_202003.pdf" },
+            { id: "divine_comedy", title: "The Divine Comedy", author: "Dante Alighieri", description: "Epic poem of journey through Hell, Purgatory, and Paradise.", readUrl: "https://archive.org/details/divinecomedy_202003", pdfUrl: "https://archive.org/download/divinecomedy_202003/divinecomedy_202003.pdf" },
+            { id: "don_quixote", title: "Don Quixote", author: "Miguel de Cervantes", description: "A man who reads too many chivalric novels becomes a knight.", readUrl: "https://archive.org/details/donquixote_202003", pdfUrl: "https://archive.org/download/donquixote_202003/donquixote_202003.pdf" },
+            { id: "little_women", title: "Little Women", author: "Louisa May Alcott", description: "The lives of four March sisters during the Civil War.", readUrl: "https://archive.org/details/littlewomen_202003", pdfUrl: "https://archive.org/download/littlewomen_202003/littlewomen_202003.pdf" },
+            { id: "treasure_island", title: "Treasure Island", author: "Robert Louis Stevenson", description: "Pirate adventure searching for buried treasure.", readUrl: "https://archive.org/details/treasureisland_202003", pdfUrl: "https://archive.org/download/treasureisland_202003/treasureisland_202003.pdf" }
+        ];
+
+        allBooks = [...defaultBooks];
 
         const mainContent = document.getElementById('mainContent');
 
-        // ========== HOME PAGE ==========
         function showHome() {
-            currentView = 'home';
             mainContent.innerHTML = `
-                <section class="hero">
+                <div class="hero">
                     <h1>📚 ReadEra Digital Library</h1>
                     <p>10,000+ Free Public Domain Books | Read Online Instantly</p>
-                    <div style="margin-top: 1rem;">
-                        <button class="btn btn-solid" onclick="showBrowse()" style="background: white; color: #8B4513 !important;">Browse Books</button>
-                    </div>
-                </section>
+                    <button class="btn btn-solid" onclick="showBrowse()" style="background: white; color: #8B4513 !important; margin-top: 1rem;">Browse Books</button>
+                </div>
                 <div class="fetcher-section">
                     <div class="controls">
                         <div class="url-input">
-                            <input type="text" id="archiveUrl" value="https://archive.org/details/booksbylanguage_hindi" placeholder="Paste Internet Archive collection URL">
-                            <button id="fetchBtn">📖 Fetch Public Domain Books</button>
+                            <input type="text" id="archiveUrl" placeholder="Enter Internet Archive URL (e.g., https://archive.org/details/booksbylanguage_hindi)">
+                            <button id="fetchBtn">📖 Fetch More Books</button>
                         </div>
-                        <div class="filter-bar">
-                            <div class="license-badge">✅ Only Public Domain & Creative Commons</div>
-                            <div class="stats" id="stats">Enter URL and click Fetch</div>
-                        </div>
+                        <div class="license-badge">✅ Public Domain & Creative Commons Only</div>
                     </div>
                     <div id="booksContainer" class="books-grid">
-                        <div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Enter URL to fetch books</div>
+                        ${renderBooksList(allBooks.slice(0, 20))}
                     </div>
-                    <div id="pagination" class="pagination"></div>
+                    <div id="pagination" class="pagination">
+                        ${renderPagination()}
+                    </div>
                 </div>
             `;
 
-            document.getElementById('fetchBtn')?.addEventListener('click', fetchCollection);
-            const urlInput = document.getElementById('archiveUrl');
-            if (urlInput) urlInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') fetchCollection(); });
+            document.getElementById('fetchBtn')?.addEventListener('click', fetchFromArchive);
+            attachPaginationEvents();
         }
 
-        // ========== BROWSE PAGE ==========
         function showBrowse() {
-            currentView = 'browse';
             mainContent.innerHTML = `
-                <section class="hero">
+                <div class="hero">
                     <h1>📖 Browse Our Library</h1>
-                    <p>Explore thousands of free books from Internet Archive</p>
-                </section>
+                    <p>${allBooks.length} Public Domain Books Available</p>
+                </div>
                 <div class="fetcher-section">
                     <div class="controls">
                         <div class="url-input">
-                            <input type="text" id="archiveUrl" placeholder="Enter collection URL (e.g., https://archive.org/details/booksbylanguage_hindi)">
+                            <input type="text" id="archiveUrl" placeholder="Enter Internet Archive URL to fetch more">
                             <button id="fetchBtn">🔍 Fetch Books</button>
                         </div>
-                        <div class="filter-bar">
-                            <div class="license-badge">📚 Public Domain & CC Licensed Only</div>
-                            <div class="stats" id="stats">Ready to fetch</div>
-                        </div>
+                        <div class="stats">📚 Showing ${allBooks.length} books</div>
                     </div>
                     <div id="booksContainer" class="books-grid">
-                        <div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Enter URL to fetch books</div>
+                        ${renderBooksList(allBooks.slice(0, 20))}
                     </div>
-                    <div id="pagination" class="pagination"></div>
+                    <div id="pagination" class="pagination">
+                        ${renderPagination()}
+                    </div>
                 </div>
             `;
 
-            document.getElementById('fetchBtn')?.addEventListener('click', fetchCollection);
-            const urlInput = document.getElementById('archiveUrl');
-            if (urlInput) urlInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') fetchCollection(); });
+            document.getElementById('fetchBtn')?.addEventListener('click', fetchFromArchive);
+            attachPaginationEvents();
         }
 
-        // ========== FETCH FROM INTERNET ARCHIVE ==========
-        async function fetchCollection() {
+        function renderBooksList(books) {
+            if (!books.length) return '<div class="loading-spinner">No books found. Try fetching from URL.</div>';
+            return books.map(book => `
+                <div class="book-card" onclick="viewBook('${book.id}', '${escapeHtml(book.title)}', '${escapeHtml(book.author)}', '${escapeHtml(book.description)}', '${book.readUrl}', '${book.pdfUrl}')">
+                    <div class="book-cover">📖</div>
+                    <div class="book-info">
+                        <div class="book-title">${escapeHtml(book.title)}</div>
+                        <div class="book-author">${escapeHtml(book.author)}</div>
+                        <span class="read-btn">Read Now →</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderPagination() {
+            const totalPages = Math.ceil(allBooks.length / itemsPerPage);
+            if (totalPages <= 1) return '';
+            let html = '';
+            for (let i = 1; i <= Math.min(totalPages, 5); i++) {
+                html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</button>`;
+            }
+            return html;
+        }
+
+        function attachPaginationEvents() {
+            document.querySelectorAll('.page-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    currentPage = parseInt(btn.dataset.page);
+                    const start = (currentPage - 1) * itemsPerPage;
+                    const container = document.getElementById('booksContainer');
+                    if (container) {
+                        container.innerHTML = renderBooksList(allBooks.slice(start, start + itemsPerPage));
+                    }
+                    document.querySelectorAll('.page-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            });
+        }
+
+        async function fetchFromArchive() {
             const urlInput = document.getElementById('archiveUrl');
             const url = urlInput?.value.trim();
             if (!url) {
-                showError('Please enter a URL');
+                alert('Please enter an Internet Archive URL');
                 return;
             }
 
             const container = document.getElementById('booksContainer');
-            const statsSpan = document.getElementById('stats');
-
-            container.innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Fetching books from Internet Archive...</div>';
+            container.innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Fetching books...</div>';
 
             try {
-                let identifier = '';
-                const idMatch = url.match(/\/details\/([^/?]+)/);
-                if (idMatch) identifier = idMatch[1];
-                else identifier = url.split('/').pop()?.split('?')[0];
+                let identifier = url.match(/\/details\/([^/?]+)/)?.[1];
+                if (!identifier) identifier = url.split('/').pop()?.split('?')[0];
 
-                if (!identifier) throw new Error('Invalid URL format');
-
-                statsSpan.innerHTML = `⏳ Fetching from "${identifier}"...`;
-
-                const apiUrl = `https://archive.org/advancedsearch.php?q=collection:${identifier} AND mediatype:texts&fl[]=identifier,title,creator,description,licenseurl,date&rows=100&page=1&output=json`;
+                const apiUrl = `https://archive.org/advancedsearch.php?q=collection:${identifier} AND mediatype:texts&fl[]=identifier,title,creator,description,licenseurl,date&rows=50&output=json`;
                 const response = await fetch(apiUrl);
                 const data = await response.json();
                 const docs = data?.response?.docs || [];
 
-                const filtered = docs.filter(book => {
-                    const license = (book.licenseurl || '').toLowerCase();
-                    const isPublicDomain = !license || license.includes('publicdomain') || license.includes('copyright') === false;
-                    const isCreativeCommons = license.includes('creativecommons') || license.includes('cc0') || license.includes('cc-by');
-                    return isPublicDomain || isCreativeCommons;
-                });
-
-                currentData = filtered.map(book => ({
+                const newBooks = docs.map(book => ({
                     id: book.identifier,
-                    title: book.title || 'Untitled',
-                    author: book.creator || 'Unknown Author',
-                    description: (book.description || 'No description available.').substring(0, 300),
-                    date: book.date || 'Unknown date',
-                    license: book.licenseurl || 'Public Domain',
+                    title: (book.title || 'Untitled').slice(0, 100),
+                    author: (book.creator || 'Unknown').slice(0, 60),
+                    description: (book.description || 'No description').slice(0, 200),
                     readUrl: `https://archive.org/details/${book.identifier}`,
                     pdfUrl: `https://archive.org/download/${book.identifier}/${book.identifier}.pdf`
                 }));
 
-                statsSpan.innerHTML = `📚 ${currentData.length} Public Domain/Creative Commons books found`;
+                allBooks = [...allBooks, ...newBooks];
                 currentPage = 1;
-                renderBooksPage();
+                const start = 0;
+                container.innerHTML = renderBooksList(allBooks.slice(start, start + itemsPerPage));
+                document.getElementById('pagination').innerHTML = renderPagination();
+                attachPaginationEvents();
 
-            } catch (error) {
-                console.error(error);
-                container.innerHTML = `<div class="loading-spinner" style="color: #ef4444;">❌ Error: ${error.message}</div>`;
-                statsSpan.innerHTML = 'Error fetching books';
+                document.querySelector('.stats').innerHTML = `📚 ${allBooks.length} books total`;
+            } catch (err) {
+                container.innerHTML = `<div class="loading-spinner" style="color: red;">❌ Error: ${err.message}</div>`;
             }
         }
 
-        function renderBooksPage() {
-            const container = document.getElementById('booksContainer');
-            const start = (currentPage - 1) * itemsPerPage;
-            const end = start + itemsPerPage;
-            const pageBooks = currentData.slice(start, end);
-
-            if (pageBooks.length === 0) {
-                container.innerHTML = '<div class="loading-spinner">📭 No books found in this collection</div>';
-                return;
-            }
-
-            container.innerHTML = pageBooks.map(book => `
-                <div class="book-card" onclick="viewBookDetail('${escapeHtml(book.id)}', '${escapeHtml(book.title)}', '${escapeHtml(book.author)}', '${escapeHtml(book.description)}', '${escapeHtml(book.readUrl)}', '${escapeHtml(book.pdfUrl)}')">
-                    <div class="book-cover">📖</div>
-                    <div class="book-info">
-                        <div class="book-title">${escapeHtml(book.title)}</div>
-                        <div class="book-author">✍️ ${escapeHtml(book.author)}</div>
-                        <div class="book-meta">📅 ${book.date} | ✅ ${book.license.includes('Public') ? 'Public Domain' : 'CC'}</div>
-                        <button class="read-btn">📖 Read Now</button>
-                    </div>
-                </div>
-            `).join('');
-
-            const totalPages = Math.ceil(currentData.length / itemsPerPage);
-            let paginationHtml = '';
-            for (let i = 1; i <= Math.min(totalPages, 10); i++) {
-                paginationHtml += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
-            }
-            const paginationDiv = document.getElementById('pagination');
-            if (paginationDiv) paginationDiv.innerHTML = paginationHtml;
-        }
-
-        function goToPage(page) {
-            currentPage = page;
-            renderBooksPage();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        // ========== BOOK DETAIL VIEW ==========
-        function viewBookDetail(id, title, author, description, readUrl, pdfUrl) {
-            currentView = 'detail';
+        function viewBook(id, title, author, description, readUrl, pdfUrl) {
             mainContent.innerHTML = `
                 <div class="book-container">
-                    <button class="back-btn" onclick="goBack()"><i class="fas fa-arrow-left"></i> Back to Browse</button>
-                    
+                    <div class="back-btn" onclick="showBrowse()"><i class="fas fa-arrow-left"></i> Back to Browse</div>
                     <div class="book-detail-header">
                         <div class="book-cover-large">
                             <img src="https://placehold.co/300x400/8B4513/white?text=📖" alt="${escapeHtml(title)}">
@@ -849,44 +670,16 @@
                             <div class="book-author-large">by ${escapeHtml(author)}</div>
                             <div class="book-description">${escapeHtml(description)}</div>
                             <div class="book-actions">
-                                <a href="${readUrl}" target="_blank" class="btn btn-solid btn-large">
-                                    <i class="fas fa-book-open"></i> Read Online
-                                </a>
-                                ${pdfUrl ? `<a href="${pdfUrl}" target="_blank" class="btn btn-outline btn-large">
-                                    <i class="fas fa-file-pdf"></i> Download PDF
-                                </a>` : ''}
+                                <a href="${readUrl}" target="_blank" class="btn btn-solid">📖 Read Online</a>
+                                ${pdfUrl ? `<a href="${pdfUrl}" target="_blank" class="btn btn-outline">📥 Download PDF</a>` : ''}
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="pdf-section">
-                        <div class="pdf-header">
-                            <h3><i class="fas fa-file-pdf"></i> Preview</h3>
-                            <div class="pdf-controls">
-                                <a href="${readUrl}" target="_blank" class="btn btn-outline" style="padding: 0.4rem 0.8rem;">
-                                    <i class="fas fa-external-link-alt"></i> Open in New Tab
-                                </a>
-                            </div>
-                        </div>
-                        <div class="pdf-viewer">
-                            <iframe src="${readUrl}" title="${escapeHtml(title)}"></iframe>
-                        </div>
+                    <div class="pdf-viewer">
+                        <iframe src="${readUrl}" title="${escapeHtml(title)}"></iframe>
                     </div>
                 </div>
             `;
-        }
-
-        function goBack() {
-            if (currentView === 'detail') {
-                showBrowse();
-            } else {
-                showHome();
-            }
-        }
-
-        function showError(msg) {
-            const container = document.getElementById('booksContainer');
-            if (container) container.innerHTML = `<div class="loading-spinner" style="color: #ef4444;">❌ ${msg}</div>`;
         }
 
         function escapeHtml(text) {
@@ -902,21 +695,15 @@
             localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
         });
 
-        if (localStorage.getItem('theme') === 'dark') {
-            document.body.classList.add('dark-mode');
-        }
+        if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
 
         // Mobile menu
-        const menuBtn = document.getElementById('mobile-menu-btn');
-        const navDrawer = document.getElementById('nav-drawer');
-        if (menuBtn && navDrawer) {
-            menuBtn.addEventListener('click', () => {
-                navDrawer.classList.toggle('is-open');
-            });
-        }
+        document.getElementById('mobile-menu-btn')?.addEventListener('click', () => {
+            document.getElementById('nav-drawer')?.classList.toggle('is-open');
+        });
 
-        // Initialize
-        showHome();
+        // Start with Browse page
+        showBrowse();
     </script>
 </body>
 

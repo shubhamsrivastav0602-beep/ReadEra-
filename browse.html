@@ -20,14 +20,13 @@
             min-height: 100vh;
         }
 
-        /* Navbar */
-        .navbar {
+                .navbar {
             background: white;
-            padding: 0.75rem 1.5rem;
+            padding: 0.75rem 1rem;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
             position: sticky;
             top: 0;
-            z-index: 100;
+            z-index: 1001;
         }
 
         .nav-container {
@@ -36,14 +35,16 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 1rem;
         }
 
-        .logo a {
-            color: #8B4513;
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
             font-size: 1.5rem;
-            font-weight: 700;
-            text-decoration: none;
+            color: #334155;
+            cursor: pointer;
+            padding: 0.5rem;
         }
 
         .nav-links {
@@ -65,379 +66,75 @@
             color: #8B4513;
         }
 
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.6rem 1.2rem;
-            background: #8B4513;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.2s;
-        }
-
-        .btn:hover {
-            background: #6b3410;
-            transform: translateY(-2px);
-        }
-
-        /* Container */
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 2rem 1.5rem;
-        }
-
-        /* Header */
-        .page-header {
-            margin-bottom: 3rem;
-        }
-
-        .page-header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            color: #1a2a3a;
-        }
-
-        .page-header p {
-            font-size: 1rem;
-            color: #64748b;
-        }
-
-        /* Filters */
-        .filters {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 2rem;
-            flex-wrap: wrap;
-        }
-
-        .filter-btn {
-            padding: 0.6rem 1.2rem;
-            background: white;
-            border: 2px solid #e2e8f0;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.2s;
-        }
-
-        .filter-btn:hover {
-            border-color: #8B4513;
-            color: #8B4513;
-        }
-
-        .filter-btn.active {
-            background: #8B4513;
-            color: white;
-            border-color: #8B4513;
-        }
-
-        /* Books Grid */
-        .books-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 2rem;
-        }
-
-        .book-card {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s;
-            cursor: pointer;
-        }
-
-        .book-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-        }
-
-        .book-cover {
-            width: 100%;
-            height: 300px;
-            background: linear-gradient(135deg, #8B4513 0%, #c4a574 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            color: white;
-            object-fit: cover;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .book-cover.sanskrit {
-            background: linear-gradient(135deg, #8B4513 0%, #d4a574 100%);
-        }
-
-        .book-cover.hindi {
-            background: linear-gradient(135deg, #C41E3A 0%, #FF6B6B 100%);
-        }
-
-        .book-cover.english {
-            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
-        }
-
-        .book-cover.buddhist {
-            background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
-        }
-
-        .book-cover.other {
-            background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
-        }
-
-        .book-info {
-            padding: 1.5rem;
-        }
-
-        .book-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: #1a2a3a;
-        }
-
-        .book-author {
-            font-size: 0.9rem;
-            color: #64748b;
-            margin-bottom: 0.75rem;
-        }
-
-        .book-category {
-            display: inline-block;
-            background: rgba(139, 69, 19, 0.1);
-            color: #8B4513;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        .book-description {
-            font-size: 0.85rem;
-            color: #64748b;
-            line-height: 1.4;
-            margin-bottom: 1rem;
-        }
-
-        .book-footer {
-            display: flex;
-            gap: 0.5rem;
-        }
-
-        .book-btn {
-            flex: 1;
-            padding: 0.6rem;
-            background: #8B4513;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.2s;
-        }
-
-        .book-btn:hover {
-            background: #6b3410;
-        }
-
-        .book-btn.secondary {
-            background: #e2e8f0;
-            color: #334155;
-        }
-
-        .book-btn.secondary:hover {
-            background: #cbd5e1;
-        }
-
-        /* Empty State */
-        .empty-state {
-            text-align: center;
-            padding: 3rem;
-            color: #64748b;
-        }
-
-        .empty-state i {
-            font-size: 3rem;
-            color: #cbd5e1;
-            margin-bottom: 1rem;
-        }
-
-        /* Stats */
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .stat-card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 12px;
-            text-align: center;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-        }
-
-        .stat-number {
-            font-size: 2rem;
-            font-weight: 700;
-            color: #8B4513;
-        }
-
-        /* Stats */
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .stat-card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 12px;
-            text-align: center;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-        }
-
-        .stat-number {
-            font-size: 2rem;
-            font-weight: 700;
-            color: #8B4513;
-        }
-
-        .stat-label {
-            font-size: 0.9rem;
-            color: #64748b;
-            margin-top: 0.5rem;
-        }
-
-        /* Search Bar */
-        .search-section {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 12px;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-        }
-
-        .search-container {
-            display: flex;
-            gap: 0.75rem;
-            margin-bottom: 1rem;
-            flex-wrap: wrap;
-        }
-
-        .search-input-group {
-            flex: 1;
-            min-width: 250px;
-            display: flex;
-            gap: 0.5rem;
-        }
-
-        .search-input-group input {
-            flex: 1;
-            padding: 0.75rem 1rem;
-            border: 2px solid #e2e8f0;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-family: inherit;
-            transition: border-color 0.2s;
-        }
-
-        .search-input-group input:focus {
-            outline: none;
-            border-color: #8B4513;
-            box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.1);
-        }
-
-        .search-btn {
-            padding: 0.75rem 1.5rem;
-            background: #8B4513;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.2s;
-            white-space: nowrap;
-        }
-
-        .search-btn:hover {
-            background: #6b3410;
-        }
-
-        .search-filters {
-            display: flex;
-            gap: 0.75rem;
-            flex-wrap: wrap;
-        }
-
-        .search-filter-label {
-            font-size: 0.9rem;
-            color: #64748b;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .search-filter-label select {
-            padding: 0.5rem 0.75rem;
-            border: 2px solid #e2e8f0;
-            border-radius: 6px;
-            font-size: 0.9rem;
-            font-family: inherit;
-            cursor: pointer;
-            transition: border-color 0.2s;
-        }
-
-        .search-filter-label select:focus {
-            outline: none;
-            border-color: #8B4513;
-        }
-
-        .search-results-info {
-            font-size: 0.9rem;
-            color: #64748b;
-            margin-top: 0.75rem;
-            display: none;
-        }
-
-        .search-results-info.show {
-            display: block;
-        }
-
-        /* Footer */
-        .footer {
-            background: linear-gradient(180deg, #0c2744 0%, #061526 100%);
-            color: #cbd5e1;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 3rem;
-        }
-
         /* Responsive */
-        @media (max-width: 768px) {
-            .books-grid {
-                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        @media (max-width: 900px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                flex-direction: column;
+                padding: 1rem;
                 gap: 1rem;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                border-top: 1px solid #eee;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                width: 100%;
+            }
+
+            .nav-links a {
+                display: block;
+                width: 100%;
+                padding: 0.5rem 0;
             }
 
             .page-header h1 {
                 font-size: 1.8rem;
             }
 
-            .nav-links {
+            .page-header p {
+                font-size: 0.9rem;
+            }
+
+            .books-grid {
+                grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
                 gap: 1rem;
+            }
+
+            .book-cover {
+                height: 200px;
+            }
+
+            .book-info {
+                padding: 1rem;
+            }
+
+            .book-title {
+                font-size: 0.95rem;
+            }
+
+            .book-author {
+                font-size: 0.8rem;
+            }
+
+            .book-description {
+                display: none; /* Hide description on mobile to save space */
+            }
+
+            .container {
+                padding: 1rem;
             }
         }
     </style>
@@ -449,7 +146,10 @@
             <div class="logo">
                 <a href="index.html">📚 ReadEra</a>
             </div>
-            <ul class="nav-links">
+            <button class="menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="browse.html" class="active">Browse</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -855,6 +555,15 @@
         // Add to library
         function addToLibrary(bookId) {
             alert(`Added to library: ${bookId}`);
+        }
+
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('mobile-menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
         }
 
         // Initialize

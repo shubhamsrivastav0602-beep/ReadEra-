@@ -1,138 +1,2009 @@
 [
-  {"id": "bhallata_shatak", "title": "Bhallata Shatak", "author": "Bhallata", "category": "Sanskrit Poetry", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Classic Sanskrit text with 100 verses of wisdom and poetry about life and philosophy."},
-  {"id": "lakshya", "title": "Lakshya", "author": "Hindi Author", "category": "Hindi Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Important work exploring themes of purpose and ambition in life."},
-  {"id": "maa_haar_gayi", "title": "Maa Haar Gayi", "author": "Mannu Bandari", "category": "Hindi Fiction", "language": "Hindi", "cover": "covers/default.jpg", "description": "Gripping story of love, sacrifice and family bonds in Indian literature."},
-  {"id": "vakyarth_sangrah", "title": "Vakyarth Sangrah", "author": "Manu", "category": "Sanskrit Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Comprehensive collection of Sanskrit verses exploring grammar and meaning."},
-  {"id": "psalms", "title": "The Book of Psalms", "author": "Sanskrit Scholars", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Spiritual and devotional Sanskrit verses offering wisdom and guidance."},
-  {"id": "devdas", "title": "Devdas", "author": "Sarat Chandra Chatterjee", "category": "Hindi Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Tale of unrequited love and sacrifice in Indian literature."},
-  {"id": "khandava_dahan", "title": "Khandava Dahan", "author": "Vyasa", "category": "Sanskrit Epic", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Episode from the great Indian epic Mahabharata."},
-  {"id": "ramayana_excerpt", "title": "Ramayana - Sundara Kandam", "author": "Valmiki", "category": "Sanskrit Epic", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Beautiful Sundara Kandam from Ramayana describing Hanuman's journey."},
-  {"id": "bhagavad_gita", "title": "Bhagavad Gita", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient wisdom on duty, devotion and nature of existence."},
-  {"id": "arthashastra", "title": "Arthashastra", "author": "Kautilya", "category": "Political Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient treatise on economics, politics and statecraft."},
-  {"id": "chandimaa", "title": "Chandimaa Stotra", "author": "Adi Sankara", "category": "Devotional", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Devotional hymn to the divine mother Chandimaa."},
-  {"id": "kalidasa_kumara", "title": "Kumarasambhava", "author": "Kalidasa", "category": "Sanskrit Poetry", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Birth of Kumara - masterpiece of Sanskrit literature."},
-  {"id": "meghaduta", "title": "Meghaduta", "author": "Kalidasa", "category": "Sanskrit Poetry", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Beautiful lyric poem about yaksha separated from beloved."},
-  {"id": "shakuntala", "title": "Abhijnanashakuntalam", "author": "Kalidasa", "category": "Sanskrit Drama", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Famous tale of Shakuntala and Dushyanta."},
-  {"id": "naishadha", "title": "Naishadha Charita", "author": "Sriharsha", "category": "Sanskrit Poetry", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Romance of Nala and Damayanti in elegant Sanskrit verse."},
-  {"id": "gandhari", "title": "Gandhari Ka Anucha", "author": "Shashi Tharoor", "category": "Hindi Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Modern retelling of Mahabharata from Gandhari's perspective."},
-  {"id": "godan", "title": "Godan", "author": "Munshi Premchand", "category": "Hindi Fiction", "language": "Hindi", "cover": "covers/default.jpg", "description": "Classic Hindi novel depicting rural life and agriculture in India."},
-  {"id": "sudama_charit", "title": "Sudama Charit", "author": "Tulasidas", "category": "Hindi Poetry", "language": "Hindi", "cover": "covers/default.jpg", "description": "Devotional story of Sudama's friendship with Krishna."},
-  {"id": "bharat_bharati", "title": "Bharat Bharati", "author": "Maithili Sharan Gupta", "category": "Hindi Poetry", "language": "Hindi", "cover": "covers/default.jpg", "description": "Patriotic Hindi poetry celebrating Indian culture."},
-  {"id": "anand_math", "title": "Anandmath", "author": "Bankim Chandra Chatterjee", "category": "Hindi Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Revolutionary novel of Independence struggle."},
-  {"id": "panchtantra", "title": "Panchtantra Tales", "author": "Vishnusharma", "category": "Fables", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient collection of moral fables and stories."},
-  {"id": "hitopadesha", "title": "Hitopadesha", "author": "Narayana", "category": "Fables", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Classic collection of instructive tales and fables."},
-  {"id": "kathasaritsagara", "title": "Kathasaritsagara", "author": "Somadeva", "category": "Sanskrit Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ocean of Streams of Story - vast collection of Sanskrit tales."},
-  {"id": "brihatkatha", "title": "Brihat Katha", "author": "Gunadhya", "category": "Sanskrit Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient narrative collection influencing later traditions."},
-  {"id": "dashakumaracharita", "title": "Dashakumara Charita", "author": "Dandi", "category": "Sanskrit Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Story of ten princes in elegant Sanskrit prose."},
-  {"id": "dhammapada", "title": "Dhammapada", "author": "Buddha", "category": "Buddhist Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Words of Buddha on the path to enlightenment."},
-  {"id": "jataka_tales", "title": "Jataka Tales", "author": "Buddhist Scholars", "category": "Buddhist Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Stories of Buddha's previous births teaching moral lessons."},
-  {"id": "samyutta_nikaya", "title": "Samyutta Nikaya", "author": "Buddhist Sangha", "category": "Buddhist Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Collection of Buddha's discourses on various topics."},
-  {"id": "upanishad_katha", "title": "Katha Upanishad", "author": "Ancient Rishis", "category": "Vedic Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Dialogue between Yama and Nachiketa on death and immortality."},
-  {"id": "upanishad_mundaka", "title": "Mundaka Upanishad", "author": "Ancient Rishis", "category": "Vedic Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Teachings on Brahman and nature of ultimate reality."},
-  {"id": "upanishad_isha", "title": "Isha Upanishad", "author": "Ancient Rishis", "category": "Vedic Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "The Lord pervades all - fundamental Vedic teaching."},
-  {"id": "upanishad_taittiriya", "title": "Taittiriya Upanishad", "author": "Ancient Rishis", "category": "Vedic Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Teachings on essence of life and five sheaths."},
-  {"id": "upanishad_chandogya", "title": "Chandogya Upanishad", "author": "Ancient Rishis", "category": "Vedic Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Important Upanishad teaching meditation on OM."},
-  {"id": "upanishad_mandukya", "title": "Mandukya Upanishad", "author": "Ancient Rishis", "category": "Vedic Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Analysis of syllable OM and states of consciousness."},
-  {"id": "brahma_sutras", "title": "Brahma Sutras", "author": "Vyasa", "category": "Vedic Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Philosophical aphorisms on nature of Brahman and soul."},
-  {"id": "yoga_sutras", "title": "Yoga Sutras", "author": "Patanjali", "category": "Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Classical text on yoga philosophy and practice."},
-  {"id": "samkhya_karika", "title": "Samkhya Karika", "author": "Ishvara Krishna", "category": "Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Exposition of Samkhya philosophical system."},
-  {"id": "nyaya_sutras", "title": "Nyaya Sutras", "author": "Gautama", "category": "Logic", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Foundational text on Indian logic and epistemology."},
-  {"id": "vaiseshika", "title": "Vaiseshika Sutras", "author": "Kanada", "category": "Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Atomic theory and metaphysics in ancient philosophy."},
-  {"id": "rigveda_samhita", "title": "Rigveda Samhita", "author": "Vedic Rishis", "category": "Vedic Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Collection of Vedic hymns praising the deities."},
-  {"id": "yajurveda", "title": "Yajurveda", "author": "Vedic Rishis", "category": "Vedic Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Veda of sacrificial formulas and rituals."},
-  {"id": "samaveda", "title": "Samaveda", "author": "Vedic Rishis", "category": "Vedic Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Veda of chants and melodies for rituals."},
-  {"id": "atharvaveda", "title": "Atharvaveda", "author": "Vedic Rishis", "category": "Vedic Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Veda of knowledge including spells and incantations."},
-  {"id": "aitareya_brahmana", "title": "Aitareya Brahmana", "author": "Vedic Scholars", "category": "Vedic Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Brahmana commentary on Rigveda with ritual explanations."},
-  {"id": "nirukta", "title": "Nirukta", "author": "Yaska", "category": "Linguistics", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient Sanskrit etymology and word meanings."},
-  {"id": "panini_ashtadhyayi", "title": "Panini's Ashtadhyayi", "author": "Panini", "category": "Grammar", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Comprehensive Sanskrit grammar in 8 chapters."},
-  {"id": "katyayana_varttika", "title": "Katyayana Varttika", "author": "Katyayana", "category": "Grammar", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Additional rules and corrections to Panini grammar."},
-  {"id": "patanjali_mahabhasya", "title": "Patanjali Mahabhasya", "author": "Patanjali", "category": "Grammar", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Comprehensive commentary on Panini's grammar."},
-  {"id": "siddhanta_kaumudi", "title": "Siddhanta Kaumudi", "author": "Bhattoji Dikshita", "category": "Grammar", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Complete treatment of Sanskrit grammar principles."},
-  {"id": "damodara_stotra", "title": "Damodara Stotra", "author": "Jayadeva", "category": "Devotional Poetry", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Devotional verses to Lord Krishna as child Damodara."},
-  {"id": "gita_govinda", "title": "Gita Govinda", "author": "Jayadeva", "category": "Devotional Poetry", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Love story of Krishna and Radha in lyrical verse."},
-  {"id": "shiva_mahimna_stotra", "title": "Shiva Mahimna Stotra", "author": "Pushpadanta", "category": "Devotional Poetry", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Beautiful eulogy of Lord Shiva praising his greatness."},
-  {"id": "bhaja_govindam", "title": "Bhaja Govindam", "author": "Adi Shankaracharya", "category": "Devotional Poetry", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Devotional song encouraging worship of Govinda."},
-  {"id": "saundaryalahari", "title": "Saundaryalahari", "author": "Adi Shankaracharya", "category": "Devotional Poetry", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Wave of Beauty - mystical poetry praising the Goddess."},
-  {"id": "lalita_sahasranama", "title": "Lalita Sahasranama", "author": "Shankaracharya", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Thousand names of the Divine Mother Lalita."},
-  {"id": "durga_saptashati", "title": "Durga Saptashati", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "700 verses describing battles of Goddess Durga."},
-  {"id": "sundara_kandam_full", "title": "Sundara Kandam Complete", "author": "Valmiki", "category": "Sanskrit Epic", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Complete book of Ramayana describing Hanuman's mission."},
-  {"id": "uttara_ramayana", "title": "Uttara Ramayana", "author": "Valmiki", "category": "Sanskrit Epic", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Concluding chapters of the Ramayana epic."},
-  {"id": "anushasana_parva", "title": "Anushasana Parva", "author": "Vyasa", "category": "Sanskrit Epic", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Book of Instructions from the Mahabharata."},
-  {"id": "shanti_parva", "title": "Shanti Parva", "author": "Vyasa", "category": "Sanskrit Epic", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Book of Peace from Mahabharata with spiritual teachings."},
-  {"id": "mahabharata_complete", "title": "Mahabharata - Complete Version", "author": "Vyasa", "category": "Sanskrit Epic", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "The great epic of India - complete collection of stories."},
-  {"id": "ramayana_complete", "title": "Ramayana - Complete", "author": "Valmiki", "category": "Sanskrit Epic", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Complete Ramayana - story of Ram and his journey."},
-  {"id": "vishnu_sahasranama", "title": "Vishnu Sahasranama", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Thousand names of Lord Vishnu praising his glory."},
-  {"id": "shiva_sahasranama", "title": "Shiva Sahasranama", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Thousand names of Lord Shiva with meanings."},
-  {"id": "hanuman_chalisa", "title": "Hanuman Chalisa", "author": "Tulasidas", "category": "Devotional Poetry", "language": "Hindi", "cover": "covers/default.jpg", "description": "40 verses praising Lord Hanuman's greatness and courage."},
-  {"id": "doha_ramayan", "title": "Doha Ramayan", "author": "Tulasidas", "category": "Hindi Poetry", "language": "Hindi", "cover": "covers/default.jpg", "description": "Story of Ramayana told in Hindi Doha verse form."},
-  {"id": "sortha_avali", "title": "Sortha Avali", "author": "Tulasidas", "category": "Hindi Poetry", "language": "Hindi", "cover": "covers/default.jpg", "description": "Couplets describing Krishna's childhood and exploits."},
-  {"id": "gyana_peeth", "title": "Gyana Peeth", "author": "Swami Vivekananda", "category": "Philosophy", "language": "Hindi", "cover": "covers/default.jpg", "description": "Teachings on knowledge and spiritual enlightenment."},
-  {"id": "premchand_stories", "title": "Premchand Stories Collection", "author": "Munshi Premchand", "category": "Hindi Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Collection of famous short stories depicting Indian society."},
-  {"id": "aaj_bhi_khare_hain", "title": "Aaj Bhi Khare Hain Talab", "author": "Ramdhari Singh Dinkar", "category": "Hindi Poetry", "language": "Hindi", "cover": "covers/default.jpg", "description": "Patriotic poetry celebrating Indian freedom and culture."},
-  {"id": "rashmirathi", "title": "Rashmirathi", "author": "Ramdhari Singh Dinkar", "category": "Hindi Poetry", "language": "Hindi", "cover": "covers/default.jpg", "description": "Epic poem about Karna from the Mahabharata."},
-  {"id": "kisan_kavi", "title": "Kisan Kavi", "author": "Keshav Das", "category": "Hindi Poetry", "language": "Hindi", "cover": "covers/default.jpg", "description": "Verses celebrating the farmers and agricultural life."},
-  {"id": "chandrakanta", "title": "Chandrakanta", "author": "Devaki Nandan Khatri", "category": "Hindi Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Adventure romance novel of classic Hindi literature."},
-  {"id": "vande_mataram", "title": "Vande Mataram", "author": "Bankim Chandra Chatterjee", "category": "Hindi Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Famous patriotic song praising mother India."},
-  {"id": "sahitya_lhari", "title": "Sahitya Lhari", "author": "Mahakavi Bhushandev", "category": "Hindi Poetry", "language": "Hindi", "cover": "covers/default.jpg", "description": "Classical Hindi poetry expressing emotions and nature."},
-  {"id": "pratan_rachna", "title": "Pratan Rachna", "author": "Various Authors", "category": "Hindi Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Collection of ancient Hindi literary works."},
-  {"id": "brahm_puran", "title": "Brahm Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient Purana describing creation of universe."},
-  {"id": "vishnu_puran", "title": "Vishnu Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Purana dedicated to Lord Vishnu and his avatars."},
-  {"id": "shiva_puran", "title": "Shiva Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Sacred text describing Lord Shiva's stories."},
-  {"id": "devi_bhagavat", "title": "Devi Bhagavat Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Stories of divine mother Devi and her incarnations."},
-  {"id": "narad_puran", "title": "Narad Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Purana containing teachings through Narada."},
-  {"id": "garuda_puran", "title": "Garuda Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Teachings on life, death, and the afterlife."},
-  {"id": "agni_puran", "title": "Agni Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Purana with knowledge about rituals and sciences."},
-  {"id": "varaha_puran", "title": "Varaha Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Sacred text describing Varaha avatar of Vishnu."},
-  {"id": "bhavishya_puran", "title": "Bhavishya Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Purana describing future events and prophecies."},
-  {"id": "markandeya_puran", "title": "Markandeya Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Stories and teachings from sage Markandeya."},
-  {"id": "padma_puran", "title": "Padma Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Sacred stories and spiritual teachings."},
-  {"id": "skanda_puran", "title": "Skanda Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Largest Purana with stories and geography."},
-  {"id": "linga_puran", "title": "Linga Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Purana describing worship of Linga of Shiva."},
-  {"id": "kurma_puran", "title": "Kurma Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Stories related to Kurma avatar of Vishnu."},
-  {"id": "matsya_puran", "title": "Matsya Puran", "author": "Vyasa", "category": "Sacred Texts", "language": "Sacred Texts", "cover": "covers/default.jpg", "description": "Teachings of Matsya avatar about cosmology."},
-  {"id": "ashoka_chakra", "title": "Ashoka Chakra - History", "author": "Buddhist Scholars", "category": "Buddhist Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "History and significance of Emperor Ashoka."},
-  {"id": "buddha_teachings", "title": "Buddha's Core Teachings", "author": "Buddha", "category": "Buddhist Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Essential teachings of Buddha on suffering and path."},
-  {"id": "four_noble_truths", "title": "Four Noble Truths", "author": "Buddha", "category": "Buddhist Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Fundamental Buddhist teachings on suffering."},
-  {"id": "eightfold_path", "title": "Eightfold Path", "author": "Buddha", "category": "Buddhist Philosophy", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Buddha's path to enlightenment and liberation."},
-  {"id": "pali_canon", "title": "Pali Canon Suttas", "author": "Buddhist Community", "category": "Buddhist Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Complete collection of Buddhist sacred texts."},
-  {"id": "sutras_lotus", "title": "Lotus Sutra", "author": "Buddhist Scholars", "category": "Buddhist Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Important Mahayana Buddhist scripture."},
-  {"id": "lankavatara_sutra", "title": "Lankavatara Sutra", "author": "Buddha", "category": "Buddhist Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Sutra describing Buddha's teaching in Lanka."},
-  {"id": "heart_sutra", "title": "Heart Sutra", "author": "Buddhist Scholars", "category": "Buddhist Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Essential Buddhist teaching on emptiness."},
-  {"id": "diamond_sutra", "title": "Diamond Sutra", "author": "Buddhist Scholars", "category": "Buddhist Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Important scripture on transcendental wisdom."},
-  {"id": "avatamsaka", "title": "Avatamsaka Sutra", "author": "Buddhist Scholars", "category": "Buddhist Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Vast Buddhist scripture on Buddha's enlightenment."},
-  {"id": "samadhi_raja", "title": "Samadhi Raja Sutra", "author": "Buddhist Scholars", "category": "Buddhist Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Teaching on meditation and concentration."},
-  {"id": "mahaparinirvana", "title": "Mahaparinirvana Sutra", "author": "Buddhist Scholars", "category": "Buddhist Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Buddha's final teachings before entering nirvana."},
-  {"id": "mahavamsa", "title": "Mahavamsa Chronicles", "author": "Mahanama", "category": "Buddhist Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "History of Buddhism from its beginning."},
-  {"id": "ashvaghosha_buddha", "title": "Buddhacharita", "author": "Ashvaghosha", "category": "Sanskrit Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Life of Buddha in elegant Sanskrit verse."},
-  {"id": "saundarananda", "title": "Saundarananda", "author": "Ashvaghosha", "category": "Sanskrit Literature", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Story of Nanda's conversion to Buddhism."},
-  {"id": "ratnavali_drama", "title": "Ratnavali", "author": "Harsha", "category": "Sanskrit Drama", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Royal romance drama of ancient times."},
-  {"id": "priyadarshika", "title": "Priyadarshika", "author": "Harsha", "category": "Sanskrit Drama", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Drama describing love and romance."},
-  {"id": "malati_madhava", "title": "Malati Madhava", "author": "Bhavabhuti", "category": "Sanskrit Drama", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Love story of Malati and Madhava."},
-  {"id": "uttara_ramacharita", "title": "Uttara Ramacharita", "author": "Bhavabhuti", "category": "Sanskrit Drama", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Later events in Ramayana told as drama."},
-  {"id": "madhyama_vyayoga", "title": "Madhyama Vyayoga", "author": "Bhasa", "category": "Sanskrit Drama", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Middle comedy from classical Sanskrit drama."},
-  {"id": "swapnvasavadatta", "title": "Swapnvasavadatta", "author": "Bhasa", "category": "Sanskrit Drama", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Dream of Vasavadatta romantic drama."},
-  {"id": "bhavabhuti_plays", "title": "Complete Works of Bhavabhuti", "author": "Bhavabhuti", "category": "Sanskrit Drama", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "All three plays of dramatist Bhavabhuti."},
-  {"id": "kaler_gupta", "title": "Kaler Gupta", "author": "Various", "category": "Hindi Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Modern Hindi essays on culture and philosophy."},
-  {"id": "hindi_sahitya", "title": "Hindi Sahitya Kosh", "author": "Hindi Scholars", "category": "Hindi Reference", "language": "Hindi", "cover": "covers/default.jpg", "description": "Complete encyclopedia of Hindi literature."},
-  {"id": "adhunik_hindi", "title": "Adhunik Hindi Poetry", "author": "Modern Poets", "category": "Hindi Poetry", "language": "Hindi", "cover": "covers/default.jpg", "description": "Collection of modern Hindi poetry collection."},
-  {"id": "marathi_saints", "title": "Marathi Saints Teachings", "author": "Marathi Saints", "category": "Devotional", "language": "Hindi", "cover": "covers/default.jpg", "description": "Teachings of great Marathi saint poets."},
-  {"id": "bengali_renaissance", "title": "Bengali Renaissance Texts", "author": "Bengali Authors", "category": "Hindi Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Important texts from Bengali renaissance period."},
-  {"id": "dalit_sahitya", "title": "Dalit Literature", "author": "Dalit Writers", "category": "Social Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Voices and stories of Dalit communities."},
-  {"id": "stri_sahitya", "title": "Women's Literature", "author": "Women Writers", "category": "Social Literature", "language": "Hindi", "cover": "covers/default.jpg", "description": "Important works by female authors of India."},
-  {"id": "kavya_prakash", "title": "Kavya Prakash", "author": "Mammata", "category": "Literary Criticism", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient Sanskrit poetics and literary theory."},
-  {"id": "sahitya_darpana", "title": "Sahitya Darpana", "author": "Visvanatha", "category": "Literary Criticism", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Mirror of Literature - comprehensive poetics guide."},
-  {"id": "rasa_manjari", "title": "Rasa Manjari", "author": "Bhoja", "category": "Literary Criticism", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Treatise on aesthetic emotions in literature."},
-  {"id": "natya_shastra", "title": "Natya Shastra", "author": "Bharata", "category": "Performing Arts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient treatise on drama and performance arts."},
-  {"id": "abhinaya_darpana", "title": "Abhinaya Darpana", "author": "Srikumara", "category": "Performing Arts", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Mirror of Gestures - guide to dance forms."},
-  {"id": "sangeet_ratnakar", "title": "Sangeet Ratnakar", "author": "Sharangadeva", "category": "Music Theory", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ocean of Music - complete music theory guide."},
-  {"id": "classical_music", "title": "Classical Indian Music", "author": "Music Scholars", "category": "Music", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "History and theory of Hindustani and Carnatic music."},
-  {"id": "sculpture_texts", "title": "Shilpa Shastras", "author": "Ancient Artisans", "category": "Art & Architecture", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Treatises on sculpture, architecture and art."},
-  {"id": "vastu_shastra", "title": "Vastu Shastra", "author": "Vishwakarma", "category": "Architecture", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient principles of architecture and space design."},
-  {"id": "ayurveda_samhita", "title": "Charaka Samhita", "author": "Charaka", "category": "Medical Science", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient treatise on Ayurveda and medicine."},
-  {"id": "sushruta_samhita", "title": "Sushruta Samhita", "author": "Sushruta", "category": "Medical Science", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Ancient Ayurvedic text on surgery and medicine."},
-  {"id": "ashtanga_hridaya", "title": "Ashtanga Hridaya", "author": "Vagbhata", "category": "Medical Science", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Concise Ayurvedic medical encyclopedia."},
-  {"id": "bhava_prakasha", "title": "Bhava Prakasha", "author": "Bhava Misra", "category": "Medical Science", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Materia medica and medicinal substances."},
-  {"id": "astronomy_siddhanta", "title": "Siddhanta Siromani", "author": "Bhaskara II", "category": "Science", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Crown of treatises - mathematics and astronomy."},
-  {"id": "lilavati", "title": "Lilavati", "author": "Bhaskara II", "category": "Mathematics", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Playful book on mathematics and calculations."},
-  {"id": "aryabhatiya", "title": "Aryabhatiya", "author": "Aryabhata", "category": "Science", "language": "Sanskrit", "cover": "covers/default.jpg", "description": "Treatise on mathematics and astronomy by Aryabhata."}
+  {
+    "id": "bhallata_shatak",
+    "title": "Bhallata Shatak",
+    "author": "Bhallata",
+    "category": "Sanskrit Poetry",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Classic Sanskrit text with 100 verses of wisdom and poetry about life and philosophy."
+  },
+  {
+    "id": "lakshya",
+    "title": "Lakshya",
+    "author": "Hindi Author",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Important work exploring themes of purpose and ambition in life."
+  },
+  {
+    "id": "maa_haar_gayi",
+    "title": "Maa Haar Gayi",
+    "author": "Mannu Bandari",
+    "category": "Hindi Fiction",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Gripping story of love, sacrifice and family bonds in Indian literature."
+  },
+  {
+    "id": "vakyarth_sangrah",
+    "title": "Vakyarth Sangrah",
+    "author": "Manu",
+    "category": "Sanskrit Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Comprehensive collection of Sanskrit verses exploring grammar and meaning."
+  },
+  {
+    "id": "psalms",
+    "title": "The Book of Psalms",
+    "author": "Sanskrit Scholars",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Spiritual and devotional Sanskrit verses offering wisdom and guidance."
+  },
+  {
+    "id": "devdas",
+    "title": "Devdas",
+    "author": "Sarat Chandra Chatterjee",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Tale of unrequited love and sacrifice in Indian literature."
+  },
+  {
+    "id": "khandava_dahan",
+    "title": "Khandava Dahan",
+    "author": "Vyasa",
+    "category": "Sanskrit Epic",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Episode from the great Indian epic Mahabharata."
+  },
+  {
+    "id": "ramayana_excerpt",
+    "title": "Ramayana - Sundara Kandam",
+    "author": "Valmiki",
+    "category": "Sanskrit Epic",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Beautiful Sundara Kandam from Ramayana describing Hanuman's journey."
+  },
+  {
+    "id": "bhagavad_gita",
+    "title": "Bhagavad Gita",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient wisdom on duty, devotion and nature of existence."
+  },
+  {
+    "id": "arthashastra",
+    "title": "Arthashastra",
+    "author": "Kautilya",
+    "category": "Political Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient treatise on economics, politics and statecraft."
+  },
+  {
+    "id": "chandimaa",
+    "title": "Chandimaa Stotra",
+    "author": "Adi Sankara",
+    "category": "Devotional",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Devotional hymn to the divine mother Chandimaa."
+  },
+  {
+    "id": "kalidasa_kumara",
+    "title": "Kumarasambhava",
+    "author": "Kalidasa",
+    "category": "Sanskrit Poetry",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Birth of Kumara - masterpiece of Sanskrit literature."
+  },
+  {
+    "id": "meghaduta",
+    "title": "Meghaduta",
+    "author": "Kalidasa",
+    "category": "Sanskrit Poetry",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Beautiful lyric poem about yaksha separated from beloved."
+  },
+  {
+    "id": "shakuntala",
+    "title": "Abhijnanashakuntalam",
+    "author": "Kalidasa",
+    "category": "Sanskrit Drama",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Famous tale of Shakuntala and Dushyanta."
+  },
+  {
+    "id": "naishadha",
+    "title": "Naishadha Charita",
+    "author": "Sriharsha",
+    "category": "Sanskrit Poetry",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Romance of Nala and Damayanti in elegant Sanskrit verse."
+  },
+  {
+    "id": "gandhari",
+    "title": "Gandhari Ka Anucha",
+    "author": "Shashi Tharoor",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Modern retelling of Mahabharata from Gandhari's perspective."
+  },
+  {
+    "id": "godan",
+    "title": "Godan",
+    "author": "Munshi Premchand",
+    "category": "Hindi Fiction",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Classic Hindi novel depicting rural life and agriculture in India."
+  },
+  {
+    "id": "sudama_charit",
+    "title": "Sudama Charit",
+    "author": "Tulasidas",
+    "category": "Hindi Poetry",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Devotional story of Sudama's friendship with Krishna."
+  },
+  {
+    "id": "bharat_bharati",
+    "title": "Bharat Bharati",
+    "author": "Maithili Sharan Gupta",
+    "category": "Hindi Poetry",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Patriotic Hindi poetry celebrating Indian culture."
+  },
+  {
+    "id": "anand_math",
+    "title": "Anandmath",
+    "author": "Bankim Chandra Chatterjee",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Revolutionary novel of Independence struggle."
+  },
+  {
+    "id": "panchtantra",
+    "title": "Panchtantra Tales",
+    "author": "Vishnusharma",
+    "category": "Fables",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient collection of moral fables and stories."
+  },
+  {
+    "id": "hitopadesha",
+    "title": "Hitopadesha",
+    "author": "Narayana",
+    "category": "Fables",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Classic collection of instructive tales and fables."
+  },
+  {
+    "id": "kathasaritsagara",
+    "title": "Kathasaritsagara",
+    "author": "Somadeva",
+    "category": "Sanskrit Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ocean of Streams of Story - vast collection of Sanskrit tales."
+  },
+  {
+    "id": "brihatkatha",
+    "title": "Brihat Katha",
+    "author": "Gunadhya",
+    "category": "Sanskrit Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient narrative collection influencing later traditions."
+  },
+  {
+    "id": "dashakumaracharita",
+    "title": "Dashakumara Charita",
+    "author": "Dandi",
+    "category": "Sanskrit Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Story of ten princes in elegant Sanskrit prose."
+  },
+  {
+    "id": "dhammapada",
+    "title": "Dhammapada",
+    "author": "Buddha",
+    "category": "Buddhist Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Words of Buddha on the path to enlightenment."
+  },
+  {
+    "id": "jataka_tales",
+    "title": "Jataka Tales",
+    "author": "Buddhist Scholars",
+    "category": "Buddhist Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Stories of Buddha's previous births teaching moral lessons."
+  },
+  {
+    "id": "samyutta_nikaya",
+    "title": "Samyutta Nikaya",
+    "author": "Buddhist Sangha",
+    "category": "Buddhist Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Collection of Buddha's discourses on various topics."
+  },
+  {
+    "id": "upanishad_katha",
+    "title": "Katha Upanishad",
+    "author": "Ancient Rishis",
+    "category": "Vedic Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Dialogue between Yama and Nachiketa on death and immortality."
+  },
+  {
+    "id": "upanishad_mundaka",
+    "title": "Mundaka Upanishad",
+    "author": "Ancient Rishis",
+    "category": "Vedic Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Teachings on Brahman and nature of ultimate reality."
+  },
+  {
+    "id": "upanishad_isha",
+    "title": "Isha Upanishad",
+    "author": "Ancient Rishis",
+    "category": "Vedic Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "The Lord pervades all - fundamental Vedic teaching."
+  },
+  {
+    "id": "upanishad_taittiriya",
+    "title": "Taittiriya Upanishad",
+    "author": "Ancient Rishis",
+    "category": "Vedic Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Teachings on essence of life and five sheaths."
+  },
+  {
+    "id": "upanishad_chandogya",
+    "title": "Chandogya Upanishad",
+    "author": "Ancient Rishis",
+    "category": "Vedic Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Important Upanishad teaching meditation on OM."
+  },
+  {
+    "id": "upanishad_mandukya",
+    "title": "Mandukya Upanishad",
+    "author": "Ancient Rishis",
+    "category": "Vedic Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Analysis of syllable OM and states of consciousness."
+  },
+  {
+    "id": "brahma_sutras",
+    "title": "Brahma Sutras",
+    "author": "Vyasa",
+    "category": "Vedic Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Philosophical aphorisms on nature of Brahman and soul."
+  },
+  {
+    "id": "yoga_sutras",
+    "title": "Yoga Sutras",
+    "author": "Patanjali",
+    "category": "Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Classical text on yoga philosophy and practice."
+  },
+  {
+    "id": "samkhya_karika",
+    "title": "Samkhya Karika",
+    "author": "Ishvara Krishna",
+    "category": "Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Exposition of Samkhya philosophical system."
+  },
+  {
+    "id": "nyaya_sutras",
+    "title": "Nyaya Sutras",
+    "author": "Gautama",
+    "category": "Logic",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Foundational text on Indian logic and epistemology."
+  },
+  {
+    "id": "vaiseshika",
+    "title": "Vaiseshika Sutras",
+    "author": "Kanada",
+    "category": "Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Atomic theory and metaphysics in ancient philosophy."
+  },
+  {
+    "id": "rigveda_samhita",
+    "title": "Rigveda Samhita",
+    "author": "Vedic Rishis",
+    "category": "Vedic Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Collection of Vedic hymns praising the deities."
+  },
+  {
+    "id": "yajurveda",
+    "title": "Yajurveda",
+    "author": "Vedic Rishis",
+    "category": "Vedic Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Veda of sacrificial formulas and rituals."
+  },
+  {
+    "id": "samaveda",
+    "title": "Samaveda",
+    "author": "Vedic Rishis",
+    "category": "Vedic Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Veda of chants and melodies for rituals."
+  },
+  {
+    "id": "atharvaveda",
+    "title": "Atharvaveda",
+    "author": "Vedic Rishis",
+    "category": "Vedic Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Veda of knowledge including spells and incantations."
+  },
+  {
+    "id": "aitareya_brahmana",
+    "title": "Aitareya Brahmana",
+    "author": "Vedic Scholars",
+    "category": "Vedic Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Brahmana commentary on Rigveda with ritual explanations."
+  },
+  {
+    "id": "nirukta",
+    "title": "Nirukta",
+    "author": "Yaska",
+    "category": "Linguistics",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient Sanskrit etymology and word meanings."
+  },
+  {
+    "id": "panini_ashtadhyayi",
+    "title": "Panini's Ashtadhyayi",
+    "author": "Panini",
+    "category": "Grammar",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Comprehensive Sanskrit grammar in 8 chapters."
+  },
+  {
+    "id": "katyayana_varttika",
+    "title": "Katyayana Varttika",
+    "author": "Katyayana",
+    "category": "Grammar",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Additional rules and corrections to Panini grammar."
+  },
+  {
+    "id": "patanjali_mahabhasya",
+    "title": "Patanjali Mahabhasya",
+    "author": "Patanjali",
+    "category": "Grammar",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Comprehensive commentary on Panini's grammar."
+  },
+  {
+    "id": "siddhanta_kaumudi",
+    "title": "Siddhanta Kaumudi",
+    "author": "Bhattoji Dikshita",
+    "category": "Grammar",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Complete treatment of Sanskrit grammar principles."
+  },
+  {
+    "id": "damodara_stotra",
+    "title": "Damodara Stotra",
+    "author": "Jayadeva",
+    "category": "Devotional Poetry",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Devotional verses to Lord Krishna as child Damodara."
+  },
+  {
+    "id": "gita_govinda",
+    "title": "Gita Govinda",
+    "author": "Jayadeva",
+    "category": "Devotional Poetry",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Love story of Krishna and Radha in lyrical verse."
+  },
+  {
+    "id": "shiva_mahimna_stotra",
+    "title": "Shiva Mahimna Stotra",
+    "author": "Pushpadanta",
+    "category": "Devotional Poetry",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Beautiful eulogy of Lord Shiva praising his greatness."
+  },
+  {
+    "id": "bhaja_govindam",
+    "title": "Bhaja Govindam",
+    "author": "Adi Shankaracharya",
+    "category": "Devotional Poetry",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Devotional song encouraging worship of Govinda."
+  },
+  {
+    "id": "saundaryalahari",
+    "title": "Saundaryalahari",
+    "author": "Adi Shankaracharya",
+    "category": "Devotional Poetry",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Wave of Beauty - mystical poetry praising the Goddess."
+  },
+  {
+    "id": "lalita_sahasranama",
+    "title": "Lalita Sahasranama",
+    "author": "Shankaracharya",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Thousand names of the Divine Mother Lalita."
+  },
+  {
+    "id": "durga_saptashati",
+    "title": "Durga Saptashati",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "700 verses describing battles of Goddess Durga."
+  },
+  {
+    "id": "sundara_kandam_full",
+    "title": "Sundara Kandam Complete",
+    "author": "Valmiki",
+    "category": "Sanskrit Epic",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Complete book of Ramayana describing Hanuman's mission."
+  },
+  {
+    "id": "uttara_ramayana",
+    "title": "Uttara Ramayana",
+    "author": "Valmiki",
+    "category": "Sanskrit Epic",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Concluding chapters of the Ramayana epic."
+  },
+  {
+    "id": "anushasana_parva",
+    "title": "Anushasana Parva",
+    "author": "Vyasa",
+    "category": "Sanskrit Epic",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Book of Instructions from the Mahabharata."
+  },
+  {
+    "id": "shanti_parva",
+    "title": "Shanti Parva",
+    "author": "Vyasa",
+    "category": "Sanskrit Epic",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Book of Peace from Mahabharata with spiritual teachings."
+  },
+  {
+    "id": "mahabharata_complete",
+    "title": "Mahabharata - Complete Version",
+    "author": "Vyasa",
+    "category": "Sanskrit Epic",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "The great epic of India - complete collection of stories."
+  },
+  {
+    "id": "ramayana_complete",
+    "title": "Ramayana - Complete",
+    "author": "Valmiki",
+    "category": "Sanskrit Epic",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Complete Ramayana - story of Ram and his journey."
+  },
+  {
+    "id": "vishnu_sahasranama",
+    "title": "Vishnu Sahasranama",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Thousand names of Lord Vishnu praising his glory."
+  },
+  {
+    "id": "shiva_sahasranama",
+    "title": "Shiva Sahasranama",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Thousand names of Lord Shiva with meanings."
+  },
+  {
+    "id": "hanuman_chalisa",
+    "title": "Hanuman Chalisa",
+    "author": "Tulasidas",
+    "category": "Devotional Poetry",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "40 verses praising Lord Hanuman's greatness and courage."
+  },
+  {
+    "id": "doha_ramayan",
+    "title": "Doha Ramayan",
+    "author": "Tulasidas",
+    "category": "Hindi Poetry",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Story of Ramayana told in Hindi Doha verse form."
+  },
+  {
+    "id": "sortha_avali",
+    "title": "Sortha Avali",
+    "author": "Tulasidas",
+    "category": "Hindi Poetry",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Couplets describing Krishna's childhood and exploits."
+  },
+  {
+    "id": "gyana_peeth",
+    "title": "Gyana Peeth",
+    "author": "Swami Vivekananda",
+    "category": "Philosophy",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Teachings on knowledge and spiritual enlightenment."
+  },
+  {
+    "id": "premchand_stories",
+    "title": "Premchand Stories Collection",
+    "author": "Munshi Premchand",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Collection of famous short stories depicting Indian society."
+  },
+  {
+    "id": "aaj_bhi_khare_hain",
+    "title": "Aaj Bhi Khare Hain Talab",
+    "author": "Ramdhari Singh Dinkar",
+    "category": "Hindi Poetry",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Patriotic poetry celebrating Indian freedom and culture."
+  },
+  {
+    "id": "rashmirathi",
+    "title": "Rashmirathi",
+    "author": "Ramdhari Singh Dinkar",
+    "category": "Hindi Poetry",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Epic poem about Karna from the Mahabharata."
+  },
+  {
+    "id": "kisan_kavi",
+    "title": "Kisan Kavi",
+    "author": "Keshav Das",
+    "category": "Hindi Poetry",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Verses celebrating the farmers and agricultural life."
+  },
+  {
+    "id": "chandrakanta",
+    "title": "Chandrakanta",
+    "author": "Devaki Nandan Khatri",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Adventure romance novel of classic Hindi literature."
+  },
+  {
+    "id": "vande_mataram",
+    "title": "Vande Mataram",
+    "author": "Bankim Chandra Chatterjee",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Famous patriotic song praising mother India."
+  },
+  {
+    "id": "sahitya_lhari",
+    "title": "Sahitya Lhari",
+    "author": "Mahakavi Bhushandev",
+    "category": "Hindi Poetry",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Classical Hindi poetry expressing emotions and nature."
+  },
+  {
+    "id": "pratan_rachna",
+    "title": "Pratan Rachna",
+    "author": "Various Authors",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Collection of ancient Hindi literary works."
+  },
+  {
+    "id": "brahm_puran",
+    "title": "Brahm Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient Purana describing creation of universe."
+  },
+  {
+    "id": "vishnu_puran",
+    "title": "Vishnu Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Purana dedicated to Lord Vishnu and his avatars."
+  },
+  {
+    "id": "shiva_puran",
+    "title": "Shiva Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Sacred text describing Lord Shiva's stories."
+  },
+  {
+    "id": "devi_bhagavat",
+    "title": "Devi Bhagavat Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Stories of divine mother Devi and her incarnations."
+  },
+  {
+    "id": "narad_puran",
+    "title": "Narad Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Purana containing teachings through Narada."
+  },
+  {
+    "id": "garuda_puran",
+    "title": "Garuda Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Teachings on life, death, and the afterlife."
+  },
+  {
+    "id": "agni_puran",
+    "title": "Agni Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Purana with knowledge about rituals and sciences."
+  },
+  {
+    "id": "varaha_puran",
+    "title": "Varaha Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Sacred text describing Varaha avatar of Vishnu."
+  },
+  {
+    "id": "bhavishya_puran",
+    "title": "Bhavishya Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Purana describing future events and prophecies."
+  },
+  {
+    "id": "markandeya_puran",
+    "title": "Markandeya Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Stories and teachings from sage Markandeya."
+  },
+  {
+    "id": "padma_puran",
+    "title": "Padma Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Sacred stories and spiritual teachings."
+  },
+  {
+    "id": "skanda_puran",
+    "title": "Skanda Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Largest Purana with stories and geography."
+  },
+  {
+    "id": "linga_puran",
+    "title": "Linga Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Purana describing worship of Linga of Shiva."
+  },
+  {
+    "id": "kurma_puran",
+    "title": "Kurma Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Stories related to Kurma avatar of Vishnu."
+  },
+  {
+    "id": "matsya_puran",
+    "title": "Matsya Puran",
+    "author": "Vyasa",
+    "category": "Sacred Texts",
+    "language": "Sacred Texts",
+    "cover": "covers/default.jpg",
+    "description": "Teachings of Matsya avatar about cosmology."
+  },
+  {
+    "id": "ashoka_chakra",
+    "title": "Ashoka Chakra - History",
+    "author": "Buddhist Scholars",
+    "category": "Buddhist Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "History and significance of Emperor Ashoka."
+  },
+  {
+    "id": "buddha_teachings",
+    "title": "Buddha's Core Teachings",
+    "author": "Buddha",
+    "category": "Buddhist Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Essential teachings of Buddha on suffering and path."
+  },
+  {
+    "id": "four_noble_truths",
+    "title": "Four Noble Truths",
+    "author": "Buddha",
+    "category": "Buddhist Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Fundamental Buddhist teachings on suffering."
+  },
+  {
+    "id": "eightfold_path",
+    "title": "Eightfold Path",
+    "author": "Buddha",
+    "category": "Buddhist Philosophy",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Buddha's path to enlightenment and liberation."
+  },
+  {
+    "id": "pali_canon",
+    "title": "Pali Canon Suttas",
+    "author": "Buddhist Community",
+    "category": "Buddhist Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Complete collection of Buddhist sacred texts."
+  },
+  {
+    "id": "sutras_lotus",
+    "title": "Lotus Sutra",
+    "author": "Buddhist Scholars",
+    "category": "Buddhist Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Important Mahayana Buddhist scripture."
+  },
+  {
+    "id": "lankavatara_sutra",
+    "title": "Lankavatara Sutra",
+    "author": "Buddha",
+    "category": "Buddhist Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Sutra describing Buddha's teaching in Lanka."
+  },
+  {
+    "id": "heart_sutra",
+    "title": "Heart Sutra",
+    "author": "Buddhist Scholars",
+    "category": "Buddhist Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Essential Buddhist teaching on emptiness."
+  },
+  {
+    "id": "diamond_sutra",
+    "title": "Diamond Sutra",
+    "author": "Buddhist Scholars",
+    "category": "Buddhist Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Important scripture on transcendental wisdom."
+  },
+  {
+    "id": "avatamsaka",
+    "title": "Avatamsaka Sutra",
+    "author": "Buddhist Scholars",
+    "category": "Buddhist Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Vast Buddhist scripture on Buddha's enlightenment."
+  },
+  {
+    "id": "samadhi_raja",
+    "title": "Samadhi Raja Sutra",
+    "author": "Buddhist Scholars",
+    "category": "Buddhist Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Teaching on meditation and concentration."
+  },
+  {
+    "id": "mahaparinirvana",
+    "title": "Mahaparinirvana Sutra",
+    "author": "Buddhist Scholars",
+    "category": "Buddhist Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Buddha's final teachings before entering nirvana."
+  },
+  {
+    "id": "mahavamsa",
+    "title": "Mahavamsa Chronicles",
+    "author": "Mahanama",
+    "category": "Buddhist Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "History of Buddhism from its beginning."
+  },
+  {
+    "id": "ashvaghosha_buddha",
+    "title": "Buddhacharita",
+    "author": "Ashvaghosha",
+    "category": "Sanskrit Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Life of Buddha in elegant Sanskrit verse."
+  },
+  {
+    "id": "saundarananda",
+    "title": "Saundarananda",
+    "author": "Ashvaghosha",
+    "category": "Sanskrit Literature",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Story of Nanda's conversion to Buddhism."
+  },
+  {
+    "id": "ratnavali_drama",
+    "title": "Ratnavali",
+    "author": "Harsha",
+    "category": "Sanskrit Drama",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Royal romance drama of ancient times."
+  },
+  {
+    "id": "priyadarshika",
+    "title": "Priyadarshika",
+    "author": "Harsha",
+    "category": "Sanskrit Drama",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Drama describing love and romance."
+  },
+  {
+    "id": "malati_madhava",
+    "title": "Malati Madhava",
+    "author": "Bhavabhuti",
+    "category": "Sanskrit Drama",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Love story of Malati and Madhava."
+  },
+  {
+    "id": "uttara_ramacharita",
+    "title": "Uttara Ramacharita",
+    "author": "Bhavabhuti",
+    "category": "Sanskrit Drama",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Later events in Ramayana told as drama."
+  },
+  {
+    "id": "madhyama_vyayoga",
+    "title": "Madhyama Vyayoga",
+    "author": "Bhasa",
+    "category": "Sanskrit Drama",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Middle comedy from classical Sanskrit drama."
+  },
+  {
+    "id": "swapnvasavadatta",
+    "title": "Swapnvasavadatta",
+    "author": "Bhasa",
+    "category": "Sanskrit Drama",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Dream of Vasavadatta romantic drama."
+  },
+  {
+    "id": "bhavabhuti_plays",
+    "title": "Complete Works of Bhavabhuti",
+    "author": "Bhavabhuti",
+    "category": "Sanskrit Drama",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "All three plays of dramatist Bhavabhuti."
+  },
+  {
+    "id": "kaler_gupta",
+    "title": "Kaler Gupta",
+    "author": "Various",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Modern Hindi essays on culture and philosophy."
+  },
+  {
+    "id": "hindi_sahitya",
+    "title": "Hindi Sahitya Kosh",
+    "author": "Hindi Scholars",
+    "category": "Hindi Reference",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Complete encyclopedia of Hindi literature."
+  },
+  {
+    "id": "adhunik_hindi",
+    "title": "Adhunik Hindi Poetry",
+    "author": "Modern Poets",
+    "category": "Hindi Poetry",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Collection of modern Hindi poetry collection."
+  },
+  {
+    "id": "marathi_saints",
+    "title": "Marathi Saints Teachings",
+    "author": "Marathi Saints",
+    "category": "Devotional",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Teachings of great Marathi saint poets."
+  },
+  {
+    "id": "bengali_renaissance",
+    "title": "Bengali Renaissance Texts",
+    "author": "Bengali Authors",
+    "category": "Hindi Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Important texts from Bengali renaissance period."
+  },
+  {
+    "id": "dalit_sahitya",
+    "title": "Dalit Literature",
+    "author": "Dalit Writers",
+    "category": "Social Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Voices and stories of Dalit communities."
+  },
+  {
+    "id": "stri_sahitya",
+    "title": "Women's Literature",
+    "author": "Women Writers",
+    "category": "Social Literature",
+    "language": "Hindi",
+    "cover": "covers/default.jpg",
+    "description": "Important works by female authors of India."
+  },
+  {
+    "id": "kavya_prakash",
+    "title": "Kavya Prakash",
+    "author": "Mammata",
+    "category": "Literary Criticism",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient Sanskrit poetics and literary theory."
+  },
+  {
+    "id": "sahitya_darpana",
+    "title": "Sahitya Darpana",
+    "author": "Visvanatha",
+    "category": "Literary Criticism",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Mirror of Literature - comprehensive poetics guide."
+  },
+  {
+    "id": "rasa_manjari",
+    "title": "Rasa Manjari",
+    "author": "Bhoja",
+    "category": "Literary Criticism",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Treatise on aesthetic emotions in literature."
+  },
+  {
+    "id": "natya_shastra",
+    "title": "Natya Shastra",
+    "author": "Bharata",
+    "category": "Performing Arts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient treatise on drama and performance arts."
+  },
+  {
+    "id": "abhinaya_darpana",
+    "title": "Abhinaya Darpana",
+    "author": "Srikumara",
+    "category": "Performing Arts",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Mirror of Gestures - guide to dance forms."
+  },
+  {
+    "id": "sangeet_ratnakar",
+    "title": "Sangeet Ratnakar",
+    "author": "Sharangadeva",
+    "category": "Music Theory",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ocean of Music - complete music theory guide."
+  },
+  {
+    "id": "classical_music",
+    "title": "Classical Indian Music",
+    "author": "Music Scholars",
+    "category": "Music",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "History and theory of Hindustani and Carnatic music."
+  },
+  {
+    "id": "sculpture_texts",
+    "title": "Shilpa Shastras",
+    "author": "Ancient Artisans",
+    "category": "Art & Architecture",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Treatises on sculpture, architecture and art."
+  },
+  {
+    "id": "vastu_shastra",
+    "title": "Vastu Shastra",
+    "author": "Vishwakarma",
+    "category": "Architecture",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient principles of architecture and space design."
+  },
+  {
+    "id": "ayurveda_samhita",
+    "title": "Charaka Samhita",
+    "author": "Charaka",
+    "category": "Medical Science",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient treatise on Ayurveda and medicine."
+  },
+  {
+    "id": "sushruta_samhita",
+    "title": "Sushruta Samhita",
+    "author": "Sushruta",
+    "category": "Medical Science",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Ancient Ayurvedic text on surgery and medicine."
+  },
+  {
+    "id": "ashtanga_hridaya",
+    "title": "Ashtanga Hridaya",
+    "author": "Vagbhata",
+    "category": "Medical Science",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Concise Ayurvedic medical encyclopedia."
+  },
+  {
+    "id": "bhava_prakasha",
+    "title": "Bhava Prakasha",
+    "author": "Bhava Misra",
+    "category": "Medical Science",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Materia medica and medicinal substances."
+  },
+  {
+    "id": "astronomy_siddhanta",
+    "title": "Siddhanta Siromani",
+    "author": "Bhaskara II",
+    "category": "Science",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Crown of treatises - mathematics and astronomy."
+  },
+  {
+    "id": "lilavati",
+    "title": "Lilavati",
+    "author": "Bhaskara II",
+    "category": "Mathematics",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Playful book on mathematics and calculations."
+  },
+  {
+    "id": "aryabhatiya",
+    "title": "Aryabhatiya",
+    "author": "Aryabhata",
+    "category": "Science",
+    "language": "Sanskrit",
+    "cover": "covers/default.jpg",
+    "description": "Treatise on mathematics and astronomy by Aryabhata."
+  },
+  {
+    "id": "pride_prejudice",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "category": "Romance",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "A romantic novel of manners and marriage set in Georgian England exploring themes of class and love."
+  },
+  {
+    "id": "jane_eyre",
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "category": "Gothic Romance",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Classic Gothic romance following the life of Jane Eyre from childhood through love and mystery."
+  },
+  {
+    "id": "wuthering_heights",
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "category": "Gothic",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Dark passionate tale of love and revenge on the Yorkshire moors."
+  },
+  {
+    "id": "great_gatsby",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "category": "Literary Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Jazz Age masterpiece exploring wealth, love and the American Dream."
+  },
+  {
+    "id": "moby_dick",
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "category": "Adventure",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Epic tale of whaling and the obsessive pursuit of the great white whale."
+  },
+  {
+    "id": "alice_wonderland",
+    "title": "Alice in Wonderland",
+    "author": "Lewis Carroll",
+    "category": "Fantasy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Fantastical tale of a young girl's adventures in a surreal world beneath the earth."
+  },
+  {
+    "id": "adventures_sherlock",
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "category": "Mystery",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Collection of detective stories featuring the brilliant Sherlock Holmes and his companion Watson."
+  },
+  {
+    "id": "hound_baskervilles",
+    "title": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "category": "Mystery",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Mystery of a cursed family and a phantom hound on the Devon moors."
+  },
+  {
+    "id": "frankenstein",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "category": "Gothic Science Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Pioneering science fiction novel exploring themes of creation, responsibility and monstrosity."
+  },
+  {
+    "id": "dracula",
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "category": "Gothic Horror",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Gothic horror novel told through letters and diary entries about the vampire Count Dracula."
+  },
+  {
+    "id": "the_odyssey",
+    "title": "The Odyssey",
+    "author": "Homer",
+    "category": "Epic",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Classical epic of Odysseus's ten-year journey home after the Trojan War."
+  },
+  {
+    "id": "the_iliad",
+    "title": "The Iliad",
+    "author": "Homer",
+    "category": "Epic",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Ancient Greek epic depicting the Trojan War and the heroic Achilles."
+  },
+  {
+    "id": "crime_punishment",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "category": "Psychological Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Psychological novel exploring guilt, redemption and morality in Saint Petersburg."
+  },
+  {
+    "id": "war_peace",
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "category": "Historical",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Epic historical novel set during the Napoleonic Wars following aristocratic Russian families."
+  },
+  {
+    "id": "anna_karenina",
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "category": "Literary Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Tragic tale of love and society in 19th century Russia."
+  },
+  {
+    "id": "brothers_karamazov",
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "category": "Philosophical Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Philosophical novel exploring faith, doubt and redemption through four brothers."
+  },
+  {
+    "id": "jane_austen_emma",
+    "title": "Emma",
+    "author": "Jane Austen",
+    "category": "Romance",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story of a young matchmaker learning about love and self-awareness."
+  },
+  {
+    "id": "jane_austen_sense",
+    "title": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "category": "Romance",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Tale of two sisters navigating love and marriage with different temperaments."
+  },
+  {
+    "id": "jane_austen_northanger",
+    "title": "Northanger Abbey",
+    "author": "Jane Austen",
+    "category": "Comedy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Satirical comedy about a young Gothic novel enthusiast."
+  },
+  {
+    "id": "jane_austen_mansfield",
+    "title": "Mansfield Park",
+    "author": "Jane Austen",
+    "category": "Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story of Fanny Price and moral principles in a country estate."
+  },
+  {
+    "id": "testament_youth",
+    "title": "Testament of Youth",
+    "author": "Vera Brittain",
+    "category": "Autobiography",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Powerful memoir of a woman's life through WWI and social change."
+  },
+  {
+    "id": "gulliver_travels",
+    "title": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "category": "Satire",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Satirical adventures to fantastical lands mocking society and politics."
+  },
+  {
+    "id": "robinson_crusoe",
+    "title": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "category": "Adventure",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Classic tale of survival on an island after shipwreck."
+  },
+  {
+    "id": "treasure_island",
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "category": "Adventure",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Adventure tale of pirate treasure and a young man's quest."
+  },
+  {
+    "id": "strange_case_jekyll",
+    "title": "Strange Case of Dr. Jekyll and Mr. Hyde",
+    "author": "Robert Louis Stevenson",
+    "category": "Science Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Psychological horror exploring the dual nature of human personality."
+  },
+  {
+    "id": "pickwick_papers",
+    "title": "The Pickwick Papers",
+    "author": "Charles Dickens",
+    "category": "Comedy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Comic adventures of an English gentleman and his friends."
+  },
+  {
+    "id": "oliver_twist",
+    "title": "Oliver Twist",
+    "author": "Charles Dickens",
+    "category": "Social Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story of an orphan boy in Victorian London society."
+  },
+  {
+    "id": "nicholas_nickleby",
+    "title": "Nicholas Nickleby",
+    "author": "Charles Dickens",
+    "category": "Social Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Tale of a young man's struggles and rise in Victorian England."
+  },
+  {
+    "id": "bleak_house",
+    "title": "Bleak House",
+    "author": "Charles Dickens",
+    "category": "Social Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Complex narrative exposing legal corruption and social issues."
+  },
+  {
+    "id": "great_expectations",
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "category": "Coming of Age",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story of Pip's journey from poor forge boy to gentleman expectations."
+  },
+  {
+    "id": "david_copperfield",
+    "title": "David Copperfield",
+    "author": "Charles Dickens",
+    "category": "Autobiographical",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Semi-autobiographical novel of a man's life from childhood to adulthood."
+  },
+  {
+    "id": "tale_two_cities",
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "category": "Historical",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Epic novel set during the French Revolution with themes of sacrifice and resurrection."
+  },
+  {
+    "id": "hard_times",
+    "title": "Hard Times",
+    "author": "Charles Dickens",
+    "category": "Social Satire",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Critique of industrialization and utilitarianism in Victorian England."
+  },
+  {
+    "id": "dombey_son",
+    "title": "Dombey and Son",
+    "author": "Charles Dickens",
+    "category": "Social Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story of a merchant and his complex family relationships."
+  },
+  {
+    "id": "martin_chuzzlewit",
+    "title": "Martin Chuzzlewit",
+    "author": "Charles Dickens",
+    "category": "Social Comedy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Adventures of a young man seeking his fortune both in England and America."
+  },
+  {
+    "id": "barnaby_rudge",
+    "title": "Barnaby Rudge",
+    "author": "Charles Dickens",
+    "category": "Historical",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Historical novel set during the Gordon Riots in 18th century London."
+  },
+  {
+    "id": "tess_d_urbervilles",
+    "title": "Tess of the d'Urbervilles",
+    "author": "Thomas Hardy",
+    "category": "Tragedy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Tragic tale of a young woman's suffering and social injustice."
+  },
+  {
+    "id": "far_from_madding",
+    "title": "Far from the Madding Crowd",
+    "author": "Thomas Hardy",
+    "category": "Romance",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story of a woman managing farmland and navigating complex relationships."
+  },
+  {
+    "id": "mayor_casterbridge",
+    "title": "The Mayor of Casterbridge",
+    "author": "Thomas Hardy",
+    "category": "Tragedy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Tale of a man's rise and fall in Victorian England."
+  },
+  {
+    "id": "jude_obscure",
+    "title": "Jude the Obscure",
+    "author": "Thomas Hardy",
+    "category": "Tragedy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story of an impoverished man's unsuccessful quest for learning and love."
+  },
+  {
+    "id": "wood_beyond_world",
+    "title": "The Wood Beyond the World",
+    "author": "William Morris",
+    "category": "Fantasy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Early fantasy exploring a magical realm beyond the known world."
+  },
+  {
+    "id": "thirty_nine_steps",
+    "title": "The Thirty-Nine Steps",
+    "author": "John Buchan",
+    "category": "Thriller",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Action-packed espionage thriller across England and Scotland."
+  },
+  {
+    "id": "man_property",
+    "title": "The Man of Property",
+    "author": "John Galsworthy",
+    "category": "Social Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "First book of The Forsyte Saga exploring wealth and family."
+  },
+  {
+    "id": "lady_chatterley",
+    "title": "Lady Chatterley's Lover",
+    "author": "D.H. Lawrence",
+    "category": "Literary Romance",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Controversial novel exploring passion and class differences."
+  },
+  {
+    "id": "sons_lovers",
+    "title": "Sons and Lovers",
+    "author": "D.H. Lawrence",
+    "category": "Coming of Age",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Semi-autobiographical novel of a man's complex relationships."
+  },
+  {
+    "id": "ulysses",
+    "title": "Ulysses",
+    "author": "James Joyce",
+    "category": "Modernist",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Experimental modernist novel paralleling Homer's Odyssey in Dublin."
+  },
+  {
+    "id": "portrait_artist",
+    "title": "A Portrait of the Artist as a Young Man",
+    "author": "James Joyce",
+    "category": "Coming of Age",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Stream of consciousness novel following an artist's spiritual journey."
+  },
+  {
+    "id": "dubliners",
+    "title": "Dubliners",
+    "author": "James Joyce",
+    "category": "Short Stories",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Collection of stories depicting the lives of middle-class Dubliners."
+  },
+  {
+    "id": "virgin_in_garden",
+    "title": "The Virgin in the Garden",
+    "author": "A.S. Byatt",
+    "category": "Literary Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Novel set in 1950s England about art, academia and desire."
+  },
+  {
+    "id": "mrs_dalloway",
+    "title": "Mrs. Dalloway",
+    "author": "Virginia Woolf",
+    "category": "Modernist",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Stream of consciousness novel following a woman's day in post-war London."
+  },
+  {
+    "id": "to_lighthouse",
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "category": "Modernist",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Abstract novel exploring consciousness, time and human relationships."
+  },
+  {
+    "id": "orlando",
+    "title": "Orlando",
+    "author": "Virginia Woolf",
+    "category": "Fantasy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Experimental novel following a character who changes sex across centuries."
+  },
+  {
+    "id": "waves",
+    "title": "The Waves",
+    "author": "Virginia Woolf",
+    "category": "Modernist",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Poetic novel in monologues exploring consciousness and mortality."
+  },
+  {
+    "id": "animal_farm",
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "category": "Political Allegory",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Satirical allegory of the Russian Revolution and totalitarianism."
+  },
+  {
+    "id": "1984",
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "Dystopian",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Dystopian novel depicting a totalitarian future where freedom is suppressed."
+  },
+  {
+    "id": "brave_new_world",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "category": "Dystopian",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Futuristic dystopia exploring control through pleasure and technology."
+  },
+  {
+    "id": "point_counter_point",
+    "title": "Point Counter Point",
+    "author": "Aldous Huxley",
+    "category": "Literary Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Complex novel exploring multiple perspectives in modern society."
+  },
+  {
+    "id": "catcher_rye",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "category": "Coming of Age",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story of a teenage boy's three days in New York City questioning society."
+  },
+  {
+    "id": "sun_also_rises",
+    "title": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "category": "Literary Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Lost Generation tale set in Europe following WWI."
+  },
+  {
+    "id": "for_whom_bell_tolls",
+    "title": "For Whom the Bell Tolls",
+    "author": "Ernest Hemingway",
+    "category": "Historical",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Novel set during the Spanish Civil War exploring sacrifice and heroism."
+  },
+  {
+    "id": "old_man_sea",
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "category": "Novella",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story of an aging fisherman's struggle with a giant marlin."
+  },
+  {
+    "id": "grapes_wrath",
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "category": "Social Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Epic tale of the Joad family during the Great Depression in California."
+  },
+  {
+    "id": "east_eden",
+    "title": "East of Eden",
+    "author": "John Steinbeck",
+    "category": "Family Saga",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Multigenerational saga exploring good and evil in California history."
+  },
+  {
+    "id": "candles_burn",
+    "title": "The Candles Burn",
+    "author": "F. Scott Fitzgerald",
+    "category": "Literary Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story exploring ambition and the American Dream in the Jazz Age."
+  },
+  {
+    "id": "beautiful_damned",
+    "title": "The Beautiful and Damned",
+    "author": "F. Scott Fitzgerald",
+    "category": "Literary Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Novel of a wealthy couple's moral decline during the Jazz Age."
+  },
+  {
+    "id": "tender_night",
+    "title": "Tender is the Night",
+    "author": "F. Scott Fitzgerald",
+    "category": "Literary Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Story of a psychiatrist and his wife on the French Riviera."
+  },
+  {
+    "id": "meditations",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Stoic philosophical reflections written by a Roman Emperor."
+  },
+  {
+    "id": "thus_spoke_zara",
+    "title": "Thus Spoke Zarathustra",
+    "author": "Friedrich Nietzsche",
+    "category": "Philosophy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Philosophical fiction exploring concepts of the Übermensch and morality."
+  },
+  {
+    "id": "critique_pure_reason",
+    "title": "Critique of Pure Reason",
+    "author": "Immanuel Kant",
+    "category": "Philosophy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Fundamental work of epistemology exploring limits of human knowledge."
+  },
+  {
+    "id": "leviathan",
+    "title": "Leviathan",
+    "author": "Thomas Hobbes",
+    "category": "Political Philosophy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Political treatise on the nature of authority and social contract."
+  },
+  {
+    "id": "social_contract",
+    "title": "The Social Contract",
+    "author": "Jean-Jacques Rousseau",
+    "category": "Political Philosophy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Treatise on political legitimacy and the general will."
+  },
+  {
+    "id": "origin_species",
+    "title": "On the Origin of Species",
+    "author": "Charles Darwin",
+    "category": "Science",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Groundbreaking work introducing the theory of natural selection."
+  },
+  {
+    "id": "descent_man",
+    "title": "The Descent of Man",
+    "author": "Charles Darwin",
+    "category": "Science",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Darwin's exploration of human evolution and sexual selection."
+  },
+  {
+    "id": "decline_fall_roman",
+    "title": "The Decline and Fall of the Roman Empire",
+    "author": "Edward Gibbon",
+    "category": "History",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Masterwork of historical literature chronicling Rome's collapse."
+  },
+  {
+    "id": "phantom_opera",
+    "title": "The Phantom of the Opera",
+    "author": "Gaston Leroux",
+    "category": "Gothic",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Gothic novel of mystery and obsession in the Paris Opera House."
+  },
+  {
+    "id": "Count_Monte_Cristo",
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "category": "Adventure",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Epic adventure of escape, fortune and revenge."
+  },
+  {
+    "id": "three_musketeers",
+    "title": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "category": "Adventure",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Swashbuckling tale of friendship and adventure in 17th century France."
+  },
+  {
+    "id": "dumas_monte_complete",
+    "title": "The Man in the Iron Mask",
+    "author": "Alexandre Dumas",
+    "category": "Adventure",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Tale of a mysterious prisoner and royal intrigue in France."
+  },
+  {
+    "id": "vingt_ans_apres",
+    "title": "Twenty Years After",
+    "author": "Alexandre Dumas",
+    "category": "Adventure",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Sequel to The Three Musketeers following their adventures in middle age."
+  },
+  {
+    "id": "wrathful_god",
+    "title": "Wuthering Heights Extended",
+    "author": "Emily Brontë",
+    "category": "Gothic",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Complete edition of the dark tale of passion on the Yorkshire moors."
+  },
+  {
+    "id": "picture_dorian",
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "category": "Gothic",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Tale of beauty, corruption and the consequences of vanity."
+  },
+  {
+    "id": "importance_earnest",
+    "title": "The Importance of Being Earnest",
+    "author": "Oscar Wilde",
+    "category": "Comedy",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Witty comedy of manners and mistaken identities."
+  },
+  {
+    "id": "woman_no_importance",
+    "title": "A Woman of No Importance",
+    "author": "Oscar Wilde",
+    "category": "Drama",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Social drama exploring marriage, society and morality."
+  },
+  {
+    "id": "time_machine",
+    "title": "The Time Machine",
+    "author": "H.G. Wells",
+    "category": "Science Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Early science fiction exploring the future of humanity and class division."
+  },
+  {
+    "id": "island_doctor_moreau",
+    "title": "The Island of Doctor Moreau",
+    "author": "H.G. Wells",
+    "category": "Science Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Dark science fiction exploring ethics and the nature of humanity."
+  },
+  {
+    "id": "invisible_man",
+    "title": "The Invisible Man",
+    "author": "H.G. Wells",
+    "category": "Science Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Novel exploring power and corruption through invisibility."
+  },
+  {
+    "id": "war_worlds",
+    "title": "The War of the Worlds",
+    "author": "H.G. Wells",
+    "category": "Science Fiction",
+    "language": "English",
+    "cover": "covers/default.jpg",
+    "description": "Pioneering science fiction depicting an alien invasion of Earth."
+  }
 ]

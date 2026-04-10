@@ -168,6 +168,28 @@
             font-size: 3rem;
             color: white;
             object-fit: cover;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .book-cover.sanskrit {
+            background: linear-gradient(135deg, #8B4513 0%, #d4a574 100%);
+        }
+
+        .book-cover.hindi {
+            background: linear-gradient(135deg, #C41E3A 0%, #FF6B6B 100%);
+        }
+
+        .book-cover.english {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+        }
+
+        .book-cover.buddhist {
+            background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+        }
+
+        .book-cover.other {
+            background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
         }
 
         .book-info {
@@ -324,7 +346,7 @@
         <!-- Header -->
         <div class="page-header">
             <h1>📖 Browse Our Collection</h1>
-            <p>Discover thousands of free Creative Commons books in Sanskrit, Hindi, and English</p>
+            <p>Discover 223 free Creative Commons & Public Domain books in Sanskrit, Hindi, English and more</p>
         </div>
 
         <!-- Stats -->
@@ -345,10 +367,10 @@
 
         <!-- Filters -->
         <div class="filters">
-            <button class="filter-btn active" onclick="filterBooks('all')">📚 All Books</button>
-            <button class="filter-btn" onclick="filterBooks('Sanskrit')">संस्कृत Sanskrit</button>
-            <button class="filter-btn" onclick="filterBooks('Hindi')">हिंदी Hindi</button>
-            <button class="filter-btn" onclick="filterBooks('English')">English</button>
+            <button class="filter-btn active" onclick="filterBooks('all')" data-lang="all">📚 All Books</button>
+            <button class="filter-btn" onclick="filterBooks('Sanskrit')" data-lang="Sanskrit">📜 संस्कृत Sanskrit</button>
+            <button class="filter-btn" onclick="filterBooks('Hindi')" data-lang="Hindi">🇮🇳 हिंदी Hindi</button>
+            <button class="filter-btn" onclick="filterBooks('English')" data-lang="English">🇬🇧 English</button>
         </div>
 
         <!-- Books Grid -->
@@ -414,7 +436,7 @@
             document.querySelectorAll('.filter-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
-            event.target.classList.add('active');
+            document.querySelector(`[data-lang="${language}"]`).classList.add('active');
 
             // Filter
             if (language === 'all') {
@@ -423,6 +445,7 @@
                 filteredBooks = allBooks.filter(b => b.language === language);
             }
 
+            console.log(`📊 Filtered: ${filteredBooks.length} books in ${language}`);
             renderBooks();
         }
 
@@ -443,8 +466,11 @@
 
             container.innerHTML = filteredBooks.map(book => `
                 <div class="book-card">
-                    <div class="book-cover" title="${book.title}">
-                        ${getLanguageIcon(book.language)}
+                    <div class="book-cover ${getCoverClass(book.language)}" title="${book.title}">
+                        <div style="text-align: center;">
+                            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">${getLanguageIcon(book.language)}</div>
+                            <div style="font-size: 0.75rem; opacity: 0.9; font-weight: 600;">${book.language}</div>
+                        </div>
                     </div>
                     <div class="book-info">
                         <div class="book-title">${book.title}</div>
@@ -469,9 +495,22 @@
             const icons = {
                 'Sanskrit': '📜',
                 'Hindi': '🇮🇳',
-                'English': '🇬🇧'
+                'English': '🇬🇧',
+                'Buddhist Philosophy': '☸️',
+                'Jain': '⭐'
             };
             return icons[language] || '📚';
+        }
+
+        function getCoverClass(language) {
+            const langClass = {
+                'Sanskrit': 'sanskrit',
+                'Hindi': 'hindi',
+                'English': 'english',
+                'Buddhist Philosophy': 'buddhist',
+                'Jain': 'other'
+            };
+            return langClass[language] || 'other';
         }
 
         // Read book in new tab
@@ -485,7 +524,10 @@
         }
 
         // Initialize
-        document.addEventListener('DOMContentLoaded', loadBooks);
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('🚀 ReadEra loaded - Loading books...');
+            loadBooks();
+        });
     </script>
 </body>
 </html>

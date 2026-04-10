@@ -8,21 +8,35 @@ import os
 with open('books_data/index.json', 'r', encoding='utf-8') as f:
     books = json.load(f)
 
-# Sample text in different languages to vary content
+# Sample text in different languages to vary content - EXPANDED for 15,000+ words
 LOREM_PASSAGES = [
-    """The ancient wisdom contained in this text represents centuries of knowledge passed down through generations. The profound teachings explore the fundamental aspects of human existence and the nature of reality itself. Through careful study and contemplation, readers can gain deeper insights into the interconnected nature of all things.
-    
-Every word in this manuscript carries layers of meaning, inviting the reader to pause and reflect upon the deeper truths being conveyed. The author has woven together philosophy, storytelling, and practical wisdom to create a work that serves both the intellectual and spiritual needs of the reader.
-    
-The material presented here draws from a rich tradition of scholarship and lived experience. It encompasses both theoretical frameworks and practical applications, offering guidance that can be applied in everyday life. Many readers have found this text to be transformative, challenging their preconceptions and opening new avenues of understanding.""",
+    """The ancient wisdom contained in this text represents centuries of knowledge passed down through generations. The profound teachings explore the fundamental aspects of human existence and the nature of reality itself. Through careful study and contemplation, readers can gain deeper insights into the interconnected nature of all things. This work transcends the boundaries of simple narration, offering instead a comprehensive examination of life's most pressing questions.
+
+Every word in this manuscript carries layers of meaning, inviting the reader to pause and reflect upon the deeper truths being conveyed. The author has woven together philosophy, storytelling, and practical wisdom to create a work that serves both the intellectual and spiritual needs of the reader. Each chapter builds upon the previous, creating a coherent framework for understanding complex human experiences and universal principles.
+
+The material presented here draws from a rich tradition of scholarship and lived experience. It encompasses both theoretical frameworks and practical applications, offering guidance that can be applied in everyday life. Many readers have found this text to be transformative, challenging their preconceptions and opening new avenues of understanding. The intersections between history, philosophy, and human nature are explored with nuance and depth.
+
+Throughout these pages, you will encounter discussions of timeless themes that have captivated human minds for millennia. Questions of meaning, purpose, love, suffering, and transcendence are examined through multiple lenses. The author draws upon diverse philosophical traditions, historical examples, and personal observations to construct arguments that both challenge and illuminate.
+
+The structure of this work is deliberately designed to encourage reflection. Rather than presenting conclusions, it often poses questions that invite the reader to develop their own understanding. This dialogical approach honors both the author's wisdom and the reader's capacity for independent thought. In reading these words, you become a participant in an ongoing conversation about what it means to be human.
+
+Consider the implications of the teachings presented here for your own life. How might these insights transform your daily practices, relationships, and long-term goals? The value of any philosophical work lies not merely in its intellectual content, but in its capacity to inspire meaningful change. This text offers both inspiration and practical frameworks for such transformation.
+
+As you proceed through these chapters, allow yourself to be challenged, comforted, and occasionally unsettled. The most significant growth often emerges from periods of cognitive dissonance, when our established beliefs encounter genuine alternatives. This text is designed not to provide easy answers, but to deepen your questions and expand your capacity for wisdom.
+
+The interplay between tradition and innovation is a central concern throughout this work. How do we honor the insights of previous generations while remaining open to new understanding? This balance between preservation and evolution reflects a fundamental challenge of human culture and individual development.
+
+Furthermore, this manuscript explores the relationship between knowledge and practice. Understanding alone, however profound, remains incomplete without manifestation in one's life. The integration of wisdom into daily action represents the ultimate goal and measure of success in any philosophical endeavor.
+
+In the end, this work aims not at the accumulation of information, but at the transformation of consciousness. The goal is not mere intellectual comprehension, but deep understanding that reshapes how we perceive, think, feel, and act. This is the true purpose of philosophy in its highest sense.""",
     
     """यह प्राचीन ज्ञान परंपरा सदियों से संरक्षित रहा है और आज भी उतना ही प्रासंगिक है। पाठकों को इस ग्रंथ में आत्मचिंतन, दर्शन और जीवन के गहरे सत्य मिलेंगे। लेखक ने अपनी अनुभव से प्राप्त ज्ञान को सरल किंतु गहन भाषा में प्रस्तुत किया है।
 
 यह पुस्तक केवल पढ़ने के लिए नहीं है, बल्कि अध्ययन और मनन के लिए रचित की गई है। प्रत्येक अध्याय में नए विचार और नई दृष्टि निहित है। पाठक इसे अपने जीवन में लागू कर सकते हैं और अपने अनुभव को समृद्ध कर सकते हैं।
 
-इस कृति का महत्व इसके विषय की गहराई और प्रस्तुति की स्पष्टता में निहित है। प्राचीन और आधुनिक दोनों विचारों का एक सुंदर संमिश्रण यहाँ देखने को मिलता है।""",
+इस कृति का महत्व इसके विषय की गहराई और प्रस्तुति की स्पष्टता में निहित है। प्राचीन और आधुनिक दोनों विचारों का एक सुंदर संमिश्रण यहाँ देखने को मिलता है। मानव जीवन की जटिलताओं को समझने के लिए हमें विभिन्न दृष्टिकोणों से सोचना चाहिए। इस पुस्तक में प्रस्तुत सिद्धांत न केवल वैचारिक हैं, बल्कि व्यावहारिक भी हैं। पाठक इन्हें अपने दैनंदिन जीवन में लागू कर सकते हैं और उनके परिणाम देख सकते हैं। जीवन के प्रत्येक क्षेत्र में ये सिद्धांत प्रासंगिक हैं।""",
     
-    """This treatise represents the accumulated knowledge of a distinguished scholar who dedicated their life to understanding the fundamental principles under discussion. The comprehensive examination of the subject matter provides both historical context and contemporary relevance. Through careful analysis and thoughtful observation, the author has created a resource that serves multiple levels of readership.""",
+    """This treatise represents the accumulated knowledge of a distinguished scholar who dedicated their life to understanding the fundamental principles under discussion. The comprehensive examination of the subject matter provides both historical context and contemporary relevance. Through careful analysis and thoughtful observation, the author has created a resource that serves multiple levels of readership. The work combines rigorous scholarship with accessible prose, making complex ideas understandable to educated readers across disciplines. The evolution of thought through history is explored, showing how ideas develop and transform across centuries. This genealogy of concepts helps readers understand not just what we know, but how we came to know it. The author demonstrates unusual skill in connecting disparate fields of knowledge into a coherent whole.""",
 ]
 
 def generate_extended_content(book):

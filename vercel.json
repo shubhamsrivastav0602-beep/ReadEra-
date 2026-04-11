@@ -1,50 +1,36 @@
 {
-  "buildCommand": "echo 'No build needed'",
+  "version": 2,
+  "buildCommand": "echo 'Static site - no build needed'",
   "outputDirectory": ".",
-  "headers": [
-    {
-      "source": "/summaries/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, s-maxage=3600"
-        }
-      ]
-    },
-    {
-      "source": "/public/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, s-maxage=3600"
-        }
-      ]
-    }
-  ],
+  "public": true,
   "rewrites": [
     {
       "source": "/api/(.*)",
       "destination": "/api/index.py"
     },
     {
+      "source": "/(.*\\.html)$",
+      "destination": "/$1"
+    },
+    {
+      "source": "/(.*\\.json)$",
+      "destination": "/$1"
+    },
+    {
+      "source": "/(.*\\.md)$",
+      "destination": "/$1"
+    },
+    {
       "source": "/summaries/(.*)",
       "destination": "/summaries/$1"
     },
     {
+      "source": "/books_data/(.*)",
+      "destination": "/books_data/$1"
+    },
+    {
       "source": "/public/(.*)",
       "destination": "/public/$1"
-    },
-    {
-      "source": "/(.*\\.html)",
-      "destination": "/$1"
-    },
-    {
-      "source": "/(.*\\.json)",
-      "destination": "/$1"
-    },
-    {
-      "source": "/(.*\\.md)",
-      "destination": "/$1"
     },
     {
       "source": "/(.*)",

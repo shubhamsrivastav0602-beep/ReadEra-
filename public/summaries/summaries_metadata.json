@@ -1,0 +1,608 @@
+{
+  "01 Anne Frank": {
+    "id": "01_anne_frank",
+    "category": "Biography_Autobiography",
+    "word_count": 586,
+    "path": "Biography_Autobiography/01_Anne_Frank.md"
+  },
+  "02 Long Walk to Freedom": {
+    "id": "02_long_walk_to_freedom",
+    "category": "Biography",
+    "word_count": 588,
+    "path": "Biography/02_Long_Walk_to_Freedom.md"
+  },
+  "03 Steve Jobs": {
+    "id": "03_steve_jobs",
+    "category": "Biography",
+    "word_count": 625,
+    "path": "Biography/03_Steve_Jobs.md"
+  },
+  "04 Becoming": {
+    "id": "04_becoming",
+    "category": "Biography",
+    "word_count": 687,
+    "path": "Biography/04_Becoming.md"
+  },
+  "05 Born a Crime": {
+    "id": "05_born_a_crime",
+    "category": "Biography",
+    "word_count": 679,
+    "path": "Biography/05_Born_a_Crime.md"
+  },
+  "06 I Am Malala": {
+    "id": "06_i_am_malala",
+    "category": "Biography",
+    "word_count": 693,
+    "path": "Biography/06_I_Am_Malala.md"
+  },
+  "07 Open": {
+    "id": "07_open",
+    "category": "Biography",
+    "word_count": 678,
+    "path": "Biography/07_Open.md"
+  },
+  "08 Shoe Dog": {
+    "id": "08_shoe_dog",
+    "category": "Biography",
+    "word_count": 684,
+    "path": "Biography/08_Shoe_Dog.md"
+  },
+  "09 Churchill A Life": {
+    "id": "09_churchill_a_life",
+    "category": "Biography",
+    "word_count": 628,
+    "path": "Biography/09_Churchill_A_Life.md"
+  },
+  "10 Leonardo da Vinci": {
+    "id": "10_leonardo_da_vinci",
+    "category": "Biography",
+    "word_count": 674,
+    "path": "Biography/10_Leonardo_da_Vinci.md"
+  },
+  "01 Godan": {
+    "id": "01_godan",
+    "category": "Classic_Hindi",
+    "word_count": 671,
+    "path": "Classic_Hindi/01_Godan.md"
+  },
+  "02 Mansarovar": {
+    "id": "02_mansarovar",
+    "category": "Classic_Hindi",
+    "word_count": 628,
+    "path": "Classic_Hindi/02_Mansarovar.md"
+  },
+  "03 Raag Darbari": {
+    "id": "03_raag_darbari",
+    "category": "Classic_Hindi",
+    "word_count": 667,
+    "path": "Classic_Hindi/03_Raag_Darbari.md"
+  },
+  "04 Kitne Pakistan": {
+    "id": "04_kitne_pakistan",
+    "category": "Classic_Hindi",
+    "word_count": 641,
+    "path": "Classic_Hindi/04_Kitne_Pakistan.md"
+  },
+  "05 Madhushala": {
+    "id": "05_madhushala",
+    "category": "Classic_Hindi",
+    "word_count": 620,
+    "path": "Classic_Hindi/05_Madhushala.md"
+  },
+  "06 Kamayani": {
+    "id": "06_kamayani",
+    "category": "Classic_Hindi",
+    "word_count": 662,
+    "path": "Classic_Hindi/06_Kamayani.md"
+  },
+  "07 Chitralekha": {
+    "id": "07_chitralekha",
+    "category": "Classic_Hindi",
+    "word_count": 630,
+    "path": "Classic_Hindi/07_Chitralekha.md"
+  },
+  "08 Shekhar Ek Jivani": {
+    "id": "08_shekhar_ek_jivani",
+    "category": "Classic_Hindi",
+    "word_count": 663,
+    "path": "Classic_Hindi/08_Shekhar_Ek_Jivani.md"
+  },
+  "09 Maila Anchal": {
+    "id": "09_maila_anchal",
+    "category": "Classic_Hindi",
+    "word_count": 680,
+    "path": "Classic_Hindi/09_Maila_Anchal.md"
+  },
+  "10 Gunahon Ka Devta": {
+    "id": "10_gunahon_ka_devta",
+    "category": "Classic_Hindi",
+    "word_count": 646,
+    "path": "Classic_Hindi/10_Gunahon_Ka_Devta.md"
+  },
+  "01 To Kill a Mockingbird": {
+    "id": "01_to_kill_a_mockingbird",
+    "category": "Fiction",
+    "word_count": 690,
+    "path": "Fiction/01_To_Kill_a_Mockingbird.md"
+  },
+  "02 The Great Gatsby": {
+    "id": "02_the_great_gatsby",
+    "category": "Fiction",
+    "word_count": 601,
+    "path": "Fiction/02_The_Great_Gatsby.md"
+  },
+  "03 Moby Dick": {
+    "id": "03_moby_dick",
+    "category": "Fiction",
+    "word_count": 597,
+    "path": "Fiction/03_Moby_Dick.md"
+  },
+  "04 War and Peace": {
+    "id": "04_war_and_peace",
+    "category": "Fiction",
+    "word_count": 616,
+    "path": "Fiction/04_War_and_Peace.md"
+  },
+  "05 The Catcher in the Rye": {
+    "id": "05_the_catcher_in_the_rye",
+    "category": "Fiction",
+    "word_count": 606,
+    "path": "Fiction/05_The_Catcher_in_the_Rye.md"
+  },
+  "06 100 Years of Solitude": {
+    "id": "06_100_years_of_solitude",
+    "category": "Fiction",
+    "word_count": 645,
+    "path": "Fiction/06_100_Years_of_Solitude.md"
+  },
+  "07 To Kill a Mockingbird": {
+    "id": "07_to_kill_a_mockingbird",
+    "category": "Fiction",
+    "word_count": 720,
+    "path": "Fiction/07_To_Kill_a_Mockingbird.md"
+  },
+  "08 Brave New World": {
+    "id": "08_brave_new_world",
+    "category": "Fiction",
+    "word_count": 616,
+    "path": "Fiction/08_Brave_New_World.md"
+  },
+  "09 The Alchemist": {
+    "id": "09_the_alchemist",
+    "category": "Fiction",
+    "word_count": 624,
+    "path": "Fiction/09_The_Alchemist.md"
+  },
+  "10 The Little Prince": {
+    "id": "10_the_little_prince",
+    "category": "Fiction",
+    "word_count": 648,
+    "path": "Fiction/10_The_Little_Prince.md"
+  },
+  "01 Rich Dad Poor Dad": {
+    "id": "01_rich_dad_poor_dad",
+    "category": "Finance",
+    "word_count": 665,
+    "path": "Finance/01_Rich_Dad_Poor_Dad.md"
+  },
+  "02 The Intelligent Investor": {
+    "id": "02_the_intelligent_investor",
+    "category": "Finance",
+    "word_count": 558,
+    "path": "Finance/02_The_Intelligent_Investor.md"
+  },
+  "03 The Psychology of Money": {
+    "id": "03_the_psychology_of_money",
+    "category": "Finance",
+    "word_count": 577,
+    "path": "Finance/03_The_Psychology_of_Money.md"
+  },
+  "04 I Will Teach You to Be Rich": {
+    "id": "04_i_will_teach_you_to_be_rich",
+    "category": "Finance",
+    "word_count": 555,
+    "path": "Finance/04_I_Will_Teach_You_to_Be_Rich.md"
+  },
+  "05 Your Money or Your Life": {
+    "id": "05_your_money_or_your_life",
+    "category": "Finance",
+    "word_count": 571,
+    "path": "Finance/05_Your_Money_or_Your_Life.md"
+  },
+  "06 The Millionaire Next Door": {
+    "id": "06_the_millionaire_next_door",
+    "category": "Finance",
+    "word_count": 632,
+    "path": "Finance/06_The_Millionaire_Next_Door.md"
+  },
+  "07 Think and Grow Rich": {
+    "id": "07_think_and_grow_rich",
+    "category": "Finance",
+    "word_count": 629,
+    "path": "Finance/07_Think_and_Grow_Rich.md"
+  },
+  "08 The Little Book of Common Sense Investing": {
+    "id": "08_the_little_book_of_common_sense_investing",
+    "category": "Finance",
+    "word_count": 597,
+    "path": "Finance/08_The_Little_Book_of_Common_Sense_Investing.md"
+  },
+  "09 Principles": {
+    "id": "09_principles",
+    "category": "Finance",
+    "word_count": 645,
+    "path": "Finance/09_Principles.md"
+  },
+  "10 One Up on Wall Street": {
+    "id": "10_one_up_on_wall_street",
+    "category": "Finance",
+    "word_count": 719,
+    "path": "Finance/10_One_Up_on_Wall_Street.md"
+  },
+  "01 Sapiens": {
+    "id": "01_sapiens",
+    "category": "Non-Fiction",
+    "word_count": 698,
+    "path": "Non-Fiction/01_Sapiens.md"
+  },
+  "02 Educated": {
+    "id": "02_educated",
+    "category": "Non-Fiction",
+    "word_count": 613,
+    "path": "Non-Fiction/02_Educated.md"
+  },
+  "03 The Year of Magical Thinking": {
+    "id": "03_the_year_of_magical_thinking",
+    "category": "Non-Fiction",
+    "word_count": 549,
+    "path": "Non-Fiction/03_The_Year_of_Magical_Thinking.md"
+  },
+  "04 Between the World and Me": {
+    "id": "04_between_the_world_and_me",
+    "category": "Non-Fiction",
+    "word_count": 591,
+    "path": "Non-Fiction/04_Between_the_World_and_Me.md"
+  },
+  "05 Evicted": {
+    "id": "05_evicted",
+    "category": "Non-Fiction",
+    "word_count": 556,
+    "path": "Non-Fiction/05_Evicted.md"
+  },
+  "06 Quiet": {
+    "id": "06_quiet",
+    "category": "Non-Fiction",
+    "word_count": 546,
+    "path": "Non-Fiction/06_Quiet.md"
+  },
+  "07 The Sixth Extinction": {
+    "id": "07_the_sixth_extinction",
+    "category": "Non-Fiction",
+    "word_count": 590,
+    "path": "Non-Fiction/07_The_Sixth_Extinction.md"
+  },
+  "08 The Immortal Life of Henrietta Lacks": {
+    "id": "08_the_immortal_life_of_henrietta_lacks",
+    "category": "Non-Fiction",
+    "word_count": 626,
+    "path": "Non-Fiction/08_The_Immortal_Life_of_Henrietta_Lacks.md"
+  },
+  "09 Behind the Beautiful Forevers": {
+    "id": "09_behind_the_beautiful_forevers",
+    "category": "Non-Fiction",
+    "word_count": 697,
+    "path": "Non-Fiction/09_Behind_the_Beautiful_Forevers.md"
+  },
+  "10 Guns Germs and Steel": {
+    "id": "10_guns_germs_and_steel",
+    "category": "Non-Fiction",
+    "word_count": 677,
+    "path": "Non-Fiction/10_Guns_Germs_and_Steel.md"
+  },
+  "01 The Bible": {
+    "id": "01_the_bible",
+    "category": "Religious_Spiritual",
+    "word_count": 573,
+    "path": "Religious_Spiritual/01_The_Bible.md"
+  },
+  "02 Mere Christianity": {
+    "id": "02_mere_christianity",
+    "category": "Religious_Spiritual",
+    "word_count": 1069,
+    "path": "Religious_Spiritual/02_Mere_Christianity.md"
+  },
+  "02 The Bhagavad Gita": {
+    "id": "02_the_bhagavad_gita",
+    "category": "Religious_Spiritual",
+    "word_count": 755,
+    "path": "Religious_Spiritual/02_The_Bhagavad_Gita.md"
+  },
+  "03 Tao Te Ching": {
+    "id": "03_tao_te_ching",
+    "category": "Religious_Spiritual",
+    "word_count": 609,
+    "path": "Religious_Spiritual/03_Tao_Te_Ching.md"
+  },
+  "04 Mere Christianity": {
+    "id": "04_mere_christianity",
+    "category": "Religious_Spiritual",
+    "word_count": 628,
+    "path": "Religious_Spiritual/04_Mere_Christianity.md"
+  },
+  "05 The Pilgrim s Progress": {
+    "id": "05_the_pilgrim_s_progress",
+    "category": "Religious_Spiritual",
+    "word_count": 643,
+    "path": "Religious_Spiritual/05_The_Pilgrim_s_Progress.md"
+  },
+  "06 The Prophet": {
+    "id": "06_the_prophet",
+    "category": "Religious_Spiritual",
+    "word_count": 618,
+    "path": "Religious_Spiritual/06_The_Prophet.md"
+  },
+  "07 Siddhartha": {
+    "id": "07_siddhartha",
+    "category": "Religious_Spiritual",
+    "word_count": 626,
+    "path": "Religious_Spiritual/07_Siddhartha.md"
+  },
+  "08 Meditations": {
+    "id": "08_meditations",
+    "category": "Religious_Spiritual",
+    "word_count": 650,
+    "path": "Religious_Spiritual/08_Meditations.md"
+  },
+  "09 The Book of Joy": {
+    "id": "09_the_book_of_joy",
+    "category": "Religious_Spiritual",
+    "word_count": 675,
+    "path": "Religious_Spiritual/09_The_Book_of_Joy.md"
+  },
+  "10 The Art of Happiness": {
+    "id": "10_the_art_of_happiness",
+    "category": "Religious_Spiritual",
+    "word_count": 637,
+    "path": "Religious_Spiritual/10_The_Art_of_Happiness.md"
+  },
+  "01 Pride and Prejudice": {
+    "id": "01_pride_and_prejudice",
+    "category": "Romance",
+    "word_count": 796,
+    "path": "Romance/01_Pride_and_Prejudice.md"
+  },
+  "02 Outlander": {
+    "id": "02_outlander",
+    "category": "Romance",
+    "word_count": 606,
+    "path": "Romance/02_Outlander.md"
+  },
+  "03 Jane Eyre": {
+    "id": "03_jane_eyre",
+    "category": "Romance",
+    "word_count": 584,
+    "path": "Romance/03_Jane_Eyre.md"
+  },
+  "04 Gone with the Wind": {
+    "id": "04_gone_with_the_wind",
+    "category": "Romance",
+    "word_count": 685,
+    "path": "Romance/04_Gone_with_the_Wind.md"
+  },
+  "05 The Notebook": {
+    "id": "05_the_notebook",
+    "category": "Romance",
+    "word_count": 669,
+    "path": "Romance/05_The_Notebook.md"
+  },
+  "06 Me Before You": {
+    "id": "06_me_before_you",
+    "category": "Romance",
+    "word_count": 647,
+    "path": "Romance/06_Me_Before_You.md"
+  },
+  "07 The Fault in Our Stars": {
+    "id": "07_the_fault_in_our_stars",
+    "category": "Romance",
+    "word_count": 636,
+    "path": "Romance/07_The_Fault_in_Our_Stars.md"
+  },
+  "08 The Hating Game": {
+    "id": "08_the_hating_game",
+    "category": "Romance",
+    "word_count": 640,
+    "path": "Romance/08_The_Hating_Game.md"
+  },
+  "09 It Ends with Us": {
+    "id": "09_it_ends_with_us",
+    "category": "Romance",
+    "word_count": 660,
+    "path": "Romance/09_It_Ends_with_Us.md"
+  },
+  "10 Beautiful Disaster": {
+    "id": "10_beautiful_disaster",
+    "category": "Romance",
+    "word_count": 637,
+    "path": "Romance/10_Beautiful_Disaster.md"
+  },
+  "01 Dune": {
+    "id": "01_dune",
+    "category": "Sci-Fi",
+    "word_count": 808,
+    "path": "Sci-Fi/01_Dune.md"
+  },
+  "02 Foundation": {
+    "id": "02_foundation",
+    "category": "Sci-Fi",
+    "word_count": 577,
+    "path": "Sci-Fi/02_Foundation.md"
+  },
+  "03 1984": {
+    "id": "03_1984",
+    "category": "Sci-Fi",
+    "word_count": 567,
+    "path": "Sci-Fi/03_1984.md"
+  },
+  "04 Brave New World": {
+    "id": "04_brave_new_world",
+    "category": "Sci-Fi",
+    "word_count": 617,
+    "path": "Sci-Fi/04_Brave_New_World.md"
+  },
+  "05 Neuromancer": {
+    "id": "05_neuromancer",
+    "category": "Sci-Fi",
+    "word_count": 624,
+    "path": "Sci-Fi/05_Neuromancer.md"
+  },
+  "06 The Martian": {
+    "id": "06_the_martian",
+    "category": "Sci-Fi",
+    "word_count": 554,
+    "path": "Sci-Fi/06_The_Martian.md"
+  },
+  "07 Snow Crash": {
+    "id": "07_snow_crash",
+    "category": "Sci-Fi",
+    "word_count": 639,
+    "path": "Sci-Fi/07_Snow_Crash.md"
+  },
+  "08 The Left Hand of Darkness": {
+    "id": "08_the_left_hand_of_darkness",
+    "category": "Sci-Fi",
+    "word_count": 665,
+    "path": "Sci-Fi/08_The_Left_Hand_of_Darkness.md"
+  },
+  "09 Hyperion": {
+    "id": "09_hyperion",
+    "category": "Sci-Fi",
+    "word_count": 670,
+    "path": "Sci-Fi/09_Hyperion.md"
+  },
+  "10 Ender s Game": {
+    "id": "10_ender_s_game",
+    "category": "Sci-Fi",
+    "word_count": 631,
+    "path": "Sci-Fi/10_Ender_s_Game.md"
+  },
+  "01 Atomic Habits": {
+    "id": "01_atomic_habits",
+    "category": "Self-Help",
+    "word_count": 747,
+    "path": "Self-Help/01_Atomic_Habits.md"
+  },
+  "02 The 7 Habits of Highly Effective People": {
+    "id": "02_the_7_habits_of_highly_effective_people",
+    "category": "Self-Help",
+    "word_count": 542,
+    "path": "Self-Help/02_The_7_Habits_of_Highly_Effective_People.md"
+  },
+  "03 How to Win Friends and Influence People": {
+    "id": "03_how_to_win_friends_and_influence_people",
+    "category": "Self-Help",
+    "word_count": 566,
+    "path": "Self-Help/03_How_to_Win_Friends_and_Influence_People.md"
+  },
+  "04 Thinking Fast and Slow": {
+    "id": "04_thinking_fast_and_slow",
+    "category": "Self-Help",
+    "word_count": 589,
+    "path": "Self-Help/04_Thinking_Fast_and_Slow.md"
+  },
+  "05 Daring Greatly": {
+    "id": "05_daring_greatly",
+    "category": "Self-Help",
+    "word_count": 559,
+    "path": "Self-Help/05_Daring_Greatly.md"
+  },
+  "06 The Power of Now": {
+    "id": "06_the_power_of_now",
+    "category": "Self-Help",
+    "word_count": 652,
+    "path": "Self-Help/06_The_Power_of_Now.md"
+  },
+  "07 Man s Search for Meaning": {
+    "id": "07_man_s_search_for_meaning",
+    "category": "Self-Help",
+    "word_count": 716,
+    "path": "Self-Help/07_Man_s_Search_for_Meaning.md"
+  },
+  "08 The 4 Hour Workweek": {
+    "id": "08_the_4_hour_workweek",
+    "category": "Self-Help",
+    "word_count": 671,
+    "path": "Self-Help/08_The_4_Hour_Workweek.md"
+  },
+  "09 Can t Hurt Me": {
+    "id": "09_can_t_hurt_me",
+    "category": "Self-Help",
+    "word_count": 641,
+    "path": "Self-Help/09_Can_t_Hurt_Me.md"
+  },
+  "10 Deep Work": {
+    "id": "10_deep_work",
+    "category": "Self-Help",
+    "word_count": 623,
+    "path": "Self-Help/10_Deep_Work.md"
+  },
+  "01 The Pragmatic Programmer": {
+    "id": "01_the_pragmatic_programmer",
+    "category": "Tech_Programming",
+    "word_count": 473,
+    "path": "Tech_Programming/01_The_Pragmatic_Programmer.md"
+  },
+  "02 Clean Code": {
+    "id": "02_clean_code",
+    "category": "Tech_Programming",
+    "word_count": 559,
+    "path": "Tech_Programming/02_Clean_Code.md"
+  },
+  "03 The Mythical Man Month": {
+    "id": "03_the_mythical_man_month",
+    "category": "Tech_Programming",
+    "word_count": 523,
+    "path": "Tech_Programming/03_The_Mythical_Man_Month.md"
+  },
+  "04 Design Patterns": {
+    "id": "04_design_patterns",
+    "category": "Tech_Programming",
+    "word_count": 549,
+    "path": "Tech_Programming/04_Design_Patterns.md"
+  },
+  "05 Refactoring": {
+    "id": "05_refactoring",
+    "category": "Tech_Programming",
+    "word_count": 539,
+    "path": "Tech_Programming/05_Refactoring.md"
+  },
+  "06 Code Complete": {
+    "id": "06_code_complete",
+    "category": "Tech_Programming",
+    "word_count": 601,
+    "path": "Tech_Programming/06_Code_Complete.md"
+  },
+  "07 Introduction to Algorithms": {
+    "id": "07_introduction_to_algorithms",
+    "category": "Tech_Programming",
+    "word_count": 623,
+    "path": "Tech_Programming/07_Introduction_to_Algorithms.md"
+  },
+  "08 Structure and Interpretation of Computer Programs": {
+    "id": "08_structure_and_interpretation_of_computer_programs",
+    "category": "Tech_Programming",
+    "word_count": 638,
+    "path": "Tech_Programming/08_Structure_and_Interpretation_of_Computer_Programs.md"
+  },
+  "09 Modern Operating Systems": {
+    "id": "09_modern_operating_systems",
+    "category": "Tech_Programming",
+    "word_count": 603,
+    "path": "Tech_Programming/09_Modern_Operating_Systems.md"
+  },
+  "10 The Art of Computer Programming": {
+    "id": "10_the_art_of_computer_programming",
+    "category": "Tech_Programming",
+    "word_count": 620,
+    "path": "Tech_Programming/10_The_Art_of_Computer_Programming.md"
+  }
+}

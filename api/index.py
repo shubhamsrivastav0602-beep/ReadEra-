@@ -320,6 +320,106 @@ def get_google_books_cover(book_title):
             'success': False
         }), 200
 
+# ============================================
+# SUMMARIES ENDPOINTS
+# ============================================
+
+SUMMARIES_PATH = os.path.join(project_root, 'public', 'summaries', 'all_summaries.json')
+SUMMARIES_METADATA_PATH = os.path.join(project_root, 'public', 'summaries', 'summaries_metadata.json')
+
+def load_summaries_data():
+    """Load all summaries from JSON file"""
+    try:
+        with open(SUMMARIES_PATH, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except:
+        return {}
+
+def load_summaries_metadata():
+    """Load summaries metadata"""
+    try:
+        with open(SUMMARIES_METADATA_PATH, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except:
+        return {}
+
+@app.route('/api/summaries/metadata', methods=['GET'])
+def get_summaries_metadata():
+    """Get metadata for all summaries"""
+    try:
+        metadata = load_summaries_metadata()
+        return jsonify({
+            'success': True,
+            'summaries': metadata,
+            'total': len(metadata)
+        }), 200
+    except Exception as e:
+        return jsonify({'error': str(e), 'success': False}), 500
+
+@app.route('/api/summaries/<book_title>', methods=['GET'])
+def get_summary_by_title(book_title):
+    """Get full summary content for a specific book"""
+    try:
+        # Decode URL-encoded title
+        import urllib.parse
+        decoded_title = urllib.parse.unquote(book_title)
+        
+        summaries = load_summaries_data()
+        summary = summaries.get(decoded_title)
+        
+        if summary:
+            return jsonify({
+                'success': True,
+                'summary': summary,
+                'found': True
+            }), 200
+        else:
+            return jsonify({
+                'success': True,
+                'summary': None,
+                'found': False,
+                'message': f'Summary not found for: {decoded_title}'
+            }), 404
+    except Exception as e:
+        return jsonify({'error': str(e), 'success': False}), 500
+
+@app.route('/api/summaries/search', methods=['GET'])
+def search_summaries():
+    """Search summaries by keyword or category"""
+    try:
+        query = request.args.get('q', '').lower()
+        category = request.args.get('category', '').lower()
+        
+        summaries = load_summaries_data()
+        results = []
+        
+        for title, summary_data in summaries.items():
+            # Check if summary matches filters
+            matches_query = (not query or 
+                           query in title.lower() or
+                           query in summary_data.get('category', '').lower() or
+                           query in summary_data.get('content', '').lower())
+            
+            matches_category = (not category or
+                              summary_data.get('category', '').lower() == category)
+            
+            if matches_query and matches_category:
+                # Return metadata only, not full content for search results
+                results.append({
+                    'title': title,
+                    'id': summary_data.get('id'),
+                    'category': summary_data.get('category'),
+                    'word_count': summary_data.get('word_count')
+                })
+        
+        return jsonify({
+            'success': True,
+            'results': results,
+            'total': len(results)
+        }), 200
+    except Exception as e:
+        return jsonify({'error': str(e), 'success': False}), 500
+
 # Health check
 @app.route('/api/health', methods=['GET'])
 def health():

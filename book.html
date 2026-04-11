@@ -651,16 +651,50 @@
                     throw new Error('Book not found');
                 }
 
-                const contentResponse = await fetch(`books_data/${bookId}.txt`);
-                if (!contentResponse.ok) {
-                    throw new Error('Content file not found');
+                // Check if this is a summary book
+                if (currentBook.is_summary) {
+                    // Load summary from mapping
+                    const mappingResponse = await fetch('summaries/mapping.json');
+                    const mapping = await mappingResponse.json();
+                    
+                    const summaryPath = mapping[bookId] || mapping[`02_${bookId}`];
+                    if (!summaryPath) {
+                        throw new Error('Summary mapping not found');
+                    }
+                    
+                    const summaryResp = await fetch(summaryPath);
+                    if (!summaryResp.ok) {
+                        throw new Error('Summary file not found');
+                    }
+                    
+                    // Load as markdown and display
+                    const mdContent = await summaryResp.text();
+                    summaryMd = mdContent;
+                    document.getElementById('summaryBtn').style.display = 'flex';
+                    
+                    // Use summary content directly
+                    bookContent = mdContent.replace(/<[^>]*>/g, '').substring(0, 5000);
+                    totalPages = 1;
+                    
+                    // Auto-show summary for summary books
+                    toggleSummary();
+                } else {
+                    // Load regular book from txt file
+                    const contentResponse = await fetch(`books_data/${bookId}.txt`);
+                    if (!contentResponse.ok) {
+                        throw new Error('Content file not found');
+                    }
+                    bookContent = await contentResponse.text();
+                    totalPages = Math.ceil(bookContent.length / CHARS_PER_PAGE);
+                    
+                    // Check for summary
+                    await checkForSummary();
                 }
 
-                bookContent = await contentResponse.text();
-                totalPages = Math.ceil(bookContent.length / CHARS_PER_PAGE);
-
                 updateBookInfo();
-                renderPage();
+                if (!currentBook.is_summary) {
+                    renderPage();
+                }
                 
                 document.getElementById('loadingState').style.display = 'none';
                 document.getElementById('bookReader').style.display = 'block';

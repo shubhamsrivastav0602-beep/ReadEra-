@@ -430,14 +430,15 @@
         // Load books and covers
         async function loadBooks() {
             try {
-                console.log("Loading books from books_data/index.json...");
-                const response = await fetch('books_data/index.json');
+                console.log("Loading books from API...");
+                const response = await fetch('/api/books?limit=1000');
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 
-                allBooks = await response.json();
+                const data = await response.json();
+                allBooks = data.books || [];
                 console.log("✅ Loaded", allBooks.length, "books");
                 
                 // Load covers

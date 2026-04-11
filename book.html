@@ -643,8 +643,17 @@
 
         async function loadBook() {
             try {
-                const booksResponse = await fetch('books_data/index.json');
-                const books = await booksResponse.json();
+                // Try API first, fall back to direct file
+                let books;
+                try {
+                    const apiResponse = await fetch('/api/books?limit=1000');
+                    const apiData = await apiResponse.json();
+                    books = apiData.books || [];
+                } catch (e) {
+                    // Fall back to direct fetch
+                    const booksResponse = await fetch('books_data/index.json');
+                    books = await booksResponse.json();
+                }
                 
                 currentBook = books.find(b => b.id === bookId);
                 if (!currentBook) {

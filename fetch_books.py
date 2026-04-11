@@ -290,7 +290,7 @@ class BookManager:
         // Load books data
         async function loadBooks() {
             try {
-                const response = await fetch('/books_data/index.json');
+                const response = await fetch('books_data/index.json');
                 allBooks = await response.json();
                 renderBooks(allBooks);
             } catch (error) {

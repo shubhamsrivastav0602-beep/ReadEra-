@@ -1,17 +1,49 @@
 {
-  "buildCommand": "pip install -r requirements.txt",
-  "outputDirectory": "public",
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/summaries/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=3600"
+        }
+      ]
+    },
+    {
+      "source": "/public/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=3600"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/(.*)",
       "destination": "/api/index.py"
     },
     {
+      "source": "/summaries/(.*)",
+      "destination": "/summaries/$1"
+    },
+    {
       "source": "/public/(.*)",
       "destination": "/public/$1"
     },
     {
-      "source": "/(.*\\..*)",
+      "source": "/(.*\\.html)",
+      "destination": "/$1"
+    },
+    {
+      "source": "/(.*\\.json)",
+      "destination": "/$1"
+    },
+    {
+      "source": "/(.*\\.md)",
       "destination": "/$1"
     },
     {

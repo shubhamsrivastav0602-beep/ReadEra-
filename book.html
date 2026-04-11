@@ -599,7 +599,7 @@
 
         async function checkForSummary() {
             try {
-                const response = await fetch('summaries/mapping.json');
+                const response = await fetch('/summaries/mapping.json');
                 const mapping = await response.json();
                 const summaryPath = mapping[bookId];
                 
@@ -651,7 +651,7 @@
                     books = apiData.books || [];
                 } catch (e) {
                     // Fall back to direct fetch
-                    const booksResponse = await fetch('books_data/index.json');
+                    const booksResponse = await fetch('/books_data/index.json');
                     books = await booksResponse.json();
                 }
                 
@@ -663,7 +663,7 @@
                 // Check if this is a summary book
                 if (currentBook.is_summary) {
                     // Load summary from mapping
-                    const mappingResponse = await fetch('summaries/mapping.json');
+                    const mappingResponse = await fetch('/summaries/mapping.json');
                     const mapping = await mappingResponse.json();
                     
                     const summaryPath = mapping[bookId] || mapping[`02_${bookId}`];
@@ -689,7 +689,7 @@
                     toggleSummary();
                 } else {
                     // Load regular book from txt file
-                    const contentResponse = await fetch(`books_data/${bookId}.txt`);
+                    const contentResponse = await fetch(`/books_data/${bookId}.txt`);
                     if (!contentResponse.ok) {
                         throw new Error('Content file not found');
                     }

@@ -443,8 +443,8 @@
                 
                 // Load covers
                 try {
-                    console.log("Loading covers from books_data/covers.json...");
-                    const coversResponse = await fetch('books_data/covers.json');
+                    console.log("Loading covers from /books_data/covers.json...");
+                    const coversResponse = await fetch('/books_data/covers.json');
                     if (coversResponse.ok) {
                         coverMap = await coversResponse.json();
                         console.log("✅ Loaded", Object.keys(coverMap).length, "covers");

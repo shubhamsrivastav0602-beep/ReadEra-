@@ -195,7 +195,7 @@ def create_browse_html():
     <script>
         async function loadBooks() {
             try {
-                const response = await fetch('books_data/index.json');
+                const response = await fetch('/books_data/index.json');
                 const books = await response.json();
                 
                 const container = document.getElementById('booksContainer');

@@ -18,9 +18,9 @@ app = Flask(__name__,
     static_url_path='/')
 CORS(app)
 
-# Configuration
-BOOKS_DATA_PATH = os.path.join(project_root, 'books_data', 'index.json')
-COVERS_DATA_PATH = os.path.join(project_root, 'books_data', 'covers.json')
+# Configuration (served from /public to match static files)
+BOOKS_DATA_PATH = os.path.join(project_root, 'public', 'books_data', 'index.json')
+COVERS_DATA_PATH = os.path.join(project_root, 'public', 'books_data', 'covers.json')
 
 # Google API Configuration
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', 'AIzaSyDIbBQPqj_dY5R5Y-kBjrEaUZYAvSCbVD4')

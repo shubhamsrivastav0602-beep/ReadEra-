@@ -413,6 +413,10 @@
             object-fit: cover;
         }
 
+        .book-cover.featured-selfhelp {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+        }
+
         .book-info {
             padding: 0.85rem;
         }
@@ -972,16 +976,15 @@
     <main>
         <section class="hero">
             <div class="hero-inner">
-                <h1>Discover your next read</h1>
-                <p class="hero-lead">Browse 10,000+ book summaries, read in beautiful PDF format, and build your digital
-                    library — all for free.</p>
+                <h1>Featured: Reset &amp; Rise</h1>
+                <p class="hero-lead">A practical self-help ebook with exercises, reflection prompts, and a 30-day reset plan. Download in HD PDF/EPUB.</p>
                 <div class="hero-actions">
-                    <a href="browse.html" class="btn btn-solid"><i class="fas fa-book-open"
+                    <a href="assets/ebook_reset_and_rise.pdf" class="btn btn-solid"><i class="fas fa-download"
+                            aria-hidden="true"></i>Download PDF</a>
+                    <a href="assets/ebook_reset_and_rise.epub" class="btn btn-outline"><i class="fas fa-tablet-alt"
+                            aria-hidden="true"></i>Get EPUB</a>
+                    <a href="browse.html" class="btn btn-outline"><i class="fas fa-book-open"
                             aria-hidden="true"></i>Browse books</a>
-                    <a href="library.html" class="btn btn-outline" id="hero-library-cta" style="display: none;"><i
-                            class="fas fa-bookmark" aria-hidden="true"></i>My library</a>
-                    <a href="contact.html" class="btn btn-outline"><i class="fas fa-envelope"
-                            aria-hidden="true"></i>Contact</a>
                 </div>
                 <div class="search-box">
                     <input type="search" id="searchInput" placeholder="Search by title or author…"
@@ -1000,6 +1003,27 @@
             <h2 class="section-title" id="featured-heading">Featured Books</h2>
             <div class="books-grid" id="featured-books-grid">
                 <div class="loading-spinner"><i class="fas fa-spinner"></i> Loading books...</div>
+            </div>
+        </section>
+
+        <section class="featured-section" aria-labelledby="self-help-heading">
+            <h2 class="section-title" id="self-help-heading">Featured Self-Help Ebook</h2>
+            <div class="books-grid">
+                <div class="book-card" onclick="window.location.href='assets/ebook_reset_and_rise.pdf'">
+                    <div class="book-cover featured-selfhelp">
+                        <img src="covers/reset_and_rise_cover.svg" alt="Reset &amp; Rise cover" onerror="this.parentElement.className='book-cover featured-selfhelp'">
+                    </div>
+                    <div class="book-info">
+                        <div class="book-title">Reset &amp; Rise — A Practical Guide to Self-Help That Sticks</div>
+                        <div class="book-author">Your Name</div>
+                        <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.35rem;">Self Help · English</div>
+                        <div style="margin-top: 0.5rem; font-size: 0.85rem; color: #475569;">10 chapters, exercises, reflection prompts, and a 30-day reset plan.</div>
+                        <div style="display:flex; gap:0.5rem; margin-top:0.75rem; flex-wrap:wrap;">
+                            <a class="btn btn-solid" href="assets/ebook_reset_and_rise.pdf"><i class="fas fa-download" aria-hidden="true"></i> PDF</a>
+                            <a class="btn btn-outline" href="assets/ebook_reset_and_rise.epub"><i class="fas fa-tablet-alt" aria-hidden="true"></i> EPUB</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

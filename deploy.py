@@ -10,20 +10,20 @@ import os
 
 def run_command(cmd, description):
     """Run a shell command"""
-    print(f"\n🔄 {description}")
+    print(f"\n{description}")
     print(f"   Command: {cmd}")
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
     
     if result.returncode != 0:
-        print(f"❌ Failed: {result.stderr}")
+        print(f"Failed: {result.stderr}")
         return False
     else:
-        print(f"✅ Success")
+        print("Success")
         return True
 
 def main():
     print("\n" + "="*60)
-    print("🚀 ReadEra Vercel Deployment Helper")
+    print("ReadEra Vercel Deployment Helper")
     print("="*60)
     
     # Check if we're in the right directory
@@ -31,11 +31,11 @@ def main():
         print("❌ Error: vercel.json not found. Run from ReadEra root directory")
         sys.exit(1)
     
-    print("\n📋 Configuration:")
-    print("   ✅ vercel.json found")
-    print("   ✅ api/index.py found" if os.path.exists("api/index.py") else "   ❌ api/index.py NOT found")
-    print("   ✅ requirements.txt found" if os.path.exists("requirements.txt") else "   ❌ requirements.txt NOT found")
-    print("   ✅ books_data/index.json found" if os.path.exists("books_data/index.json") else "   ❌ books_data/index.json NOT found")
+    print("\nConfiguration:")
+    print("   vercel.json found" if os.path.exists("vercel.json") else "   vercel.json NOT found")
+    print("   api/index.py found" if os.path.exists("api/index.py") else "   api/index.py NOT found")
+    print("   requirements.txt found" if os.path.exists("requirements.txt") else "   requirements.txt NOT found")
+    print("   books_data/index.json found" if os.path.exists("books_data/index.json") else "   books_data/index.json NOT found")
     
     # Step 1: Git setup
     print("\n" + "="*60)
@@ -56,8 +56,8 @@ def main():
     if not run_command('git add .', "Staging all files"):
         sys.exit(1)
     
-    if not run_command('git commit -m "🚀 Deploy ReadEra to Vercel"', "Committing changes"):
-        print("ℹ️  Skipping commit (no changes)")
+    if not run_command('git commit -m "Deploy ReadEra to Vercel"', "Committing changes"):
+        print("Skipping commit (no changes)")
     
     # Step 3: Instructions
     print("\n" + "="*60)

@@ -1,35 +1,22 @@
 {
-  "buildCommand": "npm install || true",
-  "outputDirectory": ".",
-  "functions": {
-    "api/index.py": {
-      "runtime": "python3.9"
-    }
-  },
-  "routes": [
+  "buildCommand": "pip install -r requirements.txt",
+  "outputDirectory": "public",
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/index.py"
+      "source": "/api/(.*)",
+      "destination": "/api/index.py"
     },
     {
-      "src": "/public/(.*)",
-      "dest": "/public/$1"
+      "source": "/public/(.*)",
+      "destination": "/public/$1"
     },
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
+      "source": "/(.*\\..*)",
+      "destination": "/$1"
     },
     {
-      "src": "/js/(.*)",
-      "dest": "/js/$1"
-    },
-    {
-      "src": "/summaries/(.*)",
-      "dest": "/summaries/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
